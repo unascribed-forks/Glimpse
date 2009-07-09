@@ -207,6 +207,12 @@ gimp_tag_popup_constructor (GType                  type,
   GObject               *object;
   GimpTagPopup          *popup;
   GimpFilteredContainer *container;
+<<<<<<< HEAD
+=======
+  GtkWidget             *alignment;
+  GtkWidget             *tag_area;
+  GtkWidget             *frame;
+>>>>>>> Rename member "drawing_area" to "tag_area"
   gint                   x;
   gint                   y;
   gint                   width;
@@ -253,15 +259,15 @@ gimp_tag_popup_constructor (GType                  type,
   alignment = gtk_alignment_new (0.5, 0.5, 1.0, 1.0);
   gtk_container_add (GTK_CONTAINER (frame), alignment);
 
-  drawing_area = gtk_drawing_area_new ();
-  gtk_widget_add_events (GTK_WIDGET (drawing_area),
+  tag_area = gtk_drawing_area_new ();
+  gtk_widget_add_events (tag_area,
                          GDK_BUTTON_PRESS_MASK   |
                          GDK_BUTTON_RELEASE_MASK |
                          GDK_POINTER_MOTION_MASK);
-  gtk_container_add (GTK_CONTAINER (alignment), drawing_area);
+  gtk_container_add (GTK_CONTAINER (alignment), tag_area);
 
   popup->alignment         = alignment;
-  popup->drawing_area      = drawing_area;
+  popup->tag_area          = tag_area;
   popup->context           = gtk_widget_create_pango_context (GTK_WIDGET (popup));
   popup->layout            = pango_layout_new (popup->context);
   popup->prelight          = NULL;
@@ -404,8 +410,13 @@ gimp_tag_popup_constructor (GType                  type,
       popup->scroll_step   = 0;
     }
 
+<<<<<<< HEAD
   popup->tag_area->requisition.width  = width;
   popup->tag_area->requisition.height = popup_height;
+=======
+  tag_area->requisition.width  = width;
+  tag_area->requisition.height = popup_height;
+>>>>>>> Rename member "drawing_area" to "tag_area"
 
   gtk_window_move (GTK_WINDOW (popup), popup_rect.x, popup_rect.y);
   gtk_window_resize (GTK_WINDOW (popup), popup_rect.width, popup_rect.height);
@@ -416,10 +427,17 @@ gimp_tag_popup_constructor (GType                  type,
   g_signal_connect (popup, "event",
                     G_CALLBACK (gimp_tag_popup_border_event),
                     NULL);
+<<<<<<< HEAD
   g_signal_connect (popup->tag_area, "expose-event",
                     G_CALLBACK (gimp_tag_popup_list_expose),
                     popup);
   g_signal_connect (popup->tag_area, "event",
+=======
+  g_signal_connect (tag_area, "expose-event",
+                    G_CALLBACK (gimp_tag_popup_list_expose),
+                    popup);
+  g_signal_connect (tag_area, "event",
+>>>>>>> Rename member "drawing_area" to "tag_area"
                     G_CALLBACK (gimp_tag_popup_list_event),
                     popup);
 
@@ -770,10 +788,14 @@ gimp_tag_popup_border_event (GtkWidget *widget,
       gdk_window_get_pointer (widget->window, &x, &y, NULL);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (button_event->window != popup->tag_area->window &&
 =======
       if (button_event->window != popup->drawing_area->window &&
 >>>>>>> Whitespace and minor code cleanup
+=======
+      if (button_event->window != popup->tag_area->window &&
+>>>>>>> Rename member "drawing_area" to "tag_area"
           (x < widget->allocation.y                            ||
            y < widget->allocation.x                            ||
            x > widget->allocation.x + widget->allocation.width ||
@@ -1472,7 +1494,7 @@ gimp_tag_popup_scroll_by (GimpTagPopup *popup,
 <<<<<<< HEAD
 =======
 
-      gdk_window_scroll (popup->drawing_area->window, 0, -step);
+      gdk_window_scroll (popup->tag_area->window, 0, -step);
     }
 }
 >>>>>>> Whitespace and minor code cleanup

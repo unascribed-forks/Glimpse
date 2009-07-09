@@ -38,7 +38,6 @@ struct _GimpTagPopup
   GtkWindow          parent_instance;
 
   GimpComboTagEntry *combo_entry;
-
   GtkWidget         *frame;
   GtkWidget         *alignment;
   GtkWidget         *tag_area;

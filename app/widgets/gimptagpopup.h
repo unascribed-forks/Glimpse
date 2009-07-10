@@ -38,6 +38,7 @@ struct _GimpTagPopup
   GtkWindow          parent_instance;
 
   GimpComboTagEntry *combo_entry;
+
   GtkWidget         *frame;
   GtkWidget         *alignment;
   GtkWidget         *tag_area;
@@ -48,15 +49,21 @@ struct _GimpTagPopup
   PopupTagData      *tag_data;
   gint               tag_count;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> More tag popup cleanup
 
   PopupTagData      *prelight;
 
   gboolean           single_select_disabled;
 
   guint              scroll_timeout_id;
+<<<<<<< HEAD
 =======
   guint              timeout_id;
 >>>>>>> Remove "close_rectangles" member and the feature it implemented
+=======
+>>>>>>> More tag popup cleanup
   gint               scroll_height;
   gint               scroll_y;
   gint               scroll_step;

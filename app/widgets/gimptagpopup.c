@@ -41,15 +41,15 @@
 #include "gimp-intl.h"
 
 
-#define MENU_SCROLL_STEP1         8
-#define MENU_SCROLL_STEP2        15
-#define MENU_SCROLL_FAST_ZONE     8
-#define MENU_SCROLL_TIMEOUT1     50
-#define MENU_SCROLL_TIMEOUT2     20
+#define MENU_SCROLL_STEP1            8
+#define MENU_SCROLL_STEP2           15
+#define MENU_SCROLL_FAST_ZONE        8
+#define MENU_SCROLL_TIMEOUT1        50
+#define MENU_SCROLL_TIMEOUT2        20
 
-#define GIMP_TAG_POPUP_MARGIN     5
-#define GIMP_TAG_POPUP_SPACING_X  3
-#define GIMP_TAG_POPUP_SPACING_Y  2
+#define GIMP_TAG_POPUP_MARGIN        5
+#define GIMP_TAG_POPUP_PADDING       2
+#define GIMP_TAG_POPUP_LINE_SPACING  2
 
 
 struct _PopupTagData
@@ -551,17 +551,17 @@ gimp_tag_popup_layout_tags (GimpTagPopup *popup,
       tag_data->bounds.width  = w + 2 * GIMP_TAG_POPUP_PADDING;
       tag_data->bounds.height = h + 2 * GIMP_TAG_POPUP_PADDING;
 
-      if (x + GIMP_TAG_POPUP_SPACING_X + tag_data->bounds.width +
-          GIMP_TAG_POPUP_MARGIN > width)
+      if (x + space_width + tag_data->bounds.width +
+          GIMP_TAG_POPUP_MARGIN - 1 > width)
         {
           x = GIMP_TAG_POPUP_MARGIN;
-          y += line_height + GIMP_TAG_POPUP_SPACING_Y;
+          y += line_height + 2 * GIMP_TAG_POPUP_PADDING + GIMP_TAG_POPUP_LINE_SPACING;
         }
 
       tag_data->bounds.x = x;
       tag_data->bounds.y = y;
 
-      x += tag_data->bounds.width + space_width + 5;
+      x += tag_data->bounds.width + space_width;
     }
 
   if (gtk_widget_get_direction (GTK_WIDGET (popup)) == GTK_TEXT_DIR_RTL)
@@ -833,8 +833,12 @@ gimp_tag_popup_list_expose (GtkWidget      *widget,
         }
 
       pango_renderer_draw_layout (renderer, popup->layout,
-                                  (popup->tag_data[i].bounds.x) * PANGO_SCALE,
-                                  (popup->tag_data[i].bounds.y - popup->scroll_y) * PANGO_SCALE);
+                                  (tag_data->bounds.x +
+                                   GIMP_TAG_POPUP_PADDING) * PANGO_SCALE +
+                                  GIMP_TAG_POPUP_PADDING,
+                                  (tag_data->bounds.y -
+                                   popup->scroll_y +
+                                   GIMP_TAG_POPUP_PADDING) * PANGO_SCALE);
 
       if (&popup->tag_data[i] == popup->prelight            &&
           popup->tag_data[i].state != GTK_STATE_INSENSITIVE &&

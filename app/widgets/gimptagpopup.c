@@ -700,14 +700,11 @@ gimp_tag_popup_border_event (GtkWidget *widget,
       gint x;
       gint y;
 
-      if (motion_event->window == widget->window)
-        {
-          gint x = motion_event->x + widget->allocation.x;
-          gint y = motion_event->y + widget->allocation.y;
+      x = motion_event->x + widget->allocation.x;
+      y = motion_event->y + widget->allocation.y;
 
-          gimp_tag_popup_handle_scrolling (popup, x, y,
-                                           popup->scroll_timeout_id == 0, TRUE);
-        }
+      gimp_tag_popup_handle_scrolling (popup, x, y,
+                                       popup->timeout_id == 0, TRUE);
     }
   else if (event->type == GDK_BUTTON_RELEASE)
     {
@@ -715,9 +712,8 @@ gimp_tag_popup_border_event (GtkWidget *widget,
 
       popup->single_select_disabled = TRUE;
 
-      if (((GdkEventButton *) event)->window == widget->window &&
-          ! popup->ignore_button_release                       &&
-          gimp_tag_popup_button_scroll (popup, (GdkEventButton *) event))
+      if (button_event->window == widget->window &&
+          gimp_tag_popup_button_scroll (popup, button_event))
         {
           return TRUE;
         }

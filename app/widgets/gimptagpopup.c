@@ -304,30 +304,18 @@ gimp_tag_popup_constructor (GType                  type,
 
   gdk_window_get_origin (GTK_WIDGET (popup->combo_entry)->window, &x, &y);
 
-<<<<<<< HEAD
-  max_height = GTK_WIDGET (popup->combo_entry)->allocation.height * 10;
-
-  screen_height = gdk_screen_get_height (gtk_widget_get_screen (GTK_WIDGET (popup->combo_entry)));
-
-  popup_height = MIN (height, max_height);
-=======
   max_height = GTK_WIDGET (popup->combo_entry)->allocation.height * 7;
 
   screen_height = gdk_screen_get_height (gtk_widget_get_screen (GTK_WIDGET (popup->combo_entry)));
 
   popup_height = height;
->>>>>>> More tag popup cleanup
 
   popup_rects[0].x      = x;
   popup_rects[0].y      = 0;
   popup_rects[0].width  = GTK_WIDGET (popup->combo_entry)->allocation.width;
   popup_rects[0].height = y + GTK_WIDGET (popup->combo_entry)->allocation.height;
 
-<<<<<<< HEAD
-  popup_rects[1].x      = x;
-=======
   popup_rects[1].x      = popup_rects[0].x;
->>>>>>> More tag popup cleanup
   popup_rects[1].y      = y;
   popup_rects[1].width  = popup_rects[0].width;
   popup_rects[1].height = screen_height - popup_rects[0].height;
@@ -358,14 +346,6 @@ gimp_tag_popup_constructor (GType                  type,
                            popup->frame->style->ythickness);
         }
 
-<<<<<<< HEAD
-      popup_height = popup_rect.height;
-    }
-
-  if (popup_height < height)
-    {
-=======
->>>>>>> More tag popup cleanup
       popup->arrows_visible    = TRUE;
       popup->upper_arrow_state = GTK_STATE_INSENSITIVE;
 

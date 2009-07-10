@@ -727,7 +727,7 @@ gimp_tag_popup_border_event (GtkWidget *widget,
       gtk_grab_remove (widget);
       gdk_display_pointer_ungrab (gtk_widget_get_display (widget),
                                   GDK_CURRENT_TIME);
-      gtk_widget_destroy (widget);
+      gtk_widget_destroy (GTK_WIDGET (popup));
     }
   else if (event->type == GDK_SCROLL)
     {

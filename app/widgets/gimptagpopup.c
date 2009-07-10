@@ -41,13 +41,15 @@
 #include "gimp-intl.h"
 
 
-#define MENU_SCROLL_STEP1      8
-#define MENU_SCROLL_STEP2     15
-#define MENU_SCROLL_FAST_ZONE  8
-#define MENU_SCROLL_TIMEOUT1  50
-#define MENU_SCROLL_TIMEOUT2  20
+#define MENU_SCROLL_STEP1         8
+#define MENU_SCROLL_STEP2        15
+#define MENU_SCROLL_FAST_ZONE     8
+#define MENU_SCROLL_TIMEOUT1     50
+#define MENU_SCROLL_TIMEOUT2     20
 
-#define GIMP_TAG_POPUP_MARGIN  5
+#define GIMP_TAG_POPUP_MARGIN     5
+#define GIMP_TAG_POPUP_SPACING_X  3
+#define GIMP_TAG_POPUP_SPACING_Y  2
 
 
 struct _PopupTagData
@@ -408,15 +410,6 @@ gimp_tag_popup_dispose (GObject *object)
       popup->context = NULL;
     }
 
-<<<<<<< HEAD
-  if (popup->tag_data)
-    {
-      g_free (popup->tag_data);
-      popup->tag_data = NULL;
-    }
-
-=======
->>>>>>> Remove "close_rectangles" member and the feature it implemented
   if (popup->tag_data)
     {
       g_free (popup->tag_data);
@@ -558,21 +551,17 @@ gimp_tag_popup_layout_tags (GimpTagPopup *popup,
       tag_data->bounds.width  = w + 2 * GIMP_TAG_POPUP_PADDING;
       tag_data->bounds.height = h + 2 * GIMP_TAG_POPUP_PADDING;
 
-      if (x + space_width + tag_data->bounds.width +
-          GIMP_TAG_POPUP_MARGIN - 1 > width)
+      if (x + GIMP_TAG_POPUP_SPACING_X + tag_data->bounds.width +
+          GIMP_TAG_POPUP_MARGIN > width)
         {
           x = GIMP_TAG_POPUP_MARGIN;
-          y += line_height + 2 * GIMP_TAG_POPUP_PADDING + GIMP_TAG_POPUP_LINE_SPACING;
+          y += line_height + GIMP_TAG_POPUP_SPACING_Y;
         }
 
       tag_data->bounds.x = x;
       tag_data->bounds.y = y;
 
-<<<<<<< HEAD
-      x += tag_data->bounds.width + space_width;
-=======
       x += tag_data->bounds.width + space_width + 5;
->>>>>>> Remove "close_rectangles" member and the feature it implemented
     }
 
   if (gtk_widget_get_direction (GTK_WIDGET (popup)) == GTK_TEXT_DIR_RTL)
@@ -581,18 +570,9 @@ gimp_tag_popup_layout_tags (GimpTagPopup *popup,
         {
           PopupTagData *tag_data = &popup->tag_data[i];
 
-<<<<<<< HEAD
-      for (iterator = popup->close_rectangles;
-           iterator;
-           iterator = g_list_next (iterator))
-        {
-          GdkRectangle *rect = (GdkRectangle *) iterator->data;
-          rect->x = width - rect->x - rect->width;
-=======
           tag_data->bounds.x = (width -
                                 tag_data->bounds.x -
                                 tag_data->bounds.width);
->>>>>>> Remove "close_rectangles" member and the feature it implemented
         }
     }
 
@@ -909,30 +889,6 @@ gimp_tag_popup_list_event (GtkWidget    *widget,
               break;
             }
         }
-<<<<<<< HEAD
-
-      if (i == popup->tag_count)
-        {
-          GList *iterator;
-
-          for (iterator = popup->close_rectangles;
-               iterator;
-               iterator = g_list_next (iterator))
-            {
-              bounds = (GdkRectangle *) iterator->data;
-
-              if (x >= bounds->x                &&
-                  y >= bounds->y                &&
-                  x < bounds->x + bounds->width &&
-                  y < bounds->y + bounds->height)
-                {
-                  gtk_widget_destroy (GTK_WIDGET (popup));
-                  break;
-                }
-            }
-        }
-=======
->>>>>>> Remove "close_rectangles" member and the feature it implemented
     }
   else if (event->type == GDK_MOTION_NOTIFY)
     {

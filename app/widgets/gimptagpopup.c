@@ -874,11 +874,9 @@ gimp_tag_popup_list_event (GtkWidget    *widget,
 
       for (i = 0; i < popup->tag_count; i++)
         {
-          bounds = &popup->tag_data[i].bounds;
-          if (x >= bounds->x                &&
-              y >= bounds->y                &&
-              x < bounds->x + bounds->width &&
-              y < bounds->y + bounds->height)
+          PopupTagData *tag_data = &popup->tag_data[i];
+
+          if (gimp_tag_popup_is_in_tag (tag_data, x, y))
             {
               tag = popup->tag_data[i].tag;
               gimp_tag_popup_toggle_tag (popup, &popup->tag_data[i]);
@@ -901,10 +899,7 @@ gimp_tag_popup_list_event (GtkWidget    *widget,
         {
           bounds = &popup->tag_data[i].bounds;
 
-          if (x >= bounds->x                &&
-              y >= bounds->y                &&
-              x < bounds->x + bounds->width &&
-              y < bounds->y + bounds->height)
+          if (gimp_tag_popup_is_in_tag (tag_data, x, y))
             {
               if (popup->prelight != tag_data)
                 {
@@ -935,10 +930,7 @@ gimp_tag_popup_list_event (GtkWidget    *widget,
         {
           bounds = &popup->tag_data[i].bounds;
 
-          if (x >= bounds->x                &&
-              y >= bounds->y                &&
-              x < bounds->x + bounds->width &&
-              y < bounds->y + bounds->height)
+          if (gimp_tag_popup_is_in_tag (tag_data, x, y))
             {
               gimp_tag_popup_toggle_tag (popup, tag_data);
               gtk_widget_destroy (GTK_WIDGET (popup));

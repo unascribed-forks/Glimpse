@@ -189,6 +189,8 @@ libappcore_a_sources = \
 	gimpgradient-save.h			\
 	gimpgrid.c				\
 	gimpgrid.h				\
+	gimpgrouplayer.c			\
+	gimpgoruplayer.h			\
 	gimpguide.c				\
 	gimpguide.h				\
 	gimpguideundo.c				\

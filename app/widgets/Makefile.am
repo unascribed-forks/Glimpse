@@ -128,6 +128,8 @@ libappwidgets_a_sources = \
 	gimpdnd-xds.h			\
 	gimpdock.c			\
 	gimpdock.h			\
+	gimpdockcolumns.c		\
+	gimpdockcolumns.h		\
 	gimpdockable.c			\
 	gimpdockable.h			\
 	gimpdockbook.c			\

@@ -234,10 +234,11 @@ dialogs_toolbox_dock_window_new (GimpDialogFactory *factory,
                                  gint               view_size)
 {
   return g_object_new (GIMP_TYPE_DOCK_WINDOW,
-                       "role",            "gimp-toolbox",
-                       "ui-manager-name", "<Toolbox>",
-                       "dialog-factory",  factory,
-                       "context",         context,
+                       "role",                   "gimp-toolbox",
+                       "ui-manager-name",        "<Toolbox>",
+                       "allow-dockbook-absence", TRUE,
+                       "dialog-factory",         factory,
+                       "context",                context,
                        NULL);
 }
 
@@ -257,10 +258,11 @@ dialogs_dock_window_new (GimpDialogFactory *factory,
                          gint               view_size)
 {
   return g_object_new (GIMP_TYPE_DOCK_WINDOW,
-                       "role",            "gimp-dock",
-                       "ui-manager-name", "<Dock>",
-                       "dialog-factory",  factory,
-                       "context",         context,
+                       "role",                   "gimp-dock",
+                       "ui-manager-name",        "<Dock>",
+                       "allow-dockbook-absence", FALSE,
+                       "dialog-factory",         factory,
+                       "context",                context,
                        NULL);
 }
 

@@ -37,6 +37,7 @@
 #include "widgets/gimpcontainerview.h"
 #include "widgets/gimpdock.h"
 #include "widgets/gimpdockable.h"
+#include "widgets/gimpdockwindow.h"
 #include "widgets/gimpimageeditor.h"
 #include "widgets/gimpitemtreeview.h"
 
@@ -273,6 +274,8 @@ action_data_get_gimp (gpointer data)
     return data;
   else if (GIMP_IS_DOCK (data))
     context = gimp_dock_get_context (((GimpDock *) data));
+  else if (GIMP_IS_DOCK_WINDOW (data))
+    context = gimp_dock_get_context (gimp_dock_window_get_dock (((GimpDockWindow *) data)));
   else if (GIMP_IS_CONTAINER_VIEW (data))
     context = gimp_container_view_get_context ((GimpContainerView *) data);
   else if (GIMP_IS_CONTAINER_EDITOR (data))
@@ -302,6 +305,8 @@ action_data_get_context (gpointer data)
     return gimp_get_user_context (data);
   else if (GIMP_IS_DOCK (data))
     return gimp_dock_get_context ((GimpDock *) data);
+  else if (GIMP_IS_DOCK_WINDOW (data))
+    return gimp_dock_get_context (gimp_dock_window_get_dock (((GimpDockWindow *) data)));
   else if (GIMP_IS_CONTAINER_VIEW (data))
     return gimp_container_view_get_context ((GimpContainerView *) data);
   else if (GIMP_IS_CONTAINER_EDITOR (data))
@@ -330,6 +335,8 @@ action_data_get_image (gpointer data)
     context = gimp_get_user_context (data);
   else if (GIMP_IS_DOCK (data))
     context = gimp_dock_get_context ((GimpDock *) data);
+  else if (GIMP_IS_DOCK_WINDOW (data))
+    context = gimp_dock_get_context (gimp_dock_window_get_dock (((GimpDockWindow *) data)));
   else if (GIMP_IS_ITEM_TREE_VIEW (data))
     return gimp_item_tree_view_get_image ((GimpItemTreeView *) data);
   else if (GIMP_IS_IMAGE_EDITOR (data))
@@ -359,6 +366,8 @@ action_data_get_display (gpointer data)
     context = gimp_get_user_context (data);
   else if (GIMP_IS_DOCK (data))
     context = gimp_dock_get_context ((GimpDock *) data);
+  else if (GIMP_IS_DOCK_WINDOW (data))
+    context = gimp_dock_get_context (gimp_dock_window_get_dock (((GimpDockWindow *) data)));
   else if (GIMP_IS_NAVIGATION_EDITOR (data))
     context = ((GimpNavigationEditor *) data)->context;
 

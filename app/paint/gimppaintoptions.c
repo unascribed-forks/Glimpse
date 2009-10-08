@@ -683,4 +683,498 @@ gimp_paint_options_get_brush_mode (GimpPaintOptions *paint_options)
 }
 
 
+/* Calculates dynamics mix to be used for same parameter
+ * (velocity/pressure/direction/tilt/random) mix Needed in may places and tools.
+ */
+static gdouble
+gimp_paint_options_get_dynamics_mix (gdouble mix1,
+                                     gdouble mix1_scale,
+                                     gdouble mix2,
+                                     gdouble mix2_scale,
+                                     gdouble mix3,
+                                     gdouble mix3_scale,
+                                     gdouble mix4,
+                                     gdouble mix4_scale,
+                                     gdouble mix5,
+                                     gdouble mix5_scale)
+{
+  gdouble scale_sum = 0.0;
+  gdouble result    = 1.0;
 
+  if (mix1 > -1.0)
+    {
+      scale_sum += fabs (mix1_scale);
+    }
+  else mix1 = 0.0;
+
+  if (mix2 > -1.0)
+    {
+      scale_sum += fabs (mix2_scale);
+    }
+  else mix2 = 0.0;
+
+  if (mix3 > -1.0)
+    {
+      scale_sum += fabs (mix3_scale);
+    }
+  else mix3 = 0.0;
+
+  if (mix4 > -1.0)
+    {
+      scale_sum += fabs (mix4_scale);
+    }
+  else mix4 = 0.0;
+
+  if (mix5 > -1.0)
+    {
+      scale_sum += fabs (mix5_scale);
+    }
+  else mix5 = 0.0;
+
+  if (scale_sum > 0.0)
+    {
+      result = (mix1 * mix1_scale) / scale_sum +
+               (mix2 * mix2_scale) / scale_sum +
+               (mix3 * mix3_scale) / scale_sum +
+               (mix4 * mix4_scale) / scale_sum +
+               (mix5 * mix5_scale) / scale_sum;
+    }
+
+  if (result < 0.0)
+    result = 1.0 + result;
+
+  return MAX (0.0, result);
+}
+
+gdouble
+gimp_paint_options_get_dynamic_opacity (GimpPaintOptions *paint_options,
+                                        const GimpCoords *coords)
+{
+  gdouble opacity = 1.0;
+
+  g_return_val_if_fail (GIMP_IS_PAINT_OPTIONS (paint_options), 1.0);
+  g_return_val_if_fail (coords != NULL, 1.0);
+
+  if (paint_options->pressure_options->opacity  ||
+      paint_options->velocity_options->opacity  ||
+      paint_options->direction_options->opacity ||
+      paint_options->tilt_options->opacity      ||
+      paint_options->random_options->opacity)
+    {
+      gdouble pressure  = -1.0;
+      gdouble velocity  = -1.0;
+      gdouble direction = -1.0;
+      gdouble tilt      = -1.0;
+      gdouble random    = -1.0;
+
+
+      if (paint_options->pressure_options->opacity)
+        pressure = coords->pressure;
+
+      if (paint_options->velocity_options->opacity)
+        velocity = 1 - coords->velocity;
+
+      if (paint_options->random_options->opacity)
+        random = g_random_double_range (0.0, 1.0);
+
+     if (paint_options->tilt_options->opacity)
+        tilt = 1.0 - sqrt (SQR (coords->xtilt) + SQR (coords->ytilt));
+
+      if (paint_options->direction_options->opacity)
+        direction = coords->direction + 0.5; /* mixer does not mix negative angles right so we shift */
+
+      opacity = gimp_paint_options_get_dynamics_mix (pressure,
+                                                     paint_options->pressure_options->prescale,
+                                                     velocity,
+                                                     paint_options->velocity_options->prescale,
+                                                     random,
+                                                     paint_options->random_options->prescale,
+                                                     tilt,
+                                                     paint_options->tilt_options->prescale,
+                                                     direction,
+                                                     paint_options->direction_options->prescale);
+    }
+
+  return opacity;
+}
+
+gdouble
+gimp_paint_options_get_dynamic_size (GimpPaintOptions *paint_options,
+                                     const GimpCoords *coords,
+                                     gboolean          use_dynamics)
+{
+  gdouble scale = 1.0;
+
+  if (use_dynamics)
+    {
+      gdouble pressure  = -1.0;
+      gdouble velocity  = -1.0;
+      gdouble direction = -1.0;
+      gdouble random    = -1.0;
+      gdouble tilt      = -1.0;
+
+      if (paint_options->pressure_options->size)
+        {
+          pressure = coords->pressure;
+        }
+      else if (paint_options->pressure_options->inverse_size)
+        {
+          pressure = 1.0 - 0.9 * coords->pressure;
+        }
+
+      if (paint_options->velocity_options->size)
+        {
+          velocity = 1.0 - sqrt (coords->velocity);
+        }
+      else if (paint_options->velocity_options->inverse_size)
+        {
+          velocity = sqrt (coords->velocity);
+        }
+
+      if (paint_options->random_options->size)
+        {
+          random = 1.0 - g_random_double_range (0.0, 1.0);
+        }
+      else if (paint_options->random_options->inverse_size)
+        {
+          random = g_random_double_range (0.0, 1.0);
+        }
+
+      if (paint_options->tilt_options->size)
+        {
+          tilt = 1.0 - sqrt (SQR (coords->xtilt) + SQR (coords->ytilt));
+        }
+      else if (paint_options->tilt_options->inverse_size)
+        {
+          tilt = sqrt (SQR (coords->xtilt) + SQR (coords->ytilt));
+        }
+
+      if (paint_options->direction_options->size)
+         direction = coords->direction + 0.5; /* mixer does not mix negative angles right so we shift */
+
+      scale = gimp_paint_options_get_dynamics_mix (pressure,
+                                                   paint_options->pressure_options->prescale,
+                                                   velocity,
+                                                   paint_options->velocity_options->prescale,
+                                                   random,
+                                                   paint_options->random_options->prescale,
+                                                   tilt,
+                                                   paint_options->tilt_options->prescale,
+                                                   direction,
+                                                   paint_options->direction_options->prescale);
+
+      if (scale < 1 / 64.0)
+        scale = 1 / 8.0;
+      else
+        scale = sqrt (scale);
+    }
+
+  scale *= paint_options->brush_scale;
+
+  return scale;
+}
+
+gdouble
+gimp_paint_options_get_dynamic_aspect_ratio (GimpPaintOptions *paint_options,
+                                             const GimpCoords *coords)
+{
+  gdouble aspect_ratio = 1.0;
+
+  g_return_val_if_fail (GIMP_IS_PAINT_OPTIONS (paint_options), 1.0);
+  g_return_val_if_fail (coords != NULL, 1.0);
+
+  if (paint_options->pressure_options->aspect_ratio  ||
+      paint_options->velocity_options->aspect_ratio  ||
+      paint_options->direction_options->aspect_ratio ||
+      paint_options->tilt_options->aspect_ratio      ||
+      paint_options->random_options->aspect_ratio)
+    {
+      gdouble pressure  = -1.0;
+      gdouble velocity  = -1.0;
+      gdouble direction = -1.0;
+      gdouble tilt      = -1.0;
+      gdouble random    = -1.0;
+
+
+      if (paint_options->pressure_options->aspect_ratio)
+        pressure = 2 * coords->pressure;
+
+      if (paint_options->velocity_options->aspect_ratio)
+        velocity = 2 * coords->velocity;
+
+      if (paint_options->random_options->aspect_ratio)
+        {
+           random = g_random_double_range (0.0, 1.0);
+           if (random <= 0.5)
+             {
+                random = 1 / (random / 0.5 * (2.0 - 1.0) + 1.0);
+             }
+           else
+             {
+                random = (random - 0.5) / (1.0 - 0.5) * (2.0 - 1.0) + 1.0;
+             }
+        }
+
+     if (paint_options->tilt_options->aspect_ratio)
+       {
+          tilt = sqrt ((1 - fabs (coords->xtilt)) / (1 - fabs (coords->ytilt)));
+       }
+
+      if (paint_options->direction_options->aspect_ratio)
+        {
+           direction = fmod (1 + coords->direction, 0.5) / 0.25;
+
+           if ((coords->direction > 0.0) && (coords->direction < 0.5))
+             direction = 1 / direction;
+        }
+
+      aspect_ratio = gimp_paint_options_get_dynamics_mix (pressure,
+                                                          paint_options->pressure_options->prescale,
+                                                          velocity,
+                                                          paint_options->velocity_options->prescale,
+                                                          random,
+                                                          paint_options->random_options->prescale,
+                                                          tilt,
+                                                          paint_options->tilt_options->prescale,
+                                                          direction,
+                                                          paint_options->direction_options->prescale);
+    }
+
+  return paint_options->brush_aspect_ratio * aspect_ratio;
+}
+
+gdouble
+gimp_paint_options_get_dynamic_rate (GimpPaintOptions *paint_options,
+                                     const GimpCoords *coords)
+{
+  gdouble rate = 1.0;
+
+  g_return_val_if_fail (GIMP_IS_PAINT_OPTIONS (paint_options), 1.0);
+  g_return_val_if_fail (coords != NULL, 1.0);
+
+  if (paint_options->pressure_options->rate  ||
+      paint_options->velocity_options->rate  ||
+      paint_options->direction_options->rate ||
+      paint_options->tilt_options->rate ||
+      paint_options->random_options->rate)
+    {
+      gdouble pressure  = -1.0;
+      gdouble velocity  = -1.0;
+      gdouble direction = -1.0;
+      gdouble random    = -1.0;
+      gdouble tilt      = -1.0;
+
+      if (paint_options->pressure_options->rate)
+        pressure = coords->pressure;
+
+      if (paint_options->velocity_options->rate)
+        velocity = 1 - coords->velocity;
+
+      if (paint_options->random_options->rate)
+        random = g_random_double_range (0.0, 1.0);
+
+     if (paint_options->tilt_options->rate)
+        tilt = 1.0 - sqrt (SQR (coords->xtilt) + SQR (coords->ytilt));
+
+      if (paint_options->direction_options->rate)
+        direction = coords->direction + 0.5; /* mixer does not mix negative angles right so we shift */
+
+      rate = gimp_paint_options_get_dynamics_mix (pressure,
+                                                  paint_options->pressure_options->prescale,
+                                                  velocity,
+                                                  paint_options->velocity_options->prescale,
+                                                  random,
+                                                  paint_options->random_options->prescale,
+                                                  tilt,
+                                                  paint_options->tilt_options->prescale,
+                                                  direction,
+                                                  paint_options->direction_options->prescale);
+    }
+
+  return rate;
+}
+
+
+gdouble
+gimp_paint_options_get_dynamic_color (GimpPaintOptions *paint_options,
+                                      const GimpCoords *coords)
+{
+  gdouble color = 1.0;
+
+  g_return_val_if_fail (GIMP_IS_PAINT_OPTIONS (paint_options), 1.0);
+  g_return_val_if_fail (coords != NULL, 1.0);
+
+  if (paint_options->pressure_options->color  ||
+      paint_options->velocity_options->color  ||
+      paint_options->direction_options->color ||
+      paint_options->tilt_options->color      ||
+      paint_options->random_options->color)
+    {
+      gdouble pressure  = -1.0;
+      gdouble velocity  = -1.0;
+      gdouble direction = -1.0;
+      gdouble random    = -1.0;
+      gdouble tilt      = -1.0;
+
+      if (paint_options->pressure_options->color)
+        pressure = coords->pressure;
+
+      if (paint_options->velocity_options->color)
+        velocity = coords->velocity;
+
+      if (paint_options->random_options->color)
+        random = g_random_double_range (0.0, 1.0);
+
+     if (paint_options->tilt_options->color)
+        tilt = 1.0 - sqrt (SQR (coords->xtilt) + SQR (coords->ytilt));
+
+      if (paint_options->direction_options->color)
+        direction = coords->direction + 0.5; /* mixer does not mix negative angles right so we shift */
+
+      color = gimp_paint_options_get_dynamics_mix (pressure,
+                                                   paint_options->pressure_options->prescale,
+                                                   velocity,
+                                                   paint_options->velocity_options->prescale,
+                                                   random,
+                                                   paint_options->random_options->prescale,
+                                                   tilt,
+                                                   paint_options->tilt_options->prescale,
+                                                   direction,
+                                                   paint_options->direction_options->prescale);
+    }
+
+  return color;
+}
+
+gdouble
+gimp_paint_options_get_dynamic_hardness (GimpPaintOptions *paint_options,
+                                         const GimpCoords *coords)
+{
+  gdouble hardness = 1.0;
+
+  g_return_val_if_fail (GIMP_IS_PAINT_OPTIONS (paint_options), 1.0);
+  g_return_val_if_fail (coords != NULL, 1.0);
+
+  if (paint_options->pressure_options->hardness  ||
+      paint_options->velocity_options->hardness  ||
+      paint_options->direction_options->hardness ||
+      paint_options->tilt_options->hardness      ||
+      paint_options->random_options->hardness)
+    {
+      gdouble pressure  = -1.0;
+      gdouble velocity  = -1.0;
+      gdouble direction = -1.0;
+      gdouble random    = -1.0;
+      gdouble tilt      = -1.0;
+
+      if (paint_options->pressure_options->hardness)
+        pressure = coords->pressure;
+
+      if (paint_options->velocity_options->hardness)
+        velocity = 1 - coords->velocity;
+
+      if (paint_options->random_options->hardness)
+        random = g_random_double_range (0.0, 1.0);
+
+     if (paint_options->tilt_options->hardness)
+        tilt = 1.0 - sqrt (SQR (coords->xtilt) + SQR (coords->ytilt));
+
+      if (paint_options->direction_options->hardness)
+        direction = coords->direction + 0.5; /* mixer does not mix negative angles right so we shift */
+
+      hardness = gimp_paint_options_get_dynamics_mix (pressure,
+                                                      paint_options->pressure_options->prescale,
+                                                      velocity,
+                                                      paint_options->velocity_options->prescale,
+                                                      random,
+                                                      paint_options->random_options->prescale,
+                                                      tilt,
+                                                      paint_options->tilt_options->prescale,
+                                                      direction,
+                                                      paint_options->direction_options->prescale);
+    }
+
+  return hardness;
+}
+
+gdouble
+gimp_paint_options_get_dynamic_angle (GimpPaintOptions *paint_options,
+                                      const GimpCoords *coords)
+{
+  gdouble angle = 1.0;
+
+  g_return_val_if_fail (GIMP_IS_PAINT_OPTIONS (paint_options), 1.0);
+  g_return_val_if_fail (coords != NULL, 1.0);
+
+  if (paint_options->pressure_options->angle  ||
+      paint_options->velocity_options->angle  ||
+      paint_options->direction_options->angle ||
+      paint_options->tilt_options->angle      ||
+      paint_options->random_options->angle)
+    {
+      gdouble pressure  = -1.0;
+      gdouble velocity  = -1.0;
+      gdouble direction = -1.0;
+      gdouble random    = -1.0;
+      gdouble tilt      = -1.0;
+
+      if (paint_options->pressure_options->angle)
+        pressure = coords->pressure;
+
+      if (paint_options->velocity_options->angle)
+        velocity = 1 - coords->velocity;
+
+      if (paint_options->random_options->angle)
+        random = g_random_double_range (0.0, 1.0);
+
+     /* For tilt to make sense, it needs to be converted to an angle, not just vector */
+     if (paint_options->tilt_options->angle)
+       {
+         gdouble tilt_x = coords->xtilt;
+         gdouble tilt_y = coords->ytilt;
+
+         if (tilt_x == 0.0)
+         {
+           if (tilt_y >= 0.0)
+             tilt = 0.5;
+           else if (tilt_y < 0.0)
+             tilt = 0.0;
+           else tilt = -1.0;
+         }
+       else
+         {
+           tilt = atan ((- 1.0 * tilt_y) /
+                                 tilt_x) / (2 * G_PI);
+
+           if (tilt_x > 0.0)
+             tilt = tilt + 0.5;
+         }
+
+         tilt = tilt + 0.5; /* correct the angle, its wrong by 180 degrees */
+
+         while (tilt > 1.0)
+           tilt -= 1.0;
+
+         while (tilt < 0.0)
+           tilt += 1.0;
+       }
+
+      if (paint_options->direction_options->angle)
+        direction = coords->direction + 0.5; /* mixer does not mix negative angles right so we shift */
+
+
+      angle = gimp_paint_options_get_dynamics_mix (pressure,
+                                                   paint_options->pressure_options->prescale,
+                                                   velocity,
+                                                   paint_options->velocity_options->prescale,
+                                                   random,
+                                                   paint_options->random_options->prescale,
+                                                   tilt,
+                                                   paint_options->tilt_options->prescale,
+                                                   direction,
+                                                   paint_options->direction_options->prescale);
+      angle = angle - 0.5;
+    }
+
+  return angle + paint_options->brush_angle;
+}

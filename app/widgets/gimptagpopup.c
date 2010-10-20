@@ -755,7 +755,6 @@ gimp_tag_popup_list_expose (GtkWidget      *widget,
   GdkWindow      *window = gtk_widget_get_window (widget);
   GtkStyle       *style  = gtk_widget_get_style (widget);
   cairo_t        *cr;
-  PangoRenderer  *renderer;
   PangoAttribute *attribute;
   PangoAttrList  *attributes;
   gint            i;
@@ -767,13 +766,6 @@ gimp_tag_popup_list_expose (GtkWidget      *widget,
 
   cairo_set_line_width (cr, 1.0);
   cairo_set_line_cap (cr, CAIRO_LINE_CAP_SQUARE);
-  gdk_cairo_set_source_color (cr, &popup->combo_entry->selected_item_color);
-
-  renderer = gdk_pango_renderer_get_default (gtk_widget_get_screen (widget));
-  gdk_pango_renderer_set_gc (GDK_PANGO_RENDERER (renderer),
-                             widget->style->black_gc);
-  gdk_pango_renderer_set_drawable (GDK_PANGO_RENDERER (renderer),
-                                   widget->window);
 
   for (i = 0; i < popup->tag_count; i++)
     {
@@ -809,6 +801,9 @@ gimp_tag_popup_list_expose (GtkWidget      *widget,
 
       if (tag_data->state == GTK_STATE_SELECTED)
         {
+          gdk_cairo_set_source_color (cr,
+                                      &popup->combo_entry->selected_item_color);
+
           cairo_rectangle (cr,
                            tag_data->bounds.x - 1,
                            tag_data->bounds.y - popup->scroll_y,
@@ -837,16 +832,17 @@ gimp_tag_popup_list_expose (GtkWidget      *widget,
           cairo_translate (cr, -0.5, -0.5);
         }
 
-      pango_renderer_draw_layout (renderer, popup->layout,
-                                  (tag_data->bounds.x +
-                                   GIMP_TAG_POPUP_PADDING) * PANGO_SCALE +
-                                  GIMP_TAG_POPUP_PADDING,
-                                  (tag_data->bounds.y -
-                                   popup->scroll_y +
-                                   GIMP_TAG_POPUP_PADDING) * PANGO_SCALE);
+      cairo_move_to (cr,
+                     (tag_data->bounds.x +
+                      GIMP_TAG_POPUP_PADDING),
+                     (tag_data->bounds.y -
+                      popup->scroll_y +
+                      GIMP_TAG_POPUP_PADDING));
 
-      if (&popup->tag_data[i] == popup->prelight            &&
-          popup->tag_data[i].state != GTK_STATE_INSENSITIVE &&
+      pango_cairo_show_layout (cr, popup->layout);
+
+      if (tag_data == popup->prelight              &&
+          tag_data->state != GTK_STATE_INSENSITIVE &&
           ! popup->single_select_disabled)
         {
           gtk_paint_focus (style, window,
@@ -858,9 +854,6 @@ gimp_tag_popup_list_expose (GtkWidget      *widget,
                            tag_data->bounds.height);
         }
     }
-
-  gdk_pango_renderer_set_drawable (GDK_PANGO_RENDERER (renderer), NULL);
-  gdk_pango_renderer_set_gc (GDK_PANGO_RENDERER (renderer), NULL);
 
   cairo_destroy (cr);
 

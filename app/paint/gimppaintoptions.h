@@ -86,6 +86,8 @@ struct _GimpPaintOptions
   gdouble                   brush_angle;
   gdouble                   brush_aspect_ratio;
   gdouble                   brush_spacing;
+  gdouble                   brush_hardness;
+  gdouble                   brush_force;
 
   GimpPaintApplicationMode  application_mode;
   GimpPaintApplicationMode  application_mode_save;
@@ -140,6 +142,10 @@ void    gimp_paint_options_set_default_brush_size
                                                 GimpBrush        *brush);
 
 void    gimp_paint_options_set_default_brush_spacing
+                                               (GimpPaintOptions *paint_options,
+                                                GimpBrush        *brush);
+
+void    gimp_paint_options_set_default_brush_hardness
                                                (GimpPaintOptions *paint_options,
                                                 GimpBrush        *brush);
 

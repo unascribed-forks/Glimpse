@@ -360,7 +360,7 @@ gimp_tag_popup_constructed (GObject *object)
 
       popup_height -= 2 * popup->scroll_arrow_height + 4;
 
-      popup->scroll_height = height - popup_rect.height;
+      popup->scroll_height = height - popup_height;
       popup->scroll_y      = 0;
       popup->scroll_step   = 0;
     }

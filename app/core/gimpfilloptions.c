@@ -394,7 +394,9 @@ gimp_fill_options_get_undo_desc (GimpFillOptions *options)
 GeglBuffer *
 gimp_fill_options_create_buffer (GimpFillOptions     *options,
                                  GimpDrawable        *drawable,
-                                 const GeglRectangle *rect)
+                                 const GeglRectangle *rect,
+                                 gint                 pattern_offset_x,
+                                 gint                 pattern_offset_y)
 {
   GeglBuffer  *buffer;
 
@@ -430,7 +432,9 @@ gimp_fill_options_create_buffer (GimpFillOptions     *options,
         pattern = gimp_context_get_pattern (GIMP_CONTEXT (options));
 
         gimp_drawable_fill_buffer (drawable, buffer,
-                                   NULL, pattern, 0, 0);
+                                   NULL, pattern,
+                                   pattern_offset_x,
+                                   pattern_offset_y);
       }
       break;
     }

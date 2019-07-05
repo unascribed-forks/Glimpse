@@ -35,3 +35,7 @@ GNU Image Manipulation Program that it tracks.
 
 The first release will therefore be v2.10.12, as that was the latest tagged
 release when this project started.
+
+## How can I keep up to date with Wilber's progress?
+For now, follow [Bobby Moss](https://bobadon.co.uk/@bob) on the fediverse. In
+the near future he will create a proper "project" account for people to follow.

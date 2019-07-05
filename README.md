@@ -35,7 +35,5 @@ page and see where you can contribute. There are definitely gaps in my
 ([Bobby Moss](https://github.com/TreacherousNexus)'s) knowledge, and the more
 people fix those things the quicker this product will release.
 
-Alternatively you can help by spreading the word, adding to the documentation,
-providing new artwork and/or contributing money to my
-[Ko-fi](https://www.ko-fi.com/treacherousnexus) or
-[Liberapay](https://liberapay.com/TreacherousNexus/) accounts.
+Alternatively you can help by spreading the word, adding to the documentation or
+providing new artwork

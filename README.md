@@ -18,17 +18,6 @@ Image Manipulation Program without its adoption being stymied by negative
 perceptions about the ableist/vaguely-sexual "Gimp" name can in our minds only
 be a good thing!
 
-## How can I contribute?
-Take a look at the [issues](https://github.com/TreacherousNexus/Wilber/issues)
-page and see where you can contribute. There are definitely gaps in my
-([Bobby Moss](https://github.com/TreacherousNexus)'s) knowledge, and the more
-people fix those things the quicker this product will release.
-
-Alternatively you can help by spreading the word, adding to the documentation,
-providing new artwork and/or contributing money to my
-[Ko-fi](https://www.ko-fi.com/treacherousnexus) or
-[Liberapay](https://liberapay.com/TreacherousNexus/) accounts.
-
 ## How will the package versions work?
 I intend to mirror the Wilber package version to the upstream version of the
 GNU Image Manipulation Program that it tracks. The first release will therefore
@@ -39,3 +28,14 @@ For now, follow [Bobby Moss](https://bobadon.co.uk/@bob) on the fediverse. In
 the near future he will create a proper "project" account for people to follow.
 You can also "star" or "watch" this Github repository to keep up-to-date with
 code-level changes.
+
+## How can I contribute?
+Take a look at the [issues](https://github.com/TreacherousNexus/Wilber/issues)
+page and see where you can contribute. There are definitely gaps in my
+([Bobby Moss](https://github.com/TreacherousNexus)'s) knowledge, and the more
+people fix those things the quicker this product will release.
+
+Alternatively you can help by spreading the word, adding to the documentation,
+providing new artwork and/or contributing money to my
+[Ko-fi](https://www.ko-fi.com/treacherousnexus) or
+[Liberapay](https://liberapay.com/TreacherousNexus/) accounts.

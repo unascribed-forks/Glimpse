@@ -39,3 +39,6 @@ release when this project started.
 ## How can I keep up to date with Wilber's progress?
 For now, follow [Bobby Moss](https://bobadon.co.uk/@bob) on the fediverse. In
 the near future he will create a proper "project" account for people to follow.
+
+You can also "star" or "watch" this Github repository to keep up-to-date with
+code-level changes.

@@ -7,6 +7,7 @@ For now, not a lot! The main aim currently is to provide a downstream fork of
 the GNU Image Manipulation Program that has a less offensive name.
 
 Issue that got dismissed: https://gitlab.gnome.org/GNOME/gimp/issues/3617
+
 Upstream project's explanation:
 https://www.gimp.org/docs/userfaq.html#i-dont-like-the-name-gimp-will-you-change-it
 

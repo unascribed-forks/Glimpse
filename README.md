@@ -27,7 +27,7 @@ people fix those things the quicker this product will release.
 Alternatively you can help by spreading the word, adding to the documentation,
 providing new artwork and/or contributing money to my
 [Ko-fi](https://www.ko-fi.com/treacherousnexus) or
-[Librepay](https://liberapay.com/TreacherousNexus/) accounts.
+[Liberapay](https://liberapay.com/TreacherousNexus/) accounts.
 
 ## How will the package versions work?
 I intend to mirror the Wilber package version to the upstream version of the

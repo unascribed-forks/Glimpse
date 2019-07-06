@@ -1,9 +1,9 @@
-# Wilber
+# Glimpse
 
-Wilber is a downstream fork of the GNU Image Manipulation Program.
+Glimpse is a downstream fork of the GNU Image Manipulation Program.
 
-## What is different about Wilber?
-For now, not a lot! The main aim currently is to provide a downstream fork of
+## What is different about Glimpse?
+For now, not a lot! The initial aim is to provide a downstream fork of
 the GNU Image Manipulation Program that has a less offensive name.
 
 Issue that got dismissed: https://gitlab.gnome.org/GNOME/gimp/issues/3617
@@ -11,29 +11,26 @@ Issue that got dismissed: https://gitlab.gnome.org/GNOME/gimp/issues/3617
 Upstream project's explanation:
 https://www.gimp.org/docs/userfaq.html#i-dont-like-the-name-gimp-will-you-change-it
 
-I and many other people don't feel that using the long-form name is sufficient
-to address the concerns people have raised about this software. A rebranding
-exercise that still provides the world with the brilliant features of the GNU
-Image Manipulation Program without its adoption being stymied by negative
-perceptions about the ableist/vaguely-sexual "Gimp" name can in our minds only
-be a good thing!
+In future versions we intend to address other long-standing complaints,
+particularly around the graphical user interface.
 
 ## How will the package versions work?
-I intend to mirror the Wilber package version to the upstream version of the
-GNU Image Manipulation Program that it tracks. The first release will therefore
-be v2.10.12, as that was the latest tagged release when this project started.
+Glimpse will be a hard fork of the GNU Image Manipulation Program based on
+version 2.10.12, although we will periodically include upstream updates
+in "batches" in future releases.
 
-## How can I keep up to date with Wilber's progress?
+The actual version scheme we will use is still being discussed.
+
+## How can I keep up to date with Glimpse's progress?
 For now, follow [Bobby Moss](https://bobadon.co.uk/@bob) on the fediverse. In
 the near future he will create a proper "project" account for people to follow.
 You can also "star" or "watch" this Github repository to keep up-to-date with
 code-level changes.
 
 ## How can I contribute?
-Take a look at the [issues](https://github.com/TreacherousNexus/Wilber/issues)
-page and see where you can contribute. There are definitely gaps in my
-([Bobby Moss](https://github.com/TreacherousNexus)'s) knowledge, and the more
-people fix those things the quicker this product will release.
+Take a look at the [issues](https://github.com/glimpse-editor/Glimpse/issues)
+page and see where you can contribute.
 
 Alternatively you can help by spreading the word, adding to the documentation or
-providing new artwork
+providing new artwork. Once we have our first release we will also start accepting
+financial donations to cover the costs of hosting and developing this fork.

@@ -47,12 +47,16 @@ struct _GimpTagPopup
 
   PopupTagData      *tag_data;
   gint               tag_count;
+<<<<<<< HEAD
 
   PopupTagData      *prelight;
 
   gboolean           single_select_disabled;
 
   guint              scroll_timeout_id;
+=======
+  guint              timeout_id;
+>>>>>>> Remove "close_rectangles" member and the feature it implemented
   gint               scroll_height;
   gint               scroll_y;
   gint               scroll_step;

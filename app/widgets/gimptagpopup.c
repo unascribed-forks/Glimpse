@@ -408,12 +408,15 @@ gimp_tag_popup_dispose (GObject *object)
       popup->context = NULL;
     }
 
+<<<<<<< HEAD
   if (popup->tag_data)
     {
       g_free (popup->tag_data);
       popup->tag_data = NULL;
     }
 
+=======
+>>>>>>> Remove "close_rectangles" member and the feature it implemented
   if (popup->tag_data)
     {
       g_free (popup->tag_data);
@@ -565,7 +568,11 @@ gimp_tag_popup_layout_tags (GimpTagPopup *popup,
       tag_data->bounds.x = x;
       tag_data->bounds.y = y;
 
+<<<<<<< HEAD
       x += tag_data->bounds.width + space_width;
+=======
+      x += tag_data->bounds.width + space_width + 5;
+>>>>>>> Remove "close_rectangles" member and the feature it implemented
     }
 
   if (gtk_widget_get_direction (GTK_WIDGET (popup)) == GTK_TEXT_DIR_RTL)
@@ -574,12 +581,18 @@ gimp_tag_popup_layout_tags (GimpTagPopup *popup,
         {
           PopupTagData *tag_data = &popup->tag_data[i];
 
+<<<<<<< HEAD
       for (iterator = popup->close_rectangles;
            iterator;
            iterator = g_list_next (iterator))
         {
           GdkRectangle *rect = (GdkRectangle *) iterator->data;
           rect->x = width - rect->x - rect->width;
+=======
+          tag_data->bounds.x = (width -
+                                tag_data->bounds.x -
+                                tag_data->bounds.width);
+>>>>>>> Remove "close_rectangles" member and the feature it implemented
         }
     }
 
@@ -896,6 +909,7 @@ gimp_tag_popup_list_event (GtkWidget    *widget,
               break;
             }
         }
+<<<<<<< HEAD
 
       if (i == popup->tag_count)
         {
@@ -917,6 +931,8 @@ gimp_tag_popup_list_event (GtkWidget    *widget,
                 }
             }
         }
+=======
+>>>>>>> Remove "close_rectangles" member and the feature it implemented
     }
   else if (event->type == GDK_MOTION_NOTIFY)
     {

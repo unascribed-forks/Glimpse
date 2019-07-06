@@ -223,18 +223,8 @@ gimp_tag_popup_constructed (GObject *object)
 
   gtk_window_set_screen (GTK_WINDOW (popup), gtk_widget_get_screen (entry));
 
-  frame = gtk_frame_new (NULL);
-  gtk_container_add (GTK_CONTAINER (popup), frame);
-
-  alignment = gtk_alignment_new (0.5, 0.5, 1.0, 1.0);
-  gtk_container_add (GTK_CONTAINER (frame), alignment);
-
-  drawing_area = gtk_drawing_area_new ();
-  gtk_widget_add_events (GTK_WIDGET (drawing_area),
-                         GDK_BUTTON_PRESS_MASK   |
-                         GDK_BUTTON_RELEASE_MASK |
-                         GDK_POINTER_MOTION_MASK);
-  gtk_container_add (GTK_CONTAINER (alignment), drawing_area);
+  popup->context = gtk_widget_create_pango_context (GTK_WIDGET (popup));
+  popup->layout  = pango_layout_new (popup->context);
 
   gtk_widget_get_allocation (entry, &entry_allocation);
 
@@ -428,7 +418,7 @@ gimp_tag_popup_get_property (GObject    *object,
   switch (property_id)
     {
     case PROP_OWNER:
-      g_value_set_object (value, tag_popup->combo_entry);
+      g_value_set_object (value, popup->combo_entry);
       break;
 
     default:
@@ -467,21 +457,23 @@ gimp_tag_popup_new (GimpComboTagEntry *combo_entry)
 void
 gimp_tag_popup_show (GimpTagPopup *popup)
 {
-  GdkGrabStatus grab_status;
+  GtkWidget *widget;
+
+  g_return_if_fail (GIMP_IS_TAG_POPUP (popup));
 
   widget = GTK_WIDGET (popup);
 
   gtk_widget_show (widget);
 
-  gtk_grab_add (GTK_WIDGET (popup));
-  gtk_widget_grab_focus (GTK_WIDGET (popup));
-  grab_status = gdk_pointer_grab (GTK_WIDGET (popup)->window, TRUE,
-                                  GDK_BUTTON_PRESS_MASK   |
-                                  GDK_BUTTON_RELEASE_MASK |
-                                  GDK_POINTER_MOTION_MASK,
-                                  NULL, NULL,
-                                  GDK_CURRENT_TIME);
-  if (grab_status != GDK_GRAB_SUCCESS)
+  gtk_grab_add (widget);
+  gtk_widget_grab_focus (widget);
+
+  if (gdk_pointer_grab (gtk_widget_get_window (widget), TRUE,
+                        GDK_BUTTON_PRESS_MASK   |
+                        GDK_BUTTON_RELEASE_MASK |
+                        GDK_POINTER_MOTION_MASK,
+                        NULL, NULL,
+                        GDK_CURRENT_TIME) != GDK_GRAB_SUCCESS)
     {
       /* pointer grab must be attained otherwise user would have
        * problems closing the popup window.
@@ -771,8 +763,8 @@ gimp_tag_popup_list_expose (GtkWidget      *widget,
           break;
         }
 
-      if (&popup->tag_data[i] == popup->prelight &&
-          popup->tag_data[i].state != GTK_STATE_INSENSITIVE)
+      if (tag_data == popup->prelight &&
+          tag_data->state != GTK_STATE_INSENSITIVE)
         {
           attribute = pango_attr_underline_new (PANGO_UNDERLINE_SINGLE);
           pango_attr_list_insert (attributes, attribute);
@@ -865,8 +857,7 @@ gimp_tag_popup_list_event (GtkWidget    *widget,
 
           if (gimp_tag_popup_is_in_tag (tag_data, x, y))
             {
-              tag = popup->tag_data[i].tag;
-              gimp_tag_popup_toggle_tag (popup, &popup->tag_data[i]);
+              gimp_tag_popup_toggle_tag (popup, tag_data);
               gtk_widget_queue_draw (widget);
               break;
             }
@@ -885,7 +876,7 @@ gimp_tag_popup_list_event (GtkWidget    *widget,
 
       for (i = 0; i < popup->tag_count; i++)
         {
-          bounds = &popup->tag_data[i].bounds;
+          PopupTagData *tag_data = &popup->tag_data[i];
 
           if (gimp_tag_popup_is_in_tag (tag_data, x, y))
             {
@@ -912,8 +903,6 @@ gimp_tag_popup_list_event (GtkWidget    *widget,
       gint            x;
       gint            y;
       gint            i;
-      GdkRectangle   *bounds;
-      GimpTag        *tag;
 
       popup->single_select_disabled = TRUE;
 
@@ -922,7 +911,7 @@ gimp_tag_popup_list_event (GtkWidget    *widget,
 
       for (i = 0; i < popup->tag_count; i++)
         {
-          bounds = &popup->tag_data[i].bounds;
+          PopupTagData *tag_data = &popup->tag_data[i];
 
           if (gimp_tag_popup_is_in_tag (tag_data, x, y))
             {
@@ -1058,20 +1047,22 @@ static void
 gimp_tag_popup_check_can_toggle (GimpTagged   *tagged,
                                  GimpTagPopup *popup)
 {
-  GList        *iterator;
-  PopupTagData  search_key;
-  PopupTagData *search_result;
+  GList *iterator;
 
   for (iterator = gimp_tagged_get_tags (tagged);
        iterator;
        iterator = g_list_next (iterator))
     {
+      PopupTagData  search_key;
+      PopupTagData *search_result;
+
       search_key.tag = iterator->data;
-      search_result = (PopupTagData *)
-        bsearch (&search_key,
-                 popup->tag_data, popup->tag_count,
-                 sizeof (PopupTagData),
-                 gimp_tag_popup_data_compare);
+
+      search_result =
+        (PopupTagData *) bsearch (&search_key,
+                                  popup->tag_data, popup->tag_count,
+                                  sizeof (PopupTagData),
+                                  gimp_tag_popup_data_compare);
 
       if (search_result)
         {

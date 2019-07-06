@@ -72,6 +72,7 @@ struct _GimpSmoothingOptions
 #define GIMP_IS_PAINT_OPTIONS_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), GIMP_TYPE_PAINT_OPTIONS))
 #define GIMP_PAINT_OPTIONS_GET_CLASS(obj)  (G_TYPE_INSTANCE_GET_CLASS ((obj), GIMP_TYPE_PAINT_OPTIONS, GimpPaintOptionsClass))
 
+
 typedef struct _GimpPaintOptionsClass GimpPaintOptionsClass;
 
 struct _GimpPaintOptions

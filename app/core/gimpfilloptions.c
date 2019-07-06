@@ -59,13 +59,14 @@ typedef struct _GimpFillOptionsPrivate GimpFillOptionsPrivate;
 struct _GimpFillOptionsPrivate
 {
   GimpFillStyle style;
-
   gboolean      antialias;
   gboolean      feather;
   gdouble       feather_radius;
 
   GimpViewType  pattern_view_type;
   GimpViewSize  pattern_view_size;
+
+  const gchar  *undo_desc;
 };
 
 #define GET_PRIVATE(options) \
@@ -172,6 +173,7 @@ gimp_fill_options_set_property (GObject      *object,
     {
     case PROP_STYLE:
       private->style = g_value_get_enum (value);
+      private->undo_desc = NULL;
       break;
     case PROP_ANTIALIAS:
       private->antialias = g_value_get_boolean (value);
@@ -334,24 +336,33 @@ gimp_fill_options_set_by_fill_type (GimpFillOptions  *options,
                                     GimpFillType      fill_type,
                                     GError          **error)
 {
-  GimpRGB color;
+  GimpFillOptionsPrivate *private;
+  GimpRGB                 color;
+  const gchar            *undo_desc;
 
   g_return_val_if_fail (GIMP_IS_FILL_OPTIONS (options), FALSE);
   g_return_val_if_fail (GIMP_IS_CONTEXT (context), FALSE);
   g_return_val_if_fail (error == NULL || *error == NULL, FALSE);
 
+  private = GET_PRIVATE (options);
+
+  private->undo_desc = NULL;
+
   switch (fill_type)
     {
     case GIMP_FILL_FOREGROUND:
       gimp_context_get_foreground (context, &color);
+      undo_desc = C_("undo-type", "Fill with Foreground Color");
       break;
 
     case GIMP_FILL_BACKGROUND:
       gimp_context_get_background (context, &color);
+      undo_desc = C_("undo-type", "Fill with Background Color");
       break;
 
     case GIMP_FILL_WHITE:
       gimp_rgba_set (&color, 1.0, 1.0, 1.0, GIMP_OPACITY_OPAQUE);
+      undo_desc = C_("undo-type", "Fill with White");
       break;
 
     case GIMP_FILL_TRANSPARENT:
@@ -374,6 +385,7 @@ gimp_fill_options_set_by_fill_type (GimpFillOptions  *options,
 
         gimp_fill_options_set_style (options, GIMP_FILL_STYLE_PATTERN);
         gimp_context_set_pattern (GIMP_CONTEXT (options), pattern);
+        private->undo_desc = C_("undo-type", "Fill with Pattern");
 
         return TRUE;
       }
@@ -386,6 +398,7 @@ gimp_fill_options_set_by_fill_type (GimpFillOptions  *options,
 
   gimp_fill_options_set_style (options, GIMP_FILL_STYLE_SOLID);
   gimp_context_set_foreground (GIMP_CONTEXT (options), &color);
+  private->undo_desc = undo_desc;
 
   return TRUE;
 }

@@ -55,6 +55,7 @@ struct _GimpTagPopup
   gboolean           single_select_disabled;
 
   guint              scroll_timeout_id;
+
   gint               scroll_height;
   gint               scroll_y;
   gint               scroll_step;

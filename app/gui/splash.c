@@ -493,7 +493,7 @@ splash_image_load (gint      max_width,
   GList              *list;
 
   /* File "gimp-splash.png" in personal configuration directory. */
-  filename = gimp_personal_rc_file ("gimp-splash.png");
+  filename = gimp_personal_rc_file ("glimpse-splash.png");
   animation = splash_image_load_from_path (filename,
                                            max_width, max_height,
                                            be_verbose);

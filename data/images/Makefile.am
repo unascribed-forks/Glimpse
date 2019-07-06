@@ -10,7 +10,7 @@ endif
 
 imagedata_DATA = \
 	$(GIMP_LOGO)	\
-	gimp-splash.png	\
+	glimpse-splash.png	\
 	wilber.png
 
 EXTRA_DIST = $(imagedata_DATA)

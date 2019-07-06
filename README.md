@@ -34,3 +34,5 @@ page and see where you can contribute.
 Alternatively you can help by spreading the word, adding to the documentation or
 providing new artwork. Once we have our first release we will also start accepting
 financial donations to cover the costs of hosting and developing this fork.
+
+You can also donate to this project and follow it via [Patreon](https://www.patreon.com/glimpse).

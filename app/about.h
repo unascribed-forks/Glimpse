@@ -26,7 +26,7 @@
   _("Copyright © 2019\n" \
     "Glimpse Contributors\n" \
     "Based on GNU Image Manipulation Program by:\n" \
-    "Spencer Kimball, Peter Mattis and the GIMP Development Team")
+    "Spencer Kimball, Peter Mattis and the GNU Image Manipulation Program Development Team")
 
 /* TRANSLATORS: do not end the license URL with a dot, because it would
  * be in the link. Because of technical limitations, make sure the URL

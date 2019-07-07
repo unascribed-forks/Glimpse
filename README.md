@@ -4,12 +4,12 @@ Glimpse is a downstream fork of the GNU Image Manipulation Program.
 
 ## What is different about Glimpse?
 For now, not a lot! The initial aim is to provide a downstream fork of
-the GNU Image Manipulation Program that has a less offensive name.
+the GNU Image Manipulation Program that has a less offensive name so there
+are no barriers to using the software in businesses and educational institutions.
 
-Issue that got dismissed: https://gitlab.gnome.org/GNOME/gimp/issues/3617
-
-Upstream project's explanation:
-https://www.gimp.org/docs/userfaq.html#i-dont-like-the-name-gimp-will-you-change-it
+This is a long-standing problem that has drawn user concern for over a decade,
+but whenever the issue is raised it tends to be dismissed. We do not believe the
+upstream project's [explanation or workaround](https://www.gimp.org/docs/userfaq.html#i-dont-like-the-name-gimp-will-you-change-it) is enough to address the problem.
 
 In future versions we intend to address other long-standing complaints,
 particularly around the graphical user interface.

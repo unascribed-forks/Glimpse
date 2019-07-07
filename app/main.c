@@ -414,7 +414,7 @@ main (int    argc,
 
   gimp_init_i18n ();
 
-  g_set_application_name (GIMP_NAME);
+  g_set_application_name (GLIMPSE_NAME);
 
 #ifdef G_OS_WIN32
   argv = g_win32_get_command_line ();
@@ -471,7 +471,7 @@ main (int    argc,
 #endif
 
   context = g_option_context_new (_("[FILE|URI...]"));
-  g_option_context_set_summary (context, GIMP_NAME);
+  g_option_context_set_summary (context, GLIMPSE_NAME);
 
   g_option_context_add_main_entries (context, main_entries, GETTEXT_PACKAGE);
 
@@ -771,7 +771,7 @@ gimp_show_license_and_exit (void)
   gimp_version_show (be_verbose);
 
   g_print ("\n");
-  g_print (GIMP_LICENSE);
+  g_print (GLIMPSE_LICENSE);
   g_print ("\n\n");
 
   app_exit (EXIT_SUCCESS);

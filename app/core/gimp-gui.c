@@ -169,7 +169,7 @@ gimp_show_message (Gimp                *gimp,
   g_return_if_fail (message != NULL);
 
   if (! domain)
-    domain = GIMP_ACRONYM;
+    domain = GLIMPSE_NAME;
 
   if (! gimp->console_messages)
     {

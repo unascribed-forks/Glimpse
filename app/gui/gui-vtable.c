@@ -832,7 +832,7 @@ gui_recent_list_add_file (Gimp        *gimp,
   recent.description  = NULL;
   recent.mime_type    = (mime_type ?
                          (gchar *) mime_type : "application/octet-stream");
-  recent.app_name     = "GNU Image Manipulation Program";
+  recent.app_name     = "Glimpse";
   recent.app_exec     = GIMP_COMMAND " %u";
   recent.groups       = (gchar **) groups;
   recent.is_private   = FALSE;
@@ -875,7 +875,7 @@ gui_recent_list_load (Gimp *gimp)
       GtkRecentInfo *info = list->data;
 
       if (gtk_recent_info_has_application (info,
-                                           "GNU Image Manipulation Program"))
+                                           "Glimpse"))
         {
           const gchar *mime_type = gtk_recent_info_get_mime_type (info);
 

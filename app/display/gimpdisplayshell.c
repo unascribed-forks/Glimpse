@@ -289,7 +289,7 @@ gimp_display_shell_class_init (GimpDisplayShellClass *klass)
 
   g_object_class_install_property (object_class, PROP_TITLE,
                                    g_param_spec_string ("title", NULL, NULL,
-                                                        GIMP_NAME,
+                                                        GLIMPSE_NAME,
                                                         GIMP_PARAM_READWRITE |
                                                         G_PARAM_CONSTRUCT));
 

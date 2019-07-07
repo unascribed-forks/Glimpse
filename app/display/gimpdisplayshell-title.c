@@ -98,7 +98,7 @@ gimp_display_shell_update_title_idle (gpointer data)
       if (len)  /* U+2013 EN DASH */
         len += g_strlcpy (title + len, " \342\200\223 ", sizeof (title) - len);
 
-      g_strlcpy (title + len, GIMP_ACRONYM, sizeof (title) - len);
+      g_strlcpy (title + len, GLIMPSE_NAME, sizeof (title) - len);
 
       /* format the statusbar */
       gimp_display_shell_format_title (shell, status, sizeof (status),
@@ -112,7 +112,7 @@ gimp_display_shell_update_title_idle (gpointer data)
   else
     {
       g_object_set (shell,
-                    "title",  GIMP_NAME,
+                    "title",  GLIMPSE_NAME,
                     "status", " ",
                     NULL);
     }

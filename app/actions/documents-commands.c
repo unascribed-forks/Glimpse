@@ -263,7 +263,7 @@ documents_clear_cmd_callback (GtkAction *action,
           GtkRecentInfo *info = list->data;
 
           if (gtk_recent_info_has_application (info,
-                                               "GNU Image Manipulation Program"))
+                                               "Glimpse"))
             {
               gtk_recent_manager_remove_item (manager,
                                               gtk_recent_info_get_uri (info),

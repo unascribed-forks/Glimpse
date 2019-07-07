@@ -190,7 +190,7 @@ gimp_version (gboolean be_verbose,
   gchar *temp;
 
   version = g_strdup_printf (localized ? _("%s version %s") : "%s version %s",
-                             GIMP_NAME, GIMP_VERSION);;
+                             GLIMPSE_NAME, GIMP_VERSION);;
   temp = g_strconcat (version, "\n", NULL);
   g_free (version);
   version = temp;

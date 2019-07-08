@@ -107,21 +107,21 @@ about_dialog_create (GimpContext *context)
 
       pixbuf = about_dialog_load_logo ();
 
-      copyright = g_strdup_printf (GIMP_COPYRIGHT, GIMP_GIT_LAST_COMMIT_YEAR);
+      copyright = g_strdup_printf (GLIMPSE_COPYRIGHT, GIMP_GIT_LAST_COMMIT_YEAR);
 
       widget = g_object_new (GTK_TYPE_ABOUT_DIALOG,
                              "role",               "gimp-about",
                              "window-position",    GTK_WIN_POS_CENTER,
-                             "title",              _("About GIMP"),
-                             "program-name",       GIMP_ACRONYM,
+                             "title",              _("About Glimpse"),
+                             "program-name",       GLIMPSE_NAME,
                              "version",            GIMP_VERSION,
                              "copyright",          copyright,
-                             "comments",           GIMP_NAME,
-                             "license",            GIMP_LICENSE,
+                             "comments",           GLIMPSE_SUBTITLE,
+                             "license",            GLIMPSE_LICENSE,
                              "wrap-license",       TRUE,
                              "logo",               pixbuf,
-                             "website",            "https://www.gimp.org/",
-                             "website-label",      _("Visit the GIMP website"),
+                             "website",            "https://www.getglimpse.app/",
+                             "website-label",      _("Visit the Glimpse website"),
                              "authors",            authors,
                              "artists",            artists,
                              "documenters",        documenters,

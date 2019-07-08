@@ -116,7 +116,7 @@ about_dialog_create (GimpContext *context)
                              "program-name",       GLIMPSE_NAME,
                              "version",            GIMP_VERSION,
                              "copyright",          copyright,
-                             "comments",           GLIMPSE_NAME,
+                             "comments",           GLIMPSE_SUBTITLE,
                              "license",            GLIMPSE_LICENSE,
                              "wrap-license",       TRUE,
                              "logo",               pixbuf,

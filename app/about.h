@@ -21,6 +21,9 @@
 #define GLIMPSE_NAME \
   _("Glimpse")
 
+#define GLIMPSE_SUBTITLE \
+  _("A Free and Open Source image manipulator")
+
 /* The year of the last commit (UTC) will be inserted into this string. */
 #define GLIMPSE_COPYRIGHT \
   _("Copyright © 2019\n" \

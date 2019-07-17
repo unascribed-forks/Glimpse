@@ -7,6 +7,7 @@
                 xmlns:dc="http://purl.org/dc/elements/1.1/">
 
   <xsl:output method="text" />
+  <xsl:param name="today" />
 
   <xsl:template name="contributor">
     <xsl:param name="role" />
@@ -14,22 +15,26 @@
   </xsl:template>
 
   <xsl:template match="/dc:glimpse-authors">
-    <xsl:text>!! To see the authors of GNU Image Manipulation Program (which Glimpse is based of) check the ORIGINAL_AUTHORS file. !!
--- This file is generated from authors.xml, do not edit it directly. --
+    <xsl:text>Title: Authors: The People That Made it Happen
+Date: </xsl:text><xsl:value-of select="$today"/><xsl:text>
+Modified: </xsl:text><xsl:value-of select="$today"/><xsl:text>
+Author: generated from authors.xml.
 
-Glimpse fork was started by:
+For GNU Image Manipulation Program authors, check the ORIGINAL_AUTHORS file in the git repository.
+
+## Glimpse was originally written by:
 
 </xsl:text>
     <xsl:apply-templates select="dc:creator" />
     <xsl:text>
-
-The current maintainers are:
+## The current maintainers are:
 
 </xsl:text>
     <xsl:apply-templates select="dc:maintainer" />
     <xsl:text>
+## The following people have contributed code to Glimpse:
 
-The following people have contributed code to Glimpse:
+*Contributing patches, fixes, plugins, extensions, scripts and other [improvements to the code](/develop/).*
 
 </xsl:text>
     <xsl:call-template name="contributor">
@@ -37,7 +42,9 @@ The following people have contributed code to Glimpse:
     </xsl:call-template>
     <xsl:text>
 
-The following people have contributed art to Glimpse:
+## The following people have contributed art to Glimpse:
+
+*Contributing icons, cursors, brushes, gradients, patterns, etc.*
 
 </xsl:text>
     <xsl:call-template name="contributor">
@@ -45,7 +52,9 @@ The following people have contributed art to Glimpse:
     </xsl:call-template>
     <xsl:text>
 
-The following people have helped to document Glimpse:
+## The following people have helped to document Glimpse:
+
+*Contributing [documentation](/docs/).*
 
 </xsl:text>
     <xsl:call-template name="contributor">
@@ -55,17 +64,17 @@ The following people have helped to document Glimpse:
   </xsl:template>
 
   <xsl:template match="dc:creator">
-    <xsl:text> </xsl:text><xsl:apply-templates /><xsl:text>
+    <xsl:text>* </xsl:text><xsl:apply-templates /><xsl:text>
 </xsl:text>
   </xsl:template>
 
   <xsl:template match="dc:maintainer">
-    <xsl:text> </xsl:text><xsl:apply-templates /><xsl:text>
+    <xsl:text>* </xsl:text><xsl:apply-templates /><xsl:text>
 </xsl:text>
   </xsl:template>
 
   <xsl:template match="dc:contributor">
-    <xsl:text> </xsl:text><xsl:apply-templates /><xsl:text>
+    <xsl:text>* </xsl:text><xsl:apply-templates /><xsl:text>
 </xsl:text>
   </xsl:template>
 

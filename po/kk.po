@@ -11320,7 +11320,7 @@ msgid "translator-credits"
 msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>"
 
 #: ../app/dialogs/about-dialog.c:531
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr ""
 
 #: ../app/dialogs/about-dialog.c:611

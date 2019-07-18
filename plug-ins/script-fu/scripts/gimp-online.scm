@@ -159,26 +159,26 @@
 			 "<Image>/Help/User Manual")
 
 
-;; Links to GIMP related web sites
+;; Links to Glimpse related web sites
 
 (define (gimp-online-main-web-site)
-  (plug-in-web-browser "https://www.gimp.org/")
+  (plug-in-web-browser "https://www.getglimpse.app/")
 )
 
 (define (gimp-online-developer-web-site)
-  (plug-in-web-browser "https://developer.gimp.org/")
+  (plug-in-web-browser "https://github.com/glimpse-editor/Glimpse")
 )
 
 (define (gimp-online-roadmap)
-  (plug-in-web-browser "https://wiki.gimp.org/wiki/Roadmap")
+  (plug-in-web-browser "https://github.com/glimpse-editor/Glimpse/milestones")
 )
 
 (define (gimp-online-wiki)
-  (plug-in-web-browser "https://wiki.gimp.org/wiki/Main_Page")
+  (plug-in-web-browser "https://github.com/glimpse-editor/Glimpse/wiki")
 )
 
 (define (gimp-online-bugs-features)
-  (plug-in-web-browser "https://gitlab.gnome.org/GNOME/gimp/issues")
+  (plug-in-web-browser "https://github.com/glimpse-editor/Glimpse/issues")
 )
 
 ; (define (gimp-online-plug-in-web-site)
@@ -196,7 +196,7 @@
 )
 
 (script-fu-menu-register "gimp-online-main-web-site"
-                         "<Image>/Help/GIMP Online")
+                         "<Image>/Help/Glimpse online")
 
 
 (script-fu-register "gimp-online-developer-web-site"
@@ -209,7 +209,7 @@
 )
 
 (script-fu-menu-register "gimp-online-developer-web-site"
-                         "<Image>/Help/GIMP Online")
+                         "<Image>/Help/Glimpse online")
 
 
 (script-fu-register "gimp-online-roadmap"
@@ -222,7 +222,7 @@
 )
 
 (script-fu-menu-register "gimp-online-roadmap"
-                         "<Image>/Help/GIMP Online")
+                         "<Image>/Help/Glimpse online")
 
 
 (script-fu-register "gimp-online-wiki"
@@ -235,7 +235,7 @@
 )
 
 (script-fu-menu-register "gimp-online-wiki"
-                         "<Image>/Help/GIMP Online")
+                         "<Image>/Help/Glimpse online")
 
 
 (script-fu-register "gimp-online-bugs-features"
@@ -261,7 +261,7 @@
 )
 
 (script-fu-menu-register "gimp-online-docs-web-site"
-                         "<Image>/Help/GIMP Online")
+                         "<Image>/Help/Glimpse online")
 
 
 ; (script-fu-register "gimp-online-plug-in-web-site"
@@ -274,4 +274,4 @@
 ; )
 
 ; (script-fu-menu-register "gimp-online-plug-in-web-site"
-;                          "<Image>/Help/GIMP Online")
+;                          "<Image>/Help/Glimpse online")

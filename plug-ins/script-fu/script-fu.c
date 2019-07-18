@@ -303,7 +303,7 @@ script_fu_extension_init (void)
     { GIMP_PDB_INT32, "run-mode", "[Interactive], non-interactive" }
   };
 
-  gimp_plugin_menu_branch_register ("<Image>/Help", N_("_GIMP Online"));
+  gimp_plugin_menu_branch_register ("<Image>/Help", N_("_Glimpse online"));
   gimp_plugin_menu_branch_register ("<Image>/Help", N_("_User Manual"));
 
   gimp_plugin_menu_branch_register ("<Image>/Filters/Languages",

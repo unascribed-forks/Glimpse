@@ -14911,7 +14911,7 @@ msgstr ""
 "Φώτης Τσάμης <ftsamis@gmail.com>"
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "Το GIMP είναι μια προσφορά των"
 
 #: ../app/dialogs/about-dialog.c:605

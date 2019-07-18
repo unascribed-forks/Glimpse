@@ -10111,7 +10111,7 @@ msgid "translator-credits"
 msgstr "Michael Bauer 'Akerbeltz'"
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "'S e na daoine a leanas a tha a' toirt dhuibh GIMP"
 
 #: ../app/dialogs/about-dialog.c:604

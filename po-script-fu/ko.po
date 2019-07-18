@@ -39,7 +39,7 @@ msgid "_Start Server..."
 msgstr "서버 시작(_S)..."
 
 #: ../plug-ins/script-fu/script-fu.c:307
-msgid "_GIMP Online"
+msgid "_Glimpse online"
 msgstr "김프 온라인(_G)"
 
 #: ../plug-ins/script-fu/script-fu.c:308

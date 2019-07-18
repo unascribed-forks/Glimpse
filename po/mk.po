@@ -10305,7 +10305,7 @@ msgid "translator-credits"
 msgstr "Марко Дода"
 
 #: ../app/dialogs/about-dialog.c:522
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP го добивте благодарение на"
 
 #: ../app/dialogs/about-dialog.c:597

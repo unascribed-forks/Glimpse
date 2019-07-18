@@ -14979,7 +14979,7 @@ msgstr ""
 "Tim Sabsch"
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP wurde Ihnen gebracht von"
 
 #: ../app/dialogs/about-dialog.c:605

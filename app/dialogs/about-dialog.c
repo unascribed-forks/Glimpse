@@ -125,6 +125,7 @@ about_dialog_create (GimpContext *context)
                              "authors",            authors,
                              "artists",            artists,
                              "documenters",        documenters,
+                             "sponsors",           sponsors,
                              /* Translators: insert your names here,
                                 separated by newline */
                              "translator-credits", _("translator-credits"),
@@ -526,7 +527,7 @@ about_dialog_timer (gpointer data)
           return FALSE;
 
         case 1:
-          text = insert_spacers (_("GIMP is brought to you by"));
+          text = insert_spacers (_("Glimpse is brought to you by"));
           dialog->state += 1;
           break;
 

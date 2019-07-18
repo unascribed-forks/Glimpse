@@ -11433,7 +11433,7 @@ msgstr ""
 "A S Alam"
 
 #: ../app/dialogs/about-dialog.c:531
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "ਜੈਮਪ ਤੁਹਾਡੇ ਲਈ ਲੈ ਕੇ ਆਏ ਹਨ"
 
 #: ../app/dialogs/about-dialog.c:611

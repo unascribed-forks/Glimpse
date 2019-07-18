@@ -9007,7 +9007,7 @@ msgstr ""
 "  Mark Kwidzińsczi https://launchpad.net/~kaszeba"
 
 #: ../app/dialogs/about-dialog.c:522
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr ""
 
 #: ../app/dialogs/about-dialog.c:597

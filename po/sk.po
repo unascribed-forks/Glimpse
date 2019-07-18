@@ -13236,7 +13236,7 @@ msgstr ""
 "Dušan Kazik <prescott66@gmail.com>, 2017"
 
 #: ../app/dialogs/about-dialog.c:531
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP vám prinášajú"
 
 #: ../app/dialogs/about-dialog.c:611

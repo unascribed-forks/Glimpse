@@ -9015,7 +9015,7 @@ msgid "translator-credits"
 msgstr "Nhóm Việt hóa Gnome <gnomevi-list@lists.sourceforge.net>"
 
 #: ../app/dialogs/about-dialog.c:522
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP được tạo bởi"
 
 #: ../app/dialogs/about-dialog.c:597

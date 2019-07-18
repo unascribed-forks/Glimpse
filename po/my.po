@@ -9171,7 +9171,7 @@ msgid "translator-credits"
 msgstr "BIT"
 
 #: ../app/dialogs/about-dialog.c:522
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP ကို သင့်ဆီ ယူဆောင်လာသူ"
 
 #: ../app/dialogs/about-dialog.c:597

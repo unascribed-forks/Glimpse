@@ -9073,7 +9073,7 @@ msgid "translator-credits"
 msgstr "Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>"
 
 #: ../app/dialogs/about-dialog.c:521
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP vos es presentat per"
 
 #: ../app/dialogs/about-dialog.c:596

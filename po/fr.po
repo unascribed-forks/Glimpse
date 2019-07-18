@@ -14929,7 +14929,7 @@ msgstr ""
 "Yannick Tailliez <ytdispatch-libre@yahoo.com>"
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP vous est présenté par"
 
 #: ../app/dialogs/about-dialog.c:605

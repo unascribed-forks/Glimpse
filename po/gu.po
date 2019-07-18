@@ -10080,7 +10080,7 @@ msgid "translator-credits"
 msgstr "અંકિત પટેલ <ankit644@yahoo.com>"
 
 #: ../app/dialogs/about-dialog.c:522
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP એ તમારા માટે આના દ્વારા લવાયું છે"
 
 #: ../app/dialogs/about-dialog.c:597

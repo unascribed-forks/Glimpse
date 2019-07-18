@@ -42,7 +42,7 @@ msgid "_Start Server..."
 msgstr "सर्भर सुरु गर्नुहोस्..."
 
 #: ../plug-ins/script-fu/script-fu.c:307
-msgid "_GIMP Online"
+msgid "_Glimpse online"
 msgstr "गिम्प अनलाइन"
 
 #: ../plug-ins/script-fu/script-fu.c:308

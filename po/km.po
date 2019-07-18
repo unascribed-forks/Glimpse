@@ -10130,7 +10130,7 @@ msgid "translator-credits"
 msgstr "ខឹម សុខែម ប៉ុច សុគន្ធ លៀង ជុំសុបិន អេង វណ្ណៈ អោក ពិសិដ្ឋ"
 
 #: ../app/dialogs/about-dialog.c:522
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP ត្រូវ​បាន​នាំ​មក​ជូន​លោក​អ្នក​ដោយ"
 
 #: ../app/dialogs/about-dialog.c:597

@@ -14626,7 +14626,7 @@ msgid "translator-credits"
 msgstr "Mahesh Subedi <submanesh@gmail.com>"
 
 #: ../app/dialogs/about-dialog.c:531
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "गिम्प तपाईँ सामु यस द्वारा ल्याइएको छ"
 
 #: ../app/dialogs/about-dialog.c:607

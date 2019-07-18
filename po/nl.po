@@ -15002,7 +15002,7 @@ msgstr ""
 "Kijk voor meer info op http://nl.gnome.org"
 
 #: ../app/dialogs/about-dialog.c:444
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP is gemaakt door"
 
 #: ../app/dialogs/about-dialog.c:520

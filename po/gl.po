@@ -14465,7 +14465,7 @@ msgstr ""
 " Proxecto Trasno: http://www.trasno.net"
 
 #: ../app/dialogs/about-dialog.c:531
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP foi realizado para ti por"
 
 #: ../app/dialogs/about-dialog.c:607

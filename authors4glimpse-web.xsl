@@ -60,6 +60,16 @@ For GNU Image Manipulation Program authors, check the ORIGINAL_AUTHORS file in t
     <xsl:call-template name="contributor">
       <xsl:with-param name="role" select="'documenter'"/>
     </xsl:call-template>
+    <xsl:text>
+
+## The following people sponsored Glimpse on Patreon:
+
+*Contributing money towards the cost of running the project.*
+
+</xsl:text>
+    <xsl:call-template name="contributor">
+      <xsl:with-param name="role" select="'sponsor'"/>
+    </xsl:call-template>
 
   </xsl:template>
 

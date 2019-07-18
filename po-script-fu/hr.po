@@ -33,7 +33,7 @@ msgid "_Start Server..."
 msgstr ""
 
 #: ../plug-ins/script-fu/script-fu.c:307
-msgid "_GIMP Online"
+msgid "_Glimpse online"
 msgstr ""
 
 #: ../plug-ins/script-fu/script-fu.c:308
@@ -2529,7 +2529,7 @@ msgstr "Daj Sjeni Y Ofset"
 #~ msgstr "Boja prvog plana"
 
 #, fuzzy
-#~ msgid "<Toolbox>/Help/The GIMP Online"
+#~ msgid "<Toolbox>/Help/The Glimpse online"
 #~ msgstr "<Toolbox>/Pomoć/Gimp na mreži/Glavna _web stranica"
 
 #, fuzzy
@@ -2874,10 +2874,10 @@ msgstr "Daj Sjeni Y Ofset"
 #~ msgid "<Image>/Script-Fu/Animators/_Waves..."
 #~ msgstr "<Image>/Script-Fu/Animatori/Valovi..."
 
-#~ msgid "<Toolbox>/Help/The GIMP Online/Plug-in _Registry"
+#~ msgid "<Toolbox>/Help/The Glimpse online/Plug-in _Registry"
 #~ msgstr "<Toolbox>/Pomoć/Gimp na mreži/_Registar dodataka"
 
-#~ msgid "<Toolbox>/Help/The GIMP Online/_Developer Web Site"
+#~ msgid "<Toolbox>/Help/The Glimpse online/_Developer Web Site"
 #~ msgstr "<Toolbox>/Pomoć/Gimp na mreži/Web stranica za _programere"
 
 #~ msgid "<Image>/Script-Fu/Shadow/_Xach-Effect..."

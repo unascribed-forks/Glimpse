@@ -38,7 +38,7 @@ msgid "_Start Server..."
 msgstr "_Starta servern…"
 
 #: ../plug-ins/script-fu/script-fu.c:306
-msgid "_GIMP Online"
+msgid "_Glimpse online"
 msgstr "_GIMP på nätet"
 
 #: ../plug-ins/script-fu/script-fu.c:307
@@ -2890,7 +2890,7 @@ msgstr "Y-avstånd för skuggkastning"
 #~ msgid "_Unsharp Mask..."
 #~ msgstr "_Oskarp mask..."
 
-#~ msgid "<Toolbox>/Help/The GIMP Online"
+#~ msgid "<Toolbox>/Help/The Glimpse online"
 #~ msgstr "<Toolbox>/Hjälp/GIMP på nätet"
 
 #~ msgid "Cubic"
@@ -3280,10 +3280,10 @@ msgstr "Y-avstånd för skuggkastning"
 #~ msgid "<Image>/Script-Fu/Alchemy/_Weave..."
 #~ msgstr "<Image>/Script-Fu/Alkemi/_Väv..."
 
-#~ msgid "<Toolbox>/Help/The GIMP Online/Plug-in _Registry"
+#~ msgid "<Toolbox>/Help/The Glimpse online/Plug-in _Registry"
 #~ msgstr "<Toolbox>/Hjälp/GIMP på nätet/Register över insticksmoduler"
 
-#~ msgid "<Toolbox>/Help/The GIMP Online/_Developer Web Site"
+#~ msgid "<Toolbox>/Help/The Glimpse online/_Developer Web Site"
 #~ msgstr "<Toolbox>/Hjälp/GIMP på nätet/_Utvecklarnas webbsajt"
 
 #~ msgid "<Image>/Script-Fu/Shadow/_Xach-Effect..."

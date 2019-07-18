@@ -13876,7 +13876,7 @@ msgstr ""
 "خالد حسني <khaledhosny@eglug.org>"
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "قدّمه لك"
 
 #: ../app/dialogs/about-dialog.c:605

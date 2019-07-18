@@ -34,7 +34,7 @@ msgid "_Start Server..."
 msgstr ""
 
 #: ../plug-ins/script-fu/script-fu.c:307
-msgid "_GIMP Online"
+msgid "_Glimpse online"
 msgstr ""
 
 #: ../plug-ins/script-fu/script-fu.c:308
@@ -2531,7 +2531,7 @@ msgstr "Gugurkan Ofset Bayang Y"
 #~ msgstr "Warna Latar Depan"
 
 #, fuzzy
-#~ msgid "<Toolbox>/Help/The GIMP Online"
+#~ msgid "<Toolbox>/Help/The Glimpse online"
 #~ msgstr "<Toolbox>/Bantuan/GIMP dalam talian/Laman Web _Utama"
 
 #, fuzzy
@@ -2872,10 +2872,10 @@ msgstr "Gugurkan Ofset Bayang Y"
 #~ msgid "<Image>/Script-Fu/Animators/_Waves..."
 #~ msgstr "<Image>/Script-Fu/Juruanimasi/_Gelombang..."
 
-#~ msgid "<Toolbox>/Help/The GIMP Online/Plug-in _Registry"
+#~ msgid "<Toolbox>/Help/The Glimpse online/Plug-in _Registry"
 #~ msgstr "<Toolbox>/Xtns/Pelayar Web/_Pendaftaran Plug-In"
 
-#~ msgid "<Toolbox>/Help/The GIMP Online/_Developer Web Site"
+#~ msgid "<Toolbox>/Help/The Glimpse online/_Developer Web Site"
 #~ msgstr "<Toolbox>/Bantuan/GIMP dalam talian/Laman Web _Pembangun"
 
 #~ msgid "<Image>/Script-Fu/Shadow/_Xach-Effect..."

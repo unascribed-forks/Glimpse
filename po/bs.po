@@ -9752,7 +9752,7 @@ msgstr ""
 "  Samir Ribić https://launchpad.net/~megaribi"
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "Gimp su omogućili"
 
 #: ../app/dialogs/about-dialog.c:604

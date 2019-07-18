@@ -14849,7 +14849,7 @@ msgstr ""
 "Aviary.pl <community-poland@mozilla.org>, 2011-2019"
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP jest tworzony przez"
 
 #: ../app/dialogs/about-dialog.c:605

@@ -8902,7 +8902,7 @@ msgstr ""
 "Prevod.org — prevod na srpski jezik"
 
 #: ../app/dialogs/about-dialog.c:521
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "Gimp su omogućili"
 
 #: ../app/dialogs/about-dialog.c:596

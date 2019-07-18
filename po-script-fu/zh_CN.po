@@ -35,7 +35,7 @@ msgid "_Start Server..."
 msgstr "启动服务器(_S)..."
 
 #: ../plug-ins/script-fu/script-fu.c:306
-msgid "_GIMP Online"
+msgid "_Glimpse online"
 msgstr "GIMP 在线(_G)"
 
 #: ../plug-ins/script-fu/script-fu.c:307

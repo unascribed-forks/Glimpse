@@ -14431,7 +14431,7 @@ msgstr ""
 "남성현 <namsh@kldp.org>, 1998, 1999"
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP를 만들어준 사람들"
 
 #: ../app/dialogs/about-dialog.c:605

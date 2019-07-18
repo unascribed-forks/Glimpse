@@ -14099,7 +14099,7 @@ msgstr ""
 "陳英傑"
 
 #: ../app/dialogs/about-dialog.c:531
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP 版本由以下人仕編寫："
 
 #: ../app/dialogs/about-dialog.c:607

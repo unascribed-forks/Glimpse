@@ -9222,7 +9222,7 @@ msgstr ""
 "Runar Ingebrigtsen"
 
 #: ../app/dialogs/about-dialog.c:522
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP er levert til deg av"
 
 #: ../app/dialogs/about-dialog.c:597

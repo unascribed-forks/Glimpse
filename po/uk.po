@@ -14708,7 +14708,7 @@ msgstr ""
 "Daniel Korostil <ted.korostiled@gmail.com>"
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP створили для вас"
 
 #: ../app/dialogs/about-dialog.c:605

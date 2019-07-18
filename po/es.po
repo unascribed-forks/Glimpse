@@ -14955,7 +14955,7 @@ msgstr ""
 "Francisco Vila"
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP se ha realizado para usted por"
 
 #: ../app/dialogs/about-dialog.c:605

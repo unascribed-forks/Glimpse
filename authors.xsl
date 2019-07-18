@@ -14,7 +14,7 @@
   </xsl:template>
 
   <xsl:template match="/dc:glimpse-authors">
-    <xsl:text>!! To see the authors of GNU Image Manipulation Program (which Glimpse is based of) check the ORIGINAL_AUTHORS file. !!
+    <xsl:text>!! To see the authors of GNU Image Manipulation Program (which Glimpse is based on) check the ORIGINAL_AUTHORS file. !!
 -- This file is generated from authors.xml, do not edit it directly. --
 
 Glimpse fork was started by:
@@ -50,6 +50,14 @@ The following people have helped to document Glimpse:
 </xsl:text>
     <xsl:call-template name="contributor">
       <xsl:with-param name="role" select="'documenter'"/>
+    </xsl:call-template>
+    <xsl:text>
+
+The following people sponsored Glimpse on Patreon:
+
+</xsl:text>
+    <xsl:call-template name="contributor">
+      <xsl:with-param name="role" select="'sponsor'"/>
     </xsl:call-template>
 
   </xsl:template>

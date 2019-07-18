@@ -10000,7 +10000,7 @@ msgstr ""
 "Runar Ingebrigtsen"
 
 #: ../app/dialogs/about-dialog.c:531
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP er levert deg av"
 
 #: ../app/dialogs/about-dialog.c:611

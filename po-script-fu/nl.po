@@ -36,8 +36,8 @@ msgid "_Start Server..."
 msgstr "_Server opstarten..."
 
 #: ../plug-ins/script-fu/script-fu.c:307
-msgid "_GIMP Online"
-msgstr "_GIMP online"
+msgid "_Glimpse online"
+msgstr "_Glimpse online"
 
 #: ../plug-ins/script-fu/script-fu.c:308
 msgid "_User Manual"
@@ -2914,8 +2914,8 @@ msgstr "Y-verschuiving slagschadow"
 #~ msgid "<Toolbox>/Xtns/Script-Fu/Misc"
 #~ msgstr "<Toolbox>/Xtra/Script-Fu/Overig"
 
-#~ msgid "<Toolbox>/Help/The GIMP Online"
-#~ msgstr "<Toolbox>/Hulp/De GIMP Online (Engels)"
+#~ msgid "<Toolbox>/Help/The Glimpse online"
+#~ msgstr "<Toolbox>/Hulp/De Glimpse online (Engels)"
 
 #~ msgid "Buffer amount (% height of text)"
 #~ msgstr "Bufferhoeveelheid (% hoogte van tekst)"

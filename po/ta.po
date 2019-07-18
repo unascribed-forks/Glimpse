@@ -9002,7 +9002,7 @@ msgid "translator-credits"
 msgstr "மொழிபெயர்ப்பாளர்- நன்றி அறிதல்"
 
 #: ../app/dialogs/about-dialog.c:522
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "கிம்ப் உங்களுக்கு கொண்டுவரப்பட்டது இவரால்"
 
 #: ../app/dialogs/about-dialog.c:597

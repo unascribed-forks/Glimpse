@@ -10233,7 +10233,7 @@ msgstr ""
 "Докладвайте за грешки на http://gnome.cult.bg/bugs"
 
 #: ../app/dialogs/about-dialog.c:522
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP е създаден от"
 
 #: ../app/dialogs/about-dialog.c:597

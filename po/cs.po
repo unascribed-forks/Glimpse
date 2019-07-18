@@ -14484,7 +14484,7 @@ msgstr ""
 "Adam Ostruszka"
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP pro vás vytvořili"
 
 #: ../app/dialogs/about-dialog.c:605

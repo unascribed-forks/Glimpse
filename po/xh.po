@@ -10245,7 +10245,7 @@ msgstr "Canonical Ltd <translations@canonical.com>"
 
 #: ../app/dialogs/about-dialog.c:522
 #, fuzzy
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "Uhlobo %s luziswe kuwe ngu"
 
 #: ../app/dialogs/about-dialog.c:597

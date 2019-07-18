@@ -14621,7 +14621,7 @@ msgstr ""
 "RAMOND, OlivierWeb, Petr Adam Dohnálek, Yekrats"
 
 #: ../app/dialogs/about-dialog.c:531
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMPo rezultis el"
 
 #: ../app/dialogs/about-dialog.c:607

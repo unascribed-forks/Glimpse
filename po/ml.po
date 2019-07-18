@@ -9025,7 +9025,7 @@ msgid "translator-credits"
 msgstr "Mohammed Sadik <sadiqpkp@gmail.com>"
 
 #: ../app/dialogs/about-dialog.c:522
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "ജിമ്പ് നിങ്ങള്‍ക്കായി എത്തിച്ചിട്ടുള്ളത്"
 
 #: ../app/dialogs/about-dialog.c:597

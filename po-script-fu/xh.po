@@ -36,7 +36,7 @@ msgstr "_Qalaq iseva..."
 
 #: ../plug-ins/script-fu/script-fu.c:307
 #, fuzzy
-msgid "_GIMP Online"
+msgid "_Glimpse online"
 msgstr "Ulwandiso lwe-GIMP"
 
 #: ../plug-ins/script-fu/script-fu.c:308
@@ -2492,5 +2492,5 @@ msgstr "Faka isithunzi sokungamiselwanga kuka-Y"
 #~ msgid "<Toolbox>/Xtns/Script-Fu/Misc"
 #~ msgstr "<Ibhokisi yezixhobo>/Xtns/iSkripti-Fu/Misc"
 
-#~ msgid "<Toolbox>/Help/The GIMP Online"
+#~ msgid "<Toolbox>/Help/The Glimpse online"
 #~ msgstr "<Ibhokisi yezixhobo>/uNcedo/i-GIMP inonxibelelwano"

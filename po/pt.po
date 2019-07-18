@@ -11649,7 +11649,7 @@ msgstr ""
 "  peter https://launchpad.net/~nudos2003"
 
 #: ../app/dialogs/about-dialog.c:531
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "O GIMP é trazido até si por"
 
 #: ../app/dialogs/about-dialog.c:611

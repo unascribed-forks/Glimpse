@@ -9638,7 +9638,7 @@ msgid "translator-credits"
 msgstr "Albert Fazlí <tatarish.l10n@gmail.com>"
 
 #: ../app/dialogs/about-dialog.c:522
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr ""
 
 #: ../app/dialogs/about-dialog.c:597

@@ -14606,7 +14606,7 @@ msgid "translator-credits"
 msgstr "अनुवादक-श्रेय"
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "गिम्प आपल्यासाठी आणणारे"
 
 #: ../app/dialogs/about-dialog.c:605

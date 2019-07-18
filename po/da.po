@@ -14839,7 +14839,7 @@ msgstr ""
 "Mere info: http://www.dansk-gruppen.dk"
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP er leveret til dig af"
 
 #: ../app/dialogs/about-dialog.c:605

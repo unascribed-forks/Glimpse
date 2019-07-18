@@ -33,8 +33,8 @@ msgid "_Start Server..."
 msgstr "Avvia _server..."
 
 #: ../plug-ins/script-fu/script-fu.c:306
-msgid "_GIMP Online"
-msgstr "_GIMP online"
+msgid "_Glimpse online"
+msgstr "_Glimpse online"
 
 #: ../plug-ins/script-fu/script-fu.c:307
 msgid "_User Manual"

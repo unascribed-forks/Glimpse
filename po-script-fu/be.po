@@ -34,7 +34,7 @@ msgid "_Start Server..."
 msgstr "_Выканаць паслужнік…"
 
 #: ../plug-ins/script-fu/script-fu.c:307
-msgid "_GIMP Online"
+msgid "_Glimpse online"
 msgstr "_GIMP у Сеціве"
 
 #: ../plug-ins/script-fu/script-fu.c:308

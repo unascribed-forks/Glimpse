@@ -9765,7 +9765,7 @@ msgstr "გიორგი მაჩიტიძე"
 
 #: ../app/dialogs/about-dialog.c:522
 #, fuzzy
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "ვერსია %s შექმნილია თქვენთვის"
 
 #: ../app/dialogs/about-dialog.c:597

@@ -14963,7 +14963,7 @@ msgstr ""
 "Carles Ferrando Garcia <carles.ferrando@gmail.com>, 2019"
 
 #: ../app/dialogs/about-dialog.c:444
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "El GIMP ha estat desenvolupat per"
 
 #: ../app/dialogs/about-dialog.c:520

@@ -38,7 +38,7 @@ msgid "_Start Server..."
 msgstr "སར་བར་འགོ་བཙུགས...(_S)"
 
 #: ../plug-ins/script-fu/script-fu.c:307
-msgid "_GIMP Online"
+msgid "_Glimpse online"
 msgstr "ཇི་ཨའི་ཨེམ་པི་ གློག་ཐོག་ལམ་ཐོག་ལུ།(_G)"
 
 #: ../plug-ins/script-fu/script-fu.c:308

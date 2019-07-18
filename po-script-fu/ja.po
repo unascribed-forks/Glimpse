@@ -41,7 +41,7 @@ msgid "_Start Server..."
 msgstr "サーバースタート(_S)..."
 
 #: ../plug-ins/script-fu/script-fu.c:306
-msgid "_GIMP Online"
+msgid "_Glimpse online"
 msgstr "GIMP 関連のウェブサイト(_G)"
 
 #: ../plug-ins/script-fu/script-fu.c:307
@@ -2916,7 +2916,7 @@ msgstr "ドロップシャドウ Y オフセット"
 #~ msgid "<Toolbox>/Xtns/Script-Fu/Misc"
 #~ msgstr "<Toolbox>/拡張/Script-Fu/その他"
 
-#~ msgid "<Toolbox>/Help/The GIMP Online"
+#~ msgid "<Toolbox>/Help/The Glimpse online"
 #~ msgstr "<Toolbox>/ヘルプ/GIMP オンライン"
 
 #~ msgid "Linear"

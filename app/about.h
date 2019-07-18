@@ -22,14 +22,13 @@
   _("Glimpse")
 
 #define GLIMPSE_SUBTITLE \
-  _("A Free and Open Source image manipulator")
+  _("A Free and Open Source image editor")
 
 /* The year of the last commit (UTC) will be inserted into this string. */
 #define GLIMPSE_COPYRIGHT \
-  _("Copyright © 2019\n" \
-    "Glimpse Contributors\n" \
-    "Based on GNU Image Manipulation Program by:\n" \
-    "Spencer Kimball, Peter Mattis and the GNU Image Manipulation Program Development Team")
+  _("Copyright © 2019 Glimpse Contributors\n" \
+    "Based on GNU Image Manipulation Program " \
+    GIMP_VERSION)
 
 /* TRANSLATORS: do not end the license URL with a dot, because it would
  * be in the link. Because of technical limitations, make sure the URL

@@ -14845,7 +14845,7 @@ msgstr ""
 "Úr Balázs"
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "A GIMP szerzői:"
 
 #: ../app/dialogs/about-dialog.c:605

@@ -36,7 +36,7 @@ msgid "_Start Server..."
 msgstr "సేవకాన్ని ప్రారంభించు...(_S)"
 
 #: ../plug-ins/script-fu/script-fu.c:307
-msgid "_GIMP Online"
+msgid "_Glimpse online"
 msgstr "గింప్ ఆన్‌లైను (_G)"
 
 #: ../plug-ins/script-fu/script-fu.c:308

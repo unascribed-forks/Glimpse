@@ -14588,8 +14588,8 @@ msgstr ""
 "Bruce Cowan"
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
-msgstr "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
+msgstr "Glimpse is brought to you by"
 
 #: ../app/dialogs/about-dialog.c:605
 #, c-format

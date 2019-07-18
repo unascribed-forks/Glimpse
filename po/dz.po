@@ -10216,7 +10216,7 @@ msgid "translator-credits"
 msgstr "སྐད་བསྒྱུར་པའི་ སྐད་བསྒྱུར་པ ངོ་བསྟོད།"
 
 #: ../app/dialogs/about-dialog.c:522
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "ཁྱོད་ལུ་ ཇི་ཨའི་ཨེམ་པི་ འབག་འོང་མི་དེ།"
 
 #: ../app/dialogs/about-dialog.c:597

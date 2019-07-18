@@ -14686,7 +14686,7 @@ msgstr ""
 "Cristian Secară <cristi AT secarica DOT ro>"
 
 #: ../app/dialogs/about-dialog.c:444
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP vă este adus de către"
 
 #: ../app/dialogs/about-dialog.c:520

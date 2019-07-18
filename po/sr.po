@@ -13362,7 +13362,7 @@ msgstr ""
 "Prevod.org — превод на српски језик"
 
 #: ../app/dialogs/about-dialog.c:531
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "Гимп су омогућили"
 
 #: ../app/dialogs/about-dialog.c:607

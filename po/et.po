@@ -7239,7 +7239,7 @@ msgstr ""
 "Alexia Death <alexiadeath gmail com>, 2008, 2009.\n"
 "Mattias Põldaru <mahfiaz gmail com>, 2008, 2009."
 
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP-i tõid teieni"
 
 msgid "This is an unstable development release."

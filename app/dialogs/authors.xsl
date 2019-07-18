@@ -15,7 +15,7 @@
                                  number(substring-after(@last-active, &quot;.&quot;)) >= 8]" />
   </xsl:template>
 
-  <xsl:template match="/dc:gimp-authors">
+  <xsl:template match="/dc:glimpse-authors">
 <xsl:text>
 /* NOTE: This file is auto-generated from authors.xml, do not edit it. */
 
@@ -66,6 +66,17 @@ static const gchar * const documenters[] =
 </xsl:text>
   <xsl:call-template name="recent-contributor">
     <xsl:with-param name="role" select="'documenter'"/>
+  </xsl:call-template>
+<xsl:text>  NULL
+};
+</xsl:text>
+
+<xsl:text>
+static const gchar * const sponsors[] =
+{
+</xsl:text>
+  <xsl:call-template name="recent-contributor">
+    <xsl:with-param name="role" select="'sponsor'"/>
   </xsl:call-template>
 <xsl:text>  NULL
 };

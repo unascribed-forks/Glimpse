@@ -14753,7 +14753,7 @@ msgstr ""
 "<tp-sv@listor.tp-sv.se>."
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP presenteras av"
 
 #: ../app/dialogs/about-dialog.c:605

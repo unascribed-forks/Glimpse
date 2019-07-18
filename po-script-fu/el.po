@@ -37,7 +37,7 @@ msgid "_Start Server..."
 msgstr "_Εκκίνηση εξυπηρετητή..."
 
 #: ../plug-ins/script-fu/script-fu.c:306
-msgid "_GIMP Online"
+msgid "_Glimpse online"
 msgstr "Το _GIMP στο διαδίκτυο"
 
 #: ../plug-ins/script-fu/script-fu.c:307

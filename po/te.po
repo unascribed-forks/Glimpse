@@ -8861,7 +8861,7 @@ msgstr ""
 "Katta Vijay <katta.vijayk@gmail.com>"
 
 #: ../app/dialogs/about-dialog.c:522
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "గింపును మీకు సమర్పించినవారు"
 
 #: ../app/dialogs/about-dialog.c:597

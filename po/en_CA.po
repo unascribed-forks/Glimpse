@@ -10180,8 +10180,8 @@ msgid "translator-credits"
 msgstr "Adam Weinberger <adamw@gnome.org>"
 
 #: ../app/dialogs/about-dialog.c:522
-msgid "GIMP is brought to you by"
-msgstr "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
+msgstr "Glimpse is brought to you by"
 
 #: ../app/dialogs/about-dialog.c:597
 msgid "This is an unstable development release."

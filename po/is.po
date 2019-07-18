@@ -14657,7 +14657,7 @@ msgstr ""
 "Sveinn í Felli sv1@fellsnet.is, 2009-2016."
 
 #: ../app/dialogs/about-dialog.c:529
-msgid "GIMP is brought to you by"
+msgid "Glimpse is brought to you by"
 msgstr "GIMP er í boði"
 
 #: ../app/dialogs/about-dialog.c:605

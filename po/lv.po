@@ -36,11 +36,11 @@ msgstr "Veido attēlus vai rediģē fotogrāfijas"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:3
 msgid ""
-"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
+"Glimpse is an acronym for GNU Image Manipulation Program. It is a freely "
 "distributed program for such tasks as photo retouching, image composition "
 "and image authoring."
 msgstr ""
-"GIMP ir saīsinājums no GNU Image Manipulation Program (GNU attēlu "
+"Glimpse ir saīsinājums no GNU Image Manipulation Program (GNU attēlu "
 "manipulēšanas programma). Tā ir brīvi izplatāma programma fotogrāfiju "
 "retušēšanai, attēlu veidošanai un līdzīgiem uzdevumiem."
 
@@ -57,32 +57,32 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:5
 msgid ""
-"GIMP is expandable and extensible. It is designed to be augmented with plug-"
+"Glimpse is expandable and extensible. It is designed to be augmented with plug-"
 "ins and extensions to do just about anything. The advanced scripting "
 "interface allows everything from the simplest task to the most complex image "
-"manipulation procedures to be easily scripted. GIMP is available for Linux, "
+"manipulation procedures to be easily scripted. Glimpse is available for Linux, "
 "Microsoft Windows and OS X."
 msgstr ""
-"GIMP ir paplašināma programma. Tā ir veidota tā, lai to varētu paplašināt ar "
+"Glimpse ir paplašināma programma. Tā ir veidota tā, lai to varētu paplašināt ar "
 "spraudņiem un papildinājumiem, ar kuriem var izdarīt gandrīz visu. Ar "
 "paplašināto skriptēšanas saskarni var skriptēt visu, sākot no "
 "vienkāršākajiem uzdevumiem līdz kompleksām attēlu manipulācijas procedūrām. "
-"GIMP ir pieejams uz Linux, Microsoft Windows un OS X operētājsistēmām."
+"Glimpse ir pieejams uz Linux, Microsoft Windows un OS X operētājsistēmām."
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:6
-msgid "Painting in GIMP"
+msgid "Painting in Glimpse"
 msgstr "Gleznošana ar GIMP"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:7
-msgid "Photo editing in GIMP"
+msgid "Photo editing in Glimpse"
 msgstr "Fotogrāfiju rediģēšana ar GIMP"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:8
 msgid ""
-"GIMP 2.10.10 is quite a big update with many new features and bug fixes. "
+"Glimpse 2.10.10 is quite a big update with many new features and bug fixes. "
 "Notable improvements include:"
 msgstr ""
-"GIMP 2.10.10 ir diezgan liels atjauninājums ar daudzām jaunām iespējām un"
+"Glimpse 2.10.10 ir diezgan liels atjauninājums ar daudzām jaunām iespējām un"
 " kļūdu labojumiem. Vērā ņemamās izmaiņas:"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:9
@@ -206,10 +206,10 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:28
 msgid ""
-"GIMP 2.10.8 is mostly a bug fix and optimization release. In particular, it "
+"Glimpse 2.10.8 is mostly a bug fix and optimization release. In particular, it "
 "includes:"
 msgstr ""
-"GIMP 2.10.8 ir pārsvarā kļūdu labojumu un optimizāciju laidiens. Tajā ir:"
+"Glimpse 2.10.8 ir pārsvarā kļūdu labojumu un optimizāciju laidiens. Tajā ir:"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:29
 msgid ""
@@ -241,10 +241,10 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:33
 msgid ""
-"GIMP 2.10.6 comes with a lot of bug fixes, optimizations and features. Most "
+"Glimpse 2.10.6 comes with a lot of bug fixes, optimizations and features. Most "
 "notable changes are:"
 msgstr ""
-"GIMP 2.10.6 iekļauj daudzus kļūdu labojumus, optimizācijas un iespējas. "
+"Glimpse 2.10.6 iekļauj daudzus kļūdu labojumus, optimizācijas un iespējas. "
 "Ievērojamākās izmaiņas: "
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:34
@@ -292,15 +292,15 @@ msgstr ""
 "tagad ir mazāk mulsinoša"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:41
-msgid "New language (having GIMP translated in 81 languages now): Marathi"
-msgstr "Jauna valoda: marahitu (GIMP tagad ir iztulkots 81 valodā)"
+msgid "New language (having Glimpse translated in 81 languages now): Marathi"
+msgstr "Jauna valoda: marahitu (Glimpse tagad ir iztulkots 81 valodā)"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:42
 msgid ""
-"GIMP 2.10.4 includes a lot of bug fixes as well as various optimizations. "
+"Glimpse 2.10.4 includes a lot of bug fixes as well as various optimizations. "
 "Most notable changes are:"
 msgstr ""
-"GIMP 2.10.4 iekļauj daudzus kļūdu labojumus kā arī vairākas optimizācijas. "
+"Glimpse 2.10.4 iekļauj daudzus kļūdu labojumus kā arī vairākas optimizācijas. "
 "Ievērojamākās izmaiņas: "
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:43
@@ -337,11 +337,11 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:48
 msgid ""
-"This second release in the GIMP 2.10 series, so soon after 2.10.0, is mostly "
+"This second release in the Glimpse 2.10 series, so soon after 2.10.0, is mostly "
 "the usual bug-fixing version after a major release, with a few dozen bugs "
 "fixed."
 msgstr ""
-"Šis ir otrais laidiens GIMP 2.10 sērijā, tajā ir pārsvarā kļūdu labojumi pēc "
+"Šis ir otrais laidiens Glimpse 2.10 sērijā, tajā ir pārsvarā kļūdu labojumi pēc "
 "lielā laidiena."
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:49
@@ -421,8 +421,8 @@ msgid "Basic HiDPI support: automatically or user-selected icon size"
 msgstr "Pamata HiDPI atbalsts: automātisks vai lietotāja izvēlēts ikonu izmērs"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:61
-msgid "New themes for GIMP: Light, Gray, Dark, and System"
-msgstr "Jauni GIMP motīvi: gaišs, pelēks, tumšs un sistēmas"
+msgid "New themes for Glimpse: Light, Gray, Dark, and System"
+msgstr "Jauni Glimpse motīvi: gaišs, pelēks, tumšs un sistēmas"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:62
 msgid "And much, much more…"
@@ -430,11 +430,11 @@ msgstr "Un vēl daudz vairāk…"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:63
 msgid ""
-"In this second release candidate before GIMP 2.10.0, while debugging is "
+"In this second release candidate before Glimpse 2.10.0, while debugging is "
 "still a prime target, a new focus has been put on speed and optimization in "
 "order to provide a smoother painting experience. Bigger changes are:"
 msgstr ""
-"Šajā otrajā laidiena kandidātā pirms GIMP 2.10.0, kurā atkļūdošana vēl "
+"Šajā otrajā laidiena kandidātā pirms Glimpse 2.10.0, kurā atkļūdošana vēl "
 "aizvien ir primārais mērķis, tiks likts uzsvars uz ātrumu un optimizēšanu, "
 "lai gleznošana būtu vieglāka. Lielākās izmaiņas:"
 
@@ -492,18 +492,18 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:69
 msgid ""
-"GIMP 2.10.0-RC1 is the first release candidate before GIMP 2.10.0 stable "
+"Glimpse 2.10.0-RC1 is the first release candidate before Glimpse 2.10.0 stable "
 "release, with a focus on debugging and stability. Other than the many bug "
 "fixes, most notable improvements are:"
 msgstr ""
-"GIMP 2.10.0-RC1 ir pirmais laidiena kandidāts pirms 2.10.0 stabilā laidiena, "
+"Glimpse 2.10.0-RC1 ir pirmais laidiena kandidāts pirms 2.10.0 stabilā laidiena, "
 "kas fokusējas uz atkļūdošanu un stabilitāti. Neskaitot kļūdu labojumus, "
 "ievērojamākās izmaiņas ir:"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:70
-msgid "New dashboard dockable to monitor GIMP resource usage"
+msgid "New dashboard dockable to monitor Glimpse resource usage"
 msgstr ""
-"Pie monitora pievienojams panelis GIMP resursu izmantošanas pārraudzīšanai"
+"Pie monitora pievienojams panelis Glimpse resursu izmantošanas pārraudzīšanai"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:71
 msgid ""
@@ -541,10 +541,10 @@ msgstr "Dažādi GUI uzlabojumi"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:78
 msgid ""
-"GIMP 2.9.8 introduces on-canvas gradient editing and various enhancements "
+"Glimpse 2.9.8 introduces on-canvas gradient editing and various enhancements "
 "while focusing on bugfixing and stability."
 msgstr ""
-"GIMP 2.9.8 ievieš krāsu pāreju rediģēšanu uz audekla un dažādus uzlabojumus, "
+"Glimpse 2.9.8 ievieš krāsu pāreju rediģēšanu uz audekla un dažādus uzlabojumus, "
 "vēršot uzmanību uz kļūdu labošanu un stabilitāti."
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:79
@@ -592,12 +592,12 @@ msgid "New support for HGT format (Digital Elevation Model data)"
 msgstr "Jauns atbalsts HGT formātam (Digital Elevation Model dati)"
 
 #: ../desktop/gimp-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for GIMP"
-msgstr "Papildu GIMP datnes"
+msgid "Extra files for Glimpse"
+msgstr "Papildu Glimpse datnes"
 
 #: ../desktop/gimp-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for GIMP"
-msgstr "Raksti, krāsu pārejas un citas papildu datnes GIMP lietotnei"
+msgid "Patterns, gradients, and other extra files for Glimpse"
+msgstr "Raksti, krāsu pārejas un citas papildu datnes Glimpse lietotnei"
 
 #: ../desktop/gimp.desktop.in.in.h:2
 msgid "Image Editor"
@@ -605,8 +605,8 @@ msgstr "Attēlu redaktors"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: ../desktop/gimp.desktop.in.in.h:5
-msgid "GIMP;graphic;design;illustration;painting;"
-msgstr "GIMP;grafika;dizains;ilustrācija;glezna;"
+msgid "Glimpse;graphic;design;illustration;painting;"
+msgstr "Glimpse;grafika;dizains;ilustrācija;glezna;"
 
 #: ../app/about.h:23
 msgid "GIMP"
@@ -617,10 +617,10 @@ msgstr "GIMP"
 #, c-format
 msgid ""
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the GIMP Development Team"
+"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 msgstr ""
 "Autortiesības © 1995-%s\n"
-"Spencer Kimball, Peter Mattis un GIMP Izstrādātāju komanda"
+"Spencer Kimball, Peter Mattis un Glimpse Izstrādātāju komanda"
 
 #. TRANSLATORS: do not end the license URL with a dot, because it would
 #. * be in the link. Because of technical limitations, make sure the URL
@@ -629,25 +629,25 @@ msgstr ""
 #.
 #: ../app/about.h:39
 msgid ""
-"GIMP is free software: you can redistribute it and/or modify it under the "
+"Glimpse is free software: you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 3 of the License, or (at your option) any later "
 "version.\n"
 "\n"
-"GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GIMP. If not, see: https://www.gnu.org/licenses/"
+"Glimpse. If not, see: https://www.gnu.org/licenses/"
 msgstr ""
-"GIMP ir brīva programmatūra; jūs varat to izplatīt tālāk un/vai modificēt "
+"Glimpse ir brīva programmatūra; jūs varat to izplatīt tālāk un/vai modificēt "
 "saskaņā ar GNU Vispārējās publiskās licences noteikumiem, ko publicējis "
 "Brīvas programmatūras fonds; izmantojiet Licences versiju 2 vai (pēc jūsu "
 "izvēles) jebkuru vēlāku versiju.\n"
 "\n"
-"GIMP tiek izplatīta cerībā, ka tā būs noderīga, taču BEZ JEBKĀDĀM "
+"Glimpse tiek izplatīta cerībā, ka tā būs noderīga, taču BEZ JEBKĀDĀM "
 "GARANTIJĀM; pat bez šķietamām KOMERCIĀLAS VĒRTĪBAS un PIEMĒROTĪBAS "
 "KONKRĒTIEM NOLŪKIEM garantijām. Sīkāku informāciju meklējiet GNU Vispārējā "
 "publiskajā licencē.\n"
@@ -678,8 +678,8 @@ msgid "Be more verbose"
 msgstr "Būt detalizētākam"
 
 #: ../app/main.c:172
-msgid "Start a new GIMP instance"
-msgstr "Palaist jaunu GIMP instanci"
+msgid "Start a new Glimpse instance"
+msgstr "Palaist jaunu Glimpse instanci"
 
 #: ../app/main.c:177
 msgid "Open images as new"
@@ -702,8 +702,8 @@ msgid "Do not show a splash screen"
 msgstr "Nerādīt palaišanas logu"
 
 #: ../app/main.c:202
-msgid "Do not use shared memory between GIMP and plug-ins"
-msgstr "Neizmantot koplietojamo atmiņu vienlaicīgi starp GIMP un spraudņiem"
+msgid "Do not use shared memory between Glimpse and plug-ins"
+msgstr "Neizmantot koplietojamo atmiņu vienlaicīgi starp Glimpse un spraudņiem"
 
 #: ../app/main.c:207
 msgid "Do not use special CPU acceleration functions"
@@ -773,19 +773,19 @@ msgstr "[DATNE|URI...]"
 
 #: ../app/main.c:484
 msgid ""
-"GIMP could not initialize the graphical user interface.\n"
+"Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
-"GIMP nevar inicializēt grafisko lietotāja saskarni.\n"
+"Glimpse nevar inicializēt grafisko lietotāja saskarni.\n"
 "Pārbaudiet jūsu displeja parametrus."
 
 #: ../app/main.c:503
-msgid "Another GIMP instance is already running."
-msgstr "Jau ir palaista cita GIMP instance."
+msgid "Another Glimpse instance is already running."
+msgstr "Jau ir palaista cita Glimpse instance."
 
 #: ../app/main.c:594
-msgid "GIMP output. Type any character to close this window."
-msgstr "GIMP izvads. Ievadiet jebkuru simbolu, lai aizvērtu šo logu."
+msgid "Glimpse output. Type any character to close this window."
+msgstr "Glimpse izvads. Ievadiet jebkuru simbolu, lai aizvērtu šo logu."
 
 #: ../app/main.c:595
 #, c-format
@@ -793,8 +793,8 @@ msgid "(Type any character to close this window)\n"
 msgstr "(Ievadiet jebkuru simbolu, lai aizvērtu šo logu)\n"
 
 #: ../app/main.c:612
-msgid "GIMP output. You can minimize this window, but don't close it."
-msgstr "GIMP izvads. Jūs varat minimizēt šo logu, bet neaizveriet to."
+msgid "Glimpse output. You can minimize this window, but don't close it."
+msgstr "Glimpse izvads. Jūs varat minimizēt šo logu, bet neaizveriet to."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -810,14 +810,14 @@ msgstr ""
 #: ../app/sanity.c:581
 #, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"GIMP lietotāja parametru mapi nevar konvertēt uz UTF-8 — %s\n"
+"Glimpse lietotāja parametru mapi nevar konvertēt uz UTF-8 — %s\n"
 "\n"
 "Ļoti iespējams, ka sistēmas datnes ir kodētas citā kodējumā nevis UTF-8 un "
 "GLib tas nav definēts. Lūdzu, pārbaudiet sistēmas mainīgo "
@@ -828,7 +828,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "Otu redaktors"
 
-#. initialize the list of gimp brushes
+#. initialize the list of Glimpse brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:335 ../app/dialogs/preferences-dialog.c:3169
 msgid "Brushes"
@@ -911,7 +911,7 @@ msgstr "Datne"
 msgid "Filters"
 msgstr "Filtri"
 
-#. initialize the list of gimp fonts
+#. initialize the list of Glimpse fonts
 #: ../app/actions/actions.c:171 ../app/core/gimp-data-factories.c:383
 #: ../app/dialogs/dialogs.c:353 ../app/dialogs/preferences-dialog.c:3199
 msgid "Fonts"
@@ -922,7 +922,7 @@ msgstr "Fonti"
 msgid "Gradient Editor"
 msgstr "Krāsu pārejas redaktors"
 
-#. initialize the list of gimp gradients
+#. initialize the list of Glimpse gradients
 #: ../app/actions/actions.c:177 ../app/core/gimp-data-factories.c:374
 #: ../app/dialogs/dialogs.c:347 ../app/dialogs/preferences-dialog.c:3193
 msgid "Gradients"
@@ -967,13 +967,13 @@ msgstr "MyPaint otas"
 msgid "Palette Editor"
 msgstr "Paletes redaktors"
 
-#. initialize the list of gimp palettes
+#. initialize the list of Glimpse palettes
 #: ../app/actions/actions.c:204 ../app/core/gimp-data-factories.c:369
 #: ../app/dialogs/dialogs.c:350 ../app/dialogs/preferences-dialog.c:3187
 msgid "Palettes"
 msgstr "Paletes"
 
-#. initialize the list of gimp patterns
+#. initialize the list of Glimpse patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:344 ../app/dialogs/preferences-dialog.c:3181
 msgid "Patterns"
@@ -3467,12 +3467,12 @@ msgstr "_Dienas padoms"
 
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
-msgid "Show some helpful tips on using GIMP"
+msgid "Show some helpful tips on using Glimpse"
 msgstr "Rādīt noderīgus padomus darbam ar GIMP"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "Par GIMP"
 
 #: ../app/actions/dialogs-actions.c:283
@@ -4564,7 +4564,7 @@ msgstr "_Iziet"
 
 #: ../app/actions/file-actions.c:125
 msgctxt "file-action"
-msgid "Quit the GNU Image Manipulation Program"
+msgid "Quit Glimpse"
 msgstr "Iziet no GIMP"
 
 #: ../app/actions/file-actions.c:133 ../app/actions/file-actions.c:308
@@ -5939,8 +5939,8 @@ msgstr "_Palīdzība"
 
 #: ../app/actions/help-actions.c:42
 msgctxt "help-action"
-msgid "Open the GIMP user manual"
-msgstr "Atvērt GIMP lietotāja rokasgrāmatu"
+msgid "Open the Glimpse user manual"
+msgstr "Atvērt Glimpse lietotāja rokasgrāmatu"
 
 #: ../app/actions/help-actions.c:47
 msgctxt "help-action"
@@ -10325,8 +10325,8 @@ msgstr "Viena loga režīms"
 
 #: ../app/actions/windows-actions.c:138
 msgctxt "windows-action"
-msgid "When enabled, GIMP is in a single-window mode."
-msgstr "Kad ieslēgts, GIMP būs viena loga režīmā."
+msgid "When enabled, Glimpse is in a single-window mode."
+msgstr "Kad ieslēgts, Glimpse būs viena loga režīmā."
 
 #: ../app/actions/windows-actions.c:147
 msgctxt "windows-tabs-position-action"
@@ -10483,8 +10483,8 @@ msgstr "Labroča"
 
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
-msgid "GIMP help browser"
-msgstr "GIMP palīdzības pārlūks"
+msgid "Glimpse help browser"
+msgstr "Glimpse palīdzības pārlūks"
 
 #: ../app/config/config-enums.c:187
 msgctxt "help-browser-type"
@@ -10872,10 +10872,10 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:256
 msgid ""
-"GIMP will warn the user if an attempt is made to create an image that would "
+"Glimpse will warn the user if an attempt is made to create an image that would "
 "take more memory than the size specified here."
 msgstr ""
-"GIMP brīdinās lietotāju, ja tiks izveidota datne, kuras izmērs pārsniedz "
+"Glimpse brīdinās lietotāju, ja tiks izveidota datne, kuras izmērs pārsniedz "
 "šeit norādīto vērtību."
 
 #: ../app/config/gimprc-blurbs.h:266
@@ -10913,13 +10913,13 @@ msgstr ""
 "apakšējā stūrī."
 
 #: ../app/config/gimprc-blurbs.h:289
-msgid "Sets how many threads GIMP should use for operations that support it."
+msgid "Sets how many threads Glimpse should use for operations that support it."
 msgstr ""
-"Iestata, cik pavedienus GIMP vajadzētu lietot tām darbībām, kas to atbalsta."
+"Iestata, cik pavedienus Glimpse vajadzētu lietot tām darbībām, kas to atbalsta."
 
 #: ../app/config/gimprc-blurbs.h:311
 msgid ""
-"Sets whether GIMP should create previews of layers and channels. Previews in "
+"Sets whether Glimpse should create previews of layers and channels. Previews in "
 "the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
@@ -10929,10 +10929,10 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:316
 msgid ""
-"Sets whether GIMP should create previews of layer groups. Layer group "
+"Sets whether Glimpse should create previews of layer groups. Layer group "
 "previews are more expensive than ordinary layer previews."
 msgstr ""
-"Iestata, vai GIMP vajadzētu izveidot slāņu grupu priekšskatījumus. Tie ir "
+"Iestata, vai Glimpse vajadzētu izveidot slāņu grupu priekšskatījumus. Tie ir "
 "“dārgāki” nekā parasti slāņu priekšskatījumi."
 
 #: ../app/config/gimprc-blurbs.h:320
@@ -10965,20 +10965,20 @@ msgstr ""
 "tālinās attēlu. Šis iestatījums darbojas tikai vairāku logu režīmā."
 
 #: ../app/config/gimprc-blurbs.h:337
-msgid "Let GIMP try to restore your last saved session on each startup."
-msgstr "Atjaunot pēdējo saglabāto sesiju katrā GIMP startēšanas reizē."
+msgid "Let Glimpse try to restore your last saved session on each startup."
+msgstr "Atjaunot pēdējo saglabāto sesiju katrā Glimpse startēšanas reizē."
 
 #: ../app/config/gimprc-blurbs.h:340
 msgid ""
-"When enabled, GIMP will try to restore windows on the monitor they were open "
+"When enabled, Glimpse will try to restore windows on the monitor they were open "
 "before.  When disabled, windows will appear on the currently used monitor."
 msgstr ""
-"Kad ieslēgts, GIMP mēģinās atjaunot logus uz tā monitora, kur tie bija "
+"Kad ieslēgts, Glimpse mēģinās atjaunot logus uz tā monitora, kur tie bija "
 "iepriekš atvērti."
 
 #: ../app/config/gimprc-blurbs.h:345
 msgid ""
-"Remember the current tool, pattern, color, and brush across GIMP sessions."
+"Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr "Atcerēties pašreizējos rīkus, rakstus, krāsas un otas."
 
 #: ../app/config/gimprc-blurbs.h:349
@@ -10998,12 +10998,12 @@ msgstr ""
 "izmantoto dokumentu sarakstā."
 
 #: ../app/config/gimprc-blurbs.h:358
-msgid "Save the positions and sizes of the main dialogs when GIMP exits."
+msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
 "Saglabāt galveno dialoglodziņu novietojumus un izmērus, izejot no GIMP."
 
 #: ../app/config/gimprc-blurbs.h:361
-msgid "Save the tool options when GIMP exits."
+msgid "Save the tool options when Glimpse exits."
 msgstr "Saglabāt rīku opcijas, izejot no GIMP."
 
 #: ../app/config/gimprc-blurbs.h:367
@@ -11106,8 +11106,8 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "Parādīt paskaidri, kad kursors atrodas virs vienuma."
 
 #: ../app/config/gimprc-blurbs.h:419
-msgid "Use GIMP in a single-window mode."
-msgstr "Lietot GIMP viena loga režīmā."
+msgid "Use Glimpse in a single-window mode."
+msgstr "Lietot Glimpse viena loga režīmā."
 
 #: ../app/config/gimprc-blurbs.h:422
 msgid "Hide docks and other windows, leaving only image windows."
@@ -11115,7 +11115,7 @@ msgstr "Slēpt dokus un citus logus, atstājot tikai attēla logu."
 
 #: ../app/config/gimprc-blurbs.h:425
 #| msgctxt "windows-action"
-#| msgid "When enabled, GIMP is in a single-window mode."
+#| msgid "When enabled, Glimpse is in a single-window mode."
 msgid "Show the image tabs bar in single window mode."
 msgstr "Rādīt attēlu ciļņu joslu viena loga režīmā."
 
@@ -11145,17 +11145,17 @@ msgstr "Kā rīkoties, kad attēla logā tiek nospiests atstarpes taustiņš."
 
 #: ../app/config/gimprc-blurbs.h:446
 msgid ""
-"Sets the swap file location. GIMP uses a tile based memory allocation "
+"Sets the swap file location. Glimpse uses a tile based memory allocation "
 "scheme. The swap file is used to quickly and easily swap tiles out to disk "
-"and back in. Be aware that the swap file can easily get very large if GIMP "
+"and back in. Be aware that the swap file can easily get very large if Glimpse "
 "is used with large images. Also, things can get horribly slow if the swap "
 "file is created on a folder that is mounted over NFS.  For these reasons, it "
 "may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
-"Iestata apmaiņas datnes atrašanās vietu. GIMP izmanto uz flīzēm balstītu "
+"Iestata apmaiņas datnes atrašanās vietu. Glimpse izmanto uz flīzēm balstītu "
 "iedalīšanas shēmu. Apmaiņas datni izmanto, lai ātri un viegli ierakstītu "
 "flīzes diskā un atpakaļ atmiņā. Ņemiet vērā, ka apmaiņas datne var viegli "
-"kļūt ļoti liela, ja GIMP strādā ar lieliem attēliem. GIMP var kļūt ļoti "
+"kļūt ļoti liela, ja Glimpse strādā ar lieliem attēliem. Glimpse var kļūt ļoti "
 "lēns, ja apmaiņas datne ir uzmontēts uz NFS. Šo iemeslu dēļ varētu būt "
 "vēlams novietot apmaiņas datni uz “/tmp”."
 
@@ -11172,21 +11172,21 @@ msgstr ""
 "uzsitot taustiņu kombināciju, kad vienums ir izcelts."
 
 #: ../app/config/gimprc-blurbs.h:462
-msgid "Save changed keyboard shortcuts when GIMP exits."
+msgid "Save changed keyboard shortcuts when Glimpse exits."
 msgstr "Saglabāt īsinājumtaustiņus, izejot no GIMP."
 
 #: ../app/config/gimprc-blurbs.h:465
-msgid "Restore saved keyboard shortcuts on each GIMP startup."
-msgstr "Atjaunot saglabātos īsinājumtaustiņus, kad GIMP tiek palaists."
+msgid "Restore saved keyboard shortcuts on each Glimpse startup."
+msgstr "Atjaunot saglabātos īsinājumtaustiņus, kad Glimpse tiek palaists."
 
 #: ../app/config/gimprc-blurbs.h:468
 msgid ""
 "Sets the folder for temporary storage. Files will appear here during the "
-"course of running GIMP.  Most files will disappear when GIMP exits, but some "
+"course of running Glimpse.  Most files will disappear when Glimpse exits, but some "
 "files are likely to remain, so it is best if this folder not be one that is "
 "shared by other users."
 msgstr ""
-"Norāda pagaidu katalogu. Šeit tiks izvietotas datnes, ar kurām GIMP pašlaik "
+"Norāda pagaidu katalogu. Šeit tiks izvietotas datnes, ar kurām Glimpse pašlaik "
 "strādā. Vairums datņu, aizverot GIMP, tiks dzēstas, tomēr dažas var palikt, "
 "tāpēc šai mapei nevajadzētu būt koplietošanā ar citiem lietotājiem."
 
@@ -11448,12 +11448,12 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:631
 msgid ""
-"When the amount of pixel data exceeds this limit, GIMP will start to swap "
+"When the amount of pixel data exceeds this limit, Glimpse will start to swap "
 "tiles to disk.  This is a lot slower but it makes it possible to work on "
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
 msgstr ""
-"Kad pikseļu datu daudzums pārsniedz limitu, GIMP sāks rakstīt flīzes diskā. "
+"Kad pikseļu datu daudzums pārsniedz limitu, Glimpse sāks rakstīt flīzes diskā. "
 "Tas ir daudz lēnāk, bet dod iespēju strādāt ar lieliem attēliem, kuri citādi "
 "neietilptu atmiņā. Ja jums ir daudz operatīvās atmiņas, jūs varētu vēlēties "
 "iestatīt lielāku vērtību."
@@ -11480,10 +11480,10 @@ msgstr "Iestata rūtiņu lielumu, kas apzīmē caurspīdību."
 
 #: ../app/config/gimprc-blurbs.h:655
 msgid ""
-"When enabled, GIMP will not save an image if it has not been changed since "
+"When enabled, Glimpse will not save an image if it has not been changed since "
 "it was opened."
 msgstr ""
-"Kad ieslēgts, GIMP nesaglabās attēlu, ja tas nav mainīts kopš atvēršanas."
+"Kad ieslēgts, Glimpse nesaglabās attēlu, ja tas nav mainīts kopš atvēršanas."
 
 #: ../app/config/gimprc-blurbs.h:659
 msgid ""
@@ -11737,7 +11737,7 @@ msgstr "Atkļūdot tikai avārijas"
 
 #: ../app/core/core-enums.c:425
 msgctxt "debug-policy"
-msgid "Never debug GIMP"
+msgid "Never debug Glimpse"
 msgstr "Nekad neatkļūdot GIMP"
 
 #: ../app/core/core-enums.c:511
@@ -12462,7 +12462,7 @@ msgstr ""
 msgid "Deleting \"%s\" failed: %s"
 msgstr "Neizdevās izdzēst “%s” — %s"
 
-#. initialize the list of gimp dynamics
+#. initialize the list of Glimpse dynamics
 #: ../app/core/gimp-data-factories.c:354 ../app/core/gimpcontext.c:722
 #: ../app/dialogs/preferences-dialog.c:3175
 #: ../app/tools/gimppaintoptions-gui.c:221
@@ -12516,7 +12516,7 @@ msgstr "No priekšplāna uz fonu (HSV pa pulksteni)"
 msgid "FG to Transparent"
 msgstr "No priekšplāna uz caurspīdīgumu"
 
-#. Translator:  This message is displayed while GIMP is waiting for
+#. Translator:  This message is displayed while Glimpse is waiting for
 #. * some operation to finish.  The %s argument is a message describing
 #. * the operation.
 #.
@@ -12565,19 +12565,19 @@ msgstr "Kļūda, aizverot “%s”: %s"
 #: ../app/core/gimp-user-install.c:215
 #, c-format
 msgid ""
-"It seems you have used GIMP %s before.  GIMP will now migrate your user "
+"It seems you have used Glimpse %s before.  Glimpse will now migrate your user "
 "settings to '%s'."
 msgstr ""
-"Izskatās, ka esat lietojuši GIMP %s jau agrāk. GIMP migrēs jūsu iestatījumus "
+"Izskatās, ka esat lietojuši GIMP %s jau agrāk. Glimpse migrēs jūsu iestatījumus "
 "uz “%s”."
 
 #: ../app/core/gimp-user-install.c:220
 #, c-format
 msgid ""
-"It appears that you are using GIMP for the first time.  GIMP will now create "
+"It appears that you are using Glimpse for the first time.  Glimpse will now create "
 "a folder named '%s' and copy some files to it."
 msgstr ""
-"Izskatās, ka lietojat GIMP pirmo reizi. GIMP izveidos mapi “%s” un iekopēs "
+"Izskatās, ka lietojat Glimpse pirmo reizi. Glimpse izveidos mapi “%s” un iekopēs "
 "tajā dažas datnes."
 
 #: ../app/core/gimp-user-install.c:419
@@ -12656,9 +12656,9 @@ msgstr "Bez nosaukuma"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr ""
-"Nelabojama kļūda, parsējot otu datni — nepieļaujams dziļums %d. GIMP otas "
+"Nelabojama kļūda, parsējot otu datni — nepieļaujams dziļums %d. Glimpse otas "
 "darbojas tikai RGBA un pelēktoņu režīmos."
 
 #: ../app/core/gimpbrush-load.c:515
@@ -12720,18 +12720,18 @@ msgstr "Starpliktuves attēls"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, c-format
-msgid "Not a GIMP brush file."
-msgstr "Nav GIMP otu datne."
+msgid "Not a Glimpse brush file."
+msgstr "Nav Glimpse otu datne."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, c-format
-msgid "Unknown GIMP brush version."
-msgstr "Nezināma GIMP otas versija."
+msgid "Unknown Glimpse brush version."
+msgstr "Nezināma Glimpse otas versija."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
-msgstr "Nezināma GIMP otas forma."
+msgid "Unknown Glimpse brush shape."
+msgstr "Nezināma Glimpse otas forma."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
 #, c-format
@@ -13286,8 +13286,8 @@ msgstr "Aizpildīt ar viendabīgu krāsu"
 
 #: ../app/core/gimpgradient-load.c:73
 #, c-format
-msgid "Not a GIMP gradient file."
-msgstr "Nav GIMP krāsu pārejas datne."
+msgid "Not a Glimpse gradient file."
+msgstr "Nav Glimpse krāsu pārejas datne."
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -14232,10 +14232,10 @@ msgstr "Nezināma raksta formāta versija %d."
 #, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"Glimpse Patterns must be GRAY or RGB."
 msgstr ""
 "Neatbalstīts raksta dziļums %d.\n"
-"GIMP rakstiem jābūt pelēktoņu vai RGB."
+"Glimpse rakstiem jābūt pelēktoņu vai RGB."
 
 #: ../app/core/gimppattern-load.c:99
 #, c-format
@@ -14700,12 +14700,12 @@ msgid "percent"
 msgstr "procenti"
 
 #: ../app/dialogs/about-dialog.c:115
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "Par GIMP"
 
 #: ../app/dialogs/about-dialog.c:124
-msgid "Visit the GIMP website"
-msgstr "Apmeklēt GIMP tīmekļa vietni"
+msgid "Visit the Glimpse website"
+msgstr "Apmeklēt Glimpse tīmekļa vietni"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -14717,7 +14717,7 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:529
 msgid "Glimpse is brought to you by"
-msgstr "GIMP ir veidojuši"
+msgstr "Glimpse ir veidojuši"
 
 #: ../app/dialogs/about-dialog.c:605
 #, c-format
@@ -14971,12 +14971,12 @@ msgstr "Vai tiešām vēlaties izņemt “%s” no saraksta un no dzēst no disk
 
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:192
 #: ../app/gui/gui-message.c:271
-msgid "GIMP Message"
-msgstr "GIMP paziņojums"
+msgid "Glimpse Message"
+msgstr "Glimpse paziņojums"
 
 #: ../app/dialogs/dialogs-constructors.c:225
-msgid "GIMP Debug"
-msgstr "GIMP atkļūdošana"
+msgid "Glimpse Debug"
+msgstr "Glimpse atkļūdošana"
 
 #: ../app/dialogs/dialogs.c:314
 msgid "Devices"
@@ -15072,10 +15072,10 @@ msgstr "Doto datnes nosaukumu nevar izmantot eksportēšanai"
 #: ../app/dialogs/file-save-dialog.c:619
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "Šo dialoglodziņu varat izmantot, lai eksportētu uz dažādiem datņu formātiem. "
-"Ja vēlaties saglabāt attālu GIMP XCF formātā, lietojiet Datne→Saglabāt."
+"Ja vēlaties saglabāt attālu Glimpse XCF formātā, lietojiet Datne→Saglabāt."
 
 #: ../app/dialogs/file-save-dialog.c:622
 msgid "Take me to the Save dialog"
@@ -15087,10 +15087,10 @@ msgstr "Doto datnes nosaukumu nevar izmantot saglabāšanai"
 
 #: ../app/dialogs/file-save-dialog.c:627
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export to "
 "export to other file formats."
 msgstr ""
-"Jūs varat izmantot šo dialoglodziņu, lai saglabātu GIMP XCF formātā. "
+"Jūs varat izmantot šo dialoglodziņu, lai saglabātu Glimpse XCF formātā. "
 "Lietojiet Datne→Eksportēt, lai eksportētu uz citiem datņu formātiem."
 
 #: ../app/dialogs/file-save-dialog.c:629
@@ -15451,7 +15451,7 @@ msgid "_Refresh"
 msgstr "_Atsvaidzināt"
 
 #: ../app/dialogs/module-dialog.c:153
-msgid "You will have to restart GIMP for the changes to take effect."
+msgid "You will have to restart Glimpse for the changes to take effect."
 msgstr "Jums ir jāpārstartē GIMP, lai izmaiņas stātos spēkā."
 
 #: ../app/dialogs/module-dialog.c:194
@@ -15628,16 +15628,16 @@ msgstr ""
 "Vai jūs tiešām vēlaties atstatīt visus iestatījumus uz sākotnējām vērtībām?"
 
 #: ../app/dialogs/preferences-dialog.c:381
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid "You will have to restart Glimpse for the following changes to take effect:"
 msgstr "Jums ir jāpārstartē GIMP, lai sekojošās izmaiņas stātos spēkā:"
 
 #: ../app/dialogs/preferences-dialog.c:647
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "Tastatūras īsinājumtaustiņi tiks atstatīti uz sākotnējām vērtībām, kad "
-"palaidīsiet GIMP nākošo reizi."
+"palaidīsiet Glimpse nākošo reizi."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15660,10 +15660,10 @@ msgstr ""
 #: ../app/dialogs/preferences-dialog.c:756
 msgid ""
 "Your input device settings will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "Ievadierīces parametri tiks atstatīti uz sākotnējām vērtībām, kad startēsiet "
-"GIMP nākošo reizi."
+"Glimpse nākošo reizi."
 
 #: ../app/dialogs/preferences-dialog.c:798
 msgid ""
@@ -15819,12 +15819,12 @@ msgstr "Atkļūdošana"
 
 #: ../app/dialogs/preferences-dialog.c:1245
 msgid ""
-"We hope you will never need these settings, but as all software, GIMP has "
+"We hope you will never need these settings, but as all software, Glimpse has "
 "bugs, and crashes can occur. If it happens, you can help us by reporting "
 "bugs."
 msgstr ""
 "Mēs ceram, ka jums nekad nevajadzēs izmantot šos iestatījumus, bet kā jau "
-"katrā programmatūrā, arī GIMP ir ar kļūdām un var gadīties avārijas. Ja tā "
+"katrā programmatūrā, arī Glimpse ir ar kļūdām un var gadīties avārijas. Ja tā "
 "notiek, jūs varat mums palīdzēt, ziņojot par kļūdām."
 
 #: ../app/dialogs/preferences-dialog.c:1254
@@ -16072,11 +16072,11 @@ msgstr "Spēļu laukums"
 
 #: ../app/dialogs/preferences-dialog.c:1610
 msgid ""
-"These features are unfinished, buggy and may crash GIMP. It is unadvised to "
+"These features are unfinished, buggy and may crash Glimpse. It is unadvised to "
 "use them unless you really know what you are doing or you intend to "
 "contribute patches."
 msgstr ""
-"Šīs iespējas ir nepabeigtas, kļūdainas un var izraisīt GIMP avāriju. Nav "
+"Šīs iespējas ir nepabeigtas, kļūdainas un var izraisīt Glimpse avāriju. Nav "
 "ieteicams tās izmantot, ja vien tiešām zināt, ko darāt, vai arī plānojat "
 "iesniegt ielāpus."
 
@@ -16271,8 +16271,8 @@ msgid "Appearance"
 msgstr "Izskats"
 
 #: ../app/dialogs/preferences-dialog.c:2107
-msgid "Show GIMP _logo (drag-and-drop target)"
-msgstr "Rādīt GIMP _logo (vilkšanas un mešanas mērķis)"
+msgid "Show Glimpse _logo (drag-and-drop target)"
+msgstr "Rādīt Glimpse _logo (vilkšanas un mešanas mērķis)"
 
 #: ../app/dialogs/preferences-dialog.c:2111
 msgid "Show _foreground & background color"
@@ -16609,10 +16609,10 @@ msgstr "Palīdzības pārlūka izvēl_e:"
 
 #: ../app/dialogs/preferences-dialog.c:2567
 msgid ""
-"The GIMP help browser doesn't seem to be installed. Using the web browser "
+"The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr ""
-"Izskatās, ka GIMP palīdzības pārlūks, nav uzinstalēts. Tā vietā izmantojiet "
+"Izskatās, ka Glimpse palīdzības pārlūks, nav uzinstalēts. Tā vietā izmantojiet "
 "tīmekļa pārlūku."
 
 #. Action Search
@@ -17177,7 +17177,7 @@ msgid "pixels/%a"
 msgstr "pikseļi/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
-msgid "Quit GIMP"
+msgid "Quit Glimpse"
 msgstr "Iziet no GIMP"
 
 #: ../app/dialogs/quit-dialog.c:164
@@ -17185,8 +17185,8 @@ msgid "Close All Images"
 msgstr "Aizvērt visus attēlus"
 
 #: ../app/dialogs/quit-dialog.c:256
-msgid "If you quit GIMP now, these changes will be lost."
-msgstr "Ja vēlaties iziet no GIMP tagad, visas izmaiņas zudīs."
+msgid "If you quit Glimpse now, these changes will be lost."
+msgstr "Ja vēlaties iziet no Glimpse tagad, visas izmaiņas zudīs."
 
 #: ../app/dialogs/quit-dialog.c:259
 msgid "If you close these images now, changes will be lost."
@@ -17330,12 +17330,12 @@ msgid "_Emulate brush dynamics"
 msgstr "_Emulēt otas dinamiku"
 
 #: ../app/dialogs/tips-dialog.c:99
-msgid "The GIMP tips file is empty!"
-msgstr "GIMP padomu datne ir tukša!"
+msgid "The Glimpse tips file is empty!"
+msgstr "Glimpse padomu datne ir tukša!"
 
 #: ../app/dialogs/tips-dialog.c:103
-msgid "The GIMP tips file appears to be missing!"
-msgstr "GIMP padomu datne nav atrasta!"
+msgid "The Glimpse tips file appears to be missing!"
+msgstr "Glimpse padomu datne nav atrasta!"
 
 #: ../app/dialogs/tips-dialog.c:105
 #, c-format
@@ -17343,12 +17343,12 @@ msgid "There should be a file called '%s'. Please check your installation."
 msgstr "Jābūt datnei “%s”. Pārbaudiet programmas instalāciju."
 
 #: ../app/dialogs/tips-dialog.c:111
-msgid "The GIMP tips file could not be parsed!"
-msgstr "GIMP padomu datni nevarēja parsēt!"
+msgid "The Glimpse tips file could not be parsed!"
+msgstr "Glimpse padomu datni nevarēja parsēt!"
 
 #: ../app/dialogs/tips-dialog.c:139
-msgid "GIMP Tip of the Day"
-msgstr "GIMP dienas padoms"
+msgid "Glimpse Tip of the Day"
+msgstr "Glimpse dienas padoms"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -17373,17 +17373,17 @@ msgid "tips-locale:C"
 msgstr "tips-locale:lv"
 
 #: ../app/dialogs/user-install-dialog.c:85
-msgid "GIMP User Installation"
-msgstr "GIMP lietotāja instalācija"
+msgid "Glimpse User Installation"
+msgstr "Glimpse lietotāja instalācija"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
 msgstr "Lietotāja instalācija neizdevās!"
 
 #: ../app/dialogs/user-install-dialog.c:96
-msgid "The GIMP user installation failed; see the log for details."
+msgid "The Glimpse user installation failed; see the log for details."
 msgstr ""
-"GIMP lietotāja instalācija neizdevās; instalēšanas detaļas apskatiet žurnālā."
+"Glimpse lietotāja instalācija neizdevās; instalēšanas detaļas apskatiet žurnālā."
 
 #: ../app/dialogs/user-install-dialog.c:99
 msgid "Installation Log"
@@ -18251,18 +18251,18 @@ msgstr "Nederīga simbolu secība URI adresē"
 
 #: ../app/file-data/file-data.c:59 ../app/file-data/file-data.c:124
 #| msgid "Mybrush"
-msgid "GIMP brush"
-msgstr "GIMP ota"
+msgid "Glimpse brush"
+msgstr "Glimpse ota"
 
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-#| msgid "Not a GIMP brush file."
-msgid "GIMP brush (animated)"
-msgstr "GIMP otu (animēta)"
+#| msgid "Not a Glimpse brush file."
+msgid "Glimpse brush (animated)"
+msgstr "Glimpse otu (animēta)"
 
 #: ../app/file-data/file-data.c:365 ../app/file-data/file-data.c:426
 #| msgid "Pattern"
-msgid "GIMP pattern"
-msgstr "GIMP raksts"
+msgid "Glimpse pattern"
+msgstr "Glimpse raksts"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318
 #: ../app/gegl/gimp-babl.c:319 ../app/gegl/gimp-babl.c:320
@@ -18963,8 +18963,8 @@ msgid "Curve"
 msgstr "Līkne"
 
 #: ../app/operations/gimpcurvesconfig.c:547
-msgid "not a GIMP Curves file"
-msgstr "nav GIMP līkņu datne"
+msgid "not a Glimpse Curves file"
+msgstr "nav Glimpse līkņu datne"
 
 #: ../app/operations/gimpcurvesconfig.c:578
 msgid "Parse error, didn't find 2 integers"
@@ -19037,8 +19037,8 @@ msgid "Clamp final output values."
 msgstr "Ierobežot izvades gala vērtības."
 
 #: ../app/operations/gimplevelsconfig.c:843
-msgid "not a GIMP Levels file"
-msgstr "nav GIMP līmeņu datne"
+msgid "not a Glimpse Levels file"
+msgstr "nav Glimpse līmeņu datne"
 
 #: ../app/operations/gimplevelsconfig.c:918
 msgid "parse error"
@@ -19054,15 +19054,15 @@ msgid "Adjust brightness and contrast"
 msgstr "Mainīt spilgtumu un kontrastu"
 
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
-msgid "Compute a set of coefficient buffer for the GIMP cage tool"
-msgstr "Izskaitļot koeficienta bufera kopu GIMP aploka rīkam"
+msgid "Compute a set of coefficient buffer for the Glimpse cage tool"
+msgstr "Izskaitļot koeficienta bufera kopu Glimpse aploka rīkam"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 msgid ""
-"Convert a set of coefficient buffer to a coordinate buffer for the GIMP cage "
+"Convert a set of coefficient buffer to a coordinate buffer for the Glimpse cage "
 "tool"
 msgstr ""
-"Konvertēt koeficientu buferu kopu uz koordinātu buferi GIMP aploka rīkam"
+"Konvertēt koeficientu buferu kopu uz koordinātu buferi Glimpse aploka rīkam"
 
 #: ../app/operations/gimpoperationcagetransform.c:129
 msgid "Fill with plain color"
@@ -19160,9 +19160,9 @@ msgstr "Vērtība"
 msgid "The alpha value"
 msgstr "Alfa vērtība"
 
-#. TRANSLATORS: there is no need to translate this in GIMP. This uses
+#. TRANSLATORS: there is no need to translate this in Glimpse. This uses
 #. * "gtk20" domain as a special trick to determine language direction,
-#. * but xgettext extracts it anyway mistakenly into GIMP po files.
+#. * but xgettext extracts it anyway mistakenly into Glimpse po files.
 #. * Leave an empty string as translation. It does not matter.
 #.
 #: ../app/gui/gui.c:238
@@ -19182,8 +19182,8 @@ msgid "_Recover"
 msgstr "_Atjaunot"
 
 #: ../app/gui/gui.c:342
-msgid "Eeek! It looks like GIMP recovered from a crash!"
-msgstr "Izskatās, ka GIMP ir atguvies no avārijas!"
+msgid "Eeek! It looks like Glimpse recovered from a crash!"
+msgstr "Izskatās, ka Glimpse ir atguvies no avārijas!"
 
 #. TRANSLATORS: even if English singular form does
 #. * not use %d, you can use %d for translation in
@@ -19212,8 +19212,8 @@ msgid "Documents"
 msgstr "Dokumenti"
 
 #: ../app/gui/splash.c:138
-msgid "GIMP Startup"
-msgstr "GIMP startēšana"
+msgid "Glimpse Startup"
+msgstr "Glimpse startēšana"
 
 #: ../app/paint/gimpairbrush.c:77 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -20518,13 +20518,13 @@ msgid ""
 "Plug-in crashed: \"%s\"\n"
 "(%s)\n"
 "\n"
-"The dying plug-in may have messed up GIMP's internal state. You may want to "
-"save your images and restart GIMP to be on the safe side."
+"The dying plug-in may have messed up Glimpse's internal state. You may want to "
+"save your images and restart Glimpse to be on the safe side."
 msgstr ""
 "Spraudnis avarēja — “%s”\n"
 "(%s)\n"
 "\n"
-"Iespējams, ka tas ietekmējis GIMP iekšējo stāvokli. Drošības pēc jūs varētu "
+"Iespējams, ka tas ietekmējis Glimpse iekšējo stāvokli. Drošības pēc jūs varētu "
 "saglabāt attēlus un pārstartēt GIMP."
 
 #: ../app/plug-in/gimpplugin-message.c:486
@@ -20636,8 +20636,8 @@ msgstr ""
 
 #: ../app/plug-in/plug-in-rc.c:237
 #, c-format
-msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "Ignorēts “%s” — nepareiza GIMP protokola versija."
+msgid "Skipping '%s': wrong Glimpse protocol version."
+msgstr "Ignorēts “%s” — nepareiza Glimpse protokola versija."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, c-format
@@ -22700,8 +22700,8 @@ msgid "_Move"
 msgstr "_Pārvietot"
 
 #: ../app/tools/gimpmybrushtool.c:74
-msgid "MyPaint Brush Tool: Use MyPaint brushes in GIMP"
-msgstr "MyPaint otas rīks: lietojiet MyPaint otas GIMP lietotnē"
+msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
+msgstr "MyPaint otas rīks: lietojiet MyPaint otas Glimpse lietotnē"
 
 #: ../app/tools/gimpmybrushtool.c:75
 msgid "M_yPaint Brush"
@@ -23413,8 +23413,8 @@ msgstr ""
 "Jūs varat turpināt rediģēt šo slāni vai arī izveidot jaunu."
 
 #: ../app/tools/gimptexttool-editor.c:1357
-msgid "GIMP Text Editor"
-msgstr "GIMP teksta redaktors"
+msgid "Glimpse Text Editor"
+msgstr "Glimpse teksta redaktors"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -24805,7 +24805,7 @@ msgstr "Atvērt kļūdu atsekošanas programmu"
 #: ../app/widgets/gimpcriticaldialog.c:132
 #: ../app/widgets/gimpcriticaldialog.c:455
 msgid ""
-"To help us improve GIMP, you can report the bug with these simple steps:"
+"To help us improve Glimpse, you can report the bug with these simple steps:"
 msgstr ""
 "Lai palīdzētu mums uzlabot GIMP, jūs varat ziņot par kļūdām, izmantojot šos "
 "soļus:"
@@ -24841,10 +24841,10 @@ msgstr ""
 
 #: ../app/widgets/gimpcriticaldialog.c:142
 msgid ""
-"This error may have left GIMP in an inconsistent state. It is advised to "
-"save your work and restart GIMP."
+"This error may have left Glimpse in an inconsistent state. It is advised to "
+"save your work and restart Glimpse."
 msgstr ""
-"Iespējams, šī kļūda ir atstājusi GIMP programmu nekonsekventā stāvoklī. "
+"Iespējams, šī kļūda ir atstājusi Glimpse programmu nekonsekventā stāvoklī. "
 "Vēlams saglabāt savu darbu un pārstartēt GIMP."
 
 #: ../app/widgets/gimpcriticaldialog.c:153
@@ -24920,25 +24920,25 @@ msgstr "Neizdevās atvērt “%s” — %s"
 
 #: ../app/widgets/gimpcriticaldialog.c:421
 #, c-format
-msgid "GIMP crashed with a fatal error: %s"
-msgstr "GIMP avarēja ar fatālu kļūdu — %s"
+msgid "Glimpse crashed with a fatal error: %s"
+msgstr "Glimpse avarēja ar fatālu kļūdu — %s"
 
 #. First error. Let's just display it.
 #: ../app/widgets/gimpcriticaldialog.c:428
 #, c-format
-msgid "GIMP encountered an error: %s"
-msgstr "GIMP saskārās ar kļūdu — %s"
+msgid "Glimpse encountered an error: %s"
+msgstr "Glimpse saskārās ar kļūdu — %s"
 
 #. Let's not display all errors. They will be in the bug report
 #. * part anyway.
 #.
 #: ../app/widgets/gimpcriticaldialog.c:436
 #, c-format
-msgid "GIMP encountered several critical errors!"
-msgstr "GIMP saskārās ar vairākām kritiskām kļūdām!"
+msgid "Glimpse encountered several critical errors!"
+msgstr "Glimpse saskārās ar vairākām kritiskām kļūdām!"
 
 #: ../app/widgets/gimpcriticaldialog.c:488
-msgid "_Restart GIMP"
+msgid "_restart Glimpse"
 msgstr "Pā_rstartēt GIMP"
 
 #: ../app/widgets/gimpdashboard.c:454 ../app/widgets/gimpdashboard.c:506
@@ -25156,7 +25156,7 @@ msgid "Total size of scratch memory"
 msgstr "Kopējais fragmentu atmiņas izmērs"
 
 #. Translators:  "TempBuf" is a technical term referring to an internal
-#. * GIMP data structure.  It's probably OK to leave it untranslated.
+#. * Glimpse data structure.  It's probably OK to leave it untranslated.
 #.
 #: ../app/widgets/gimpdashboard.c:715
 msgctxt "dashboard-variable"
@@ -25474,7 +25474,7 @@ msgid "Messages are redirected to stderr."
 msgstr "Paziņojumi pāradresēti uz stderr."
 
 #. %s is a message domain,
-#. * like "GIMP Message" or
+#. * like "Glimpse Message" or
 #. * "PNG Message"
 #.
 #: ../app/widgets/gimperrordialog.c:196
@@ -25655,15 +25655,15 @@ msgid "Help browser is missing"
 msgstr "Palīdzības pārlūka nav"
 
 #: ../app/widgets/gimphelp.c:372
-msgid "The GIMP help browser is not available."
-msgstr "GIMP palīdzības pārlūks nav pieejams."
+msgid "The Glimpse help browser is not available."
+msgstr "Glimpse palīdzības pārlūks nav pieejams."
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
-"The GIMP help browser plug-in appears to be missing from your installation. "
+"The Glimpse help browser plug-in appears to be missing from your installation. "
 "You may instead use the web browser for reading the help pages."
 msgstr ""
-"GIMP palīdzības spraudnis jūsu instalācijā nav atrodams. Tā vietā palīdzības "
+"Glimpse palīdzības spraudnis jūsu instalācijā nav atrodams. Tā vietā palīdzības "
 "lapu lasīšanai varat izmantot tīmekļa pārlūku."
 
 #: ../app/widgets/gimphelp.c:419
@@ -25671,8 +25671,8 @@ msgid "Help browser doesn't start"
 msgstr "Palīdzības pārlūks nestartējas"
 
 #: ../app/widgets/gimphelp.c:420
-msgid "Could not start the GIMP help browser plug-in."
-msgstr "GIMP palīdzības pārlūks spraudnis nestartējas."
+msgid "Could not start the Glimpse help browser plug-in."
+msgstr "Glimpse palīdzības pārlūks spraudnis nestartējas."
 
 #: ../app/widgets/gimphelp.c:422
 msgid "You may instead use the web browser for reading the help pages."
@@ -25683,12 +25683,12 @@ msgid "Use _Web Browser"
 msgstr "Izmantot _tīmekļa pārlūku"
 
 #: ../app/widgets/gimphelp.c:793
-msgid "GIMP user manual is missing"
-msgstr "GIMP lietotāja rokasgrāmata nav atrodama"
+msgid "Glimpse user manual is missing"
+msgstr "Glimpse lietotāja rokasgrāmata nav atrodama"
 
 #: ../app/widgets/gimphelp.c:809
-msgid "The GIMP user manual is not installed in your language."
-msgstr "GIMP lietotāja rokasgrāmata nav uzinstalēta šai valodai."
+msgid "The Glimpse user manual is not installed in your language."
+msgstr "Glimpse lietotāja rokasgrāmata nav uzinstalēta šai valodai."
 
 #: ../app/widgets/gimphelp.c:820
 msgid "Read Selected _Language"
@@ -26003,16 +26003,16 @@ msgstr ""
 #, c-format
 #| msgid ""
 #| "The image uses features from %s, disabling compression won't make the XCF "
-#| "file readable by older GIMP versions."
+#| "file readable by older Glimpse versions."
 msgid ""
-"The image uses features from %s and won't be readable by older GIMP versions."
+"The image uses features from %s and won't be readable by older Glimpse versions."
 msgstr ""
 "Šis attēls izmanto iespējas no %s, un tas nebūs lasāms ar vecākām GIMP"
 " versijām."
 
 #: ../app/widgets/gimpsavedialog.c:407
-msgid "Metadata won't be visible in GIMP older than version 2.10."
-msgstr "Metadati nebūs redzami GIMP laidieniem, kas vecāki par 2.10 versiju."
+msgid "Metadata won't be visible in Glimpse older than version 2.10."
+msgstr "Metadati nebūs redzami Glimpse laidieniem, kas vecāki par 2.10 versiju."
 
 #: ../app/widgets/gimpselectiondata.c:250
 #, c-format
@@ -26397,8 +26397,8 @@ msgid "%s Preset"
 msgstr "%s priekšiestatījums"
 
 #: ../app/widgets/gimpuimanager.c:778
-msgid "Your GIMP installation is incomplete:"
-msgstr "GIMP instalācija nav pabeigta:"
+msgid "Your Glimpse installation is incomplete:"
+msgstr "Glimpse instalācija nav pabeigta:"
 
 #: ../app/widgets/gimpuimanager.c:780
 msgid "Please make sure the menu XML files are correctly installed."
@@ -26585,8 +26585,8 @@ msgid "Undefined"
 msgstr "Nedefinēts"
 
 #: ../app/xcf/xcf.c:114 ../app/xcf/xcf.c:185
-msgid "GIMP XCF image"
-msgstr "GIMP XCF attēls"
+msgid "Glimpse XCF image"
+msgstr "Glimpse XCF attēls"
 
 #: ../app/xcf/xcf.c:272 ../app/xcf/xcf.c:361
 msgid "Memory Stream"
@@ -26697,8 +26697,8 @@ msgid "Error writing XCF: unsupported BPC when writing pixel: %d"
 msgstr "Kļūda, rakstot XCF — neatbalstīts BPC, rakstot pikseli: %d"
 
 #: ../app-tools/gimp-debug-tool.c:78
-msgid "GIMP Crash Debug"
-msgstr "GIMP avārijas atkļūdošana"
+msgid "Glimpse Crash Debug"
+msgstr "Glimpse avārijas atkļūdošana"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 msgid "round"
@@ -26767,14 +26767,14 @@ msgstr "aptuvens"
 #~ msgid ""
 #~ "Fatal parse error in brush file:\n"
 #~ "Unsupported brush depth %d\n"
-#~ "GIMP brushes must be GRAY or RGBA.\n"
-#~ "This might be an obsolete GIMP brush file, try loading it as image and "
+#~ "Glimpse brushes must be GRAY or RGBA.\n"
+#~ "This might be an obsolete Glimpse brush file, try loading it as image and "
 #~ "save it again."
 #~ msgstr ""
 #~ "Nelabojama kļūda, parsējot otu datni:\n"
 #~ "nepieļaujams dziļums %d.\n"
-#~ "GIMP otas darbojas tikai RGBA un pelēktoņu režīmos.\n"
-#~ "Tā varētu būt novecojusi GIMP otu datne. Mēģiniet to ielādēt kā attēlu un "
+#~ "Glimpse otas darbojas tikai RGBA un pelēktoņu režīmos.\n"
+#~ "Tā varētu būt novecojusi Glimpse otu datne. Mēģiniet to ielādēt kā attēlu un "
 #~ "saglabāt atkal."
 
 #~ msgid "Fade %s"

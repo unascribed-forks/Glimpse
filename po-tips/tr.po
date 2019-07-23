@@ -328,7 +328,7 @@ msgstr ""
 #~ "ile birlikte tıklamak doğrudan maskenin görünümünü açar."
 
 #~ msgid ""
-#~ "The GIMP can undo most changes to the image, so feel free to experiment."
+#~ "The Glimpse can undo most changes to the image, so feel free to experiment."
 #~ msgstr ""
 #~ "GIMP imgedieki çoğu değişiklikleri geri alabilir, yani farklı şeyler "
 #~ "denemek için kendinizi özgür hissedin."

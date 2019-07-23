@@ -83,7 +83,7 @@ Specifies the language to use for the user interface.  This is a string value.
 .TP
 (interpolation-type cubic)
 
-Sets the level of interpolation used for scaling and other transformations. 
+Sets the level of interpolation used for scaling and other transformations.
 Possible values are none, linear, cubic, nohalo and lohalo.
 
 .TP
@@ -497,7 +497,7 @@ milliseconds (less time indicates faster marching).  This is an integer value.
 (resize-windows-on-zoom no)
 
 When enabled, the image window will automatically resize itself when zooming
-into and out of images. This setting only takes effect in multi-window mode. 
+into and out of images. This setting only takes effect in multi-window mode.
 Possible values are yes and no.
 
 .TP
@@ -529,7 +529,7 @@ tool-crosshair and crosshair.
 .TP
 (cursor-updating yes)
 
-Context-dependent mouse pointers are helpful.  They are enabled by default. 
+Context-dependent mouse pointers are helpful.  They are enabled by default.
 However, they require overhead that you may want to do without.  Possible
 values are yes and no.
 
@@ -712,7 +712,7 @@ information.  This is a float value.
 .TP
 (monitor-resolution-from-windowing-system yes)
 
-When enabled, GIMP will use the monitor resolution from the windowing system. 
+When enabled, GIMP will use the monitor resolution from the windowing system.
 Possible values are yes and no.
 
 .TP
@@ -760,7 +760,7 @@ Sets the default settings for the image view.  This is a parameter list.
     (padding-mode default)
     (padding-color (color-rgb 1.000000 1.000000 1.000000)))
 
-Sets the default settings used when an image is viewed in fullscreen mode. 
+Sets the default settings used when an image is viewed in fullscreen mode.
 This is a parameter list.
 
 .TP
@@ -779,7 +779,7 @@ are none, pan and move.
 .TP
 (zoom-quality high)
 
-There's a tradeoff between speed and quality of the zoomed-out display. 
+There's a tradeoff between speed and quality of the zoomed-out display.
 Possible values are low and high.
 
 .TP
@@ -821,7 +821,7 @@ was opened.  Possible values are yes and no.
 .TP
 (save-device-status yes)
 
-Remember the current tool, pattern, color, and brush across GIMP sessions. 
+Remember the current tool, pattern, color, and brush across GIMP sessions.
 Possible values are yes and no.
 
 .TP
@@ -847,7 +847,7 @@ values are yes and no.
 (restore-monitor no)
 
 When enabled, GIMP will try to restore windows on the monitor they were open
-before.  When disabled, windows will appear on the currently used monitor. 
+before.  When disabled, windows will appear on the currently used monitor.
 Possible values are yes and no.
 
 .TP
@@ -909,7 +909,7 @@ values are yes and no.
 .TP
 (toolbox-foo-area no)
 
-Show the currently selected brush, pattern and gradient in the toolbox. 
+Show the currently selected brush, pattern and gradient in the toolbox.
 Possible values are yes and no.
 
 .TP
@@ -1006,7 +1006,7 @@ is enabled.  This is a string value.
 (dock-window-hint utility)
 
 The window type hint that is set on dock windows and the toolbox window. This
-may affect the way your window manager decorates and handles these windows. 
+may affect the way your window manager decorates and handles these windows.
 Possible values are normal, utility and keep-above.
 
 .TP
@@ -1039,7 +1039,7 @@ single filename.
 .TP
 (image-convert-profile-intent relative-colorimetric)
 
-Sets the default rendering intent for the 'Convert to Color Profile' dialog. 
+Sets the default rendering intent for the 'Convert to Color Profile' dialog.
 Possible values are perceptual, relative-colorimetric, saturation and
 absolute-colorimetric.
 
@@ -1052,7 +1052,7 @@ Profile' dialog.  Possible values are yes and no.
 .TP
 (image-convert-precision-layer-dither-method none)
 
-Sets the default layer dithering method for the 'Convert Precision' dialog. 
+Sets the default layer dithering method for the 'Convert Precision' dialog.
 Possible values are none, floyd-steinberg, bayer, random, random-covariant,
 add, add-covariant, xor and xor-covariant.
 
@@ -1066,7 +1066,7 @@ random-covariant, add, add-covariant, xor and xor-covariant.
 .TP
 (image-convert-precision-channel-dither-method none)
 
-Sets the default channel dithering method for the 'Convert Precision' dialog. 
+Sets the default channel dithering method for the 'Convert Precision' dialog.
 Possible values are none, floyd-steinberg, bayer, random, random-covariant,
 add, add-covariant, xor and xor-covariant.
 
@@ -1097,7 +1097,7 @@ values are none, fs, fs-lowbleed and fixed.
 .TP
 (image-convert-indexed-dither-alpha no)
 
-Sets the default 'Dither alpha' state for the 'Convert to Indexed' dialog. 
+Sets the default 'Dither alpha' state for the 'Convert to Indexed' dialog.
 Possible values are yes and no.
 
 .TP
@@ -1115,13 +1115,13 @@ foreground, background, white, transparent and pattern.
 .TP
 (image-resize-layer-set none)
 
-Sets the default set of layers to resize for the 'Canvas Size' dialog. 
+Sets the default set of layers to resize for the 'Canvas Size' dialog.
 Possible values are none, all, image-sized, visible and linked.
 
 .TP
 (image-resize-resize-text-layers no)
 
-Sets the default 'Resize text layers' state for the 'Canvas Size' dialog. 
+Sets the default 'Resize text layers' state for the 'Canvas Size' dialog.
 Possible values are yes and no.
 
 .TP
@@ -1192,7 +1192,7 @@ white, black, alpha, alpha-transfer, selection, copy and channel.
 .TP
 (layer-add-mask-invert no)
 
-Sets the default 'invert mask' state for the 'Add Layer Mask' dialog. 
+Sets the default 'invert mask' state for the 'Add Layer Mask' dialog.
 Possible values are yes and no.
 
 .TP
@@ -1205,13 +1205,13 @@ flatten-image.
 .TP
 (layer-merge-active-group-only yes)
 
-Sets the default 'Active group only' for the 'Merge Visible Layers' dialog. 
+Sets the default 'Active group only' for the 'Merge Visible Layers' dialog.
 Possible values are yes and no.
 
 .TP
 (layer-merge-discard-invisible no)
 
-Sets the default 'Discard invisible' for the 'Merge Visible Layers' dialog. 
+Sets the default 'Discard invisible' for the 'Merge Visible Layers' dialog.
 Possible values are yes and no.
 
 .TP
@@ -1240,7 +1240,7 @@ filename.
 .TP
 (path-export-active-only yes)
 
-Sets the default 'Export the active path' state for the 'Export Path' dialog. 
+Sets the default 'Export the active path' state for the 'Export Path' dialog.
 Possible values are yes and no.
 
 .TP
@@ -1251,7 +1251,7 @@ filename.
 .TP
 (path-import-merge no)
 
-Sets the default 'Merge imported paths' state for the 'Import Path' dialog. 
+Sets the default 'Merge imported paths' state for the 'Import Path' dialog.
 Possible values are yes and no.
 
 .TP
@@ -1356,7 +1356,7 @@ colon-separated list of folders to search.
 .TP
 (script-fu-path "${gimp_dir}/scripts:${gimp_data_dir}/scripts")
 
-This path will be searched for scripts when the Script-Fu plug-in is run. 
+This path will be searched for scripts when the Script-Fu plug-in is run.
 This is a colon-separated list of folders to search.
 
 .PP
@@ -1386,7 +1386,7 @@ compiled-in default value @gimpplugindir@.
 .TP
 .I gimp_sysconf_dir
 Path to configuration files, which is set to the value of the environment
-variable GIMP2_SYSCONFDIR or to the compiled-in default value 
+variable GIMP2_SYSCONFDIR or to the compiled-in default value
 @gimpsysconfdir@.
 .TP
 .I gimp_cache_dir

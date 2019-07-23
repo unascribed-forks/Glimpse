@@ -35,7 +35,7 @@
  * SECTION: gimphelpui
  * @title: GimpHelpUI
  * @short_description: Functions for setting tooltip and help identifier
- *                     used by the GIMP help system.
+ *                     used by the Glimpse help system.
  *
  * Functions for setting tooltip and help identifier used by the GIMP
  * help system.
@@ -130,7 +130,7 @@ gimp_help_disable_tooltips (void)
  * @help_id:   A unique help identifier.
  * @help_data: The @help_data passed to gimp_help_connect().
  *
- * This is the standard GIMP help function which does nothing but calling
+ * This is the standard Glimpse help function which does nothing but calling
  * gimp_help(). It is the right function to use in almost all cases.
  **/
 void
@@ -449,7 +449,7 @@ gimp_help_menu_item_query_tooltip (GtkWidget  *widget,
  *  some widget holding a grab before starting the query because strange
  *  things happen if (1) the help browser pops up while the query has
  *  grabbed the pointer or (2) the query grabs the pointer while some
- *  other part of GIMP has grabbed it (e.g. a tool, eek)
+ *  other part of Glimpse has grabbed it (e.g. a tool, eek)
  */
 
 static gboolean

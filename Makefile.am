@@ -52,33 +52,20 @@ if HAVE_XSLTPROC
 	$(XSLTPROC) -o $(@) $(top_srcdir)/authors.xsl $< || rm -f $(@)
 endif
 
-authors.md: authors.xml authors4gimp-web.xsl
+authors.md: authors.xml authors4glimpse-web.xsl
 if HAVE_XSLTPROC
-	$(XSLTPROC) --stringparam today "`date --iso-8601=seconds`" -o $(@) $(top_srcdir)/authors4gimp-web.xsl $< || rm -f $(@)
+	$(XSLTPROC) --stringparam today "`date --iso-8601=seconds`" -o $(@) $(top_srcdir)/authors4glimpse-web.xsl $< || rm -f $(@)
 endif
 
 EXTRA_DIST = \
 	AUTHORS			\
 	COPYING			\
-	ChangeLog		\
-	ChangeLog.pre-1-0	\
-	ChangeLog.pre-1-2	\
-	ChangeLog.pre-2-0	\
-	ChangeLog.pre-2-2	\
-	ChangeLog.pre-2-4	\
-	ChangeLog.pre-2-6	\
-	ChangeLog.pre-git	\
 	HACKING			\
 	INSTALL			\
 	LICENSE			\
 	NEWS			\
-	NEWS.pre-2-0		\
-	NEWS.pre-2-2		\
-	NEWS.pre-2-4		\
-	NEWS.pre-2-6		\
-	NEWS.pre-2-8		\
-	NEWS.pre-2-10		\
-	README			\
+	README    \
+	README.md			\
 	README.i18n		\
 	authors.dtd		\
 	authors.xml		\

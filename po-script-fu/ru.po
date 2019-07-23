@@ -821,7 +821,7 @@ msgstr "Ис_пользование контуров"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "Ссылка на руководство пользователя"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -859,7 +859,7 @@ msgstr "Официальный _сайт"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "Ссылка на веб-сайт GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
@@ -891,7 +891,7 @@ msgid "Bookmark to the bug tracker of GIMP"
 msgstr "Ссылка на трекер ошибок в GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "_Сайт с руководством пользователя"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69

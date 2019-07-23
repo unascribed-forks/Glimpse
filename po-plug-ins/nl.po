@@ -3549,7 +3549,7 @@ msgid "Invalid X resolution."
 msgstr "Ongeldige X-resolutie."
 
 #: ../plug-ins/common/file-pnm.c:627
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "Afbeeldingsbreedte is groter dan GIMP aankan."
 
 #: ../plug-ins/common/file-pnm.c:634
@@ -3557,7 +3557,7 @@ msgid "Invalid Y resolution."
 msgstr "Ongeldige Y-resolutie."
 
 #: ../plug-ins/common/file-pnm.c:636
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "Afbeeldingshoogte is groter dan GIMP aankan."
 
 # burk!
@@ -4134,7 +4134,7 @@ msgstr "'%s': Geen afbeeldingsbreedte opgegeven"
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "Afbeeldingsbreedte is groter dan GIMP aankan"
@@ -4154,7 +4154,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "Afbeeldingshoogte is groter dan GIMP aankan"
@@ -10409,7 +10409,7 @@ msgstr "_Tweede overstraling"
 
 #: ../plug-ins/help-browser/dialog.c:180 ../plug-ins/help-browser/dialog.c:1107
 msgid "GIMP Help Browser"
-msgstr "GIMP helpbrowser"
+msgstr "Glimpse helpbrowser"
 
 #: ../plug-ins/help-browser/dialog.c:556
 msgid "Go back one page"
@@ -10492,7 +10492,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "De hulppagina's voor '%s' niet beschikbaar."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "De GIMP-gebruikershandleiding is niet beschikbaar."
 
 #. TRANSLATORS: do not end the URL with a dot,
@@ -13592,7 +13592,7 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 
 #~ msgid ""
 #~ "Warning:\n"
-#~ "The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+#~ "The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 #~ "bit, so it will be converted for you. Information will be lost because of "
 #~ "this conversion."
 #~ msgstr ""
@@ -15006,7 +15006,7 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgid "The requested URL could not be loaded:"
 #~ msgstr "De gevraagde URL kon niet worden geladen:"
 
-#~ msgid "There is a problem with the GIMP user manual."
+#~ msgid "There is a problem with the Glimpse user manual."
 #~ msgstr "Er is een probleem met de GIMP-gebruikershandleiding."
 
 #~ msgid "Please check your installation."
@@ -15018,7 +15018,7 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgid "checkbutton|Snap to grid"
 #~ msgstr "Magnetisch raster"
 
-#~ msgid "The GIMP help files are not found."
+#~ msgid "The Glimpse help files are not found."
 #~ msgstr "De GIMP-helpbestanden werden niet gevonden."
 
 #~ msgid "_Smoothing:"
@@ -16384,7 +16384,7 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgstr "Kon helpdocument niet vinden"
 
 #~ msgid ""
-#~ "The requested document could not be found in your GIMP help path as shown "
+#~ "The requested document could not be found in your Glimpse help path as shown "
 #~ "above. This means that the topic has not yet been written or your "
 #~ "installation is not complete. Ensure that your installation is complete "
 #~ "before reporting this error as a bug."

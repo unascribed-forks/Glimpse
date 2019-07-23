@@ -8116,7 +8116,7 @@ msgstr "ཊི་ཨའི་ཨེཕ་ཨེཕ་ རྒྱུ་ལམ།"
 #: ../plug-ins/common/tiff.c:972
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 bit, so it will be converted for you. Information will be lost because of this conversion."
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 bit, so it will be converted for you. Information will be lost because of this conversion."
 msgstr ""
 "ཉེན་བརྡ་\n"
 "ཁྱོད་ཀྱིས་མངོན་གསལ་འབད་མི་གཟུགས་བརྙན་ནང་ལུ་རྒྱུ་ལམ་རེ་རེ་ལུ་བིཊིསི་ ༡༦ རེ་ཡོདཔ་ཨིན། ཁྱོད་ཀྱི་གཞི་བསྒྱུར་འབད་ནིའི་དོན་ལུ་ ཇི་ཨའི་ཨེམ་པི་ གིས་བིཊི་ ༨ རྐྱངམ་ཅིག་ལེགས་སྐྱོང་འབད་བཏུབ། འ་ནི་གཞི་བསྒྱུར་འདི་གིས་འབད་བརྡ་དོན་འདི་བརླག་སྟོར་ཞུགས་ནི་ཨིན།"
@@ -10494,7 +10494,7 @@ msgid "Voronoi-mode makes only the smvector closest to the given point have any 
 msgstr "ཝོ་རོ་ནོའི-ཐབས་ལམ་གྱིས་ སེམ་མཉམ་ཐིག་རྐྱངམ་ཅིག་ རྒྱུད་བསྐུལ་གང་རུང་ཅིག་ཡོདཔ་བཟོ་ནིའི་དོན་ལུ་ བཀོད་དེ་ཡོད་པའི་ ཡིག་ཚད་ཀྱི་ཐག་ཉེ་ཤོས་སྦེ་བཟོཝ་ཨིན།"
 
 #: ../plug-ins/help/gimphelpdomain.c:177
-msgid "The GIMP help files are not found."
+msgid "The Glimpse help files are not found."
 msgstr "ཇི་ཨའི་ཨེམ་པི་གྲོགས་རམ་ཡིག་སྣོད་ཚུ་ འཚོལ་མ་ཐོབ།"
 
 #: ../plug-ins/help/gimphelpdomain.c:178
@@ -10502,7 +10502,7 @@ msgid "Please install the additional help package or use the online user manual 
 msgstr "གྲོགས་རམ་ཐུམ་སྒྲིལ་ཁ་སྐོང་གཞི་བཙུགས་འབད་གནང་ ཡང་ན་ http://docs.gimp.org/.དེ་ལུ་གློག་ཐོག་ལག་ལེན་པའི་ལག་དེབ་དེ་ ལག་ལེན་འཐབ།"
 
 #: ../plug-ins/help/gimphelpdomain.c:184
-msgid "There is a problem with the GIMP help files."
+msgid "There is a problem with the Glimpse help files."
 msgstr "ཇི་ཨའི་ཨེམ་པི་ གྲོགས་རམ་ཡིག་སྣོད་དེ་ལུ་ དཀའ་ངལ་ཅིག་འདུགག"
 
 #: ../plug-ins/help/gimphelpdomain.c:186

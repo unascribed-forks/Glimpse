@@ -40,20 +40,20 @@ msgstr "GIMP"
 #, fuzzy, c-format
 msgid ""
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the GIMP Development Team"
+"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 msgstr ""
 "<b>The GIMP - GNU Image Manipulation Program</b>\n"
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the GIMP Development Team."
+"Spencer Kimball, Peter Mattis and the Glimpse Development Team."
 
 #: ../app/about.h:34
 msgid ""
-"GIMP is free software: you can redistribute it and/or modify it under the "
+"Glimpse is free software: you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 3 of the License, or (at your option) any later "
 "version.\n"
 "\n"
-"GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details.\n"
@@ -99,7 +99,7 @@ msgid "Be more verbose"
 msgstr "વધુ વર્બોઝ બનો"
 
 #: ../app/main.c:163
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse instance"
 msgstr ""
 
 #: ../app/main.c:168
@@ -125,7 +125,7 @@ msgid "Do not show a splash screen"
 msgstr "શરૂઆતની વિન્ડો બતાવશો નહિં"
 
 #: ../app/main.c:193
-msgid "Do not use shared memory between GIMP and plugins"
+msgid "Do not use shared memory between Glimpse and plugins"
 msgstr "GIMP અને પ્લગઈનો વચ્ચે વહેંચાયેલ મેમરી વાપરશો નહિં"
 
 #: ../app/main.c:198
@@ -188,18 +188,18 @@ msgstr ""
 
 #: ../app/main.c:405
 msgid ""
-"GIMP could not initialize the graphical user interface.\n"
+"Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
 "GIMP ગ્રાફિકવાળું વપરાશકર્તા ઈન્ટરફેસનો પ્રારંભ કરી શક્યું નહિં.\n"
 "તમારા ડિસ્પ્લે પર્યાવરણ માટે યોગ્ય સુયોજન હાજર છે કે નહિં તેની ખાતરી કરો."
 
 #: ../app/main.c:424
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse instance is already running."
 msgstr ""
 
 #: ../app/main.c:494
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr ""
 
 #: ../app/main.c:495
@@ -208,7 +208,7 @@ msgid "(Type any character to close this window)\n"
 msgstr ""
 
 #: ../app/main.c:512
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr ""
 
 #: ../app/sanity.c:433
@@ -225,7 +225,7 @@ msgstr ""
 #: ../app/sanity.c:452
 #, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -253,7 +253,7 @@ msgstr "%s આવૃત્તિ %s"
 msgid "Brush Editor"
 msgstr "બ્રશ સંપાદક"
 
-#. initialize the list of gimp brushes
+#. initialize the list of Glimpse brushes
 #: ../app/actions/actions.c:113 ../app/core/gimp.c:951
 #: ../app/dialogs/dialogs.c:319 ../app/dialogs/preferences-dialog.c:2740
 msgid "Brushes"
@@ -350,7 +350,7 @@ msgstr "ફોન્ટ"
 msgid "Gradient Editor"
 msgstr "ઢાળ સંપાદક"
 
-#. initialize the list of gimp gradients
+#. initialize the list of Glimpse gradients
 #: ../app/actions/actions.c:176 ../app/core/gimp.c:971
 #: ../app/dialogs/dialogs.c:323 ../app/dialogs/preferences-dialog.c:2756
 msgid "Gradients"
@@ -390,13 +390,13 @@ msgstr "સ્તરો"
 msgid "Palette Editor"
 msgstr "તકતી સંપાદક"
 
-#. initialize the list of gimp palettes
+#. initialize the list of Glimpse palettes
 #: ../app/actions/actions.c:200 ../app/core/gimp.c:966
 #: ../app/dialogs/dialogs.c:325 ../app/dialogs/preferences-dialog.c:2752
 msgid "Palettes"
 msgstr "તકતીઓ"
 
-#. initialize the list of gimp patterns
+#. initialize the list of Glimpse patterns
 #: ../app/actions/actions.c:203 ../app/core/gimp.c:961
 #: ../app/dialogs/dialogs.c:321 ../app/dialogs/preferences-dialog.c:2748
 msgid "Patterns"
@@ -1482,7 +1482,7 @@ msgstr "દિવસની ટિપ્પણી (_T)"
 
 #: ../app/actions/dialogs-actions.c:259
 msgctxt "dialogs-action"
-msgid "Show some helpful tips on using GIMP"
+msgid "Show some helpful tips on using Glimpse"
 msgstr ""
 
 #: ../app/actions/dialogs-actions.c:264
@@ -1494,7 +1494,7 @@ msgstr "વિશે (_A)"
 #: ../app/actions/dialogs-actions.c:265
 #, fuzzy
 msgctxt "dialogs-action"
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "વિશે (_A)"
 
 #: ../app/actions/dialogs-actions.c:328
@@ -2612,7 +2612,7 @@ msgstr "બહાર નીકળો (_Q)"
 #: ../app/actions/file-actions.c:113
 #, fuzzy
 msgctxt "file-action"
-msgid "Quit the GNU Image Manipulation Program"
+msgid "Quit Glimpse"
 msgstr "GNU ચિત્ર જાળવણી કાર્યક્રમ"
 
 #: ../app/actions/file-actions.c:121
@@ -3366,7 +3366,7 @@ msgstr "મદદ (_H)"
 
 #: ../app/actions/help-actions.c:41
 msgctxt "help-action"
-msgid "Open the GIMP user manual"
+msgid "Open the Glimpse user manual"
 msgstr ""
 
 #: ../app/actions/help-actions.c:46
@@ -6577,15 +6577,15 @@ msgstr ""
 #: ../app/actions/windows-actions.c:125
 #, fuzzy
 msgctxt "windows-action"
-msgid "When enabled GIMP is in a single-window mode."
+msgid "When enabled Glimpse is in a single-window mode."
 msgstr "જ્યારે સક્રિય હોય, ત્યારે GIMP મેનુઓમાં સંજ્ઞાસૂચીઓ બતાવશે."
 
 #: ../app/base/tile-swap.c:711
 #, fuzzy
 msgid ""
-"Unable to open swap file. GIMP has run out of memory and cannot use the swap "
+"Unable to open swap file. Glimpse has run out of memory and cannot use the swap "
 "file. Some parts of your images may be corrupted. Try to save your work "
-"using different filenames, restart GIMP and check the location of the swap "
+"using different filenames, restart Glimpse and check the location of the swap "
 "directory in your Preferences."
 msgstr ""
 "સ્વેપ ફાઈલ ખોલવામાં અસમર્થ. Gimp એ મેમરીની મર્યાદા બહાર ચાલી રહ્યું છે અને તે સ્વેપ ફાઈલ "
@@ -6671,7 +6671,7 @@ msgstr "પ્રકાશિત કરો"
 #: ../app/config/config-enums.c:147
 #, fuzzy
 msgctxt "help-browser-type"
-msgid "GIMP help browser"
+msgid "Glimpse help browser"
 msgstr "GIMP મદદ બ્રાઉઝર"
 
 #: ../app/config/config-enums.c:148
@@ -6902,7 +6902,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:221
 msgid ""
-"GIMP will warn the user if an attempt is made to create an image that would "
+"Glimpse will warn the user if an attempt is made to create an image that would "
 "take more memory than the size specified here."
 msgstr ""
 "GIMP વપરાશકર્તાને ચેતવશે જો વારો ચિત્ર બનાવવા માટે કરવામાં આવે કે જે અંહિ સ્પષ્ટ થયેલ માપ "
@@ -6942,7 +6942,7 @@ msgid ""
 msgstr "ચિત્ર વિન્ડોના તળિયે જમણા ખૂણે ઉપલબ્ધ સંશોધન પૂર્વદર્શનનું માપ સુયોજિત કરે છે."
 
 #: ../app/config/gimprc-blurbs.h:249
-msgid "Sets how many processors GIMP should try to use simultaneously."
+msgid "Sets how many processors Glimpse should try to use simultaneously."
 msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:262
@@ -6961,7 +6961,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:278
 msgid ""
-"Sets whether GIMP should create previews of layers and channels. Previews in "
+"Sets whether Glimpse should create previews of layers and channels. Previews in "
 "the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
@@ -6997,12 +6997,12 @@ msgstr ""
 "મોટું કરી રહ્યા હોય."
 
 #: ../app/config/gimprc-blurbs.h:298
-msgid "Let GIMP try to restore your last saved session on each startup."
+msgid "Let Glimpse try to restore your last saved session on each startup."
 msgstr "GIMP ને દરેક શરૂઆત પર તમારો છેલ્લો સંગ્રહાયેલ સત્ર પુનઃસંગ્રહવાનો પ્રયત્ન કરો."
 
 #: ../app/config/gimprc-blurbs.h:301
 msgid ""
-"Remember the current tool, pattern, color, and brush across GIMP sessions."
+"Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr "વર્તમાન સાધન, ભાત, રંગ, અને બ્રશને GIMP સત્રો દરમ્યાન યાદ રાખો."
 
 #: ../app/config/gimprc-blurbs.h:305
@@ -7013,12 +7013,12 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:309
 #, fuzzy
-msgid "Save the positions and sizes of the main dialogs when GIMP exits."
+msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr "જ્યારે GIMP માંથી બહાર નીકળો ત્યારે મુખ્ય સંવાદોના સ્થાન અને માપ સંગ્રહો."
 
 #: ../app/config/gimprc-blurbs.h:312
 #, fuzzy
-msgid "Save the tool options when GIMP exits."
+msgid "Save the tool options when Glimpse exits."
 msgstr "જ્યારે GIMP માંથી બહાર નીકળો ત્યારે સાધન વિકલ્પો સંગ્રહો."
 
 #: ../app/config/gimprc-blurbs.h:318
@@ -7122,7 +7122,7 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:370
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:373
@@ -7136,9 +7136,9 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:379
 #, fuzzy
 msgid ""
-"Sets the swap file location. GIMP uses a tile based memory allocation "
+"Sets the swap file location. Glimpse uses a tile based memory allocation "
 "scheme. The swap file is used to quickly and easily swap tiles out to disk "
-"and back in. Be aware that the swap file can easily get very large if GIMP "
+"and back in. Be aware that the swap file can easily get very large if Glimpse "
 "is used with large images. Also, things can get horribly slow if the swap "
 "file is created on a folder that is mounted over NFS.  For these reasons, it "
 "may be desirable to put your swap file in \"/tmp\"."
@@ -7163,18 +7163,18 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:395
 #, fuzzy
-msgid "Save changed keyboard shortcuts when GIMP exits."
+msgid "Save changed keyboard shortcuts when Glimpse exits."
 msgstr "જ્યારે GIMP બંધ થાય ત્યારે કીબોર્ડ ટુંકાણો સંગ્રહો."
 
 #: ../app/config/gimprc-blurbs.h:398
-msgid "Restore saved keyboard shortcuts on each GIMP startup."
+msgid "Restore saved keyboard shortcuts on each Glimpse startup."
 msgstr "દરેક GIMP શરૂઆત પર સંગ્રહાયેલ કીબોર્ડ ટુંકાણો પુનઃસંગ્રહિત કરો."
 
 #: ../app/config/gimprc-blurbs.h:401
 #, fuzzy
 msgid ""
 "Sets the folder for temporary storage. Files will appear here during the "
-"course of running GIMP.  Most files will disappear when GIMP exits, but some "
+"course of running Glimpse.  Most files will disappear when Glimpse exits, but some "
 "files are likely to remain, so it is best if this folder not be one that is "
 "shared by other users."
 msgstr ""
@@ -7198,7 +7198,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:420
 msgid ""
-"When the amount of pixel data exceeds this limit, GIMP will start to swap "
+"When the amount of pixel data exceeds this limit, Glimpse will start to swap "
 "tiles to disk.  This is a lot slower but it makes it possible to work on "
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
@@ -7229,7 +7229,7 @@ msgstr "ચેકરબોર્ડનું માપ સુયોજિત ક
 #: ../app/config/gimprc-blurbs.h:444
 #, fuzzy
 msgid ""
-"When enabled, GIMP will not save an image if it has not been changed since "
+"When enabled, Glimpse will not save an image if it has not been changed since "
 "it was opened."
 msgstr ""
 "જ્યારે સક્રિય થયેલ હોય, ત્યારે GIMP ચિત્રનો સંગ્રહ કરશે નહિં જો તે જ્યારથી તે ખૂલ્યું હતું "
@@ -8467,13 +8467,13 @@ msgstr "બ્રશ ફોલ્ડરો"
 
 #: ../app/core/gimpbrushgenerated-load.c:85
 #, c-format
-msgid "Fatal parse error in brush file '%s': Not a GIMP brush file."
+msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 msgstr "બ્રશ ફાઈલ '%s' માં ઘાતક પદચ્છેદન ભૂલ: GIMP બ્રશ ફાઈલ નથી."
 
 #: ../app/core/gimpbrushgenerated-load.c:102
 #, fuzzy, c-format
 msgid ""
-"Fatal parse error in brush file '%s': Unknown GIMP brush version in line %d."
+"Fatal parse error in brush file '%s': Unknown Glimpse brush version in line %d."
 msgstr "બ્રશ ફાઈલ '%s' માં ઘાતક પદચ્છેદન ભૂલ: અજ્ઞાત GIMP બ્રશ આવૃત્તિ."
 
 #: ../app/core/gimpbrushgenerated-load.c:126 ../app/core/gimpbrush-load.c:278
@@ -8485,7 +8485,7 @@ msgstr "બ્રશ ફાઈલ '%s' માં અયોગ્ય UTF-8 શબ
 #: ../app/core/gimpbrushgenerated-load.c:148
 #, fuzzy, c-format
 msgid ""
-"Fatal parse error in brush file '%s': Unknown GIMP brush shape in line %d."
+"Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line %d."
 msgstr "બ્રશ ફાઈલ '%s' માં ઘાતક પદચ્છેદન ભૂલ: અજ્ઞાત GIMP બ્રશ આકાર."
 
 #: ../app/core/gimpbrushgenerated-load.c:224
@@ -8551,7 +8551,7 @@ msgstr "નામ વિનાનું"
 #, c-format
 msgid ""
 "Fatal parse error in brush file '%s': Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr ""
 "બ્રશ ફાઈલ '%s' માં ઘાતક પદચ્છેદન ભૂલ: બિનઆધારભૂત બ્રશ ઊંડાઈ %d\n"
 "GIMP બ્રશો GRAY અથવા RGBA હોવા જ જોઈએ."
@@ -8593,7 +8593,7 @@ msgstr "માહિતી ફાઈલો માટે જોઈ રહ્ય�
 msgid "Parasites"
 msgstr "પેરાસાઈટો"
 
-#. initialize the list of gimp dynamics
+#. initialize the list of Glimpse dynamics
 #: ../app/core/gimp.c:956 ../app/dialogs/preferences-dialog.c:2744
 #: ../app/tools/gimppaintoptions-gui.c:204
 msgid "Dynamics"
@@ -9041,7 +9041,7 @@ msgstr "તકતી ફાઈલ '%s' માં ઘાતક પદચ્છે
 
 #: ../app/core/gimpgradient-load.c:83
 #, c-format
-msgid "Fatal parse error in gradient file '%s': Not a GIMP gradient file."
+msgid "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 msgstr "ઢાળ ફાઈલ '%s' માં ઘાતક પદચ્છેદન ભૂલ: GIMP ઢાળ ફાઈલ નથી."
 
 #: ../app/core/gimpgradient-load.c:111
@@ -9829,7 +9829,7 @@ msgstr "તકતી ફાઈલ '%s' માં ઘાતક પદચ્છે
 #, c-format
 msgid ""
 "Fatal parse error in pattern file '%s: Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"Glimpse Patterns must be GRAY or RGB."
 msgstr ""
 "તકતી ફાઈલ '%s' માં ઘાતક પદચ્છેદન ભૂલ: બિનઆધારભૂત ભાત ઊંડાઈ %d.\n"
 "GIMP ભાતો GRAY અથવા RGB હોવી જ જોઈએ."
@@ -10038,14 +10038,14 @@ msgstr "ટકા"
 #: ../app/core/gimp-user-install.c:160
 #, c-format
 msgid ""
-"It seems you have used GIMP %s before.  GIMP will now migrate your user "
+"It seems you have used Glimpse %s before.  Glimpse will now migrate your user "
 "settings to '%s'."
 msgstr ""
 
 #: ../app/core/gimp-user-install.c:165
 #, c-format
 msgid ""
-"It appears that you are using GIMP for the first time.  GIMP will now create "
+"It appears that you are using Glimpse for the first time.  Glimpse will now create "
 "a folder named '%s' and copy some files to it."
 msgstr ""
 
@@ -10066,11 +10066,11 @@ msgstr "ફોલ્ડર '%s' બનાવી શકતા નથી: %s"
 
 #: ../app/dialogs/about-dialog.c:115 ../app/gui/gui.c:493
 #, fuzzy
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "વિશે (_A)"
 
 #: ../app/dialogs/about-dialog.c:124
-msgid "Visit the GIMP website"
+msgid "Visit the Glimpse website"
 msgstr "GIMP વેબસાઈટની મુલાકાત લો"
 
 #. Translators: insert your names here,
@@ -10216,7 +10216,7 @@ msgstr "FG/BG રંગ"
 
 #: ../app/dialogs/dialogs-constructors.c:203 ../app/gui/gui.c:161
 #: ../app/gui/gui-message.c:149
-msgid "GIMP Message"
+msgid "Glimpse Message"
 msgstr "GIMP સંદેશો"
 
 #: ../app/dialogs/fade-dialog.c:109
@@ -10275,12 +10275,12 @@ msgstr ""
 #: ../app/dialogs/file-save-dialog.c:558
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 
 #: ../app/dialogs/file-save-dialog.c:565
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export to "
 "export to other file formats."
 msgstr ""
 
@@ -10555,7 +10555,7 @@ msgstr "મોડ્યુલ વ્યવસ્થાપક"
 
 #: ../app/dialogs/module-dialog.c:150
 #, fuzzy
-msgid "You will have to restart GIMP for the changes to take effect."
+msgid "You will have to restart Glimpse for the changes to take effect."
 msgstr "નીચેના ફેરફારોની અસર લાવવા માટે તમારે GIMP ને પુનઃશરૂ કરવું પડશે:"
 
 #: ../app/dialogs/module-dialog.c:191
@@ -10730,13 +10730,13 @@ msgid "Do you really want to reset all preferences to default values?"
 msgstr "શું તમે ખરેખર બધા ગાળકોને મૂળભૂત કિંમતો પુનઃસુયોજિત કરવા માંગો છો?"
 
 #: ../app/dialogs/preferences-dialog.c:355
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid "You will have to restart Glimpse for the following changes to take effect:"
 msgstr "નીચેના ફેરફારોની અસર લાવવા માટે તમારે GIMP ને પુનઃશરૂ કરવું પડશે:"
 
 #: ../app/dialogs/preferences-dialog.c:537
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "આગળ જ્યારે તમે GIMP શરૂ કરો ત્યારે તમારા કીબોર્ડ ટુંકાણો મૂળભૂત કિંમતોમાં પુનઃસુયોજિત થઈ જશે."
 
@@ -10760,7 +10760,7 @@ msgstr ""
 #: ../app/dialogs/preferences-dialog.c:646
 msgid ""
 "Your input device settings will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "આગળ જ્યારે તમે GIMP શરૂ કરો ત્યારે તમારા ઈનપુટ ઉપકરણો મૂળભૂત કિંમતોમાં પુનઃસુયોજિત થઈ જશે."
 
@@ -11592,7 +11592,7 @@ msgstr "પિક્સેલો/%a"
 
 #: ../app/dialogs/quit-dialog.c:105
 #, fuzzy
-msgid "Quit GIMP"
+msgid "Quit Glimpse"
 msgstr "GIMP માંથી બહાર નીકળો"
 
 #: ../app/dialogs/quit-dialog.c:105
@@ -11600,7 +11600,7 @@ msgid "Close All Images"
 msgstr "બધા ચિત્રો બંધ કરો"
 
 #: ../app/dialogs/quit-dialog.c:164
-msgid "If you quit GIMP now, these changes will be lost."
+msgid "If you quit Glimpse now, these changes will be lost."
 msgstr "જો તમે GIMP માંથી હમણાં જ બહાર નીકળો, તો આ ફેરફારો ગુમ થઈ જશે."
 
 #: ../app/dialogs/quit-dialog.c:167
@@ -11683,12 +11683,12 @@ msgstr ""
 
 #: ../app/dialogs/tips-dialog.c:88
 #, fuzzy
-msgid "The GIMP tips file is empty!"
+msgid "The Glimpse tips file is empty!"
 msgstr "<b>GIMP ટિપ્પણીઓ ફાઈલનું પદચ્છેદન કરી શકાયું નહિં!</b>"
 
 #: ../app/dialogs/tips-dialog.c:92
 #, fuzzy
-msgid "The GIMP tips file appears to be missing!"
+msgid "The Glimpse tips file appears to be missing!"
 msgstr "<b>તમારી GIMP ટિપ્પણીઓ ફાઈલ ગુમ થયેલ હોય એમ લાગે છે!</b>"
 
 #: ../app/dialogs/tips-dialog.c:94
@@ -11698,11 +11698,11 @@ msgstr "ત્યાં '%s' તરીકે ઓળખાતી ફાઈલ હ
 
 #: ../app/dialogs/tips-dialog.c:100
 #, fuzzy
-msgid "The GIMP tips file could not be parsed!"
+msgid "The Glimpse tips file could not be parsed!"
 msgstr "<b>GIMP ટિપ્પણીઓ ફાઈલનું પદચ્છેદન કરી શકાયું નહિં!</b>"
 
 #: ../app/dialogs/tips-dialog.c:128
-msgid "GIMP Tip of the Day"
+msgid "Glimpse Tip of the Day"
 msgstr "GIMP દિવસની ટિપ્પણી"
 
 #: ../app/dialogs/tips-dialog.c:134
@@ -11728,7 +11728,7 @@ msgid "tips-locale:C"
 msgstr "tips-locale:C"
 
 #: ../app/dialogs/user-install-dialog.c:84
-msgid "GIMP User Installation"
+msgid "Glimpse User Installation"
 msgstr "GIMP વપરાશકર્તા સ્થાપન"
 
 #: ../app/dialogs/user-install-dialog.c:93
@@ -11737,7 +11737,7 @@ msgid "User installation failed!"
 msgstr "વપરાશકર્તા સ્થાપન લોગ"
 
 #: ../app/dialogs/user-install-dialog.c:95
-msgid "The GIMP user installation failed; see the log for details."
+msgid "The Glimpse user installation failed; see the log for details."
 msgstr ""
 
 #: ../app/dialogs/user-install-dialog.c:98
@@ -12180,7 +12180,7 @@ msgstr "અનુક્રમિત"
 
 #: ../app/gegl/gimpcurvesconfig.c:449
 #, fuzzy
-msgid "not a GIMP Curves file"
+msgid "not a Glimpse Curves file"
 msgstr "નિયમિત ફાઈલ નથી"
 
 #: ../app/gegl/gimpcurvesconfig.c:464 ../app/gegl/gimplevelsconfig.c:786
@@ -12202,16 +12202,16 @@ msgstr "આ ચિત્ર માટે નવું દૃશ્ય બના�
 
 #: ../app/gegl/gimplevelsconfig.c:739
 #, fuzzy
-msgid "not a GIMP Levels file"
+msgid "not a Glimpse Levels file"
 msgstr "નિયમિત ફાઈલ નથી"
 
 #: ../app/gegl/gimpoperationcagecoefcalc.c:68
-msgid "Compute a set of coefficient buffer for the GIMP cage tool"
+msgid "Compute a set of coefficient buffer for the Glimpse cage tool"
 msgstr ""
 
 #: ../app/gegl/gimpoperationcagetransform.c:106
 msgid ""
-"Convert a set of coefficient buffer to a coordinate buffer for the GIMP cage "
+"Convert a set of coefficient buffer to a coordinate buffer for the Glimpse cage "
 "tool"
 msgstr ""
 
@@ -12231,7 +12231,7 @@ msgid "Documents"
 msgstr "દસ્તાવેજો"
 
 #: ../app/gui/splash.c:116
-msgid "GIMP Startup"
+msgid "Glimpse Startup"
 msgstr "GIMP શરૂઆત"
 
 #: ../app/paint/gimpairbrush.c:65 ../app/tools/gimpairbrushtool.c:55
@@ -12935,8 +12935,8 @@ msgid ""
 "Plug-in crashed: \"%s\"\n"
 "(%s)\n"
 "\n"
-"The dying plug-in may have messed up GIMP's internal state. You may want to "
-"save your images and restart GIMP to be on the safe side."
+"The dying plug-in may have messed up Glimpse's internal state. You may want to "
+"save your images and restart Glimpse to be on the safe side."
 msgstr ""
 "પ્લગ-ઈન ભાંગી ગયું: \"%s\"\n"
 "(%s)\n"
@@ -13033,7 +13033,7 @@ msgstr ""
 
 #: ../app/plug-in/plug-in-rc.c:205
 #, c-format
-msgid "Skipping '%s': wrong GIMP protocol version."
+msgid "Skipping '%s': wrong Glimpse protocol version."
 msgstr "'%s' રદ કરી રહ્યા છીએ: ખોટી GIMP પ્રોટોકોલ આવૃત્તિ."
 
 #: ../app/plug-in/plug-in-rc.c:477
@@ -15367,7 +15367,7 @@ msgstr ""
 "તમે સ્તરમાં ફેરફાર કરી શકો છો અથવા તેના લખાણ લક્ષણોમાંથી નવું લખાણ સ્તર બનાવી શકો છો."
 
 #: ../app/tools/gimptexttool-editor.c:1172
-msgid "GIMP Text Editor"
+msgid "Glimpse Text Editor"
 msgstr "GIMP લખાણ સંપાદક"
 
 #: ../app/tools/gimpthresholdtool.c:88
@@ -16794,13 +16794,13 @@ msgstr "વાપરવા માટેનું મદદ બ્રાઉઝર
 
 #: ../app/widgets/gimphelp.c:295
 #, fuzzy
-msgid "The GIMP help browser is not available."
+msgid "The Glimpse help browser is not available."
 msgstr "GIMP મદદ બ્રાઉઝર"
 
 #: ../app/widgets/gimphelp.c:296
 #, fuzzy
 msgid ""
-"The GIMP help browser plug-in appears to be missing from your installation. "
+"The Glimpse help browser plug-in appears to be missing from your installation. "
 "You may instead use the web browser for reading the help pages."
 msgstr "GIMP મદદ બ્રાઉઝર પ્લગ-ઈન તમારા સ્થાપનમાં ગુમ થયેલ દેખાય છે."
 
@@ -16809,7 +16809,7 @@ msgid "Help browser doesn't start"
 msgstr "મદદ બ્રાઉઝર શરૂ થતું નથી"
 
 #: ../app/widgets/gimphelp.c:343
-msgid "Could not start the GIMP help browser plug-in."
+msgid "Could not start the Glimpse help browser plug-in."
 msgstr "GIMP મદદ બ્રાઉઝર પ્લગ-ઈન શરૂ કરી શક્યા નહિં."
 
 #: ../app/widgets/gimphelp.c:370
@@ -16818,7 +16818,7 @@ msgid "Use _Web Browser"
 msgstr "વેબ બ્રાઉઝર"
 
 #: ../app/widgets/gimphelp.c:620
-msgid "GIMP user manual is missing"
+msgid "Glimpse user manual is missing"
 msgstr ""
 
 #: ../app/widgets/gimphelp.c:627
@@ -16826,7 +16826,7 @@ msgid "_Read Online"
 msgstr ""
 
 #: ../app/widgets/gimphelp.c:651
-msgid "The GIMP user manual is not installed on your computer."
+msgid "The Glimpse user manual is not installed on your computer."
 msgstr ""
 
 #: ../app/widgets/gimphelp.c:654
@@ -17416,7 +17416,7 @@ msgid "English"
 msgstr ""
 
 #: ../app/widgets/gimpuimanager.c:742
-msgid "Your GIMP installation is incomplete:"
+msgid "Your Glimpse installation is incomplete:"
 msgstr "તમારું GIMP સ્થાપન અપૂર્ણ છે:"
 
 #: ../app/widgets/gimpuimanager.c:744
@@ -17610,8 +17610,8 @@ msgid "Undefined"
 msgstr "અવ્યાખ્યાયિત"
 
 #: ../app/xcf/xcf.c:100 ../app/xcf/xcf.c:168
-msgid "GIMP XCF image"
-msgstr "GIMP XCF ચિત્ર"
+msgid "Glimpse XCF image"
+msgstr "Glimpse XCF ચિત્ર"
 
 #: ../app/xcf/xcf.c:272
 #, fuzzy, c-format
@@ -17911,16 +17911,16 @@ msgstr ""
 #~ msgid "Error saving tool options presets: %s"
 #~ msgstr "XCF ફાઈલ સંગ્રહવામાં ભૂલ: %s"
 
-#~ msgid "Use a running GIMP only, never start a new one"
+#~ msgid "Use a running Glimpse only, never start a new one"
 #~ msgstr "ચાલી રહેલ GIMP જ માત્ર વાપરો, ક્યારે નવું શરૂ કરો નહિં"
 
-#~ msgid "Only check if GIMP is running, then quit"
+#~ msgid "Only check if Glimpse is running, then quit"
 #~ msgstr "માત્ર ચકાસો જો GIMP ચાલી રહ્યું હોય, પછી બહાર નીકળો"
 
-#~ msgid "Start GIMP without showing the startup window"
+#~ msgid "Start Glimpse without showing the startup window"
 #~ msgstr "શરૂઆત વિન્ડો બતાવ્યા વિના GIMP શરુ કરો"
 
-#~ msgid "Could not connect to GIMP."
+#~ msgid "Could not connect to Glimpse."
 #~ msgstr "GIMP સાથે જોડાઈ શક્યા નહિં."
 
 #~ msgid "Make sure that the Toolbox is visible!"
@@ -17933,10 +17933,10 @@ msgstr ""
 #~ msgstr "(આ કન્સોલ વિન્ડો દસ સેકન્ડોમાં બંધ થઈ જશે)\n"
 
 #~ msgid ""
-#~ "GIMP is not properly installed for the current user.\n"
+#~ "Glimpse is not properly installed for the current user.\n"
 #~ "User installation was skipped because the '--no-interface' flag was "
 #~ "used.\n"
-#~ "To perform user installation, run the GIMP without the '--no-interface' "
+#~ "To perform user installation, run the Glimpse without the '--no-interface' "
 #~ "flag."
 #~ msgstr ""
 #~ "GIMP એ વર્તમાન વપરાશકર્તા માટે યોગ્ય રીતે સ્થાપિત થયેલ નથી.\n"
@@ -18166,13 +18166,13 @@ msgstr ""
 #~ msgstr "'%s' નું પદચ્છેદન કરી રહ્યા છીએ\n"
 
 #~ msgid ""
-#~ "On multiprocessor machines, if GIMP has been compiled with --enable-mp "
-#~ "this sets how many processors GIMP should use simultaneously."
+#~ "On multiprocessor machines, if Glimpse has been compiled with --enable-mp "
+#~ "this sets how many processors Glimpse should use simultaneously."
 #~ msgstr ""
 #~ "મલ્ટીપ્રોસેસર મશીનો પર, જો GIMP એ --enable-mp સાથે કમ્પાઈલ થયેલ હોય તો આ કેટલા "
 #~ "પ્રોસેસરો GIMP એ વારાફરતી વાપરવા જોઈએ તે સુયોજિત કરે છે."
 
-#~ msgid "Enable displaying a handy GIMP tip on startup."
+#~ msgid "Enable displaying a handy Glimpse tip on startup."
 #~ msgstr "હાથવાળું GIMP સંકેત શરૂઆતમાં દર્શાવવાનું સક્રિય કરો."
 
 #~ msgid ""
@@ -18193,10 +18193,10 @@ msgstr ""
 #~ "શકે છે જો સ્તર પૂર્વદર્શનો નિષ્ક્રિય કરેલ હોય."
 
 #~ msgid ""
-#~ "The tile cache is used to make sure the GIMP doesn't thrash tiles between "
-#~ "memory and disk. Setting this value higher will cause the GIMP to use "
-#~ "less swap space, but will also cause the GIMP to use more memory. "
-#~ "Conversely, a smaller cache size causes the GIMP to use more swap space "
+#~ "The tile cache is used to make sure the Glimpse doesn't thrash tiles between "
+#~ "memory and disk. Setting this value higher will cause the Glimpse to use "
+#~ "less swap space, but will also cause the Glimpse to use more memory. "
+#~ "Conversely, a smaller cache size causes the Glimpse to use more swap space "
 #~ "and less memory."
 #~ msgstr ""
 #~ "તકતી કેશ એ GIMP તકતીઓને મેમરી અને ડિસ્ક વચ્ચે ભાંગતું નથી તેની ખાતરી કરવા માટે વપરાય "
@@ -18371,11 +18371,11 @@ msgstr ""
 #~ msgid "Select Temp Folder"
 #~ msgstr "કામચલાઉ ફોલ્ડર પસંદ કરો"
 
-#~ msgid "Show tip next time GIMP starts"
+#~ msgid "Show tip next time Glimpse starts"
 #~ msgstr "આગળ જ્યારે GIMP શરૂ થાય ત્યારે ટિપ્પણી બતાવો"
 
 #~ msgid ""
-#~ "The gimprc is used to store personal preferences that affect GIMP's "
+#~ "The gimprc is used to store personal preferences that affect Glimpse's "
 #~ "default behavior.  Paths to search for brushes, palettes, gradients, "
 #~ "patterns, plug-ins and modules can also configured here."
 #~ msgstr ""
@@ -18384,7 +18384,7 @@ msgstr ""
 #~ "રૂપરેખાંકિત કરી શકાય છે."
 
 #~ msgid ""
-#~ "GIMP uses an additional gtkrc file so you can configure it to look "
+#~ "Glimpse uses an additional gtkrc file so you can configure it to look "
 #~ "differently than other GTK apps."
 #~ msgstr ""
 #~ "GIMP એ વધારાની gtkrc ફાઈલ વાપરે છે કે જેથી તમે તેને અન્ય GTK કાર્યક્રમો કરતાં અલગ "
@@ -18392,9 +18392,9 @@ msgstr ""
 
 #~ msgid ""
 #~ "Plug-ins and extensions are external programs which provide additional "
-#~ "functionality to GIMP.  These programs are searched for at run-time and "
+#~ "functionality to Glimpse.  These programs are searched for at run-time and "
 #~ "information about their functionality is cached in this file.  This file "
-#~ "is intended to be written to by GIMP only, and should not be edited."
+#~ "is intended to be written to by Glimpse only, and should not be edited."
 #~ msgstr ""
 #~ "પ્લગ-ઈનો અને એક્સટેન્સનો બાહ્ય કાર્યક્રમો છે કે જે GIMP ને વધારાના વિધેયો પૂરા પાડે છે.  "
 #~ "આ કાર્યક્રમો રન-ટાઈમ સમયે શોધવા માટે વપરાય છે અને આ ફાઈલમાં કેશ થયેલ તેમના વિધેયો "
@@ -18414,7 +18414,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "The sessionrc is used to store what dialog windows were open the last "
-#~ "time you quit GIMP.  You can configure GIMP to reopen these dialogs at "
+#~ "time you Quit Glimpse.  You can configure Glimpse to reopen these dialogs at "
 #~ "the saved position."
 #~ msgstr ""
 #~ "sessionrc એ કઈ સંવાદ વિન્ડો છેલ્લે જ્યારે તમે GIMP બંધ કર્યું ત્યારે ખૂલેલી હતી તે સંગ્રહવા "
@@ -18430,7 +18430,7 @@ msgstr ""
 #~ "The unitrc is used to store your user units database.  You can define "
 #~ "additional units and use them just like you use the built-in units "
 #~ "inches, millimeters, points and picas.  This file is overwritten each "
-#~ "time you quit the GIMP."
+#~ "time you quit Glimpse."
 #~ msgstr ""
 #~ "unitrc એ તમારો વપરાશકર્તા એકમોનો ડેટાબેઝ વાપરવા માટે વપરાય છે.  તમે વધારાના "
 #~ "એકમો વ્યાખ્યાયિત કરી શકો છો અને તેમને તમે આંતરિક એકમો જેવા કે ઈંચો, મિલિમીટરો, "
@@ -18438,17 +18438,17 @@ msgstr ""
 #~ "જ્યારે પણ તમે GIMP બંધ કરો."
 
 #~ msgid ""
-#~ "This folder is used to store user defined brushes. GIMP checks this "
+#~ "This folder is used to store user defined brushes. Glimpse checks this "
 #~ "folder in addition to the system-wide brushes installation."
 #~ msgstr ""
 #~ "આ ફોલ્ડર એ વપરાશકર્તા વ્યાખ્યાયિત બ્રશો સંગ્રહિત કરવા માટે વપરાય છે. GIMP આ ફોલ્ડરને "
 #~ "સિસ્ટમ-લગતા બ્રશો સ્થાપન માટે વાપરવા માટે ચકાસે છે."
 
 #~ msgid ""
-#~ "This folder is used to store fonts you only want to be visible in GIMP. "
-#~ "GIMP checks this folder in addition to the system-wide fonts "
+#~ "This folder is used to store fonts you only want to be visible in Glimpse. "
+#~ "Glimpse checks this folder in addition to the system-wide fonts "
 #~ "installation. Use this only if you really want to have fonts available in "
-#~ "GIMP only, otherwise put them in your global font directory."
+#~ "Glimpse only, otherwise put them in your global font directory."
 #~ msgstr ""
 #~ "આ ફોલ્ડર એ ફોન્ટ સંગ્રહવા માટે વપરાય છે કે જેને તમે માત્ર GIMP માં જ દૃશ્યમાન જોવા "
 #~ "માંગો. GIMP આ ફોલ્ડરને સિસ્ટમ-લગતા ફોન્ટ સ્થાપન માટે ચકાસે છે. જો તમે ખરખર માત્ર "
@@ -18456,21 +18456,21 @@ msgstr ""
 #~ "ડિરેક્ટરીમાં મૂકો."
 
 #~ msgid ""
-#~ "This folder is used to store user defined gradients.  GIMP checks this "
+#~ "This folder is used to store user defined gradients.  Glimpse checks this "
 #~ "folder in addition to the system-wide gradients installation."
 #~ msgstr ""
 #~ "આ ફોલ્ડર એ વપરાશકર્તા વ્યાખ્યાયિત ઢાળો સંગ્રહવા માટે વપરાય છે.  GIMP આ ફોલ્ડરને "
 #~ "સિસ્ટમ-લગતા ઢાળોના સ્થાપન સાથે વધુમાં ચકાસે છે."
 
 #~ msgid ""
-#~ "This folder is used to store user defined palettes.  GIMP checks this "
+#~ "This folder is used to store user defined palettes.  Glimpse checks this "
 #~ "folder in addition to the system-wide palettes installation."
 #~ msgstr ""
 #~ "આ ફોલ્ડર એ વપરાશકર્તા વ્યાખ્યાયિત તકતીઓ સંગ્રહવા માટે વપરાય છે.  GIMP આ ફોલ્ડરને "
 #~ "સિસ્ટમ-લગતા તકતીઓના સ્થાપન સાથે વધુમાં ચકાસે છે."
 
 #~ msgid ""
-#~ "This folder is used to store user defined patterns.  GIMP checks this "
+#~ "This folder is used to store user defined patterns.  Glimpse checks this "
 #~ "folder in addition to the system-wide patterns installation when "
 #~ "searching for patterns."
 #~ msgstr ""
@@ -18479,7 +18479,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "This folder is used to store user created, temporary, or otherwise non-"
-#~ "system-supported plug-ins.  GIMP checks this folder in addition to the "
+#~ "system-supported plug-ins.  Glimpse checks this folder in addition to the "
 #~ "system-wide plug-in folder."
 #~ msgstr ""
 #~ "આ ફોલ્ડર એ વપરાશકર્તાએ બનાવેલ, કામચલાઉ અથવા બિન-સિસ્ટમ-આધારભૂત પ્લગ-ઈનો સંગ્રહવા "
@@ -18487,7 +18487,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "This folder is used to store user created, temporary, or otherwise non-"
-#~ "system-supported DLL modules.  GIMP checks this folder in addition to the "
+#~ "system-supported DLL modules.  Glimpse checks this folder in addition to the "
 #~ "system-wide module folder."
 #~ msgstr ""
 #~ "આ ફોલ્ડર વપરાશકર્તાએ બનાવેલ, કામચલાઉ, અથવા બિન-સિસ્ટમ-આધારભૂત DLL મોડ્યુલો "
@@ -18495,8 +18495,8 @@ msgstr ""
 
 #~ msgid ""
 #~ "This folder is used to store configuration for user created, temporary, "
-#~ "or otherwise non-system-supported plug-in interpreters.  GIMP checks this "
-#~ "folder in addition to the system-wide GIMP interpreters folder when "
+#~ "or otherwise non-system-supported plug-in interpreters.  Glimpse checks this "
+#~ "folder in addition to the system-wide Glimpse interpreters folder when "
 #~ "searching for plug-in interpreter configuration files."
 #~ msgstr ""
 #~ "આ ફોલ્ડર એ વપરાશકર્તાએ બનાવેલ, કામચલાઉ, અથવા બિન-સિસ્ટમ-આધારભૂત પ્લગ-ઈન "
@@ -18505,8 +18505,8 @@ msgstr ""
 
 #~ msgid ""
 #~ "This folder is used to store user created, temporary, or otherwise non-"
-#~ "system-supported additions to the plug-in environment.  GIMP checks this "
-#~ "folder in addition to the system-wide GIMP environment folder when "
+#~ "system-supported additions to the plug-in environment.  Glimpse checks this "
+#~ "folder in addition to the system-wide Glimpse environment folder when "
 #~ "searching for plug-in environment modification files."
 #~ msgstr ""
 #~ "આ ફોલ્ડર વપરાશકર્તાએ બનાવેલ, કામચલાઉ, અથવા પ્લગ-ઈન પર્યાવરણમાં બિન-સિસ્ટમ-આધારભૂત "
@@ -18548,7 +18548,7 @@ msgstr ""
 #~ "સ્વાગત\n"
 #~ "GIMP %d.%d વપરાશકર્તા સ્થાપન"
 
-#~ msgid "Click \"Continue\" to enter the GIMP user installation."
+#~ msgid "Click \"Continue\" to enter the Glimpse user installation."
 #~ msgstr "GIMP વપરાશકર્તા સ્થાપનમાં દાખલ થવા માટે \"ચાલુ રાખો\" ક્લિક કરો."
 
 #~ msgid ""
@@ -18585,7 +18585,7 @@ msgstr ""
 #~ msgid "Click \"Continue\" to proceed with the user installation."
 #~ msgstr "વપરાશકર્તા સ્થાપન સાથે પ્રક્રિયા કરવા માટે \"ચાલુ રાખો\" ક્લિક કરો."
 
-#~ msgid "It seems you have used GIMP %s before."
+#~ msgid "It seems you have used Glimpse %s before."
 #~ msgstr "એવું લાગે છે કે તમે GIMP %s ને પહેલાં વાપર્યું છે."
 
 #~ msgid "_Migrate GIMP %s user settings"
@@ -18594,14 +18594,14 @@ msgstr ""
 #~ msgid "Do a _fresh user installation"
 #~ msgstr "તાજું વપરાશકર્તા સ્થાપન કરો (_f)"
 
-#~ msgid "Personal GIMP Folder"
+#~ msgid "Personal Glimpse Folder"
 #~ msgstr "વ્યક્તિગત GIMP ફોલ્ડર"
 
-#~ msgid "Click \"Continue\" to create your personal GIMP folder."
+#~ msgid "Click \"Continue\" to create your personal Glimpse folder."
 #~ msgstr "તમારું વ્યક્તિગત GIMP ફોલ્ડર બનાવવા માટે \"ચાલુ રાખો\"."
 
 #~ msgid ""
-#~ "For a proper GIMP installation, a folder named '<b>%s</b>' needs to be "
+#~ "For a proper Glimpse installation, a folder named '<b>%s</b>' needs to be "
 #~ "created."
 #~ msgstr "યોગ્ય GIMP સ્થાપન માટે, '<b>%s</b>' નામવાળું ફોલ્ડર બનાવેલું હોવું જરૂરી છે."
 
@@ -18613,23 +18613,23 @@ msgstr ""
 #~ "આ ફોલ્ડર મહત્વની ફાઈલો સમાવતું હશે.  પસંદ કરેલ વસ્તુ વિશે વધુ જાણકારી મેળવવા માટે "
 #~ "ફાઈલો અથવા ફોલ્ડરોમાંના કોઈ પર ક્લિક કરો."
 
-#~ msgid "Please wait while your personal GIMP folder is being created..."
+#~ msgid "Please wait while your personal Glimpse folder is being created..."
 #~ msgstr ""
 #~ "જ્યારે તમારું વ્યક્તિગત GIMP ફોલ્ડર બની રહ્યું હોય ત્યારે મહેરબાની કરીને રાહ જુઓ..."
 
-#~ msgid "GIMP Performance Tuning"
+#~ msgid "Glimpse Performance Tuning"
 #~ msgstr "GIMP પ્રભાવ સંતુલન"
 
 #~ msgid "Click \"Continue\" to accept the settings above."
 #~ msgstr "ઉપરના સુયોજનો સ્વીકારવા માટે \"ચાલુ રાખો\" ક્લિક કરો."
 
 #~ msgid ""
-#~ "<b>For optimal GIMP performance, some settings may have to be adjusted.</"
+#~ "<b>For optimal Glimpse performance, some settings may have to be adjusted.</"
 #~ "b>"
 #~ msgstr "<b>શ્રેષ્ઠ GIMP પ્રભાવ માટે, અમુક સુયોજનોને સંતુલિત થવાની જરૂર રહેશે.</b>"
 
 #~ msgid ""
-#~ "GIMP uses a limited amount of memory to store image data, the so-called "
+#~ "Glimpse uses a limited amount of memory to store image data, the so-called "
 #~ "\"Tile Cache\".  You should adjust its size to fit into memory.  Consider "
 #~ "the amount of memory used by other running processes."
 #~ msgstr ""
@@ -19003,7 +19003,7 @@ msgstr ""
 #~ msgid "(%0.3f, %0.3f, %0.3f)"
 #~ msgstr "(%0.3f, %0.3f, %0.3f)"
 
-#~ msgid "Could not find GIMP help browser."
+#~ msgid "Could not find Glimpse help browser."
 #~ msgstr "GIMP મદદ બ્રાઉઝર શોધી શક્યા નહિં."
 
 #~ msgid "Use _web browser instead"

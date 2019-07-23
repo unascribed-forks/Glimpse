@@ -8,7 +8,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP 2.10\n"
+"Project-Id-Version: Glimpse 2.10\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2018-04-25 12:53+0200\n"
 "PO-Revision-Date: 2018-04-26 01:59+0200\n"
@@ -36,7 +36,7 @@ msgstr "이미지를 만들고 사진을 편집합니다"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:3
 msgid ""
-"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
+"Glimpse is an acronym for GNU Image Manipulation Program. It is a freely "
 "distributed program for such tasks as photo retouching, image composition "
 "and image authoring."
 msgstr ""
@@ -56,19 +56,19 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:5
 msgid ""
-"GIMP is expandable and extensible. It is designed to be augmented with plug-"
+"Glimpse is expandable and extensible. It is designed to be augmented with plug-"
 "ins and extensions to do just about anything. The advanced scripting "
 "interface allows everything from the simplest task to the most complex image "
-"manipulation procedures to be easily scripted. GIMP is available for Linux, "
+"manipulation procedures to be easily scripted. Glimpse is available for Linux, "
 "Microsoft Windows and OS X."
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:6
-msgid "Painting in GIMP"
+msgid "Painting in Glimpse"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:7
-msgid "Photo editing in GIMP"
+msgid "Photo editing in Glimpse"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:8
@@ -125,7 +125,7 @@ msgid "Basic HiDPI support: automatically or user-selected icon size"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:19
-msgid "New themes for GIMP: Light, Gray, Dark, and System"
+msgid "New themes for Glimpse: Light, Gray, Dark, and System"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:20
@@ -134,7 +134,7 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:21
 msgid ""
-"In this second release candidate before GIMP 2.10.0, while debugging is "
+"In this second release candidate before Glimpse 2.10.0, while debugging is "
 "still a prime target, a new focus has been put on speed and optimization in "
 "order to provide a smoother painting experience. Bigger changes are:"
 msgstr ""
@@ -177,13 +177,13 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:28
 msgid ""
-"GIMP 2.10.0-RC1 is the first release candidate before GIMP 2.10.0 stable "
+"Glimpse 2.10.0-RC1 is the first release candidate before Glimpse 2.10.0 stable "
 "release, with a focus on debugging and stability. Other than the many bug "
 "fixes, most notable improvements are:"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:29
-msgid "New dashboard dockable to monitor GIMP resource usage"
+msgid "New dashboard dockable to monitor Glimpse resource usage"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:30
@@ -225,7 +225,7 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:38
 msgid ""
-"GIMP 2.9.8 introduces on-canvas gradient editing and various enhancements "
+"Glimpse 2.9.8 introduces on-canvas gradient editing and various enhancements "
 "while focusing on bugfixing and stability."
 msgstr ""
 
@@ -281,11 +281,11 @@ msgid ""
 msgstr ""
 
 #: ../desktop/gimp-data-extras.metainfo.xml.in.h:1
-msgid "Extra files for GIMP"
+msgid "Extra files for Glimpse"
 msgstr ""
 
 #: ../desktop/gimp-data-extras.metainfo.xml.in.h:2
-msgid "Patterns, gradients, and other extra files for GIMP"
+msgid "Patterns, gradients, and other extra files for Glimpse"
 msgstr ""
 
 #: ../desktop/gimp.desktop.in.in.h:2
@@ -294,7 +294,7 @@ msgstr "이미지 편집기"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: ../desktop/gimp.desktop.in.in.h:5
-msgid "GIMP;graphic;design;illustration;painting;"
+msgid "Glimpse;graphic;design;illustration;painting;"
 msgstr ""
 
 #: ../app/about.h:23
@@ -306,7 +306,7 @@ msgstr "김프"
 #, c-format
 msgid ""
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the GIMP Development Team"
+"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 msgstr ""
 "저작권 © 1995-%s\n"
 "Spencer Kimball, Peter Mattis, 김프 개발 팀"
@@ -319,18 +319,18 @@ msgstr ""
 #: ../app/about.h:39
 #, fuzzy
 msgid ""
-"GIMP is free software: you can redistribute it and/or modify it under the "
+"Glimpse is free software: you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 3 of the License, or (at your option) any later "
 "version.\n"
 "\n"
-"GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GIMP. If not, see: https://www.gnu.org/licenses/"
+"Glimpse. If not, see: https://www.gnu.org/licenses/"
 msgstr ""
 "김프는 자유로운 프로그램 입니다. 자유 소프트웨어 재단의 GNU 일반 공중 사용허"
 "가서 버전 2 또는(여러분의 선택에 따라) 그 이후 버전의 조항에 의거하여 재배"
@@ -366,7 +366,7 @@ msgid "Be more verbose"
 msgstr "더 자세하게"
 
 #: ../app/main.c:172
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse instance"
 msgstr "새 인스턴스로 김프를 시작합니다"
 
 #: ../app/main.c:177
@@ -391,7 +391,7 @@ msgstr "시작 화면 보이지 않기"
 
 #: ../app/main.c:202
 #, fuzzy
-msgid "Do not use shared memory between GIMP and plug-ins"
+msgid "Do not use shared memory between Glimpse and plug-ins"
 msgstr "김프와 플러그인 간 공유 메모리를 사용하지 않습니다"
 
 #: ../app/main.c:207
@@ -464,18 +464,18 @@ msgstr "[파일|URI...]"
 
 #: ../app/main.c:484
 msgid ""
-"GIMP could not initialize the graphical user interface.\n"
+"Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
 "김프가 그래픽 사용자 인터페이스를 초기화 하지 못했습니다.\n"
 "출력 환경이 제대로 설정되어 있는지 확인하십시오."
 
 #: ../app/main.c:503
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse instance is already running."
 msgstr "김프가 이미 실행중입니다."
 
 #: ../app/main.c:594
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "김프 출력. 이 창을 닫으려면 아무 글자나 입력하십시오."
 
 #: ../app/main.c:595
@@ -484,7 +484,7 @@ msgid "(Type any character to close this window)\n"
 msgstr "(이 창을 닫으려면 아무 글자나 입력하십시오)\n"
 
 #: ../app/main.c:612
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "김프 출력. 이 창을 최소화시켜도 되지만, 닫지는 마십시오."
 
 #: ../app/sanity.c:562
@@ -501,7 +501,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -519,7 +519,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "붓 편집기"
 
-#. initialize the list of gimp brushes
+#. initialize the list of Glimpse brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:317
 #: ../app/dialogs/dialogs.c:335 ../app/dialogs/preferences-dialog.c:3103
 msgid "Brushes"
@@ -613,7 +613,7 @@ msgstr "글꼴"
 msgid "Gradient Editor"
 msgstr "그라디언트 편집기"
 
-#. initialize the list of gimp gradients
+#. initialize the list of Glimpse gradients
 #: ../app/actions/actions.c:177 ../app/core/gimp-data-factories.c:342
 #: ../app/dialogs/dialogs.c:347 ../app/dialogs/preferences-dialog.c:3119
 msgid "Gradients"
@@ -659,13 +659,13 @@ msgstr "붓"
 msgid "Palette Editor"
 msgstr "팔레트 편집기"
 
-#. initialize the list of gimp palettes
+#. initialize the list of Glimpse palettes
 #: ../app/actions/actions.c:204 ../app/core/gimp-data-factories.c:337
 #: ../app/dialogs/dialogs.c:350 ../app/dialogs/preferences-dialog.c:3115
 msgid "Palettes"
 msgstr "팔레트"
 
-#. initialize the list of gimp patterns
+#. initialize the list of Glimpse patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:332
 #: ../app/dialogs/dialogs.c:344 ../app/dialogs/preferences-dialog.c:3111
 msgid "Patterns"
@@ -3177,12 +3177,12 @@ msgstr "오늘의 팁(_T)"
 
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
-msgid "Show some helpful tips on using GIMP"
+msgid "Show some helpful tips on using Glimpse"
 msgstr "김프 사용에 도움되는 팁을 보입니다"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "김프 정보입니다"
 
 #: ../app/actions/dialogs-actions.c:283
@@ -4380,7 +4380,7 @@ msgstr "끝내기(_Q)"
 
 #: ../app/actions/file-actions.c:125
 msgctxt "file-action"
-msgid "Quit the GNU Image Manipulation Program"
+msgid "Quit Glimpse"
 msgstr "김프를 끝냅니다"
 
 #: ../app/actions/file-actions.c:133 ../app/actions/file-actions.c:308
@@ -5840,7 +5840,7 @@ msgstr "도움말(_H)"
 
 #: ../app/actions/help-actions.c:42
 msgctxt "help-action"
-msgid "Open the GIMP user manual"
+msgid "Open the Glimpse user manual"
 msgstr "김프 사용자 설명서를 엽니다"
 
 #: ../app/actions/help-actions.c:47
@@ -10342,7 +10342,7 @@ msgstr "단일창 모드"
 #: ../app/actions/windows-actions.c:131
 #, fuzzy
 msgctxt "windows-action"
-msgid "When enabled, GIMP is in a single-window mode."
+msgid "When enabled, Glimpse is in a single-window mode."
 msgstr "활성화하면 김프는 단일창 모드로 들어갑니다."
 
 #: ../app/actions/windows-actions.c:140
@@ -10452,7 +10452,7 @@ msgstr "오른손잡이"
 
 #: ../app/config/config-enums.c:145
 msgctxt "help-browser-type"
-msgid "GIMP help browser"
+msgid "Glimpse help browser"
 msgstr "김프 도움말 탐색기"
 
 #: ../app/config/config-enums.c:146
@@ -10799,7 +10799,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:241
 msgid ""
-"GIMP will warn the user if an attempt is made to create an image that would "
+"Glimpse will warn the user if an attempt is made to create an image that would "
 "take more memory than the size specified here."
 msgstr ""
 "이미지를 만들 때 여기에 지정된 크기 이상의 메모리를 요구하면 김프가 사용자에"
@@ -10840,12 +10840,12 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:274
 #, fuzzy
-msgid "Sets how many threads GIMP should use for operations that support it."
+msgid "Sets how many threads Glimpse should use for operations that support it."
 msgstr "김프가 동시에 사용을 시도할 프로세스 수를 설정하십시오."
 
 #: ../app/config/gimprc-blurbs.h:296
 msgid ""
-"Sets whether GIMP should create previews of layers and channels. Previews in "
+"Sets whether Glimpse should create previews of layers and channels. Previews in "
 "the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
@@ -10880,18 +10880,18 @@ msgid ""
 msgstr "이미지를 확대하거나 축소하면, 이미지 창의 크기가 자동으로 조정됩니다."
 
 #: ../app/config/gimprc-blurbs.h:318
-msgid "Let GIMP try to restore your last saved session on each startup."
+msgid "Let Glimpse try to restore your last saved session on each startup."
 msgstr "김프를 시작할 때 최근 저장된 세션을 복원합니다."
 
 #: ../app/config/gimprc-blurbs.h:321
 msgid ""
-"When enabled, GIMP will try to restore windows on the monitor they were open "
+"When enabled, Glimpse will try to restore windows on the monitor they were open "
 "before.  When disabled, windows will appear on the currently used monitor."
 msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:326
 msgid ""
-"Remember the current tool, pattern, color, and brush across GIMP sessions."
+"Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr "현재 도구, 무늬, 색상, 붓을 김프 세션 간에 기억합니다."
 
 #: ../app/config/gimprc-blurbs.h:330
@@ -10908,11 +10908,11 @@ msgstr ""
 "문서 이력에 있는 모든 열린 파일 및 저장된 파일의 기록을 영구히 저장합니다."
 
 #: ../app/config/gimprc-blurbs.h:339
-msgid "Save the positions and sizes of the main dialogs when GIMP exits."
+msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr "김프를 마칠 때 주 대화상자의 위치와 크기를 저장합니다."
 
 #: ../app/config/gimprc-blurbs.h:342
-msgid "Save the tool options when GIMP exits."
+msgid "Save the tool options when Glimpse exits."
 msgstr "김프를 마칠 때 도구 옵션의 내용을 저장합니다."
 
 #: ../app/config/gimprc-blurbs.h:348
@@ -11009,7 +11009,7 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "각 항목에 마우스가 올라갈 때 풍선 도움말을 표시합니다."
 
 #: ../app/config/gimprc-blurbs.h:400
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "단일창 모드에서 김프를 사용합니다."
 
 #: ../app/config/gimprc-blurbs.h:403
@@ -11043,9 +11043,9 @@ msgstr "이미지 창에서 스페이스바를 눌렀을 때의 동작을 설정
 
 #: ../app/config/gimprc-blurbs.h:424
 msgid ""
-"Sets the swap file location. GIMP uses a tile based memory allocation "
+"Sets the swap file location. Glimpse uses a tile based memory allocation "
 "scheme. The swap file is used to quickly and easily swap tiles out to disk "
-"and back in. Be aware that the swap file can easily get very large if GIMP "
+"and back in. Be aware that the swap file can easily get very large if Glimpse "
 "is used with large images. Also, things can get horribly slow if the swap "
 "file is created on a folder that is mounted over NFS.  For these reasons, it "
 "may be desirable to put your swap file in \"/tmp\"."
@@ -11070,17 +11070,17 @@ msgstr ""
 "즉시 바꿀 수 있습니다."
 
 #: ../app/config/gimprc-blurbs.h:440
-msgid "Save changed keyboard shortcuts when GIMP exits."
+msgid "Save changed keyboard shortcuts when Glimpse exits."
 msgstr "김프를 마칠 때 바꾼 키보드 단축키를 저장합니다."
 
 #: ../app/config/gimprc-blurbs.h:443
-msgid "Restore saved keyboard shortcuts on each GIMP startup."
+msgid "Restore saved keyboard shortcuts on each Glimpse startup."
 msgstr "김프를 시작할 때 저장된 키보드 단축키를 복원합니다."
 
 #: ../app/config/gimprc-blurbs.h:446
 msgid ""
 "Sets the folder for temporary storage. Files will appear here during the "
-"course of running GIMP.  Most files will disappear when GIMP exits, but some "
+"course of running Glimpse.  Most files will disappear when Glimpse exits, but some "
 "files are likely to remain, so it is best if this folder not be one that is "
 "shared by other users."
 msgstr ""
@@ -11296,7 +11296,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:609
 msgid ""
-"When the amount of pixel data exceeds this limit, GIMP will start to swap "
+"When the amount of pixel data exceeds this limit, Glimpse will start to swap "
 "tiles to disk.  This is a lot slower but it makes it possible to work on "
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
@@ -11327,7 +11327,7 @@ msgstr "투명도를 표시할 체크보드의 크기를 지정합니다."
 
 #: ../app/config/gimprc-blurbs.h:633
 msgid ""
-"When enabled, GIMP will not save an image if it has not been changed since "
+"When enabled, Glimpse will not save an image if it has not been changed since "
 "it was opened."
 msgstr "이미지를 연 뒤 바뀌지 않았다면 저장하지 않습니다."
 
@@ -11654,7 +11654,7 @@ msgstr ""
 
 #: ../app/core/core-enums.c:674
 msgctxt "debug-policy"
-msgid "Never debug GIMP"
+msgid "Never debug Glimpse"
 msgstr ""
 
 #: ../app/core/core-enums.c:863
@@ -12279,7 +12279,7 @@ msgstr "일괄처리 해석기 '%s'을(를) 사용할 수 없음.  일괄처리 
 msgid "Deleting \"%s\" failed: %s"
 msgstr "\"%s\" 삭제 실패: %s"
 
-#. initialize the list of gimp dynamics
+#. initialize the list of Glimpse dynamics
 #: ../app/core/gimp-data-factories.c:322 ../app/core/gimpcontext.c:711
 #: ../app/dialogs/preferences-dialog.c:3107
 #: ../app/tools/gimppaintoptions-gui.c:226
@@ -12362,7 +12362,7 @@ msgstr "tags-locale:C"
 #: ../app/core/gimp-user-install.c:216
 #, c-format
 msgid ""
-"It seems you have used GIMP %s before.  GIMP will now migrate your user "
+"It seems you have used Glimpse %s before.  Glimpse will now migrate your user "
 "settings to '%s'."
 msgstr ""
 "이전에 김프 %s을(를) 사용했습니다. 사용자 설정을 '%s'용으로 변환할 것입니다."
@@ -12370,7 +12370,7 @@ msgstr ""
 #: ../app/core/gimp-user-install.c:221
 #, c-format
 msgid ""
-"It appears that you are using GIMP for the first time.  GIMP will now create "
+"It appears that you are using Glimpse for the first time.  Glimpse will now create "
 "a folder named '%s' and copy some files to it."
 msgstr ""
 "이는 김프를 처음 실행할 때 나타나는 화면입니다. 김프는 '%s'(이)라는 폴더를 만"
@@ -12442,8 +12442,8 @@ msgstr "이름없음"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA.\n"
-"This might be an obsolete GIMP brush file, try loading it as image and save "
+"Glimpse brushes must be GRAY or RGBA.\n"
+"This might be an obsolete Glimpse brush file, try loading it as image and save "
 "it again."
 msgstr ""
 "붓 파일 '%s'에 치명적인 해석 오류: 지원되지 않는 심도 %d\n"
@@ -12454,7 +12454,7 @@ msgstr ""
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr ""
 "붓 파일 '%s'에 치명적인 해석 오류: 지원되지 않는 심도 %d\n"
 "김프 붓은 GRAY나 RGBA여야 합니다."
@@ -12517,17 +12517,17 @@ msgstr "클립보드"
 
 #: ../app/core/gimpbrushgenerated-load.c:75
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a Glimpse brush file."
 msgstr "김프 커브 파일이 아닙니다."
 
 #: ../app/core/gimpbrushgenerated-load.c:95
 #, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown Glimpse brush version."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:152
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown Glimpse brush shape."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:242
@@ -13043,7 +13043,7 @@ msgstr "단색으로 채우기"
 
 #: ../app/core/gimpgradient-load.c:72
 #, fuzzy, c-format
-msgid "Not a GIMP gradient file."
+msgid "Not a Glimpse gradient file."
 msgstr "김프 커브 파일이 아닙니다."
 
 #: ../app/core/gimpgradient-load.c:95
@@ -13919,7 +13919,7 @@ msgstr "무늬 파일 '%s'에 치명적인 해석 오류: 알 수 없는 무늬 
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"Glimpse Patterns must be GRAY or RGB."
 msgstr ""
 "무늬 파일 '%s'에 치명적인 해석 오류: 지원하지 않는 심도 %d.\n"
 "김프 무늬는 GRAY나 RGB여야 합니다."
@@ -14412,11 +14412,11 @@ msgid "percent"
 msgstr "퍼센트"
 
 #: ../app/dialogs/about-dialog.c:115
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "김프에 대해"
 
 #: ../app/dialogs/about-dialog.c:124
-msgid "Visit the GIMP website"
+msgid "Visit the Glimpse website"
 msgstr "김프 웹사이트 방문하기"
 
 #. Translators: insert your names here,
@@ -14713,12 +14713,12 @@ msgstr "정말 '%s'을(를) 목록에서 제거하고, 디스크에서도 삭제
 
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:190
 #: ../app/gui/gui-message.c:268
-msgid "GIMP Message"
+msgid "Glimpse Message"
 msgstr "김프 메시지"
 
 #: ../app/dialogs/dialogs-constructors.c:225
 #, fuzzy
-msgid "GIMP Debug"
+msgid "Glimpse Debug"
 msgstr "디버그"
 
 #: ../app/dialogs/dialogs.c:314
@@ -14830,7 +14830,7 @@ msgstr "파일 확장자명이 올바르지 않습니다."
 #: ../app/dialogs/file-save-dialog.c:619
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "이 대화 상자를 이용하여 다양한 파일 형식으로 내보낼 수 있습니다. 이미지를 김"
 "프 XCF 형식으로 저장하려면 파일→저장 메뉴를 이용하십시오."
@@ -14847,7 +14847,7 @@ msgstr "파일 확장자명이 올바르지 않습니다."
 
 #: ../app/dialogs/file-save-dialog.c:627
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export to "
 "export to other file formats."
 msgstr ""
 "이 대화 상자를 이용하여 김프 XCF 형식으로 저장할 수 있습니다. 다른 파일 형식"
@@ -15218,7 +15218,7 @@ msgid "_Refresh"
 msgstr "붓 새로 고침(_R)"
 
 #: ../app/dialogs/module-dialog.c:153
-msgid "You will have to restart GIMP for the changes to take effect."
+msgid "You will have to restart Glimpse for the changes to take effect."
 msgstr "바꾼 내용을 반영하려면, 김프를 다시 시작해야 합니다."
 
 #: ../app/dialogs/module-dialog.c:194
@@ -15396,13 +15396,13 @@ msgid "Do you really want to reset all preferences to default values?"
 msgstr "모든 설정을 기본값으로 초기화하겠습니까?"
 
 #: ../app/dialogs/preferences-dialog.c:377
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid "You will have to restart Glimpse for the following changes to take effect:"
 msgstr "바꾼 내용을 반영하려면, 김프를 다시 시작해야 합니다:"
 
 #: ../app/dialogs/preferences-dialog.c:619
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr "김프 재시작시 키보드 단축키가 기본값으로 초기화될 것입니다."
 
 #: ../app/dialogs/preferences-dialog.c:630
@@ -15422,7 +15422,7 @@ msgstr "김프 재시작시 창 설정이 기본값으로 초기화될 것입니
 #: ../app/dialogs/preferences-dialog.c:728
 msgid ""
 "Your input device settings will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr "김프 재시작시 입력 장치 설정이 기본값으로 초기화될 것입니다."
 
 #: ../app/dialogs/preferences-dialog.c:770
@@ -15581,7 +15581,7 @@ msgstr "디버그"
 
 #: ../app/dialogs/preferences-dialog.c:1227
 msgid ""
-"We hope you will never need these settings, but as all software, GIMP has "
+"We hope you will never need these settings, but as all software, Glimpse has "
 "bugs, and crashes can occur. If it happens, you can help us by reporting "
 "bugs."
 msgstr ""
@@ -15820,7 +15820,7 @@ msgstr "배경"
 
 #: ../app/dialogs/preferences-dialog.c:1558
 msgid ""
-"These features are unfinished, buggy and may crash GIMP. It is unadvised to "
+"These features are unfinished, buggy and may crash Glimpse. It is unadvised to "
 "use them unless you really know what you are doing or you intend to "
 "contribute patches."
 msgstr ""
@@ -16018,7 +16018,7 @@ msgid "Appearance"
 msgstr "모양새"
 
 #: ../app/dialogs/preferences-dialog.c:2046
-msgid "Show GIMP _logo (drag-and-drop target)"
+msgid "Show Glimpse _logo (drag-and-drop target)"
 msgstr ""
 
 #: ../app/dialogs/preferences-dialog.c:2050
@@ -16417,7 +16417,7 @@ msgstr "사용할 도움말 탐색기(_E):"
 
 #: ../app/dialogs/preferences-dialog.c:2507
 msgid ""
-"The GIMP help browser doesn't seem to be installed. Using the web browser "
+"The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr ""
 
@@ -16922,7 +16922,7 @@ msgid "pixels/%a"
 msgstr "픽셀/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
-msgid "Quit GIMP"
+msgid "Quit Glimpse"
 msgstr "김프 종료"
 
 #: ../app/dialogs/quit-dialog.c:164
@@ -16930,7 +16930,7 @@ msgid "Close All Images"
 msgstr "모든 이미지 닫기"
 
 #: ../app/dialogs/quit-dialog.c:256
-msgid "If you quit GIMP now, these changes will be lost."
+msgid "If you quit Glimpse now, these changes will be lost."
 msgstr "지금 종료할 경우, 바뀐 내용들을 잃게 됩니다."
 
 #: ../app/dialogs/quit-dialog.c:259
@@ -17077,11 +17077,11 @@ msgid "_Emulate brush dynamics"
 msgstr "동적 붓으로 에뮬레이트(_E)"
 
 #: ../app/dialogs/tips-dialog.c:99
-msgid "The GIMP tips file is empty!"
+msgid "The Glimpse tips file is empty!"
 msgstr "김프 팁 파일이 비어 있습니다!"
 
 #: ../app/dialogs/tips-dialog.c:103
-msgid "The GIMP tips file appears to be missing!"
+msgid "The Glimpse tips file appears to be missing!"
 msgstr "김프 팁 파일이 없습니다!"
 
 #: ../app/dialogs/tips-dialog.c:105
@@ -17090,11 +17090,11 @@ msgid "There should be a file called '%s'. Please check your installation."
 msgstr "파일 '%s'이(가) 없습니다. 설치되었는지 확인하십시오."
 
 #: ../app/dialogs/tips-dialog.c:111
-msgid "The GIMP tips file could not be parsed!"
+msgid "The Glimpse tips file could not be parsed!"
 msgstr "김프 팁 파일을 해석할 수 없습니다!"
 
 #: ../app/dialogs/tips-dialog.c:139
-msgid "GIMP Tip of the Day"
+msgid "Glimpse Tip of the Day"
 msgstr "오늘의 김프 팁"
 
 #: ../app/dialogs/tips-dialog.c:145
@@ -17120,7 +17120,7 @@ msgid "tips-locale:C"
 msgstr "tips-locale:ko"
 
 #: ../app/dialogs/user-install-dialog.c:85
-msgid "GIMP User Installation"
+msgid "Glimpse User Installation"
 msgstr "김프 사용자 설치"
 
 #: ../app/dialogs/user-install-dialog.c:94
@@ -17128,7 +17128,7 @@ msgid "User installation failed!"
 msgstr "사용자 설치 실패!"
 
 #: ../app/dialogs/user-install-dialog.c:96
-msgid "The GIMP user installation failed; see the log for details."
+msgid "The Glimpse user installation failed; see the log for details."
 msgstr "김프 사용자 설치 실패; 자세한 내용은 로그를 확인하십시오."
 
 #: ../app/dialogs/user-install-dialog.c:99
@@ -18772,7 +18772,7 @@ msgid "Curve"
 msgstr "커브"
 
 #: ../app/operations/gimpcurvesconfig.c:548
-msgid "not a GIMP Curves file"
+msgid "not a Glimpse Curves file"
 msgstr "김프 커브 파일이 아닙니다"
 
 #: ../app/operations/gimpcurvesconfig.c:579
@@ -18850,7 +18850,7 @@ msgid "Clamp final output values."
 msgstr ""
 
 #: ../app/operations/gimplevelsconfig.c:842
-msgid "not a GIMP Levels file"
+msgid "not a Glimpse Levels file"
 msgstr "김프 레벨 파일이 아닙니다"
 
 #: ../app/operations/gimplevelsconfig.c:917
@@ -18868,12 +18868,12 @@ msgid "Adjust brightness and contrast"
 msgstr "명도와 대비 조절"
 
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
-msgid "Compute a set of coefficient buffer for the GIMP cage tool"
+msgid "Compute a set of coefficient buffer for the Glimpse cage tool"
 msgstr "김프 골조 도구를 위한 계수 버퍼 모음 계산하기"
 
 #: ../app/operations/gimpoperationcagetransform.c:105
 msgid ""
-"Convert a set of coefficient buffer to a coordinate buffer for the GIMP cage "
+"Convert a set of coefficient buffer to a coordinate buffer for the Glimpse cage "
 "tool"
 msgstr "계수 버퍼 모음을 김프 골조 도구의 계수 버퍼로 변환합니다"
 
@@ -18963,9 +18963,9 @@ msgid ""
 "value"
 msgstr ""
 
-#. TRANSLATORS: there is no need to translate this in GIMP. This uses
+#. TRANSLATORS: there is no need to translate this in Glimpse. This uses
 #. * "gtk20" domain as a special trick to determine language direction,
-#. * but xgettext extracts it anyway mistakenly into GIMP po files.
+#. * but xgettext extracts it anyway mistakenly into Glimpse po files.
 #. * Leave an empty string as translation. It does not matter.
 #.
 #: ../app/gui/gui.c:236
@@ -18987,7 +18987,7 @@ msgid "_Recover"
 msgstr ""
 
 #: ../app/gui/gui.c:340
-msgid "Eeek! It looks like GIMP recovered from a crash!"
+msgid "Eeek! It looks like Glimpse recovered from a crash!"
 msgstr ""
 
 #. TRANSLATORS: even if English singular form does
@@ -19012,7 +19012,7 @@ msgid "Documents"
 msgstr "문서"
 
 #: ../app/gui/splash.c:128
-msgid "GIMP Startup"
+msgid "Glimpse Startup"
 msgstr "김프 시작"
 
 #: ../app/paint/gimpairbrush.c:77 ../app/tools/gimpairbrushtool.c:67
@@ -20390,8 +20390,8 @@ msgid ""
 "Plug-in crashed: \"%s\"\n"
 "(%s)\n"
 "\n"
-"The dying plug-in may have messed up GIMP's internal state. You may want to "
-"save your images and restart GIMP to be on the safe side."
+"The dying plug-in may have messed up Glimpse's internal state. You may want to "
+"save your images and restart Glimpse to be on the safe side."
 msgstr ""
 "플러그인 비정상 종료: \"%s\"\n"
 "(%s)\n"
@@ -20483,7 +20483,7 @@ msgstr ""
 
 #: ../app/plug-in/plug-in-rc.c:231
 #, c-format
-msgid "Skipping '%s': wrong GIMP protocol version."
+msgid "Skipping '%s': wrong Glimpse protocol version."
 msgstr "'%s' 건너뜀: 잘못된 김프 프로토콜 버전."
 
 #: ../app/plug-in/plug-in-rc.c:238
@@ -22513,7 +22513,7 @@ msgstr "이동(_M)"
 
 #: ../app/tools/gimpmybrushtool.c:74
 #, fuzzy
-msgid "MyPaint Brush Tool: Use MyPaint brushes in GIMP"
+msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
 msgstr "붓 도구: 붓을 이용해 부드러운 선을 그립니다."
 
 #: ../app/tools/gimpmybrushtool.c:75
@@ -23228,7 +23228,7 @@ msgstr ""
 "만들 수 있습니다."
 
 #: ../app/tools/gimptexttool-editor.c:1292
-msgid "GIMP Text Editor"
+msgid "Glimpse Text Editor"
 msgstr "김프 텍스트 편집기"
 
 #: ../app/tools/gimpthresholdtool.c:89
@@ -24516,7 +24516,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:132
 #: ../app/widgets/gimpcriticaldialog.c:443
 msgid ""
-"To help us improve GIMP, you can report the bug with these simple steps:"
+"To help us improve Glimpse, you can report the bug with these simple steps:"
 msgstr ""
 
 #: ../app/widgets/gimpcriticaldialog.c:134
@@ -24550,8 +24550,8 @@ msgstr ""
 
 #: ../app/widgets/gimpcriticaldialog.c:142
 msgid ""
-"This error may have left GIMP in an inconsistent state. It is advised to "
-"save your work and restart GIMP."
+"This error may have left Glimpse in an inconsistent state. It is advised to "
+"save your work and restart Glimpse."
 msgstr ""
 
 #: ../app/widgets/gimpcriticaldialog.c:153
@@ -24626,13 +24626,13 @@ msgstr "'%s'에서 경로를 들여올 수 없습니다: %s"
 
 #: ../app/widgets/gimpcriticaldialog.c:409
 #, c-format
-msgid "GIMP crashed with a fatal error: %s"
+msgid "Glimpse crashed with a fatal error: %s"
 msgstr "김프가 치명적인 오류 ' %s ' 로 인해 비정상 종료되었습니다."
 
 #. First error. Let's just display it.
 #: ../app/widgets/gimpcriticaldialog.c:416
 #, c-format
-msgid "GIMP encountered an error: %s"
+msgid "Glimpse encountered an error: %s"
 msgstr ""
 
 #. Let's not display all errors. They will be in the bug report
@@ -24640,11 +24640,11 @@ msgstr ""
 #.
 #: ../app/widgets/gimpcriticaldialog.c:424
 #, c-format
-msgid "GIMP encountered several critical errors!"
+msgid "Glimpse encountered several critical errors!"
 msgstr ""
 
 #: ../app/widgets/gimpcriticaldialog.c:476
-msgid "_Restart GIMP"
+msgid "_restart Glimpse"
 msgstr "김프 재시작(_R)"
 
 #: ../app/widgets/gimpdashboard.c:346 ../app/widgets/gimpdashboard.c:398
@@ -25022,7 +25022,7 @@ msgid "Messages are redirected to stderr."
 msgstr "메시지는 stderr로 보내집니다."
 
 #. %s is a message domain,
-#. * like "GIMP Message" or
+#. * like "Glimpse Message" or
 #. * "PNG Message"
 #.
 #: ../app/widgets/gimperrordialog.c:196
@@ -25187,12 +25187,12 @@ msgid "Help browser is missing"
 msgstr "도움말 탐색기가 없습니다"
 
 #: ../app/widgets/gimphelp.c:372
-msgid "The GIMP help browser is not available."
+msgid "The Glimpse help browser is not available."
 msgstr "김프 도움말 탐색기를 사용할 수 없습니다."
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
-"The GIMP help browser plug-in appears to be missing from your installation. "
+"The Glimpse help browser plug-in appears to be missing from your installation. "
 "You may instead use the web browser for reading the help pages."
 msgstr ""
 "김프 도움말 탐색기 플러그인이 설치 과정에서 제외되었습니다. 웹 탐색기를 이용"
@@ -25203,7 +25203,7 @@ msgid "Help browser doesn't start"
 msgstr "도움말 탐색기를 시작하지 않습니다"
 
 #: ../app/widgets/gimphelp.c:420
-msgid "Could not start the GIMP help browser plug-in."
+msgid "Could not start the Glimpse help browser plug-in."
 msgstr "김프 도움말 탐색기 플러그인을 시작할 수 없습니다."
 
 #: ../app/widgets/gimphelp.c:422
@@ -25218,12 +25218,12 @@ msgid "Use _Web Browser"
 msgstr "웹 탐색기 사용(_W)"
 
 #: ../app/widgets/gimphelp.c:793
-msgid "GIMP user manual is missing"
+msgid "Glimpse user manual is missing"
 msgstr "김프 사용자 설명서가 없습니다"
 
 #: ../app/widgets/gimphelp.c:809
 #, fuzzy
-msgid "The GIMP user manual is not installed in your language."
+msgid "The Glimpse user manual is not installed in your language."
 msgstr "김프 사용자 설명서가 설치되지 않았습니다."
 
 #: ../app/widgets/gimphelp.c:820
@@ -25493,7 +25493,7 @@ msgstr "모든 XCF 이미지"
 #, c-format
 msgid ""
 "The image uses features from %s, disabling compression won't make the XCF "
-"file readable by older GIMP versions."
+"file readable by older Glimpse versions."
 msgstr ""
 
 #: ../app/widgets/gimpsavedialog.c:266
@@ -25503,7 +25503,7 @@ msgid ""
 msgstr ""
 
 #: ../app/widgets/gimpsavedialog.c:276
-msgid "Metadata won't be visible in GIMP older than version 2.10."
+msgid "Metadata won't be visible in Glimpse older than version 2.10."
 msgstr ""
 
 #: ../app/widgets/gimpsavedialog.c:329
@@ -25903,7 +25903,7 @@ msgid "%s Preset"
 msgstr "%s 프리셋"
 
 #: ../app/widgets/gimpuimanager.c:760
-msgid "Your GIMP installation is incomplete:"
+msgid "Your Glimpse installation is incomplete:"
 msgstr "김프 설치가 완료되지 않았습니다. :"
 
 #: ../app/widgets/gimpuimanager.c:762
@@ -26130,7 +26130,7 @@ msgid "Undefined"
 msgstr "정의 안됨"
 
 #: ../app/xcf/xcf.c:114 ../app/xcf/xcf.c:185
-msgid "GIMP XCF image"
+msgid "Glimpse XCF image"
 msgstr "김프 XCF 이미지"
 
 #: ../app/xcf/xcf.c:272 ../app/xcf/xcf.c:360
@@ -26229,7 +26229,7 @@ msgid "Error writing XCF: unsupported BPC when writing pixel: %d"
 msgstr ""
 
 #: ../app-tools/gimp-debug-tool.c:78
-msgid "GIMP Crash Debug"
+msgid "Glimpse Crash Debug"
 msgstr "김프 충돌 디버그"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
@@ -26340,9 +26340,9 @@ msgstr "퍼지"
 #~ msgstr "명도"
 
 #~ msgid ""
-#~ "Unable to open swap file. GIMP has run out of memory and cannot use the "
+#~ "Unable to open swap file. Glimpse has run out of memory and cannot use the "
 #~ "swap file. Some parts of your images may be corrupted. Try to save your "
-#~ "work using different filenames, restart GIMP and check the location of "
+#~ "work using different filenames, restart Glimpse and check the location of "
 #~ "the swap directory in your Preferences."
 #~ msgstr ""
 #~ "스왑 파일을 열 수 없습니다. 메모리가 부족하며, 스왑 파일도 사용할 수 없습"
@@ -26475,18 +26475,18 @@ msgstr "퍼지"
 #~ msgid_plural "Could not read %d bytes from '%s': %s"
 #~ msgstr[0] "\t\t%d바이트를 '%s'에서 읽을 수 없습니다: %s"
 
-#~ msgid "Fatal parse error in brush file '%s': Not a GIMP brush file."
+#~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 #~ msgstr "붓 파일 '%s'에 치명적인 해석 오류: 김프 붓 파일이 아닙니다."
 
 #~ msgid ""
-#~ "Fatal parse error in brush file '%s': Unknown GIMP brush version in line "
+#~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in line "
 #~ "%d."
 #~ msgstr ""
 #~ "붓 파일 '%s'에 치명적인 해석 오류: %d번째 줄의 김프 붓 버전을 알 수 없습니"
 #~ "다."
 
 #~ msgid ""
-#~ "Fatal parse error in brush file '%s': Unknown GIMP brush shape in line %d."
+#~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line %d."
 #~ msgstr ""
 #~ "붓 파일 '%s'에 치명적인 해석 오류: %d번째 줄의 김프 붓 모양을 알 수 없습니"
 #~ "다."
@@ -26510,7 +26510,7 @@ msgstr "퍼지"
 #~ msgid "Fatal parse error in gradient file '%s': Read error in line %d."
 #~ msgstr "색상표 파일 '%s'에 치명적 해석 오류: %d번째 줄에서 읽기 오류."
 
-#~ msgid "Fatal parse error in gradient file '%s': Not a GIMP gradient file."
+#~ msgid "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr ""
 #~ "그라디언트 파일 '%s'에 치명적인 해석 오류: 김프 그라디언트 파일이 아닙니"
 #~ "다."

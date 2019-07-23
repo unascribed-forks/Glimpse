@@ -1,13 +1,13 @@
 # Scottish Gaelic translation for gimp.
-# Copyright (C) 2013 gimp's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gimp package.
+# Copyright (C) 2013 Glimpse's COPYRIGHT HOLDER
+# This file is distributed under the same license as the Glimpse package.
 # akerbeltz <fios@akerbeltz.org>, 2013.
 # Michael Bauer <fios@akerbeltz.org>, 2013, 2014.
 # Home <fios@akerbeltz.org>, 2014.
 # GunChleoc <fios@foramnagaidhlig.net>, 2015.
 msgid ""
 msgstr ""
-"Project-Id-Version: gimp master\n"
+"Project-Id-Version: Glimpse master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2015-03-27 18:28+0000\n"
 "PO-Revision-Date: 2015-03-27 19:41+0100\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../desktop/gimp.appdata.xml.in.h:1
 msgid ""
-"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
+"Glimpse is an acronym for GNU Image Manipulation Program. It is a freely "
 "distributed program for such tasks as photo retouching, image composition "
 "and image authoring."
 msgstr ""
@@ -46,23 +46,23 @@ msgstr ""
 #: ../desktop/gimp.appdata.xml.in.h:3
 #, fuzzy
 #| msgid ""
-#| "GIMP is expandable and extensible. It is designed to be augmented with "
+#| "Glimpse is expandable and extensible. It is designed to be augmented with "
 #| "plug-ins and extensions to do just about anything. The advanced scripting "
 #| "interface allows everything from the simplest task to the most complex "
-#| "image manipulation procedures to be easily scripted. GIMP is also "
+#| "image manipulation procedures to be easily scripted. Glimpse is also "
 #| "available for Microsoft Windows and OS X."
 msgid ""
-"GIMP is expandable and extensible. It is designed to be augmented with plug-"
+"Glimpse is expandable and extensible. It is designed to be augmented with plug-"
 "ins and extensions to do just about anything. The advanced scripting "
 "interface allows everything from the simplest task to the most complex image "
-"manipulation procedures to be easily scripted. GIMP is available for Linux, "
+"manipulation procedures to be easily scripted. Glimpse is available for Linux, "
 "Microsoft Windows and OS X."
 msgstr ""
-"Gabhaidh GIMP a leudachadh cuideachd. Chaidh a dhealbhadh airson 's gun gabh "
+"Gabhaidh Glimpse a leudachadh cuideachd. Chaidh a dhealbhadh airson 's gun gabh "
 "plugain is leudachain a chur ris ach an urrainn dhut cha mhòr rud sam bith a "
 "dhèanamh leis. Tha eadar-aghaidh adhartach an sgriobtachaidh a' toirt comas "
 "dhut cha mhòr rud sam bith a dhèanamh, eadar an obair as simplidhe agus "
-"deasachadh fìor-thoinnte. Tha GIMP ri fhaighinn air Microsoft Windows agus "
+"deasachadh fìor-thoinnte. Tha Glimpse ri fhaighinn air Microsoft Windows agus "
 "OSX cuideachd."
 
 #: ../desktop/gimp.desktop.in.in.h:1 ../app/about.h:26
@@ -86,19 +86,19 @@ msgstr "GIMP"
 #, c-format
 msgid ""
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the GIMP Development Team"
+"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 msgstr ""
 "Còir-lethbhreac © 1995-%s\n"
 "Spencer Kimball, Peter Mattis agus sgioba leasachadh GIMP"
 
 #: ../app/about.h:34
 msgid ""
-"GIMP is free software: you can redistribute it and/or modify it under the "
+"Glimpse is free software: you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 3 of the License, or (at your option) any later "
 "version.\n"
 "\n"
-"GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details.\n"
@@ -106,12 +106,12 @@ msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "GIMP.  If not, see https://www.gnu.org/licenses/."
 msgstr ""
-"GIMP is free software: you can redistribute it and/or modify it under the "
+"Glimpse is free software: you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 3 of the License, or (at your option) any later "
 "version.\n"
 "\n"
-"GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details.\n"
@@ -146,8 +146,8 @@ msgid "Be more verbose"
 msgstr "Bi nas briathraiche"
 
 #: ../app/main.c:165
-msgid "Start a new GIMP instance"
-msgstr "Tòisich air ionstans ùr de GIMP"
+msgid "Start a new Glimpse instance"
+msgstr "Tòisich air ionstans ùr de Glimpse"
 
 #: ../app/main.c:170
 msgid "Open images as new"
@@ -170,8 +170,8 @@ msgid "Do not show a splash screen"
 msgstr "Na seall sgrìn splash"
 
 #: ../app/main.c:195
-msgid "Do not use shared memory between GIMP and plugins"
-msgstr "Na cleachd cuimhne a tha co-roinnte eadar GIMP is plugain"
+msgid "Do not use shared memory between Glimpse and plugins"
+msgstr "Na cleachd cuimhne a tha co-roinnte eadar Glimpse is plugain"
 
 #: ../app/main.c:200
 msgid "Do not use special CPU acceleration functions"
@@ -240,20 +240,20 @@ msgstr "[FILE|URI...]"
 
 #: ../app/main.c:420
 msgid ""
-"GIMP could not initialize the graphical user interface.\n"
+"Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
-"Cha b' urrainn dha GIMP eadar-aghaidh ghrafaigeach a' chleachdaichea "
+"Cha b' urrainn dha Glimpse eadar-aghaidh ghrafaigeach a' chleachdaichea "
 "thòiseachadh.\n"
 "Dèan cinnteach gu bheil gun deach na h-uidheaman-taisbeanaidh agad a "
 "shuidheachadh mar bu chòir."
 
 #: ../app/main.c:439
-msgid "Another GIMP instance is already running."
-msgstr "Tha ionstans eile de GIMP a' ruith mu thràth."
+msgid "Another Glimpse instance is already running."
+msgstr "Tha ionstans eile de Glimpse a' ruith mu thràth."
 
 #: ../app/main.c:524
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr ""
 "Às-chur GIMP. Cuir a-steach caractar sam bith gus an uinneag seo a dhùnadh."
 
@@ -263,7 +263,7 @@ msgid "(Type any character to close this window)\n"
 msgstr "(Cuir a-steach caractar sam bith gus an uinneag seo a dhùnadh)\n"
 
 #: ../app/main.c:542
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr ""
 "Às-chur GIMP. 'S urrainn dhut an uinneag seo a lùghdachadh ach na dùin e."
 
@@ -282,7 +282,7 @@ msgstr ""
 #: ../app/sanity.c:619
 #, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -314,7 +314,7 @@ msgstr "%s tionndadh %s"
 msgid "Brush Editor"
 msgstr "Deasaiche nam bruisean"
 
-#. initialize the list of gimp brushes
+#. initialize the list of Glimpse brushes
 #: ../app/actions/actions.c:112 ../app/core/gimp.c:1039
 #: ../app/dialogs/dialogs.c:326 ../app/dialogs/preferences-dialog.c:2608
 msgid "Brushes"
@@ -404,7 +404,7 @@ msgstr "Cruthan-clò"
 msgid "Gradient Editor"
 msgstr "Deasaiche nan caiseadan"
 
-#. initialize the list of gimp gradients
+#. initialize the list of Glimpse gradients
 #: ../app/actions/actions.c:172 ../app/core/gimp.c:1059
 #: ../app/dialogs/dialogs.c:330 ../app/dialogs/preferences-dialog.c:2624
 msgid "Gradients"
@@ -444,13 +444,13 @@ msgstr "Breathan"
 msgid "Palette Editor"
 msgstr "Deasaiche a' phaileid"
 
-#. initialize the list of gimp palettes
+#. initialize the list of Glimpse palettes
 #: ../app/actions/actions.c:196 ../app/core/gimp.c:1054
 #: ../app/dialogs/dialogs.c:332 ../app/dialogs/preferences-dialog.c:2620
 msgid "Palettes"
 msgstr "Paileadan"
 
-#. initialize the list of gimp patterns
+#. initialize the list of Glimpse patterns
 #: ../app/actions/actions.c:199 ../app/core/gimp.c:1049
 #: ../app/dialogs/dialogs.c:328 ../app/dialogs/preferences-dialog.c:2616
 msgid "Patterns"
@@ -1401,12 +1401,12 @@ msgstr "_Gliocas an latha"
 
 #: ../app/actions/dialogs-actions.c:257
 msgctxt "dialogs-action"
-msgid "Show some helpful tips on using GIMP"
+msgid "Show some helpful tips on using Glimpse"
 msgstr "Seall grunn ghliocasan cuideachail mu dhèidhinn GIMP"
 
 #: ../app/actions/dialogs-actions.c:263 ../app/actions/dialogs-actions.c:270
 msgctxt "dialogs-action"
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "Mu dhèidhinn GIMP"
 
 #: ../app/actions/dialogs-actions.c:265
@@ -2521,7 +2521,7 @@ msgstr "Fà_g an-seo"
 
 #: ../app/actions/file-actions.c:125
 msgctxt "file-action"
-msgid "Quit the GNU Image Manipulation Program"
+msgid "Quit Glimpse"
 msgstr "Fàg an GNU Image Manipulation Program"
 
 #: ../app/actions/file-actions.c:133
@@ -3595,7 +3595,7 @@ msgstr "Cob_hair"
 
 #: ../app/actions/help-actions.c:42
 msgctxt "help-action"
-msgid "Open the GIMP user manual"
+msgid "Open the Glimpse user manual"
 msgstr "Fosgail an treòir airson luchd-cleachdaidh GIMP"
 
 #: ../app/actions/help-actions.c:47
@@ -6665,8 +6665,8 @@ msgstr "Modh aon-uinneagach"
 
 #: ../app/actions/windows-actions.c:130
 msgctxt "windows-action"
-msgid "When enabled, GIMP is in a single-window mode."
-msgstr "Ma bhios seo an comas, nochdaidh GIMP san aon uinneag."
+msgid "When enabled, Glimpse is in a single-window mode."
+msgstr "Ma bhios seo an comas, nochdaidh Glimpse san aon uinneag."
 
 #: ../app/actions/windows-actions.c:139
 msgctxt "windows-tabs-position-action"
@@ -6778,7 +6778,7 @@ msgstr "Àrd"
 
 #: ../app/config/config-enums.c:147
 msgctxt "help-browser-type"
-msgid "GIMP help browser"
+msgid "Glimpse help browser"
 msgstr "Brabhsair cobhair GIMP"
 
 #: ../app/config/config-enums.c:148
@@ -7043,10 +7043,10 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:218
 msgid ""
-"GIMP will warn the user if an attempt is made to create an image that would "
+"Glimpse will warn the user if an attempt is made to create an image that would "
 "take more memory than the size specified here."
 msgstr ""
-"Bheir GIMP rabhadh dhan chleachdaiche ma dh'fheuchas e ri dealbh a "
+"Bheir Glimpse rabhadh dhan chleachdaiche ma dh'fheuchas e ri dealbh a "
 "chruthachadh a dh'fheumadh barrachd cuimhne na tha air a shònrachadh an-seo."
 
 #: ../app/config/gimprc-blurbs.h:228
@@ -7089,8 +7089,8 @@ msgstr ""
 "ìosal ann an uinneag an deilbh."
 
 #: ../app/config/gimprc-blurbs.h:246
-msgid "Sets how many processors GIMP should try to use simultaneously."
-msgstr "Suidhichidh co mheud pròiseasar a chleachdas GIMP aig an aon àm."
+msgid "Sets how many processors Glimpse should try to use simultaneously."
+msgstr "Suidhichidh co mheud pròiseasar a chleachdas Glimpse aig an aon àm."
 
 #: ../app/config/gimprc-blurbs.h:259
 msgid ""
@@ -7109,11 +7109,11 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:275
 msgid ""
-"Sets whether GIMP should create previews of layers and channels. Previews in "
+"Sets whether Glimpse should create previews of layers and channels. Previews in "
 "the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
-"Suidhichidh seo an cruthaich GIMP ro-shealladh de bhreathan is seanailean. "
+"Suidhichidh seo an cruthaich Glimpse ro-shealladh de bhreathan is seanailean. "
 "Tha ro-shealladh ann an còmhradh nam breathan is seanailean snasail ach "
 "faodaidh gun cuir seo dàil air obrachaidhean nuair a bhios dealbh mòr agad."
 
@@ -7146,20 +7146,20 @@ msgstr ""
 "obrachail nuair a shùmar a-steach is a-mach air dealbhan."
 
 #: ../app/config/gimprc-blurbs.h:295
-msgid "Let GIMP try to restore your last saved session on each startup."
+msgid "Let Glimpse try to restore your last saved session on each startup."
 msgstr ""
-"Thoir cead dha GIMP feuchainn ris an seisean mu dheireadh a shàbhail thu "
+"Thoir cead dha Glimpse feuchainn ris an seisean mu dheireadh a shàbhail thu "
 "aiseag gach turas a thòisicheas e."
 
 #: ../app/config/gimprc-blurbs.h:298
 msgid ""
-"When enabled, GIMP will try to restore windows on the monitor they were open "
+"When enabled, Glimpse will try to restore windows on the monitor they were open "
 "before.  When disabled, windows will appear on the currently used monitor."
 msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:303
 msgid ""
-"Remember the current tool, pattern, color, and brush across GIMP sessions."
+"Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
 "Cuimhnich an t-inneal, am pàtran, an dath agus na bruisean làithreach "
 "thairis air seiseanan GIMP."
@@ -7173,12 +7173,12 @@ msgstr ""
 "liosta nan sgrìobhainnean o chionn goirid."
 
 #: ../app/config/gimprc-blurbs.h:311
-msgid "Save the positions and sizes of the main dialogs when GIMP exits."
+msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
 "Sàbhail ionadan is meudan nam prìomh-chòmhraidhean nuair a dhùineas GIMP."
 
 #: ../app/config/gimprc-blurbs.h:314
-msgid "Save the tool options when GIMP exits."
+msgid "Save the tool options when Glimpse exits."
 msgstr "Sàbhail roghainnean an inneil nuair a dhùineas GIMP."
 
 #: ../app/config/gimprc-blurbs.h:320
@@ -7298,8 +7298,8 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "Seall gliocas-sgrìn nuair a dh'fhanas an tomhaire os cionn rud."
 
 #: ../app/config/gimprc-blurbs.h:372
-msgid "Use GIMP in a single-window mode."
-msgstr "Cleachd GIMP sa mhodh aon-uinneagach."
+msgid "Use Glimpse in a single-window mode."
+msgstr "Cleachd Glimpse sa mhodh aon-uinneagach."
 
 #: ../app/config/gimprc-blurbs.h:375
 msgid "Hide docks and other windows, leaving only image windows."
@@ -7324,14 +7324,14 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:387
 msgid ""
-"Sets the swap file location. GIMP uses a tile based memory allocation "
+"Sets the swap file location. Glimpse uses a tile based memory allocation "
 "scheme. The swap file is used to quickly and easily swap tiles out to disk "
-"and back in. Be aware that the swap file can easily get very large if GIMP "
+"and back in. Be aware that the swap file can easily get very large if Glimpse "
 "is used with large images. Also, things can get horribly slow if the swap "
 "file is created on a folder that is mounted over NFS.  For these reasons, it "
 "may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
-"Suidhichidh seo ionad an fhaidhle suaipidh. Tha GIMP a' cleachdadh sgeama "
+"Suidhichidh seo ionad an fhaidhle suaipidh. Tha Glimpse a' cleachdadh sgeama "
 "riarachadh cuimhne a-rèir leacagan. Thèid am faidhle suaipidh a chleachdadh "
 "airson 's gun gabh leacagan a ghluasad dhan diosga o uaithe gu luath 's gun "
 "duilgheadas. Thoir an air gum fàs am faidhle suaipidh mòr gu luath ma "
@@ -7354,13 +7354,13 @@ msgstr ""
 "chlàir-thaice comharraichte."
 
 #: ../app/config/gimprc-blurbs.h:403
-msgid "Save changed keyboard shortcuts when GIMP exits."
+msgid "Save changed keyboard shortcuts when Glimpse exits."
 msgstr ""
 "Sàbhail ath-ghoiridean a' mheur-chlàir a chaidh atharrachadh nuair a "
 "dhùineas GIMP."
 
 #: ../app/config/gimprc-blurbs.h:406
-msgid "Restore saved keyboard shortcuts on each GIMP startup."
+msgid "Restore saved keyboard shortcuts on each Glimpse startup."
 msgstr ""
 "Aisig ath-ghoiridean a' mheur-chlàir a chaidh a shàbhaladh gach turas a "
 "thòisicheas GIMP."
@@ -7368,13 +7368,13 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:409
 msgid ""
 "Sets the folder for temporary storage. Files will appear here during the "
-"course of running GIMP.  Most files will disappear when GIMP exits, but some "
+"course of running Glimpse.  Most files will disappear when Glimpse exits, but some "
 "files are likely to remain, so it is best if this folder not be one that is "
 "shared by other users."
 msgstr ""
 "Suidhichidh seo pasgan an stòrais shealaich. Nochdaidh faidhlichean an-seo "
 "fhad 's a bhios tu a' ruith GIMP. Falbhaidh cuid mhòr dhe na faidhlichean "
-"seo nuair a dhùineas GIMP ach tha teans gum fan cuid dhiubh ann agus leis a "
+"seo nuair a dhùineas Glimpse ach tha teans gum fan cuid dhiubh ann agus leis a "
 "sin, chan fheairrde dhut am pasgan seo a cho-roinneadh le cleachdaichean "
 "eile."
 
@@ -7393,7 +7393,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:428
 msgid ""
-"When the amount of pixel data exceeds this limit, GIMP will start to swap "
+"When the amount of pixel data exceeds this limit, Glimpse will start to swap "
 "tiles to disk.  This is a lot slower but it makes it possible to work on "
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
@@ -7433,10 +7433,10 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:452
 msgid ""
-"When enabled, GIMP will not save an image if it has not been changed since "
+"When enabled, Glimpse will not save an image if it has not been changed since "
 "it was opened."
 msgstr ""
-"Ma bhios seo an comas, cha sàbhail GIMP dealbh mur an deach atharrachadh on "
+"Ma bhios seo an comas, cha sàbhail Glimpse dealbh mur an deach atharrachadh on "
 "a chaidh fhosgladh."
 
 #: ../app/config/gimprc-blurbs.h:456
@@ -8385,7 +8385,7 @@ msgstr "A' lorg fhaidhlichean dàta"
 msgid "Parasites"
 msgstr "Parasaitean"
 
-#. initialize the list of gimp dynamics
+#. initialize the list of Glimpse dynamics
 #: ../app/core/gimp.c:1044 ../app/dialogs/preferences-dialog.c:2612
 #: ../app/tools/gimppaintoptions-gui.c:210
 msgid "Dynamics"
@@ -8491,19 +8491,19 @@ msgstr "tags-locale:gd"
 #: ../app/core/gimp-user-install.c:208
 #, c-format
 msgid ""
-"It seems you have used GIMP %s before.  GIMP will now migrate your user "
+"It seems you have used Glimpse %s before.  Glimpse will now migrate your user "
 "settings to '%s'."
 msgstr ""
-"Tha coltas gun do chleachd thu GIMP %s roimhe. Imrichidh GIMP na roghainnean "
+"Tha coltas gun do chleachd thu GIMP %s roimhe. Imrichidh Glimpse na roghainnean "
 "agad gu \"%s\" a-nis."
 
 #: ../app/core/gimp-user-install.c:213
 #, c-format
 msgid ""
-"It appears that you are using GIMP for the first time.  GIMP will now create "
+"It appears that you are using Glimpse for the first time.  Glimpse will now create "
 "a folder named '%s' and copy some files to it."
 msgstr ""
-"Tha coltas nach do chleachd thu GIMP roimhe. Cruthaichidh GIMP pasgan a-nis "
+"Tha coltas nach do chleachd thu Glimpse roimhe. Cruthaichidh Glimpse pasgan a-nis "
 "air a bhios \"%s\" agus cuiridh e lethbhreacan de ghrunn fhaidhlichean dha."
 
 #: ../app/core/gimp-user-install.c:412
@@ -8579,35 +8579,35 @@ msgstr "Gun ainm"
 #, fuzzy, c-format
 #| msgid ""
 #| "Fatal parse error in brush file '%s': Unsupported brush depth %d\n"
-#| "GIMP brushes must be GRAY or RGBA.\n"
-#| "This might be an obsolete GIMP brush file, try loading it as image and "
+#| "Glimpse brushes must be GRAY or RGBA.\n"
+#| "This might be an obsolete Glimpse brush file, try loading it as image and "
 #| "save it again."
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA.\n"
-"This might be an obsolete GIMP brush file, try loading it as image and save "
+"Glimpse brushes must be GRAY or RGBA.\n"
+"This might be an obsolete Glimpse brush file, try loading it as image and save "
 "it again."
 msgstr ""
 "Mearachd parsaidh mharbhtach ann am faidhle na bruise \"%s\": Doimhne bruise "
 "ris nach eil taic %d\n"
-"Feumaidh bruisean GIMP a bhith GRAY no RGBA.\n"
-"Dh'fhaoidte gur e seo faidhle bruis GIMP nach cleachdar tuilleadh. Feuch is "
+"Feumaidh bruisean Glimpse a bhith GRAY no RGBA.\n"
+"Dh'fhaoidte gur e seo faidhle bruis Glimpse nach cleachdar tuilleadh. Feuch is "
 "luchdaich e mar dhealbh is sàbhail e às ùr."
 
 #: ../app/core/gimpbrush-load.c:370
 #, fuzzy, c-format
 #| msgid ""
 #| "Fatal parse error in brush file '%s': Unsupported brush depth %d\n"
-#| "GIMP brushes must be GRAY or RGBA."
+#| "Glimpse brushes must be GRAY or RGBA."
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr ""
 "Mearachd parsaidh mharbhtach ann am faidhle na bruise \"%s\": Doimhne bruise "
 "ris nach eil taic %d\n"
-"Feumaidh bruisean GIMP a bhith GRAY no RGBA."
+"Feumaidh bruisean Glimpse a bhith GRAY no RGBA."
 
 #: ../app/core/gimpbrush-load.c:446
 #, fuzzy, c-format
@@ -8653,18 +8653,18 @@ msgstr "Beàrnadh na bruise"
 
 #: ../app/core/gimpbrushgenerated-load.c:75
 #, fuzzy, c-format
-#| msgid "not a GIMP Curves file"
-msgid "Not a GIMP brush file."
-msgstr "Chan e faidhle lùban GIMP a tha ann"
+#| msgid "not a Glimpse Curves file"
+msgid "Not a Glimpse brush file."
+msgstr "Chan e faidhle lùban Glimpse a tha ann"
 
 #: ../app/core/gimpbrushgenerated-load.c:95
 #, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown Glimpse brush version."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:152
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown Glimpse brush shape."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:242
@@ -9058,9 +9058,9 @@ msgstr "Seòrsa an às-chuir"
 
 #: ../app/core/gimpgradient-load.c:72
 #, fuzzy, c-format
-#| msgid "not a GIMP Curves file"
-msgid "Not a GIMP gradient file."
-msgstr "Chan e faidhle lùban GIMP a tha ann"
+#| msgid "not a Glimpse Curves file"
+msgid "Not a Glimpse gradient file."
+msgstr "Chan e faidhle lùban Glimpse a tha ann"
 
 #: ../app/core/gimpgradient-load.c:95
 #, c-format
@@ -9894,14 +9894,14 @@ msgstr ""
 #, fuzzy, c-format
 #| msgid ""
 #| "Fatal parse error in pattern file '%s: Unsupported pattern depth %d.\n"
-#| "GIMP Patterns must be GRAY or RGB."
+#| "Glimpse Patterns must be GRAY or RGB."
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"Glimpse Patterns must be GRAY or RGB."
 msgstr ""
 "Mearachd parsaidh mharbhtach ann am faidhle a' phàtrain \"%s\": Doimhne "
 "pàtrain ris nach eil taic %d\n"
-"Feumaidh pàtranan GIMP a bhith GRAY no RGB."
+"Feumaidh pàtranan Glimpse a bhith GRAY no RGB."
 
 #: ../app/core/gimppattern-load.c:103 ../app/core/gimppattern-load.c:141
 #, fuzzy
@@ -10097,11 +10097,11 @@ msgid "percent"
 msgstr "ceudad"
 
 #: ../app/dialogs/about-dialog.c:115
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "Mu dhèidhinn GIMP"
 
 #: ../app/dialogs/about-dialog.c:124
-msgid "Visit the GIMP website"
+msgid "Visit the Glimpse website"
 msgstr "Tadhail air làrach-lìn GIMP"
 
 #. Translators: insert your names here,
@@ -10230,7 +10230,7 @@ msgstr ""
 
 #: ../app/dialogs/dialogs-constructors.c:213 ../app/gui/gui.c:165
 #: ../app/gui/gui-message.c:157
-msgid "GIMP Message"
+msgid "Glimpse Message"
 msgstr "Teachdaireachd GIMP"
 
 #: ../app/dialogs/dialogs.c:311
@@ -10348,10 +10348,10 @@ msgstr "Chan eil leudachan sam bith as aithne dhuinn aig ainm an fhaidhle"
 #: ../app/dialogs/file-save-dialog.c:605
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "'S urrainn dhut às-phortadh a dhèanamh gu iomadh fòrmat faidhle sa chòmhradh "
-"seo. Ma tha thu airson an dealbh a shàbhaladh san fhòrmat GIMP XCF, cleachd "
+"seo. Ma tha thu airson an dealbh a shàbhaladh san fhòrmat Glimpse XCF, cleachd "
 "\"Faidhle\" → \"Sàbhail\" 'na àite."
 
 #: ../app/dialogs/file-save-dialog.c:608
@@ -10364,10 +10364,10 @@ msgstr "Chan urrainn dhut faidhle a shàbhaladh leis an ainm seo"
 
 #: ../app/dialogs/file-save-dialog.c:613
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export to "
 "export to other file formats."
 msgstr ""
-"'S urrainn dhut sàbhaladh san fhòrmat GIMP XCF sa chòmhradh seo. Ma tha thu "
+"'S urrainn dhut sàbhaladh san fhòrmat Glimpse XCF sa chòmhradh seo. Ma tha thu "
 "airson  a shàbhaladh ann am fhòrmat eile, cleachd \"Faidhle\" → \"Sàbhail\" "
 "'na àite."
 
@@ -10645,8 +10645,8 @@ msgid "Module Manager"
 msgstr "Manaidsear nam mòidealan"
 
 #: ../app/dialogs/module-dialog.c:151
-msgid "You will have to restart GIMP for the changes to take effect."
-msgstr "Feumaidh tu GIMP ath-thòiseachadh mus bi na h-atharraichean an sàs."
+msgid "You will have to restart Glimpse for the changes to take effect."
+msgstr "Feumaidh tu Glimpse ath-thòiseachadh mus bi na h-atharraichean an sàs."
 
 #: ../app/dialogs/module-dialog.c:192
 msgid "Module"
@@ -10817,14 +10817,14 @@ msgstr ""
 "A bheil thu cinnteach gu bheil thu airson na bun-roghainnean uile aiseag?"
 
 #: ../app/dialogs/preferences-dialog.c:355
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid "You will have to restart Glimpse for the following changes to take effect:"
 msgstr ""
-"Feumaidh tu GIMP ath-thòiseachadh mus bi na h-atharraichean a leanas an sàs:"
+"Feumaidh tu Glimpse ath-thòiseachadh mus bi na h-atharraichean a leanas an sàs:"
 
 #: ../app/dialogs/preferences-dialog.c:541
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "Thèid ath-ghoiridean a' mheur-chlàir agad ath-shuidheachadh gu na luachan "
 "bunaiteach an ath-thuras a thòisicheas tu GIMP."
@@ -10850,7 +10850,7 @@ msgstr ""
 #: ../app/dialogs/preferences-dialog.c:650
 msgid ""
 "Your input device settings will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "Thèid roghainnean nan uidheaman ion-chuir agad ath-shuidheachadh gu na "
 "luachan bunaiteach an ath-thuras a thòisicheas tu GIMP."
@@ -11767,7 +11767,7 @@ msgid "pixels/%a"
 msgstr "piogsailean/%a"
 
 #: ../app/dialogs/quit-dialog.c:144
-msgid "Quit GIMP"
+msgid "Quit Glimpse"
 msgstr "Fàg GIMP"
 
 #: ../app/dialogs/quit-dialog.c:144
@@ -11775,8 +11775,8 @@ msgid "Close All Images"
 msgstr "Dùin a h-uile dealbh"
 
 #: ../app/dialogs/quit-dialog.c:212
-msgid "If you quit GIMP now, these changes will be lost."
-msgstr "Ma dh'fhàgas tu GIMP an-dràsta, caillidh tu na h-atharraichean seo."
+msgid "If you quit Glimpse now, these changes will be lost."
+msgstr "Ma dh'fhàgas tu Glimpse an-dràsta, caillidh tu na h-atharraichean seo."
 
 #: ../app/dialogs/quit-dialog.c:215
 msgid "If you close these images now, changes will be lost."
@@ -11897,12 +11897,12 @@ msgid "_Emulate brush dynamics"
 msgstr "_Aithris air dinimigeachdan nam bruisean"
 
 #: ../app/dialogs/tips-dialog.c:88
-msgid "The GIMP tips file is empty!"
-msgstr "Tha faidhle nan gliocasan GIMP falamh!"
+msgid "The Glimpse tips file is empty!"
+msgstr "Tha faidhle nan gliocasan Glimpse falamh!"
 
 #: ../app/dialogs/tips-dialog.c:92
-msgid "The GIMP tips file appears to be missing!"
-msgstr "Tha coltas gu bheil faidhle nan gliocasan GIMP a dhìth!"
+msgid "The Glimpse tips file appears to be missing!"
+msgstr "Tha coltas gu bheil faidhle nan gliocasan Glimpse a dhìth!"
 
 #: ../app/dialogs/tips-dialog.c:94
 #, c-format
@@ -11912,12 +11912,12 @@ msgstr ""
 "stàladh agad."
 
 #: ../app/dialogs/tips-dialog.c:100
-msgid "The GIMP tips file could not be parsed!"
-msgstr "Cha b' urrainn dhuinn faidhle nan gliocasan GIMP a pharsadh!"
+msgid "The Glimpse tips file could not be parsed!"
+msgstr "Cha b' urrainn dhuinn faidhle nan gliocasan Glimpse a pharsadh!"
 
 #: ../app/dialogs/tips-dialog.c:128
-msgid "GIMP Tip of the Day"
-msgstr "Gliocas GIMP an latha"
+msgid "Glimpse Tip of the Day"
+msgstr "Gliocas Glimpse an latha"
 
 #: ../app/dialogs/tips-dialog.c:134
 msgid "_Previous Tip"
@@ -11942,7 +11942,7 @@ msgid "tips-locale:C"
 msgstr "tips-locale:gd"
 
 #: ../app/dialogs/user-install-dialog.c:85
-msgid "GIMP User Installation"
+msgid "Glimpse User Installation"
 msgstr "Stàladh cleachdaiche GIMP"
 
 #: ../app/dialogs/user-install-dialog.c:94
@@ -11950,7 +11950,7 @@ msgid "User installation failed!"
 msgstr "Dh'fhàillig an stàladh cleachdaiche!"
 
 #: ../app/dialogs/user-install-dialog.c:96
-msgid "The GIMP user installation failed; see the log for details."
+msgid "The Glimpse user installation failed; see the log for details."
 msgstr ""
 "Dh'fhàillig stàladh cleachdaiche GIMP; thoir sùil air an loga airson mion-"
 "fhiosrachadh."
@@ -12579,8 +12579,8 @@ msgid "Curve"
 msgstr "Lùban"
 
 #: ../app/operations/gimpcurvesconfig.c:524
-msgid "not a GIMP Curves file"
-msgstr "Chan e faidhle lùban GIMP a tha ann"
+msgid "not a Glimpse Curves file"
+msgstr "Chan e faidhle lùban Glimpse a tha ann"
 
 #: ../app/operations/gimpcurvesconfig.c:555
 msgid "Parse error, didn't find 2 integers"
@@ -12627,8 +12627,8 @@ msgid "High Output"
 msgstr ""
 
 #: ../app/operations/gimplevelsconfig.c:769
-msgid "not a GIMP Levels file"
-msgstr "chan e faidhle leibheilean GIMP a tha ann"
+msgid "not a Glimpse Levels file"
+msgstr "chan e faidhle leibheilean Glimpse a tha ann"
 
 #: ../app/operations/gimplevelsconfig.c:837
 msgid "parse error"
@@ -12639,14 +12639,14 @@ msgid "Writing levels file failed: "
 msgstr ""
 
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
-msgid "Compute a set of coefficient buffer for the GIMP cage tool"
+msgid "Compute a set of coefficient buffer for the Glimpse cage tool"
 msgstr ""
 "Coimpiutaich seata de bhufairean cho-èifeachdan airson inneal na cèidse aig "
 "GIMP"
 
 #: ../app/operations/gimpoperationcagetransform.c:106
 msgid ""
-"Convert a set of coefficient buffer to a coordinate buffer for the GIMP cage "
+"Convert a set of coefficient buffer to a coordinate buffer for the Glimpse cage "
 "tool"
 msgstr ""
 "Iompaich seata de bhufairean co-èifeachd 'na bhufair co-chomharran airson "
@@ -12684,9 +12684,9 @@ msgstr "Stairsneach"
 msgid "High threshold"
 msgstr "Stairsneach"
 
-#. TRANSLATORS: there is no need to translate this in GIMP. This uses
+#. TRANSLATORS: there is no need to translate this in Glimpse. This uses
 #. * "gtk20" domain as a special trick to determine language direction,
-#. * but xgettext extracts it anyway mistakenly into GIMP po files.
+#. * but xgettext extracts it anyway mistakenly into Glimpse po files.
 #. * Leave an empty string as translation. It does not matter.
 #.
 #: ../app/gui/gui.c:209
@@ -12701,7 +12701,7 @@ msgid "Documents"
 msgstr "Sgrìobhainnean"
 
 #: ../app/gui/splash.c:118
-msgid "GIMP Startup"
+msgid "Glimpse Startup"
 msgstr "Tòiseachadh GIMP"
 
 #: ../app/paint/gimpairbrush.c:66 ../app/tools/gimpairbrushtool.c:55
@@ -13736,14 +13736,14 @@ msgid ""
 "Plug-in crashed: \"%s\"\n"
 "(%s)\n"
 "\n"
-"The dying plug-in may have messed up GIMP's internal state. You may want to "
-"save your images and restart GIMP to be on the safe side."
+"The dying plug-in may have messed up Glimpse's internal state. You may want to "
+"save your images and restart Glimpse to be on the safe side."
 msgstr ""
 "Thuislich plugan: \"%s\"\n"
 "(%s)\n"
 "\n"
-"Dh'fhaoidte gun do rinn am plugan staid inntearnail GIMP nuair a bhàsaich e. "
-"'S dòcha gum b' fheairrde dhut na dealbhan agad a shàbhaladh is GIMP a "
+"Dh'fhaoidte gun do rinn am plugan staid inntearnail Glimpse nuair a bhàsaich e. "
+"'S dòcha gum b' fheairrde dhut na dealbhan agad a shàbhaladh is Glimpse a "
 "thòiseachadh às ùr."
 
 #: ../app/plug-in/gimpplugin-message.c:486
@@ -13838,9 +13838,9 @@ msgstr "Plugan a dhìth (%s)"
 
 #: ../app/plug-in/plug-in-rc.c:227
 #, c-format
-msgid "Skipping '%s': wrong GIMP protocol version."
+msgid "Skipping '%s': wrong Glimpse protocol version."
 msgstr ""
-"A' gearradh leum thairis air \"%s\", tha tionndadh a' phròtacail GIMP cearr."
+"A' gearradh leum thairis air \"%s\", tha tionndadh a' phròtacail Glimpse cearr."
 
 #: ../app/plug-in/plug-in-rc.c:234
 #, c-format
@@ -16366,7 +16366,7 @@ msgstr ""
 "de bhuadhan an teacsa."
 
 #: ../app/tools/gimptexttool-editor.c:1237
-msgid "GIMP Text Editor"
+msgid "Glimpse Text Editor"
 msgstr "Deasaiche teacsa GIMP"
 
 #: ../app/tools/gimpthresholdtool.c:89
@@ -17765,7 +17765,7 @@ msgid "Messages are redirected to stderr."
 msgstr "Tha na teachdaireachdan 'gan ath-stiùireadh dha stderr."
 
 #. %s is a message domain,
-#. * like "GIMP Message" or
+#. * like "Glimpse Message" or
 #. * "PNG Message"
 #.
 #: ../app/widgets/gimperrordialog.c:175
@@ -17784,7 +17784,7 @@ msgstr "A-rèir leudachain"
 #: ../app/widgets/gimpfiledialog.c:590
 #, c-format
 msgid ""
-"The image uses features from %s and cannot be saved for older GIMP versions."
+"The image uses features from %s and cannot be saved for older Glimpse versions."
 msgstr ""
 
 #: ../app/widgets/gimpfiledialog.c:599
@@ -17948,15 +17948,15 @@ msgid "Help browser is missing"
 msgstr "Tha brabhsair na cobharach a dhìth"
 
 #: ../app/widgets/gimphelp.c:300
-msgid "The GIMP help browser is not available."
-msgstr "Chan eil brabhsair na cobharach GIMP ri fhaighinn."
+msgid "The Glimpse help browser is not available."
+msgstr "Chan eil brabhsair na cobharach Glimpse ri fhaighinn."
 
 #: ../app/widgets/gimphelp.c:301
 msgid ""
-"The GIMP help browser plug-in appears to be missing from your installation. "
+"The Glimpse help browser plug-in appears to be missing from your installation. "
 "You may instead use the web browser for reading the help pages."
 msgstr ""
-"Tha coltas gu bheil plugan brabhsair na cobharach GIMP a dhìth air an "
+"Tha coltas gu bheil plugan brabhsair na cobharach Glimpse a dhìth air an "
 "stàladh agad. 'S urrainn dhut duilleagan na cobharach a leughadh sa "
 "bhrabhsair-lìn an àite sin."
 
@@ -17965,26 +17965,26 @@ msgid "Help browser doesn't start"
 msgstr "Cha tòisich brabhsair na cobharach"
 
 #: ../app/widgets/gimphelp.c:348
-msgid "Could not start the GIMP help browser plug-in."
+msgid "Could not start the Glimpse help browser plug-in."
 msgstr ""
-"Cha b' urrainn dhuinn plugan brabhsair na cobharach GIMP a thòiseachadh."
+"Cha b' urrainn dhuinn plugan brabhsair na cobharach Glimpse a thòiseachadh."
 
 #: ../app/widgets/gimphelp.c:375
 msgid "Use _Web Browser"
 msgstr "Cleachd _brabhsair-lìn"
 
 #: ../app/widgets/gimphelp.c:625
-msgid "GIMP user manual is missing"
-msgstr "Tha leabhar-mìneachaidh luchd-cleachdaidh GIMP a dhìth"
+msgid "Glimpse user manual is missing"
+msgstr "Tha leabhar-mìneachaidh luchd-cleachdaidh Glimpse a dhìth"
 
 #: ../app/widgets/gimphelp.c:632
 msgid "_Read Online"
 msgstr "_Leugh air loidhne"
 
 #: ../app/widgets/gimphelp.c:656
-msgid "The GIMP user manual is not installed on your computer."
+msgid "The Glimpse user manual is not installed on your computer."
 msgstr ""
-"Cha deach leabhar-mìneachaidh luchd-cleachdaidh GIMP stàladh air a' "
+"Cha deach leabhar-mìneachaidh luchd-cleachdaidh Glimpse stàladh air a' "
 "choimpiutair agad."
 
 #: ../app/widgets/gimphelp.c:659
@@ -18719,8 +18719,8 @@ msgid "%s Preset"
 msgstr "Ro-shocrachadh %s"
 
 #: ../app/widgets/gimpuimanager.c:741
-msgid "Your GIMP installation is incomplete:"
-msgstr "Tha rudan a dhìth air an stàladh agad de GIMP:"
+msgid "Your Glimpse installation is incomplete:"
+msgstr "Tha rudan a dhìth air an stàladh agad de Glimpse:"
 
 #: ../app/widgets/gimpuimanager.c:743
 msgid "Please make sure the menu XML files are correctly installed."
@@ -18908,8 +18908,8 @@ msgid "Undefined"
 msgstr "Gun sònrachadh"
 
 #: ../app/xcf/xcf.c:109 ../app/xcf/xcf.c:181
-msgid "GIMP XCF image"
-msgstr "Dealbh GIMP XCF"
+msgid "Glimpse XCF image"
+msgstr "Dealbh Glimpse XCF"
 
 #: ../app/xcf/xcf.c:281
 #, c-format
@@ -19156,23 +19156,23 @@ msgstr "neo-phongail"
 #~ msgid "Value"
 #~ msgstr "Luach"
 
-#~ msgid "Fatal parse error in brush file '%s': Not a GIMP brush file."
+#~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 #~ msgstr ""
 #~ "Mearachd parsaidh mharbhtach ann am faidhle na bruise \"%s\": Chan e "
-#~ "faidhle bruis GIMP a tha ann."
+#~ "faidhle bruis Glimpse a tha ann."
 
 #~ msgid ""
-#~ "Fatal parse error in brush file '%s': Unknown GIMP brush version in line "
+#~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in line "
 #~ "%d."
 #~ msgstr ""
 #~ "Mearachd parsaidh mharbhtach ann am faidhle na bruise \"%s\": Tionndadh "
-#~ "bruis GIMP nach aithne dhuinn ann an loidhne %d."
+#~ "bruis Glimpse nach aithne dhuinn ann an loidhne %d."
 
 #~ msgid ""
-#~ "Fatal parse error in brush file '%s': Unknown GIMP brush shape in line %d."
+#~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line %d."
 #~ msgstr ""
 #~ "Mearachd parsaidh mharbhtach ann am faidhle na bruise \"%s\": Cruth bruis "
-#~ "GIMP nach aithne dhuinn ann an loidhne %d."
+#~ "Glimpse nach aithne dhuinn ann an loidhne %d."
 
 #~ msgid "Line %d: %s"
 #~ msgstr "Loidhne %d: %s"
@@ -19203,10 +19203,10 @@ msgstr "neo-phongail"
 #~ "Mearachd parsaidh mharbhtach ann am faidhle a' chaiseid \"%s\": Mearachd "
 #~ "leughaidh ann an loidhne %d."
 
-#~ msgid "Fatal parse error in gradient file '%s': Not a GIMP gradient file."
+#~ msgid "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr ""
 #~ "Mearachd parsaidh mharbhtach ann am faidhle a' chaiseid \"%s\": Chan e "
-#~ "faidhle caisead GIMP a tha ann."
+#~ "faidhle caisead Glimpse a tha ann."
 
 #~ msgid "Fatal parse error in gradient file '%s': File is corrupt in line %d."
 #~ msgstr ""

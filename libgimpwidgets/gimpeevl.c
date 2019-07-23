@@ -170,7 +170,7 @@ static void             gimp_eevl_error                    (GimpEevl            
  * analysis, and basic unit conversions.
  *
  * All units conversions factors are relative to some implicit
- * base-unit (which in GIMP is inches). This is also the unit of the
+ * base-unit (which in Glimpse is inches). This is also the unit of the
  * returned value.
  *
  * Returns: A #GimpEevlQuantity with a value given in the base unit along with

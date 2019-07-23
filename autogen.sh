@@ -22,7 +22,7 @@ LIBTOOL_REQUIRED_VERSION=1.5
 LIBTOOL_WIN32_REQUIRED_VERSION=2.2
 
 
-PROJECT="GNU Image Manipulation Program"
+PROJECT="Glimpse"
 TEST_TYPE=-d
 FILE=plug-ins
 
@@ -218,7 +218,7 @@ fi
 if test "$DIE" -eq 1; then
     echo
     echo "Please install/upgrade the missing tools and call me again."
-    echo	
+    echo
     exit 1
 fi
 

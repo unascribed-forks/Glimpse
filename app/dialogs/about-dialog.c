@@ -114,7 +114,7 @@ about_dialog_create (GimpContext *context)
                              "window-position",    GTK_WIN_POS_CENTER,
                              "title",              _("About Glimpse"),
                              "program-name",       GLIMPSE_NAME,
-                             "version",            GIMP_VERSION,
+                             "version",            GLIMPSE_VERSION,
                              "copyright",          copyright,
                              "comments",           GLIMPSE_SUBTITLE,
                              "license",            GLIMPSE_LICENSE,

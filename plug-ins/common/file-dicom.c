@@ -572,21 +572,21 @@ load_image (const gchar  *filename,
 
   if ((bpp != 8) && (bpp != 16))
     {
-      g_message ("'%s' has a bpp of %d which GIMP cannot handle.",
+      g_message ("'%s' has a bpp of %d which Glimpse cannot handle.",
                  gimp_filename_to_utf8 (filename), bpp);
       gimp_quit ();
     }
 
   if ((width > GIMP_MAX_IMAGE_SIZE) || (height > GIMP_MAX_IMAGE_SIZE))
     {
-      g_message ("'%s' has a larger image size (%d x %d) than GIMP can handle.",
+      g_message ("'%s' has a larger image size (%d x %d) than Glimpse can handle.",
                  gimp_filename_to_utf8 (filename), width, height);
       gimp_quit ();
     }
 
   if (samples_per_pixel > 3)
     {
-      g_message ("'%s' has samples per pixel of %d which GIMP cannot handle.",
+      g_message ("'%s' has samples per pixel of %d which Glimpse cannot handle.",
                  gimp_filename_to_utf8 (filename), samples_per_pixel);
       gimp_quit ();
     }

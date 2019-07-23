@@ -16,13 +16,13 @@
 
   <tip level="beginner">
     <_thetip>
-      You can get context-sensitive help for most of GIMP's features by
+      You can get context-sensitive help for most of Glimpse's features by
       pressing the F1 key at any time.  This also works inside the menus.
     </_thetip>
   </tip>
   <tip level="beginner" help="gimp-layer-dialog">
     <_thetip>
-      GIMP uses layers to let you organize your image.  Think of them
+      Glimpse uses layers to let you organize your image.  Think of them
       as a stack of slides or filters, such that looking through them you
       see a composite of their contents.
     </_thetip>
@@ -35,7 +35,7 @@
   </tip>
   <tip level="beginner" help="gimp-file-save">
     <_thetip>
-      Saving an image uses XCF, GIMP's native file format (file extension
+      Saving an image uses XCF, Glimpse's native file format (file extension
       <tt>.xcf</tt>). This preserves the layers and many aspects of your
       work-in-progress, allowing to work on it again later.
       Once a project is completed, you can export it as JPEG, PNG, GIF, etc.
@@ -80,14 +80,14 @@
 
   <tip level="intermediate">
     <_thetip>
-      You can drag and drop many things in GIMP.  For example, dragging
+      You can drag and drop many things in Glimpse.  For example, dragging
       a color from the toolbox or from a color palette and dropping it into
       an image will fill the current selection with that color.
     </_thetip>
   </tip>
   <tip level="intermediate">
     <_thetip>
-      You can use the middle mouse button to pan around the image 
+      You can use the middle mouse button to pan around the image
       (or optionally hold <tt>Spacebar</tt> while you move the mouse).
     </_thetip>
   </tip>
@@ -114,7 +114,7 @@
   </tip>
   <tip level="intermediate">
     <_thetip>
-      GIMP supports gzip compression on the fly.  Just add <tt>.gz</tt>
+      Glimpse supports gzip compression on the fly.  Just add <tt>.gz</tt>
       (or <tt>.bz2</tt>, if you have bzip2 installed) to the filename and
       your image will be saved compressed.  Of course loading compressed
       images works too.
@@ -177,15 +177,15 @@
       Preferences dialog, you can reassign shortcut keys. Do so by bringing
       up the menu, selecting a menu item, and pressing the desired key
       combination. If &quot;Save Keyboard Shortcuts&quot; is enabled, the
-      key bindings are saved when you exit GIMP.
-      You should probably disable &quot;Dynamic Keyboard Shortcuts&quot; 
+      key bindings are saved when you exit Glimpse.
+      You should probably disable &quot;Dynamic Keyboard Shortcuts&quot;
       afterwards, to prevent accidentally assigning/reassigning shortcuts.
     </_thetip>
   </tip>
   <tip level="advanced">
     <_thetip>
-      If your screen is too cluttered, you can press <tt>Tab</tt> 
-      in an image window to toggle the visibility of the toolbox 
+      If your screen is too cluttered, you can press <tt>Tab</tt>
+      in an image window to toggle the visibility of the toolbox
       and other dialogs.
     </_thetip>
   </tip>
@@ -198,7 +198,7 @@
   <tip level="advanced">
     <_thetip>
       <tt>Ctrl</tt>-clicking on the layer mask's preview in the Layers dialog
-      toggles the effect of the layer mask. <tt>Alt</tt>-clicking on the layer 
+      toggles the effect of the layer mask. <tt>Alt</tt>-clicking on the layer
       mask's preview in the Layers dialog toggles viewing the mask directly.
     </_thetip>
   </tip>
@@ -212,7 +212,7 @@
     <_thetip>
       <tt>Ctrl</tt>-click with the Bucket Fill tool to have it use
       the background color instead of the foreground color.
-      Similarly, <tt>Ctrl</tt>-clicking with the eyedropper tool 
+      Similarly, <tt>Ctrl</tt>-clicking with the eyedropper tool
       sets the background color instead of the foreground color.
     </_thetip>
   </tip>

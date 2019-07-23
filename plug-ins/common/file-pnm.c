@@ -427,7 +427,7 @@ run (const gchar      *name,
             {
               export = gimp_export_image (&image_ID, &drawable_ID, "PBM",
                                           GIMP_EXPORT_CAN_HANDLE_BITMAP);
-              pbm = TRUE;  /* gimp has no mono image type so hack it */
+              pbm = TRUE;  /* Glimpse has no mono image type so hack it */
             }
           else if (strcmp (name, PGM_SAVE_PROC) == 0)
             {
@@ -624,7 +624,7 @@ load_image (GFile   *file,
   CHECK_FOR_ERROR (pnminfo->xres <= 0, pnminfo->jmpbuf,
                    _("Invalid X resolution."));
   CHECK_FOR_ERROR (pnminfo->xres > GIMP_MAX_IMAGE_SIZE, pnminfo->jmpbuf,
-                   _("Image width is larger than GIMP can handle."));
+                   _("Image width is larger than Glimpse can handle."));
 
   pnmscanner_gettoken (scan, buf, BUFLEN);
   CHECK_FOR_ERROR (pnmscanner_eof (scan), pnminfo->jmpbuf,
@@ -633,7 +633,7 @@ load_image (GFile   *file,
   CHECK_FOR_ERROR (pnminfo->yres <= 0, pnminfo->jmpbuf,
                    _("Invalid Y resolution."));
   CHECK_FOR_ERROR (pnminfo->yres > GIMP_MAX_IMAGE_SIZE, pnminfo->jmpbuf,
-                   _("Image height is larger than GIMP can handle."));
+                   _("Image height is larger than Glimpse can handle."));
 
   if (pnminfo->float_format)
     {

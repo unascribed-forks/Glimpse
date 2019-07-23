@@ -8156,7 +8156,7 @@ msgstr "کانال TIFF"
 #: ../plug-ins/common/tiff-load.c:926
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 msgstr ""
@@ -10576,7 +10576,7 @@ msgstr ""
 
 #: ../plug-ins/help/gimphelpdomain.c:177
 #, fuzzy
-msgid "The GIMP help files are not found."
+msgid "The Glimpse help files are not found."
 msgstr "پرونده‌های راهنمای گیمپ نصب نشده‌اند."
 
 #: ../plug-ins/help/gimphelpdomain.c:178
@@ -10586,7 +10586,7 @@ msgid ""
 msgstr ""
 
 #: ../plug-ins/help/gimphelpdomain.c:184
-msgid "There is a problem with the GIMP help files."
+msgid "There is a problem with the Glimpse help files."
 msgstr "پرونده‌های راهنمای گیمپ مشکلی دارند."
 
 #: ../plug-ins/help/gimphelpdomain.c:186

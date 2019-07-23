@@ -3553,16 +3553,16 @@ msgid "Invalid X resolution."
 msgstr "Invalid X resolution."
 
 #: ../plug-ins/common/file-pnm.c:627
-msgid "Image width is larger than GIMP can handle."
-msgstr "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
+msgstr "Image width is larger than Glimpse can handle."
 
 #: ../plug-ins/common/file-pnm.c:634
 msgid "Invalid Y resolution."
 msgstr "Invalid Y resolution."
 
 #: ../plug-ins/common/file-pnm.c:636
-msgid "Image height is larger than GIMP can handle."
-msgstr "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
+msgstr "Image height is larger than Glimpse can handle."
 
 #: ../plug-ins/common/file-pnm.c:648
 msgid "Bogus scale factor."
@@ -4142,10 +4142,10 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 
 #: ../plug-ins/common/file-sunras.c:518 ../plug-ins/common/file-xbm.c:851
 #: ../plug-ins/common/file-xwd.c:540
@@ -4162,10 +4162,10 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 
 #: ../plug-ins/common/file-sunras.c:562
 msgid "This image depth is not supported"
@@ -10622,8 +10622,8 @@ msgid "The help pages for '%s' are not available."
 msgstr "The help pages for '%s' are not available."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
-msgstr "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
+msgstr "The Glimpse user manual is not available."
 
 #. TRANSLATORS: do not end the URL with a dot,
 #. * it would be in the link. Because of
@@ -14713,12 +14713,12 @@ msgstr "Transferring data from scanner/camera"
 
 #~ msgid ""
 #~ "Warning:\n"
-#~ "The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+#~ "The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 #~ "bit, so it will be converted for you. Information will be lost because of "
 #~ "this conversion."
 #~ msgstr ""
 #~ "Warning:\n"
-#~ "The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+#~ "The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 #~ "bit, so it will be converted for you. Information will be lost because of "
 #~ "this conversion."
 
@@ -15302,11 +15302,11 @@ msgstr "Transferring data from scanner/camera"
 #~ msgid "checkbutton|Snap to grid"
 #~ msgstr "Snap to grid"
 
-#~ msgid "The GIMP help files are not found."
-#~ msgstr "The GIMP help files are not found."
+#~ msgid "The Glimpse help files are not found."
+#~ msgstr "The Glimpse help files are not found."
 
-#~ msgid "There is a problem with the GIMP help files."
-#~ msgstr "There is a problem with the GIMP help files."
+#~ msgid "There is a problem with the Glimpse help files."
+#~ msgstr "There is a problem with the Glimpse help files."
 
 #~ msgid "Please check your installation."
 #~ msgstr "Please check your installation."

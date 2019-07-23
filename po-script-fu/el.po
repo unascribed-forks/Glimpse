@@ -841,7 +841,7 @@ msgstr "Χρήση μονο_πατιών"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "Σελιδοδείκτης στο εγχειρίδιο χρήστη"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -879,7 +879,7 @@ msgstr "_Κύρια ιστοσελίδα"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "Σελιδοδείκτης στην ιστοσελίδα GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
@@ -911,7 +911,7 @@ msgid "Bookmark to the bug tracker of GIMP"
 msgstr "Σελιδοδείκτης στον ανιχνευτή σφαλμάτων του GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "Ιστοσελίδα _εγχειριδίου χρήστη"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69

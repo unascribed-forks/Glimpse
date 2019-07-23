@@ -802,7 +802,7 @@ msgstr "_Nota ferla"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "Bókamerki á notandahandbókina"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -840,7 +840,7 @@ msgstr "_Aðalvefsvæði"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "Bókamerki á GIMP vefsvæðið"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
@@ -852,7 +852,7 @@ msgid "_Roadmap"
 msgstr "Ve_rkáætlun"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217
-#| msgid "Bookmark to the GIMP web site"
+#| msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgid "Bookmark to the roadmap of GIMP"
 msgstr "Bókamerki á verkáætlun GIMP"
 
@@ -861,7 +861,7 @@ msgid "_Wiki"
 msgstr "_Wiki-vefur"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:230
-#| msgid "Bookmark to the GIMP web site"
+#| msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgid "Bookmark to the wiki of GIMP"
 msgstr "Bókamerki á wiki-vefsvæði GIMP"
 
@@ -870,12 +870,12 @@ msgid "_Bug Reports and Feature Requests"
 msgstr "Villutilkynningar og _beiðnir um nýja eiginleika"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:243
-#| msgid "Bookmark to the user manual"
+#| msgid "Bookmark to the user manual (upstream)"
 msgid "Bookmark to the bug tracker of GIMP"
 msgstr "Bókamerki á villuskráningarvæði GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "Vefsvæði með _handbók notanda"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69

@@ -122,7 +122,7 @@ static const GimpActionEntry file_actions[] =
 
   { "file-quit", GIMP_ICON_APPLICATION_EXIT,
     NC_("file-action", "_Quit"), "<primary>Q",
-    NC_("file-action", "Quit the GNU Image Manipulation Program"),
+    NC_("file-action", "Quit Glimpse"),
     G_CALLBACK (file_quit_cmd_callback),
     GIMP_HELP_FILE_QUIT }
 };

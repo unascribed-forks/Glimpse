@@ -29,7 +29,6 @@
 #include "core/gimpimage.h"
 #include "core/gimpimage-quick-mask.h"
 
-#include "widgets/gimpcairo-wilber.h"
 #include "widgets/gimpuimanager.h"
 
 #include "gimpcanvasitem.h"
@@ -536,8 +535,6 @@ gimp_display_shell_canvas_draw_drop_zone (GimpDisplayShell *shell,
                                           cairo_t          *cr)
 {
   cairo_save (cr);
-
-  gimp_cairo_draw_drop_wilber (shell->canvas, cr, shell->blink);
 
   cairo_restore (cr);
 

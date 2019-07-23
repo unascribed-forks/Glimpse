@@ -779,7 +779,7 @@ msgstr "_P பாதைகளை பயன்படுத்துதல்"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "பயனர் கையேட்டுக்கு புத்தகக்குறி"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -818,7 +818,7 @@ msgstr "_M முதன்மை வலைத்தளம்"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:192
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:205
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:218
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "கிம்ப் வலைப்பக்கத்துக்கு புத்தகக்குறி"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
@@ -826,7 +826,7 @@ msgid "_Developer Web Site"
 msgstr "_D உருவாக்குவோர் வலைத்தளம்"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "_U பயனர் கையேடு  வலைத்தளம்"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217

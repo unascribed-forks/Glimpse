@@ -369,8 +369,8 @@ gimp_help_browser (Gimp         *gimp,
         {
           gimp_help_browser_error (gimp, progress,
                                    _("Help browser is missing"),
-                                   _("The GIMP help browser is not available."),
-                                   _("The GIMP help browser plug-in appears "
+                                   _("The Glimpse help browser is not available."),
+                                   _("The Glimpse help browser plug-in appears "
                                      "to be missing from your installation. "
                                      "You may instead use the web browser "
                                      "for reading the help pages."));
@@ -417,7 +417,7 @@ gimp_help_browser (Gimp         *gimp,
     {
       gimp_help_browser_error (gimp, progress,
                                _("Help browser doesn't start"),
-                               _("Could not start the GIMP help browser "
+                               _("Could not start the Glimpse help browser "
                                  "plug-in."),
                                _("You may instead use the web browser "
                                  "for reading the help pages."));
@@ -790,7 +790,7 @@ gimp_help_query_alt_user_manual (GimpIdleHelp *idle_help)
   GtkWidget *dialog;
   GList     *manuals;
 
-  dialog = gimp_message_dialog_new (_("GIMP user manual is missing"),
+  dialog = gimp_message_dialog_new (_("Glimpse user manual is missing"),
                                     GIMP_ICON_HELP_USER_MANUAL,
                                     NULL, 0, NULL, NULL,
                                     _("_Cancel"), GTK_RESPONSE_CANCEL,
@@ -806,7 +806,7 @@ gimp_help_query_alt_user_manual (GimpIdleHelp *idle_help)
     }
 
   gimp_message_box_set_primary_text (GIMP_MESSAGE_DIALOG (dialog)->box,
-                                     _("The GIMP user manual is not installed "
+                                     _("The Glimpse user manual is not installed "
                                        "in your language."));
 
   /* Add a list of available manuals instead, if any. */

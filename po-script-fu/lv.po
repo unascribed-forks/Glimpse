@@ -814,7 +814,7 @@ msgstr "_Ceļu lietošana"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "Grāmatzīme uz lietotāja rokasgrāmatu"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -852,7 +852,7 @@ msgstr "Galvenā tī_mekļa vietne"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "Grāmatzīme uz GIMP tīmekļa vietni"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
@@ -864,7 +864,7 @@ msgid "_Roadmap"
 msgstr "_Ceļa karte"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217
-#| msgid "Bookmark to the GIMP web site"
+#| msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgid "Bookmark to the roadmap of GIMP"
 msgstr "Grāmatzīme uz GIMP ceļa karti"
 
@@ -873,7 +873,7 @@ msgid "_Wiki"
 msgstr "_Viki"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:230
-#| msgid "Bookmark to the GIMP web site"
+#| msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgid "Bookmark to the wiki of GIMP"
 msgstr "Grāmatzīme uz GIMP viki"
 
@@ -882,12 +882,12 @@ msgid "_Bug Reports and Feature Requests"
 msgstr "_Kļūdu ziņojumi un jaunu iespēju pieprasījumi"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:243
-#| msgid "Bookmark to the user manual"
+#| msgid "Bookmark to the user manual (upstream)"
 msgid "Bookmark to the bug tracker of GIMP"
 msgstr "Grāmatzīme uz GIMP kļūdu atsekotāju"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "_Lietotāja rokasgrāmatas tīmekļa vietne"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69

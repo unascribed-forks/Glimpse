@@ -24,7 +24,7 @@ GIMP is the \fIGNU Image Manipulation Program\fP. It is used to edit
 and manipulate images. It can load and save a variety of image formats
 and can be used to convert between formats.
 .PP
-GIMP can also be used as a paint program. It features a set of drawing
+Glimpse can also be used as a paint program. It features a set of drawing
 and painting tools such as airbrush, clone, pencil, and paint
 brush. Painting and drawing tools can be applied to an image with a
 variety of paint modes.  It also offers an extensive array of
@@ -33,7 +33,7 @@ intelligent scissors, and select by color.
 .PP
 GIMP offers a variety of plug-ins that perform a variety of image
 manipulations.  Examples include bumpmap, edge detect, gaussian blur,
-and many others. In addition, GIMP has several scripting extensions
+and many others. In addition, Glimpse has several scripting extensions
 which allow for advanced non-interactive processing and creation of
 images.
 .PP
@@ -180,7 +180,7 @@ per-user cached files is used.
 to get the location of temporary files. If unset the system default for
 temporary files is used.
 
-On Linux GIMP can be compiled with support for binary relocatibility.
+On Linux Glimpse can be compiled with support for binary relocatibility.
 This will cause data, plug-ins and configuration files to be searched
 relative to the location of the gimp executable file unless overridden
 by the environment variables mentioned above.

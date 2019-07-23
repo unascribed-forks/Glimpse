@@ -811,7 +811,7 @@ msgstr "使用路徑(_P)"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "開啟書籤以連結到使用者手冊"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -850,7 +850,7 @@ msgstr "主要網站(_M)"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:192
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:205
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:218
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "開啟書籤以連結到 GIMP 網站"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
@@ -858,7 +858,7 @@ msgid "_Developer Web Site"
 msgstr "開發者網站(_D)"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "使用者手冊網站(_U)"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217

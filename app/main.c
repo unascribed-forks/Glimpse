@@ -488,7 +488,7 @@ main (int    argc,
       else
         {
           g_print ("%s\n",
-                   _("GIMP could not initialize the graphical user interface.\n"
+                   _("Glimpse could not initialize the graphical user interface.\n"
                      "Make sure a proper setup for your display environment "
                      "exists."));
         }

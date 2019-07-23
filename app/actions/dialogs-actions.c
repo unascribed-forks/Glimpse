@@ -272,20 +272,20 @@ static const GimpStringActionEntry dialogs_toplevel_actions[] =
 
   { "dialogs-tips", GIMP_ICON_DIALOG_INFORMATION,
     NC_("dialogs-action", "_Tip of the Day"), NULL,
-    NC_("dialogs-action", "Show some helpful tips on using GIMP"),
+    NC_("dialogs-action", "Show some helpful tips on using Glimpse"),
     "gimp-tips-dialog",
     GIMP_HELP_TIPS_DIALOG },
 
   { "dialogs-about", GIMP_ICON_HELP_ABOUT,
 #if defined(G_OS_WIN32)
-    NC_("dialogs-action", "About GIMP"),
+    NC_("dialogs-action", "About Glimpse"),
 #elif defined(PLATFORM_OSX)
     NC_("dialogs-action", "About"),
 #else /* UNIX: use GNOME HIG */
     NC_("dialogs-action", "_About"),
 #endif
     NULL,
-    NC_("dialogs-action", "About GIMP"),
+    NC_("dialogs-action", "About Glimpse"),
     "gimp-about-dialog",
       GIMP_HELP_ABOUT_DIALOG },
 

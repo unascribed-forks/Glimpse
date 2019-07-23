@@ -94,9 +94,9 @@ query (void)
   };
 
   gimp_install_procedure (GIMP_HELP_BROWSER_EXT_PROC,
-                          "Browse the GIMP user manual",
+                          "Browse the Glimpse user manual",
                           "A small and simple HTML browser optimized for "
-                          "browsing the GIMP user manual.",
+                          "browsing the Glimpse user manual.",
                           "Sven Neumann <sven@gimp.org>, "
                           "Michael Natterer <mitch@gimp.org>"
                           "Henrik Brix Andersen <brix@gimp.org>",

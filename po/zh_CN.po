@@ -1,6 +1,6 @@
 # GIMP 的简体中文翻译。
-# Copyright (C) 2001-2018 The GIMP Project
-# This file is distributed under the same license as the gimp package.
+# Copyright (C) 2001-2018 The Glimpse Project
+# This file is distributed under the same license as the Glimpse package.
 #
 # Translators:
 # Yuheng Xie <elephant@linux.net.cn>, 2001-2004.
@@ -44,7 +44,7 @@ msgstr "创建图像或编辑照片"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:3
 msgid ""
-"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
+"Glimpse is an acronym for GNU Image Manipulation Program. It is a freely "
 "distributed program for such tasks as photo retouching, image composition "
 "and image authoring."
 msgstr ""
@@ -62,10 +62,10 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:5
 msgid ""
-"GIMP is expandable and extensible. It is designed to be augmented with plug-"
+"Glimpse is expandable and extensible. It is designed to be augmented with plug-"
 "ins and extensions to do just about anything. The advanced scripting "
 "interface allows everything from the simplest task to the most complex image "
-"manipulation procedures to be easily scripted. GIMP is available for Linux, "
+"manipulation procedures to be easily scripted. Glimpse is available for Linux, "
 "Microsoft Windows and OS X."
 msgstr ""
 "GIMP 可扩张亦可拓展。全功能的插件和扩展使其用途广泛。无论是最简单的任务还是最"
@@ -73,19 +73,19 @@ msgstr ""
 "于 Linux、Microsoft Windows 和 OS X。"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:6
-msgid "Painting in GIMP"
+msgid "Painting in Glimpse"
 msgstr "在 GIMP 中绘画"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:7
-msgid "Photo editing in GIMP"
+msgid "Photo editing in Glimpse"
 msgstr "在 GIMP 中编辑照片"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:8
 msgid ""
-"GIMP 2.10.10 is quite a big update with many new features and bug fixes. "
+"Glimpse 2.10.10 is quite a big update with many new features and bug fixes. "
 "Notable improvements include:"
 msgstr ""
-"GIMP 2.10.10 是一次带有很多新特性和缺陷修复的较大的更新。值得关注的改进包括："
+"Glimpse 2.10.10 是一次带有很多新特性和缺陷修复的较大的更新。值得关注的改进包括："
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:9
 msgid ""
@@ -187,9 +187,9 @@ msgstr "拥有更多选项和更好交互经过完全重写的斯派罗丝带插
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:28
 msgid ""
-"GIMP 2.10.8 is mostly a bug fix and optimization release. In particular, it "
+"Glimpse 2.10.8 is mostly a bug fix and optimization release. In particular, it "
 "includes:"
-msgstr "GIMP 2.10.8 是一次以缺陷修复和优化为主的发布。重点包含："
+msgstr "Glimpse 2.10.8 是一次以缺陷修复和优化为主的发布。重点包含："
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:29
 msgid ""
@@ -215,9 +215,9 @@ msgstr "添加了几种性能日志工具和在仪表盘停靠栏中可记录日
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:33
 msgid ""
-"GIMP 2.10.6 comes with a lot of bug fixes, optimizations and features. Most "
+"Glimpse 2.10.6 comes with a lot of bug fixes, optimizations and features. Most "
 "notable changes are:"
-msgstr "GIMP 2.10.6 带来许多缺陷修复、优化和特性。最明显的改变有："
+msgstr "Glimpse 2.10.6 带来许多缺陷修复、优化和特性。最明显的改变有："
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:34
 msgid ""
@@ -256,14 +256,14 @@ msgid "File format filtering in Open/Save/Export dialogs made less confusing"
 msgstr "在“打开/保存/导出”对话框中的文件格式过滤已变得不再令人困惑"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:41
-msgid "New language (having GIMP translated in 81 languages now): Marathi"
+msgid "New language (having Glimpse translated in 81 languages now): Marathi"
 msgstr "新的语言（GIMP 已被翻译为 81 种语言）：马拉地语"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:42
 msgid ""
-"GIMP 2.10.4 includes a lot of bug fixes as well as various optimizations. "
+"Glimpse 2.10.4 includes a lot of bug fixes as well as various optimizations. "
 "Most notable changes are:"
-msgstr "GIMP 2.10.4 包含许多缺陷修复和多处优化。最明显的改变有："
+msgstr "Glimpse 2.10.4 包含许多缺陷修复和多处优化。最明显的改变有："
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:43
 msgid ""
@@ -293,11 +293,11 @@ msgstr "仪表盘更新：新的“内存”组和改进的“交换”组显示
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:48
 msgid ""
-"This second release in the GIMP 2.10 series, so soon after 2.10.0, is mostly "
+"This second release in the Glimpse 2.10 series, so soon after 2.10.0, is mostly "
 "the usual bug-fixing version after a major release, with a few dozen bugs "
 "fixed."
 msgstr ""
-"这是 GIMP 2.10 系列的第二个版本，是大版本发布后带有一些缺陷修复的普通小版本。"
+"这是 Glimpse 2.10 系列的第二个版本，是大版本发布后带有一些缺陷修复的普通小版本。"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:49
 msgid ""
@@ -366,7 +366,7 @@ msgid "Basic HiDPI support: automatically or user-selected icon size"
 msgstr "基本的高分屏支持：自动或用户选择的图标大小"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:61
-msgid "New themes for GIMP: Light, Gray, Dark, and System"
+msgid "New themes for Glimpse: Light, Gray, Dark, and System"
 msgstr "GIMP 的新主题：亮、灰、暗和系统"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:62
@@ -375,7 +375,7 @@ msgstr "还有很多很多……"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:63
 msgid ""
-"In this second release candidate before GIMP 2.10.0, while debugging is "
+"In this second release candidate before Glimpse 2.10.0, while debugging is "
 "still a prime target, a new focus has been put on speed and optimization in "
 "order to provide a smoother painting experience. Bigger changes are:"
 msgstr ""
@@ -418,15 +418,15 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:69
 msgid ""
-"GIMP 2.10.0-RC1 is the first release candidate before GIMP 2.10.0 stable "
+"Glimpse 2.10.0-RC1 is the first release candidate before Glimpse 2.10.0 stable "
 "release, with a focus on debugging and stability. Other than the many bug "
 "fixes, most notable improvements are:"
 msgstr ""
-"GIMP 2.10-RC1 是 GIMP 2.10 稳定版发布之前的第一个候选版本，重点关注调试和稳定"
+"Glimpse 2.10-RC1 是 Glimpse 2.10 稳定版发布之前的第一个候选版本，重点关注调试和稳定"
 "性。除了非常多的缺陷修复，最引人注目的提升有："
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:70
-msgid "New dashboard dockable to monitor GIMP resource usage"
+msgid "New dashboard dockable to monitor Glimpse resource usage"
 msgstr "新的仪表盘停靠栏用以监控 GIMP 的资源占用"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:71
@@ -461,10 +461,10 @@ msgstr "多处用户界面优化"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:78
 msgid ""
-"GIMP 2.9.8 introduces on-canvas gradient editing and various enhancements "
+"Glimpse 2.9.8 introduces on-canvas gradient editing and various enhancements "
 "while focusing on bugfixing and stability."
 msgstr ""
-"GIMP 2.9.8 在聚焦缺陷修复和稳定性的同时引入了画布上渐变编辑和多处增强。"
+"Glimpse 2.9.8 在聚焦缺陷修复和稳定性的同时引入了画布上渐变编辑和多处增强。"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:79
 msgid "On-canvas gradient editing"
@@ -511,11 +511,11 @@ msgid "New support for HGT format (Digital Elevation Model data)"
 msgstr "新增 HGT 格式（数字高程模型数据）支持"
 
 #: ../desktop/gimp-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for GIMP"
+msgid "Extra files for Glimpse"
 msgstr "GIMP 的额外文件"
 
 #: ../desktop/gimp-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for GIMP"
+msgid "Patterns, gradients, and other extra files for Glimpse"
 msgstr "GIMP 的图案、渐变和其他额外文件"
 
 #: ../desktop/gimp.desktop.in.in.h:2
@@ -524,7 +524,7 @@ msgstr "图像编辑器"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: ../desktop/gimp.desktop.in.in.h:5
-msgid "GIMP;graphic;design;illustration;painting;"
+msgid "Glimpse;graphic;design;illustration;painting;"
 msgstr "GIMP;图形;设计;绘画;graphic;design;illustration;painting;"
 
 #: ../app/about.h:23
@@ -536,7 +536,7 @@ msgstr "GIMP"
 #, c-format
 msgid ""
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the GIMP Development Team"
+"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 msgstr ""
 "Copyright © 1995-%s\n"
 "Spencer Kimball，Peter Mattis 和 GIMP 开发小组"
@@ -548,18 +548,18 @@ msgstr ""
 #.
 #: ../app/about.h:39
 msgid ""
-"GIMP is free software: you can redistribute it and/or modify it under the "
+"Glimpse is free software: you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 3 of the License, or (at your option) any later "
 "version.\n"
 "\n"
-"GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GIMP. If not, see: https://www.gnu.org/licenses/"
+"Glimpse. If not, see: https://www.gnu.org/licenses/"
 msgstr ""
 "GIMP 是自由软件：您可以在遵守由自由软件基金会发布的 GNU 通用公共许可协议的情"
 "况下重新分发且或修改软件；或第三版许可协议，或（根据您的选择）任何更新版"
@@ -594,7 +594,7 @@ msgid "Be more verbose"
 msgstr "输出更详细信息"
 
 #: ../app/main.c:172
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse instance"
 msgstr "启动一个新的 GIMP 实例"
 
 #: ../app/main.c:177
@@ -618,7 +618,7 @@ msgid "Do not show a splash screen"
 msgstr "不显示启动画面"
 
 #: ../app/main.c:202
-msgid "Do not use shared memory between GIMP and plug-ins"
+msgid "Do not use shared memory between Glimpse and plug-ins"
 msgstr "不在 GIMP 和插件之间使用共享内存"
 
 #: ../app/main.c:207
@@ -689,18 +689,18 @@ msgstr "[文件|URI…]"
 
 #: ../app/main.c:484
 msgid ""
-"GIMP could not initialize the graphical user interface.\n"
+"Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
 "GIMP 无法初始化图形用户界面。\n"
 "请确定您已正确安装和配置显示环境。"
 
 #: ../app/main.c:503
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse instance is already running."
 msgstr "另一个 GIMP 实例已在运行。"
 
 #: ../app/main.c:594
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "GIMP 输出。键入任意字符以关闭此窗口。"
 
 #: ../app/main.c:595
@@ -709,7 +709,7 @@ msgid "(Type any character to close this window)\n"
 msgstr "（键入任意字符关闭本窗口）\n"
 
 #: ../app/main.c:612
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "GIMP 输出。您可以最小化该窗口，但请不要关闭窗口。"
 
 #: ../app/sanity.c:562
@@ -726,7 +726,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -743,7 +743,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "笔刷编辑器"
 
-#. initialize the list of gimp brushes
+#. initialize the list of Glimpse brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:335 ../app/dialogs/preferences-dialog.c:3169
 msgid "Brushes"
@@ -826,7 +826,7 @@ msgstr "文件"
 msgid "Filters"
 msgstr "滤镜"
 
-#. initialize the list of gimp fonts
+#. initialize the list of Glimpse fonts
 #: ../app/actions/actions.c:171 ../app/core/gimp-data-factories.c:383
 #: ../app/dialogs/dialogs.c:353 ../app/dialogs/preferences-dialog.c:3199
 msgid "Fonts"
@@ -837,7 +837,7 @@ msgstr "字体"
 msgid "Gradient Editor"
 msgstr "渐变编辑器"
 
-#. initialize the list of gimp gradients
+#. initialize the list of Glimpse gradients
 #: ../app/actions/actions.c:177 ../app/core/gimp-data-factories.c:374
 #: ../app/dialogs/dialogs.c:347 ../app/dialogs/preferences-dialog.c:3193
 msgid "Gradients"
@@ -882,13 +882,13 @@ msgstr "MyPaint 笔刷"
 msgid "Palette Editor"
 msgstr "色板编辑器"
 
-#. initialize the list of gimp palettes
+#. initialize the list of Glimpse palettes
 #: ../app/actions/actions.c:204 ../app/core/gimp-data-factories.c:369
 #: ../app/dialogs/dialogs.c:350 ../app/dialogs/preferences-dialog.c:3187
 msgid "Palettes"
 msgstr "色板"
 
-#. initialize the list of gimp patterns
+#. initialize the list of Glimpse patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:344 ../app/dialogs/preferences-dialog.c:3181
 msgid "Patterns"
@@ -3362,12 +3362,12 @@ msgstr "日积月累(_T)"
 
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
-msgid "Show some helpful tips on using GIMP"
+msgid "Show some helpful tips on using Glimpse"
 msgstr "显示一些关于 GIMP 的小窍门"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "关于 GIMP"
 
 #: ../app/actions/dialogs-actions.c:283
@@ -4455,7 +4455,7 @@ msgstr "退出(_Q)"
 
 #: ../app/actions/file-actions.c:125
 msgctxt "file-action"
-msgid "Quit the GNU Image Manipulation Program"
+msgid "Quit Glimpse"
 msgstr "退出 GNU 图像处理程序"
 
 #: ../app/actions/file-actions.c:133 ../app/actions/file-actions.c:308
@@ -5814,7 +5814,7 @@ msgstr "帮助(_H)"
 
 #: ../app/actions/help-actions.c:42
 msgctxt "help-action"
-msgid "Open the GIMP user manual"
+msgid "Open the Glimpse user manual"
 msgstr "打开 GIMP 用户手册"
 
 #: ../app/actions/help-actions.c:47
@@ -10190,7 +10190,7 @@ msgstr "单窗口模式"
 
 #: ../app/actions/windows-actions.c:138
 msgctxt "windows-action"
-msgid "When enabled, GIMP is in a single-window mode."
+msgid "When enabled, Glimpse is in a single-window mode."
 msgstr "当启用时，GIMP 处于单窗口模式。"
 
 #: ../app/actions/windows-actions.c:147
@@ -10336,7 +10336,7 @@ msgstr "右利手"
 
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
-msgid "GIMP help browser"
+msgid "Glimpse help browser"
 msgstr "GIMP 帮助浏览器"
 
 #: ../app/config/config-enums.c:187
@@ -10701,7 +10701,7 @@ msgstr "选区轮廓蚂蚁线的循环速度。该值以毫秒（时间越短速
 
 #: ../app/config/gimprc-blurbs.h:256
 msgid ""
-"GIMP will warn the user if an attempt is made to create an image that would "
+"Glimpse will warn the user if an attempt is made to create an image that would "
 "take more memory than the size specified here."
 msgstr ""
 "如果试图创建一幅所需内存比此处指定的数值还要大的图像，GIMP 将警告用户。"
@@ -10739,12 +10739,12 @@ msgid ""
 msgstr "设置图像窗口右下角的导航预览的大小。"
 
 #: ../app/config/gimprc-blurbs.h:289
-msgid "Sets how many threads GIMP should use for operations that support it."
+msgid "Sets how many threads Glimpse should use for operations that support it."
 msgstr "对支持多线程的操作设置 GIMP 应该使用多少个线程。"
 
 #: ../app/config/gimprc-blurbs.h:311
 msgid ""
-"Sets whether GIMP should create previews of layers and channels. Previews in "
+"Sets whether Glimpse should create previews of layers and channels. Previews in "
 "the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
@@ -10753,7 +10753,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:316
 msgid ""
-"Sets whether GIMP should create previews of layer groups. Layer group "
+"Sets whether Glimpse should create previews of layer groups. Layer group "
 "previews are more expensive than ordinary layer previews."
 msgstr "设置 GIMP 是否创建图层组预览。图层组预览比普通图层预览耗费更多资源。"
 
@@ -10784,12 +10784,12 @@ msgstr ""
 "当启用时，每次缩放图像时，图像窗口大小都将自动改变（仅多窗口模式有效）。"
 
 #: ../app/config/gimprc-blurbs.h:337
-msgid "Let GIMP try to restore your last saved session on each startup."
+msgid "Let Glimpse try to restore your last saved session on each startup."
 msgstr "每次启动时让 GIMP 尝试恢复您上次保存的会话。"
 
 #: ../app/config/gimprc-blurbs.h:340
 msgid ""
-"When enabled, GIMP will try to restore windows on the monitor they were open "
+"When enabled, Glimpse will try to restore windows on the monitor they were open "
 "before.  When disabled, windows will appear on the currently used monitor."
 msgstr ""
 "当启用时，GIMP 将尝试在各个显示器上恢复之前打开的窗口。当禁用时，这些窗口将恢"
@@ -10797,7 +10797,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:345
 msgid ""
-"Remember the current tool, pattern, color, and brush across GIMP sessions."
+"Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr "在多个 GIMP 会话间共享当前的工具、图案、颜色和笔刷设置。"
 
 #: ../app/config/gimprc-blurbs.h:349
@@ -10815,11 +10815,11 @@ msgid ""
 msgstr "为最近文档列表中的全部打开和保存过的文件保存一份永久记录。"
 
 #: ../app/config/gimprc-blurbs.h:358
-msgid "Save the positions and sizes of the main dialogs when GIMP exits."
+msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr "GIMP 退出时保存主要对话框的位置和大小。"
 
 #: ../app/config/gimprc-blurbs.h:361
-msgid "Save the tool options when GIMP exits."
+msgid "Save the tool options when Glimpse exits."
 msgstr "GIMP 退出时保存工具选项。"
 
 #: ../app/config/gimprc-blurbs.h:367
@@ -10903,7 +10903,7 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "当指针悬停在项目上时显示工具提示。"
 
 #: ../app/config/gimprc-blurbs.h:419
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "以单窗口模式使用 GIMP。"
 
 #: ../app/config/gimprc-blurbs.h:422
@@ -10940,9 +10940,9 @@ msgstr "当在图像窗口中空格键按下时的行为。"
 
 #: ../app/config/gimprc-blurbs.h:446
 msgid ""
-"Sets the swap file location. GIMP uses a tile based memory allocation "
+"Sets the swap file location. Glimpse uses a tile based memory allocation "
 "scheme. The swap file is used to quickly and easily swap tiles out to disk "
-"and back in. Be aware that the swap file can easily get very large if GIMP "
+"and back in. Be aware that the swap file can easily get very large if Glimpse "
 "is used with large images. Also, things can get horribly slow if the swap "
 "file is created on a folder that is mounted over NFS.  For these reasons, it "
 "may be desirable to put your swap file in \"/tmp\"."
@@ -10964,17 +10964,17 @@ msgid ""
 msgstr "当启用时，您只要按一个按键组合就可以改变突出显示的菜单项的快捷键。"
 
 #: ../app/config/gimprc-blurbs.h:462
-msgid "Save changed keyboard shortcuts when GIMP exits."
+msgid "Save changed keyboard shortcuts when Glimpse exits."
 msgstr "GIMP 退出时保存已改变的快捷键。"
 
 #: ../app/config/gimprc-blurbs.h:465
-msgid "Restore saved keyboard shortcuts on each GIMP startup."
+msgid "Restore saved keyboard shortcuts on each Glimpse startup."
 msgstr "GIMP 启动时恢复已保存的快捷键。"
 
 #: ../app/config/gimprc-blurbs.h:468
 msgid ""
 "Sets the folder for temporary storage. Files will appear here during the "
-"course of running GIMP.  Most files will disappear when GIMP exits, but some "
+"course of running Glimpse.  Most files will disappear when Glimpse exits, but some "
 "files are likely to remain, so it is best if this folder not be one that is "
 "shared by other users."
 msgstr ""
@@ -11187,7 +11187,7 @@ msgstr "如果预览的文件小于这里设置的大小，打开对话框中的
 
 #: ../app/config/gimprc-blurbs.h:631
 msgid ""
-"When the amount of pixel data exceeds this limit, GIMP will start to swap "
+"When the amount of pixel data exceeds this limit, Glimpse will start to swap "
 "tiles to disk.  This is a lot slower but it makes it possible to work on "
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
@@ -11218,7 +11218,7 @@ msgstr "设置用于表示透明的棋盘格子的大小。"
 
 #: ../app/config/gimprc-blurbs.h:655
 msgid ""
-"When enabled, GIMP will not save an image if it has not been changed since "
+"When enabled, Glimpse will not save an image if it has not been changed since "
 "it was opened."
 msgstr "当启用时，如果图像自打开以来没有被修改，GIMP 将不会保存。"
 
@@ -11472,7 +11472,7 @@ msgstr "仅调试崩溃"
 
 #: ../app/core/core-enums.c:425
 msgctxt "debug-policy"
-msgid "Never debug GIMP"
+msgid "Never debug Glimpse"
 msgstr "从不调试 GIMP"
 
 #: ../app/core/core-enums.c:511
@@ -12195,7 +12195,7 @@ msgstr "批处理解析程序“%s”不可用。批处理模式已禁用。"
 msgid "Deleting \"%s\" failed: %s"
 msgstr "删除“%s”失败：%s"
 
-#. initialize the list of gimp dynamics
+#. initialize the list of Glimpse dynamics
 #: ../app/core/gimp-data-factories.c:354 ../app/core/gimpcontext.c:722
 #: ../app/dialogs/preferences-dialog.c:3175
 #: ../app/tools/gimppaintoptions-gui.c:221
@@ -12249,7 +12249,7 @@ msgstr "前景到背景（HSV 顺时针色相）"
 msgid "FG to Transparent"
 msgstr "前景到透明"
 
-#. Translator:  This message is displayed while GIMP is waiting for
+#. Translator:  This message is displayed while Glimpse is waiting for
 #. * some operation to finish.  The %s argument is a message describing
 #. * the operation.
 #.
@@ -12297,14 +12297,14 @@ msgstr "关闭“%s”时出错：%s"
 #: ../app/core/gimp-user-install.c:215
 #, c-format
 msgid ""
-"It seems you have used GIMP %s before.  GIMP will now migrate your user "
+"It seems you have used Glimpse %s before.  Glimpse will now migrate your user "
 "settings to '%s'."
 msgstr "看来您曾经使用过 GIMP %s。GIMP 现在将要把您的用户配置迁移到“%s”。"
 
 #: ../app/core/gimp-user-install.c:220
 #, c-format
 msgid ""
-"It appears that you are using GIMP for the first time.  GIMP will now create "
+"It appears that you are using Glimpse for the first time.  Glimpse will now create "
 "a folder named '%s' and copy some files to it."
 msgstr ""
 "看来您是第一次使用 GIMP。GIMP 现在将创建名为“%s”的文件夹并复制一些文件到其"
@@ -12386,7 +12386,7 @@ msgstr "未命名"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr ""
 "笔刷文件中出现致命解析错误：\n"
 "不支持的笔刷深度 %d\n"
@@ -12446,17 +12446,17 @@ msgstr "剪贴板图像"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a Glimpse brush file."
 msgstr "不是 GIMP 笔刷文件。"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown Glimpse brush version."
 msgstr "未知 GIMP 笔刷版本。"
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown Glimpse brush shape."
 msgstr "未知 GIMP 笔刷形状。"
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -13008,7 +13008,7 @@ msgstr "使用纯色填充"
 
 #: ../app/core/gimpgradient-load.c:73
 #, c-format
-msgid "Not a GIMP gradient file."
+msgid "Not a Glimpse gradient file."
 msgstr "不是 GIMP 渐变文件。"
 
 #: ../app/core/gimpgradient-load.c:96
@@ -13937,7 +13937,7 @@ msgstr "未知图案格式版本 %d。"
 #, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"Glimpse Patterns must be GRAY or RGB."
 msgstr ""
 "不支持的图案色深 %d。\n"
 "GIMP 图案必须为灰度或 RGB。"
@@ -14402,11 +14402,11 @@ msgid "percent"
 msgstr "百分比"
 
 #: ../app/dialogs/about-dialog.c:115
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "关于 GIMP"
 
 #: ../app/dialogs/about-dialog.c:124
-msgid "Visit the GIMP website"
+msgid "Visit the Glimpse website"
 msgstr "访问 GIMP 网站"
 
 #. Translators: insert your names here,
@@ -14684,11 +14684,11 @@ msgstr "您确认要从列表删除“%s”并在硬盘上删除它吗？"
 
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:192
 #: ../app/gui/gui-message.c:271
-msgid "GIMP Message"
+msgid "Glimpse Message"
 msgstr "GIMP 消息"
 
 #: ../app/dialogs/dialogs-constructors.c:225
-msgid "GIMP Debug"
+msgid "Glimpse Debug"
 msgstr "GIMP 调试"
 
 #: ../app/dialogs/dialogs.c:314
@@ -14784,9 +14784,9 @@ msgstr "给定的文件名不能用于导出"
 #: ../app/dialogs/file-save-dialog.c:619
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
-"您可以用此对话框导出多种文件格式。如果您想将图像保存为 GIMP XCF 格式，请改用 "
+"您可以用此对话框导出多种文件格式。如果您想将图像保存为 Glimpse XCF 格式，请改用 "
 "[文件] → [保存]。"
 
 #: ../app/dialogs/file-save-dialog.c:622
@@ -14799,10 +14799,10 @@ msgstr "给定的文件名不能用于保存"
 
 #: ../app/dialogs/file-save-dialog.c:627
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export to "
 "export to other file formats."
 msgstr ""
-"您可以用此对话框保存到 GIMP XCF 格式。使用文件→导出以导出到其他文件格式。"
+"您可以用此对话框保存到 Glimpse XCF 格式。使用文件→导出以导出到其他文件格式。"
 
 #: ../app/dialogs/file-save-dialog.c:629
 msgid "Take me to the Export dialog"
@@ -15153,7 +15153,7 @@ msgid "_Refresh"
 msgstr "刷新(_R)"
 
 #: ../app/dialogs/module-dialog.c:153
-msgid "You will have to restart GIMP for the changes to take effect."
+msgid "You will have to restart Glimpse for the changes to take effect."
 msgstr "您需要重启 GIMP 以使改变生效。"
 
 #: ../app/dialogs/module-dialog.c:194
@@ -15329,13 +15329,13 @@ msgid "Do you really want to reset all preferences to default values?"
 msgstr "您真的要将所有首选项重置到默认值吗？"
 
 #: ../app/dialogs/preferences-dialog.c:381
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid "You will have to restart Glimpse for the following changes to take effect:"
 msgstr "您需要重启 GIMP 以使下列改变生效："
 
 #: ../app/dialogs/preferences-dialog.c:647
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr "您的快捷键将在下次您启动 GIMP 的时候重置到默认值。"
 
 #: ../app/dialogs/preferences-dialog.c:658
@@ -15355,7 +15355,7 @@ msgstr "您的窗口设置将在下次您启动 GIMP 的时候重置到默认值
 #: ../app/dialogs/preferences-dialog.c:756
 msgid ""
 "Your input device settings will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr "您的输入设备设置将在下次您启动 GIMP 的时候重置到默认值。"
 
 #: ../app/dialogs/preferences-dialog.c:798
@@ -15507,7 +15507,7 @@ msgstr "调试"
 
 #: ../app/dialogs/preferences-dialog.c:1245
 msgid ""
-"We hope you will never need these settings, but as all software, GIMP has "
+"We hope you will never need these settings, but as all software, Glimpse has "
 "bugs, and crashes can occur. If it happens, you can help us by reporting "
 "bugs."
 msgstr ""
@@ -15757,7 +15757,7 @@ msgstr "试验场"
 
 #: ../app/dialogs/preferences-dialog.c:1610
 msgid ""
-"These features are unfinished, buggy and may crash GIMP. It is unadvised to "
+"These features are unfinished, buggy and may crash Glimpse. It is unadvised to "
 "use them unless you really know what you are doing or you intend to "
 "contribute patches."
 msgstr ""
@@ -15955,7 +15955,7 @@ msgid "Appearance"
 msgstr "外观"
 
 #: ../app/dialogs/preferences-dialog.c:2107
-msgid "Show GIMP _logo (drag-and-drop target)"
+msgid "Show Glimpse _logo (drag-and-drop target)"
 msgstr "显示 GIMP 标志（拖放目标）"
 
 #: ../app/dialogs/preferences-dialog.c:2111
@@ -16293,7 +16293,7 @@ msgstr "要使用的帮助浏览器(_E)："
 
 #: ../app/dialogs/preferences-dialog.c:2567
 msgid ""
-"The GIMP help browser doesn't seem to be installed. Using the web browser "
+"The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr "未安装 GIMP 帮助浏览器。使用网络浏览器作为替代。"
 
@@ -16843,7 +16843,7 @@ msgid "pixels/%a"
 msgstr "像素/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
-msgid "Quit GIMP"
+msgid "Quit Glimpse"
 msgstr "退出 GIMP"
 
 #: ../app/dialogs/quit-dialog.c:164
@@ -16851,7 +16851,7 @@ msgid "Close All Images"
 msgstr "关闭全部图像"
 
 #: ../app/dialogs/quit-dialog.c:256
-msgid "If you quit GIMP now, these changes will be lost."
+msgid "If you quit Glimpse now, these changes will be lost."
 msgstr "如果您现在退出 GIMP，这些更改将会丢失。"
 
 #: ../app/dialogs/quit-dialog.c:259
@@ -16994,11 +16994,11 @@ msgid "_Emulate brush dynamics"
 msgstr "模拟动态笔刷(_E)"
 
 #: ../app/dialogs/tips-dialog.c:99
-msgid "The GIMP tips file is empty!"
+msgid "The Glimpse tips file is empty!"
 msgstr "GIMP 提示文件为空！"
 
 #: ../app/dialogs/tips-dialog.c:103
-msgid "The GIMP tips file appears to be missing!"
+msgid "The Glimpse tips file appears to be missing!"
 msgstr "您的 GIMP 提示文件似乎丢了！"
 
 #: ../app/dialogs/tips-dialog.c:105
@@ -17007,11 +17007,11 @@ msgid "There should be a file called '%s'. Please check your installation."
 msgstr "应该存在一个叫“%s”的文件。请检查您的安装。"
 
 #: ../app/dialogs/tips-dialog.c:111
-msgid "The GIMP tips file could not be parsed!"
+msgid "The Glimpse tips file could not be parsed!"
 msgstr "无法解析 GIMP 提示文件！"
 
 #: ../app/dialogs/tips-dialog.c:139
-msgid "GIMP Tip of the Day"
+msgid "Glimpse Tip of the Day"
 msgstr "GIMP 日积月累"
 
 #: ../app/dialogs/tips-dialog.c:145
@@ -17037,7 +17037,7 @@ msgid "tips-locale:C"
 msgstr "tips-locale:zh_CN"
 
 #: ../app/dialogs/user-install-dialog.c:85
-msgid "GIMP User Installation"
+msgid "Glimpse User Installation"
 msgstr "GIMP 用户安装"
 
 #: ../app/dialogs/user-install-dialog.c:94
@@ -17045,7 +17045,7 @@ msgid "User installation failed!"
 msgstr "用户安装失败！"
 
 #: ../app/dialogs/user-install-dialog.c:96
-msgid "The GIMP user installation failed; see the log for details."
+msgid "The Glimpse user installation failed; see the log for details."
 msgstr "GIMP 用户安装失败；请参见日志以获取更多信息。"
 
 #: ../app/dialogs/user-install-dialog.c:99
@@ -17887,15 +17887,15 @@ msgid "Invalid character sequence in URI"
 msgstr "URI 中有无效的字符序列"
 
 #: ../app/file-data/file-data.c:59 ../app/file-data/file-data.c:124
-msgid "GIMP brush"
+msgid "Glimpse brush"
 msgstr "GIMP 笔刷"
 
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "Glimpse brush (animated)"
 msgstr "GIMP 笔刷（动画化）"
 
 #: ../app/file-data/file-data.c:365 ../app/file-data/file-data.c:426
-msgid "GIMP pattern"
+msgid "Glimpse pattern"
 msgstr "GIMP 图案"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318
@@ -18597,7 +18597,7 @@ msgid "Curve"
 msgstr "曲线"
 
 #: ../app/operations/gimpcurvesconfig.c:547
-msgid "not a GIMP Curves file"
+msgid "not a Glimpse Curves file"
 msgstr "不是 GIMP 曲线文件"
 
 #: ../app/operations/gimpcurvesconfig.c:578
@@ -18671,7 +18671,7 @@ msgid "Clamp final output values."
 msgstr "固定最终输出数值。"
 
 #: ../app/operations/gimplevelsconfig.c:843
-msgid "not a GIMP Levels file"
+msgid "not a Glimpse Levels file"
 msgstr "不是 GIMP 色阶文件"
 
 #: ../app/operations/gimplevelsconfig.c:918
@@ -18688,12 +18688,12 @@ msgid "Adjust brightness and contrast"
 msgstr "调整亮度和对比度"
 
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
-msgid "Compute a set of coefficient buffer for the GIMP cage tool"
+msgid "Compute a set of coefficient buffer for the Glimpse cage tool"
 msgstr "计算一套 GIMP 框架工具的协作缓冲区"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 msgid ""
-"Convert a set of coefficient buffer to a coordinate buffer for the GIMP cage "
+"Convert a set of coefficient buffer to a coordinate buffer for the Glimpse cage "
 "tool"
 msgstr "将一套 GIMP 框架工具的协作缓冲区转化为整合缓冲区"
 
@@ -18788,9 +18788,9 @@ msgstr "明度"
 msgid "The alpha value"
 msgstr "透明通道明度"
 
-#. TRANSLATORS: there is no need to translate this in GIMP. This uses
+#. TRANSLATORS: there is no need to translate this in Glimpse. This uses
 #. * "gtk20" domain as a special trick to determine language direction,
-#. * but xgettext extracts it anyway mistakenly into GIMP po files.
+#. * but xgettext extracts it anyway mistakenly into Glimpse po files.
 #. * Leave an empty string as translation. It does not matter.
 #.
 #: ../app/gui/gui.c:238
@@ -18810,7 +18810,7 @@ msgid "_Recover"
 msgstr "恢复(_R)"
 
 #: ../app/gui/gui.c:342
-msgid "Eeek! It looks like GIMP recovered from a crash!"
+msgid "Eeek! It looks like Glimpse recovered from a crash!"
 msgstr "哈！貌似 GIMP 从崩溃中恢复了！"
 
 #. TRANSLATORS: even if English singular form does
@@ -18835,7 +18835,7 @@ msgid "Documents"
 msgstr "文档"
 
 #: ../app/gui/splash.c:138
-msgid "GIMP Startup"
+msgid "Glimpse Startup"
 msgstr "GIMP 启动"
 
 #: ../app/paint/gimpairbrush.c:77 ../app/tools/gimpairbrushtool.c:67
@@ -20125,8 +20125,8 @@ msgid ""
 "Plug-in crashed: \"%s\"\n"
 "(%s)\n"
 "\n"
-"The dying plug-in may have messed up GIMP's internal state. You may want to "
-"save your images and restart GIMP to be on the safe side."
+"The dying plug-in may have messed up Glimpse's internal state. You may want to "
+"save your images and restart Glimpse to be on the safe side."
 msgstr ""
 "插件崩溃：“%s”\n"
 "(%s)\n"
@@ -20243,7 +20243,7 @@ msgstr ""
 
 #: ../app/plug-in/plug-in-rc.c:237
 #, c-format
-msgid "Skipping '%s': wrong GIMP protocol version."
+msgid "Skipping '%s': wrong Glimpse protocol version."
 msgstr "跳过“%s”：错误的 GIMP 协议版本。"
 
 #: ../app/plug-in/plug-in-rc.c:244
@@ -22254,7 +22254,7 @@ msgid "_Move"
 msgstr "移动(_M)"
 
 #: ../app/tools/gimpmybrushtool.c:74
-msgid "MyPaint Brush Tool: Use MyPaint brushes in GIMP"
+msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
 msgstr "MyPaint 笔刷工具：在 GIMP 中使用 MyPaint 笔刷"
 
 #: ../app/tools/gimpmybrushtool.c:75
@@ -22953,7 +22953,7 @@ msgstr ""
 "您可以编辑此图层或者从它的文字属性创建新的文字图层。"
 
 #: ../app/tools/gimptexttool-editor.c:1357
-msgid "GIMP Text Editor"
+msgid "Glimpse Text Editor"
 msgstr "GIMP 文字编辑器"
 
 #: ../app/tools/gimpthresholdtool.c:95
@@ -24315,7 +24315,7 @@ msgstr "打开缺陷追踪器"
 #: ../app/widgets/gimpcriticaldialog.c:132
 #: ../app/widgets/gimpcriticaldialog.c:455
 msgid ""
-"To help us improve GIMP, you can report the bug with these simple steps:"
+"To help us improve Glimpse, you can report the bug with these simple steps:"
 msgstr "为了帮助我们改进 GIMP，您可以通过这些简单步骤报告缺陷："
 
 #: ../app/widgets/gimpcriticaldialog.c:134
@@ -24347,8 +24347,8 @@ msgstr "在缺陷报告中用英语添加相关信息解释当错误发生时您
 
 #: ../app/widgets/gimpcriticaldialog.c:142
 msgid ""
-"This error may have left GIMP in an inconsistent state. It is advised to "
-"save your work and restart GIMP."
+"This error may have left Glimpse in an inconsistent state. It is advised to "
+"save your work and restart Glimpse."
 msgstr "该错误可能会使 GIMP 处于一种不一致状态。建议保存您的工作并重启 GIMP。"
 
 #: ../app/widgets/gimpcriticaldialog.c:153
@@ -24421,13 +24421,13 @@ msgstr "打开“%s”失败：%s"
 
 #: ../app/widgets/gimpcriticaldialog.c:421
 #, c-format
-msgid "GIMP crashed with a fatal error: %s"
+msgid "Glimpse crashed with a fatal error: %s"
 msgstr "GIMP 因一个致命错误崩溃：%s"
 
 #. First error. Let's just display it.
 #: ../app/widgets/gimpcriticaldialog.c:428
 #, c-format
-msgid "GIMP encountered an error: %s"
+msgid "Glimpse encountered an error: %s"
 msgstr "GIMP 遇到一个错误：%s"
 
 #. Let's not display all errors. They will be in the bug report
@@ -24435,11 +24435,11 @@ msgstr "GIMP 遇到一个错误：%s"
 #.
 #: ../app/widgets/gimpcriticaldialog.c:436
 #, c-format
-msgid "GIMP encountered several critical errors!"
+msgid "Glimpse encountered several critical errors!"
 msgstr "GIMP 遇到几个严重错误！"
 
 #: ../app/widgets/gimpcriticaldialog.c:488
-msgid "_Restart GIMP"
+msgid "_restart Glimpse"
 msgstr "重启 GIMP (_R)"
 
 #: ../app/widgets/gimpdashboard.c:454 ../app/widgets/gimpdashboard.c:506
@@ -24650,7 +24650,7 @@ msgid "Total size of scratch memory"
 msgstr "暂时存储器的全部大小"
 
 #. Translators:  "TempBuf" is a technical term referring to an internal
-#. * GIMP data structure.  It's probably OK to leave it untranslated.
+#. * Glimpse data structure.  It's probably OK to leave it untranslated.
 #.
 #: ../app/widgets/gimpdashboard.c:715
 msgctxt "dashboard-variable"
@@ -24965,7 +24965,7 @@ msgid "Messages are redirected to stderr."
 msgstr "消息已被重定向到 stderr。"
 
 #. %s is a message domain,
-#. * like "GIMP Message" or
+#. * like "Glimpse Message" or
 #. * "PNG Message"
 #.
 #: ../app/widgets/gimperrordialog.c:196
@@ -25145,12 +25145,12 @@ msgid "Help browser is missing"
 msgstr "帮助浏览器缺失"
 
 #: ../app/widgets/gimphelp.c:372
-msgid "The GIMP help browser is not available."
+msgid "The Glimpse help browser is not available."
 msgstr "GIMP 帮助浏览器不可用。"
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
-"The GIMP help browser plug-in appears to be missing from your installation. "
+"The Glimpse help browser plug-in appears to be missing from your installation. "
 "You may instead use the web browser for reading the help pages."
 msgstr ""
 "您似乎没有安装 GIMP 帮助浏览器插件。您可以使用网页浏览器以浏览 GIMP 帮助文"
@@ -25161,7 +25161,7 @@ msgid "Help browser doesn't start"
 msgstr "帮助浏览器没有启动"
 
 #: ../app/widgets/gimphelp.c:420
-msgid "Could not start the GIMP help browser plug-in."
+msgid "Could not start the Glimpse help browser plug-in."
 msgstr "无法启动 GIMP 帮助浏览器插件。"
 
 #: ../app/widgets/gimphelp.c:422
@@ -25173,11 +25173,11 @@ msgid "Use _Web Browser"
 msgstr "使用网页浏览器(_W)"
 
 #: ../app/widgets/gimphelp.c:793
-msgid "GIMP user manual is missing"
+msgid "Glimpse user manual is missing"
 msgstr "GIMP 用户手册缺失"
 
 #: ../app/widgets/gimphelp.c:809
-msgid "The GIMP user manual is not installed in your language."
+msgid "The Glimpse user manual is not installed in your language."
 msgstr "GIMP 用户指南未安装您的语言版本。"
 
 #: ../app/widgets/gimphelp.c:820
@@ -25475,11 +25475,11 @@ msgstr "少数情况下，更好的压缩算法可能仍然会产生更大的文
 #: ../app/widgets/gimpsavedialog.c:398
 #, c-format
 msgid ""
-"The image uses features from %s and won't be readable by older GIMP versions."
+"The image uses features from %s and won't be readable by older Glimpse versions."
 msgstr "该图像使用了来自 %s 的特性，且不能被旧版本 GIMP 读取。"
 
 #: ../app/widgets/gimpsavedialog.c:407
-msgid "Metadata won't be visible in GIMP older than version 2.10."
+msgid "Metadata won't be visible in Glimpse older than version 2.10."
 msgstr "元数据在早于 2.10 版本的 GIMP 中不可见。"
 
 #: ../app/widgets/gimpselectiondata.c:250
@@ -25859,7 +25859,7 @@ msgid "%s Preset"
 msgstr "%s 预设"
 
 #: ../app/widgets/gimpuimanager.c:778
-msgid "Your GIMP installation is incomplete:"
+msgid "Your Glimpse installation is incomplete:"
 msgstr "您的 GIMP 安装不完整："
 
 #: ../app/widgets/gimpuimanager.c:780
@@ -26047,8 +26047,8 @@ msgid "Undefined"
 msgstr "未定义"
 
 #: ../app/xcf/xcf.c:114 ../app/xcf/xcf.c:185
-msgid "GIMP XCF image"
-msgstr "GIMP XCF 图像"
+msgid "Glimpse XCF image"
+msgstr "Glimpse XCF 图像"
 
 #: ../app/xcf/xcf.c:272 ../app/xcf/xcf.c:361
 msgid "Memory Stream"
@@ -26159,7 +26159,7 @@ msgid "Error writing XCF: unsupported BPC when writing pixel: %d"
 msgstr "写入 XCF 时出错：写入像素：%d 时不支持 BPC"
 
 #: ../app-tools/gimp-debug-tool.c:78
-msgid "GIMP Crash Debug"
+msgid "Glimpse Crash Debug"
 msgstr "GIMP 崩溃调试"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
@@ -26325,19 +26325,19 @@ msgstr "模糊"
 #~ msgid "Use symbolic icons if available"
 #~ msgstr "如果可用则使用符号图标"
 
-#~ msgid "Absolute path are forbidden in GIMP extension '%s': %s"
+#~ msgid "Absolute path are forbidden in Glimpse extension '%s': %s"
 #~ msgstr "GIMP 扩展 %s 中不允许使用绝对路径：%s"
 
-#~ msgid "Fatal error when uncompressing GIMP extension '%s': %s"
+#~ msgid "Fatal error when uncompressing Glimpse extension '%s': %s"
 #~ msgstr "解压 GIMP 扩展 %s 是发生严重错误：%s"
 
-#~ msgid "GIMP extension '%s' requires an AppStream file: %s"
+#~ msgid "Glimpse extension '%s' requires an AppStream file: %s"
 #~ msgstr "GIMP 扩展 %s 需要 AppStream 文件：%s"
 
-#~ msgid "Invalid GIMP extension '%s': %s"
+#~ msgid "Invalid Glimpse extension '%s': %s"
 #~ msgstr "无效的 GIMPP 扩展“%s”：%s"
 
-#~ msgid "GIMP extension"
+#~ msgid "Glimpse extension"
 #~ msgstr "GIMP 按扩"
 
 #~ msgid "Work on linear or perceptual RGB"
@@ -26408,8 +26408,8 @@ msgstr "模糊"
 #~ msgid ""
 #~ "Fatal parse error in brush file:\n"
 #~ "Unsupported brush depth %d\n"
-#~ "GIMP brushes must be GRAY or RGBA.\n"
-#~ "This might be an obsolete GIMP brush file, try loading it as image and "
+#~ "Glimpse brushes must be GRAY or RGBA.\n"
+#~ "This might be an obsolete Glimpse brush file, try loading it as image and "
 #~ "save it again."
 #~ msgstr ""
 #~ "笔刷文件中出现致命解析错误：\n"

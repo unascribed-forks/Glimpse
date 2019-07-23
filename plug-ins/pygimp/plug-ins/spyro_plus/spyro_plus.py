@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+﻿#!/usr/bin/env python2
 
 # Draw Spyrographs, Epitrochoids, and Lissajous curves with interactive feedback.
 #

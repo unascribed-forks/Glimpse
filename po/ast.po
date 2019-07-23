@@ -1,6 +1,6 @@
 # Asturian translation for gimp
 # Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
-# This file is distributed under the same license as the gimp package.
+# This file is distributed under the same license as the Glimpse package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
 # xandru <xandru@softastur.org>, 2010.
 # Xandru Armesto <xandru@softastur.org>, 2011.
@@ -33,31 +33,31 @@ msgid "Create images and edit photographs"
 msgstr "Cree imáxenes y edite semeyes"
 
 #: ../app/about.h:23
-msgid "GIMP"
-msgstr "GIMP"
+msgid "Glimpse"
+msgstr "Glimpse"
 
 #. The year of the last commit (UTC) will be inserted into this string.
 #: ../app/about.h:30
 #, c-format
 msgid ""
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the GIMP Development Team"
+"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 msgstr ""
 
 #: ../app/about.h:34
 msgid ""
-"GIMP is free software: you can redistribute it and/or modify it under the "
+"Glimpse is free software: you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 3 of the License, or (at your option) any later "
 "version.\n"
 "\n"
-"GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GIMP.  If not, see https://www.gnu.org/licenses/."
+"Glimpse.  If not, see https://www.gnu.org/licenses/."
 msgstr ""
 
 #: ../app/app.c:224
@@ -98,8 +98,8 @@ msgid "Be more verbose"
 msgstr "Mou más detalláu"
 
 #: ../app/main.c:163
-msgid "Start a new GIMP instance"
-msgstr "Entamar un oxetu GIMP nuevu"
+msgid "Start a new Glimpse instance"
+msgstr "Entamar un oxetu Glimpse nuevu"
 
 #: ../app/main.c:168
 msgid "Open images as new"
@@ -122,8 +122,8 @@ msgid "Do not show a splash screen"
 msgstr ""
 
 #: ../app/main.c:193
-msgid "Do not use shared memory between GIMP and plugins"
-msgstr "Nun usar memoria a comuña ente GIMP y los complementos"
+msgid "Do not use shared memory between Glimpse and plugins"
+msgstr "Nun usar memoria a comuña ente Glimpse y los complementos"
 
 #: ../app/main.c:198
 msgid "Do not use special CPU acceleration functions"
@@ -185,19 +185,19 @@ msgstr "[FICHERU|URI…]"
 
 #: ../app/main.c:405
 msgid ""
-"GIMP could not initialize the graphical user interface.\n"
+"Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
-"GIMP nun pudo entamar la interfaz gráfica d'usuariu. Asegúrate de qu'esista "
+"Glimpse nun pudo entamar la interfaz gráfica d'usuariu. Asegúrate de qu'esista "
 "una instalación afayadiza pa la so pantalla."
 
 #: ../app/main.c:424
-msgid "Another GIMP instance is already running."
-msgstr "Yá ta executándose otra instancia del GIMP."
+msgid "Another Glimpse instance is already running."
+msgstr "Yá ta executándose otra instancia del Glimpse."
 
 #: ../app/main.c:494
-msgid "GIMP output. Type any character to close this window."
-msgstr "Salida de GIMP. Calca cualquier tecla pa pesllar esta ventana."
+msgid "Glimpse output. Type any character to close this window."
+msgstr "Salida de Glimpse. Calca cualquier tecla pa pesllar esta ventana."
 
 #: ../app/main.c:495
 #, c-format
@@ -205,8 +205,8 @@ msgid "(Type any character to close this window)\n"
 msgstr "(Calca cualquier tecla pa pesllar esta ventana)\n"
 
 #: ../app/main.c:512
-msgid "GIMP output. You can minimize this window, but don't close it."
-msgstr "Salida de GIMP. Puedes minimizar esta ventana, pero nun la pieslles."
+msgid "Glimpse output. You can minimize this window, but don't close it."
+msgstr "Salida de Glimpse. Puedes minimizar esta ventana, pero nun la pieslles."
 
 #: ../app/sanity.c:433
 #, c-format
@@ -221,14 +221,14 @@ msgstr ""
 #: ../app/sanity.c:452
 #, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"El nome del direutoriu que contien la configuración d'usuariu de GIMP nun "
+"El nome del direutoriu que contien la configuración d'usuariu de Glimpse nun "
 "puede convertise a UTF-8: %s\n"
 "Lo más probable ye que'l to sistema de ficheros almacene los ficheros nuna "
 "codificación estremada a UTF-8 y nun-y dixiste esto a Glib. Por favor, afita "
@@ -250,7 +250,7 @@ msgstr "%s versión %s"
 msgid "Brush Editor"
 msgstr "Editor de pinceles"
 
-#. initialize the list of gimp brushes
+#. initialize the list of Glimpse brushes
 #: ../app/actions/actions.c:113 ../app/core/gimp.c:951
 #: ../app/dialogs/dialogs.c:319 ../app/dialogs/preferences-dialog.c:2740
 msgid "Brushes"
@@ -344,7 +344,7 @@ msgstr "Fontes"
 msgid "Gradient Editor"
 msgstr "Editor de dilíos"
 
-#. initialize the list of gimp gradients
+#. initialize the list of Glimpse gradients
 #: ../app/actions/actions.c:176 ../app/core/gimp.c:971
 #: ../app/dialogs/dialogs.c:323 ../app/dialogs/preferences-dialog.c:2756
 msgid "Gradients"
@@ -383,13 +383,13 @@ msgstr "Capes"
 msgid "Palette Editor"
 msgstr "Editor de paleta"
 
-#. initialize the list of gimp palettes
+#. initialize the list of Glimpse palettes
 #: ../app/actions/actions.c:200 ../app/core/gimp.c:966
 #: ../app/dialogs/dialogs.c:325 ../app/dialogs/preferences-dialog.c:2752
 msgid "Palettes"
 msgstr "Paletes"
 
-#. initialize the list of gimp patterns
+#. initialize the list of Glimpse patterns
 #: ../app/actions/actions.c:203 ../app/core/gimp.c:961
 #: ../app/dialogs/dialogs.c:321 ../app/dialogs/preferences-dialog.c:2748
 msgid "Patterns"
@@ -1329,7 +1329,7 @@ msgstr ""
 
 #: ../app/actions/dialogs-actions.c:259
 msgctxt "dialogs-action"
-msgid "Show some helpful tips on using GIMP"
+msgid "Show some helpful tips on using Glimpse"
 msgstr ""
 
 #: ../app/actions/dialogs-actions.c:264
@@ -1339,7 +1339,7 @@ msgstr ""
 
 #: ../app/actions/dialogs-actions.c:265
 msgctxt "dialogs-action"
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr ""
 
 #: ../app/actions/dialogs-actions.c:328
@@ -2315,7 +2315,7 @@ msgstr ""
 
 #: ../app/actions/file-actions.c:113
 msgctxt "file-action"
-msgid "Quit the GNU Image Manipulation Program"
+msgid "Quit Glimpse"
 msgstr ""
 
 #: ../app/actions/file-actions.c:121
@@ -3006,7 +3006,7 @@ msgstr ""
 
 #: ../app/actions/help-actions.c:41
 msgctxt "help-action"
-msgid "Open the GIMP user manual"
+msgid "Open the Glimpse user manual"
 msgstr ""
 
 #: ../app/actions/help-actions.c:46
@@ -5804,19 +5804,19 @@ msgstr ""
 #: ../app/actions/windows-actions.c:125
 #, fuzzy
 msgctxt "windows-action"
-msgid "When enabled GIMP is in a single-window mode."
-msgstr "Cuando s'alcuentre activáu GIMP amosará mnemónicos nos menús."
+msgid "When enabled Glimpse is in a single-window mode."
+msgstr "Cuando s'alcuentre activáu Glimpse amosará mnemónicos nos menús."
 
 #: ../app/base/tile-swap.c:711
 msgid ""
-"Unable to open swap file. GIMP has run out of memory and cannot use the swap "
+"Unable to open swap file. Glimpse has run out of memory and cannot use the swap "
 "file. Some parts of your images may be corrupted. Try to save your work "
-"using different filenames, restart GIMP and check the location of the swap "
+"using different filenames, restart Glimpse and check the location of the swap "
 "directory in your Preferences."
 msgstr ""
-"Ye imposible abrir el ficheru d'intercambiu. GIMP pergastó la memoria y nun "
+"Ye imposible abrir el ficheru d'intercambiu. Glimpse pergastó la memoria y nun "
 "pue usar el ficheru d'intercambiu. Delles partes de les sos imaxes pueden "
-"tar toyíes. Intenta salvar el to trabayu con otru nome, reinicia GIMP y "
+"tar toyíes. Intenta salvar el to trabayu con otru nome, reinicia Glimpse y "
 "comprueba l'allugamientu del direutoriu d'intercambiu nes tos Preferencies"
 
 #: ../app/base/tile-swap.c:726
@@ -5886,7 +5886,7 @@ msgstr ""
 
 #: ../app/config/config-enums.c:147
 msgctxt "help-browser-type"
-msgid "GIMP help browser"
+msgid "Glimpse help browser"
 msgstr ""
 
 #: ../app/config/config-enums.c:148
@@ -6116,10 +6116,10 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:221
 msgid ""
-"GIMP will warn the user if an attempt is made to create an image that would "
+"Glimpse will warn the user if an attempt is made to create an image that would "
 "take more memory than the size specified here."
 msgstr ""
-"El Gimp alvertirá al usuariu si fai un tentu de crear una imaxe que podría "
+"El Glimpse alvertirá al usuariu si fai un tentu de crear una imaxe que podría "
 "requerir más memoria que'l tamañu especificáu equí."
 
 #: ../app/config/gimprc-blurbs.h:231
@@ -6160,8 +6160,8 @@ msgstr ""
 "inferior drecha de la ventana de la imaxe."
 
 #: ../app/config/gimprc-blurbs.h:249
-msgid "Sets how many processors GIMP should try to use simultaneously."
-msgstr "Afita cuántos procesadores tien d'intentar usar a la vez GIMP."
+msgid "Sets how many processors Glimpse should try to use simultaneously."
+msgstr "Afita cuántos procesadores tien d'intentar usar a la vez Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:262
 msgid ""
@@ -6174,11 +6174,11 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:278
 msgid ""
-"Sets whether GIMP should create previews of layers and channels. Previews in "
+"Sets whether Glimpse should create previews of layers and channels. Previews in "
 "the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
-"Afita si Gimp tendría de crear vistes previes de les capes y les canales. Ye "
+"Afita si Glimpse tendría de crear vistes previes de les capes y les canales. Ye "
 "bueno disponer de les vistes previes nel diálogu de capes y canales, pero "
 "pueden aselecer el trabayu con imáxenes grandes."
 
@@ -6211,16 +6211,16 @@ msgstr ""
 "al ampliar o menguar les imáxenes."
 
 #: ../app/config/gimprc-blurbs.h:298
-msgid "Let GIMP try to restore your last saved session on each startup."
+msgid "Let Glimpse try to restore your last saved session on each startup."
 msgstr ""
-"Permitir a GIMP intentar restaurar la última sesión grabada en cada arranque."
+"Permitir a Glimpse intentar restaurar la última sesión grabada en cada arranque."
 
 #: ../app/config/gimprc-blurbs.h:301
 msgid ""
-"Remember the current tool, pattern, color, and brush across GIMP sessions."
+"Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
 "Alcordase del preséu, el patrón, el color y los pinceles d'agora en otres "
-"sesiones GIMP."
+"sesiones Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:305
 msgid ""
@@ -6231,13 +6231,13 @@ msgstr ""
 "llista de documentos recientes."
 
 #: ../app/config/gimprc-blurbs.h:309
-msgid "Save the positions and sizes of the main dialogs when GIMP exits."
+msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
-"Grabar les posiciones y tamaños de los diálogos principales al colar de GIMP."
+"Grabar les posiciones y tamaños de los diálogos principales al colar de Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:312
-msgid "Save the tool options when GIMP exits."
-msgstr "Grabar les opciones de preseos al colar de GIMP."
+msgid "Save the tool options when Glimpse exits."
+msgstr "Grabar les opciones de preseos al colar de Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:318
 msgid ""
@@ -6342,7 +6342,7 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "Presentar una ayuda cuando'l punteru pasa per enriba d'un elementu."
 
 #: ../app/config/gimprc-blurbs.h:370
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:373
@@ -6355,17 +6355,17 @@ msgstr "Qué facer cuando la barra espaciadora se calca na ventana d'imaxe."
 
 #: ../app/config/gimprc-blurbs.h:379
 msgid ""
-"Sets the swap file location. GIMP uses a tile based memory allocation "
+"Sets the swap file location. Glimpse uses a tile based memory allocation "
 "scheme. The swap file is used to quickly and easily swap tiles out to disk "
-"and back in. Be aware that the swap file can easily get very large if GIMP "
+"and back in. Be aware that the swap file can easily get very large if Glimpse "
 "is used with large images. Also, things can get horribly slow if the swap "
 "file is created on a folder that is mounted over NFS.  For these reasons, it "
 "may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
-"Afita l'allugamientu del ficheru d'intercambeu. GIMP usa una cadarma de "
+"Afita l'allugamientu del ficheru d'intercambeu. Glimpse usa una cadarma de "
 "reserva de memoria sofitada en mosaicos. El ficheru d'intercambeu úsase pa "
 "cambiar mosaicos rápida y fácilmente pal y dende'l discu. Ten en cuenta "
-"que'l ficheru d'intercambeu puede facese pergrande fácilmente si GIMP s'usa "
+"que'l ficheru d'intercambeu puede facese pergrande fácilmente si Glimpse s'usa "
 "con imáxenes grandes. Les coses pueden tamién ponese lentes dafechu si'l "
 "ficheru d'intercambeu se crea n'un direutoiru sofitáu en NFS. Por esto, "
 "quiciabes seya conveniente llantar el to ficheru d'intercambeu en \"/tmp\"."
@@ -6384,24 +6384,24 @@ msgstr ""
 "del menú tea esbilláu."
 
 #: ../app/config/gimprc-blurbs.h:395
-msgid "Save changed keyboard shortcuts when GIMP exits."
-msgstr "Guardar les combinaciones de tecles modificaes al colar de GIMP."
+msgid "Save changed keyboard shortcuts when Glimpse exits."
+msgstr "Guardar les combinaciones de tecles modificaes al colar de Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:398
-msgid "Restore saved keyboard shortcuts on each GIMP startup."
+msgid "Restore saved keyboard shortcuts on each Glimpse startup."
 msgstr ""
-"Restaurar les combinaciones de tecles grabaes en cada arranque de GIMP."
+"Restaurar les combinaciones de tecles grabaes en cada arranque de Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:401
 msgid ""
 "Sets the folder for temporary storage. Files will appear here during the "
-"course of running GIMP.  Most files will disappear when GIMP exits, but some "
+"course of running Glimpse.  Most files will disappear when Glimpse exits, but some "
 "files are likely to remain, so it is best if this folder not be one that is "
 "shared by other users."
 msgstr ""
 "Afita la carpeta d'almacenamientu temporal. Los ficheros apaecerán equí nel "
-"trescursu d'execución de GIMP. La mayoría de los ficheros desapaecerán "
-"cuando se cole de GIMP, pero dellos ficheros pueden caltenese, poro, ye "
+"trescursu d'execución de Glimpse. La mayoría de los ficheros desapaecerán "
+"cuando se cole de Glimpse, pero dellos ficheros pueden caltenese, poro, ye "
 "meyor si esta carpeta nun se comparte con otros usuarios."
 
 #: ../app/config/gimprc-blurbs.h:413
@@ -6418,12 +6418,12 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:420
 msgid ""
-"When the amount of pixel data exceeds this limit, GIMP will start to swap "
+"When the amount of pixel data exceeds this limit, Glimpse will start to swap "
 "tiles to disk.  This is a lot slower but it makes it possible to work on "
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
 msgstr ""
-"Cuando la cantidá de datos del píxel perpasa esta llende, GIMP entamará a "
+"Cuando la cantidá de datos del píxel perpasa esta llende, Glimpse entamará a "
 "intercambiar tiles al discu. Esto ye mui lento, pero fai posible trabayar "
 "con imáxenes que nun cabrían na memoria d'otra manera. Si tienes muncha "
 "memoria RAM, a lo meyor pétate poner esti valor más altu."
@@ -6451,10 +6451,10 @@ msgstr "Afita'l tamañu del cuadriculáu usáu p'amosar la tresparencia."
 
 #: ../app/config/gimprc-blurbs.h:444
 msgid ""
-"When enabled, GIMP will not save an image if it has not been changed since "
+"When enabled, Glimpse will not save an image if it has not been changed since "
 "it was opened."
 msgstr ""
-"Cuando tea activáu GIMP nun guardará una imaxe si nun se modificó dende que "
+"Cuando tea activáu Glimpse nun guardará una imaxe si nun se modificó dende que "
 "s'abrió."
 
 #: ../app/config/gimprc-blurbs.h:448
@@ -7502,7 +7502,7 @@ msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:85
 #, c-format
-msgid "Fatal parse error in brush file '%s': Not a GIMP brush file."
+msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 msgstr ""
 "Fallu fatal d'analís nel ficheru de pincel «%s»: Nun ye un ficheru de pincel "
 "d'El Gimp."
@@ -7510,9 +7510,9 @@ msgstr ""
 #: ../app/core/gimpbrushgenerated-load.c:102
 #, c-format
 msgid ""
-"Fatal parse error in brush file '%s': Unknown GIMP brush version in line %d."
+"Fatal parse error in brush file '%s': Unknown Glimpse brush version in line %d."
 msgstr ""
-"Fallu fatal d'analís nel ficheru de pincel «%s»: Versión de pincel de GIMP "
+"Fallu fatal d'analís nel ficheru de pincel «%s»: Versión de pincel de Glimpse "
 "desconocida na llinia %d."
 
 #: ../app/core/gimpbrushgenerated-load.c:126 ../app/core/gimpbrush-load.c:278
@@ -7524,9 +7524,9 @@ msgstr "Cadena UTF-8 inválida nel ficheru de pincel «%s»."
 #: ../app/core/gimpbrushgenerated-load.c:148
 #, c-format
 msgid ""
-"Fatal parse error in brush file '%s': Unknown GIMP brush shape in line %d."
+"Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line %d."
 msgstr ""
-"Fallu fatal d'analís nel ficheru de pincel «%s»: Forma de pincel de GIMP "
+"Fallu fatal d'analís nel ficheru de pincel «%s»: Forma de pincel de Glimpse "
 "desconocía na llinia %d."
 
 #: ../app/core/gimpbrushgenerated-load.c:224
@@ -7596,11 +7596,11 @@ msgstr "Ensin nome"
 #, c-format
 msgid ""
 "Fatal parse error in brush file '%s': Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr ""
 "Fallu fatal d'analís nel ficheru de pincel «%s»: Nun se soporta la "
 "profundidá de pincel %d\n"
-"Les broches de El Gimp tienen de ser GRAY (BUXOS) o RGBA."
+"Les broches de El Glimpse tienen de ser GRAY (BUXOS) o RGBA."
 
 #: ../app/core/gimpbrush-load.c:452
 #, c-format
@@ -7641,7 +7641,7 @@ msgstr "Guetando ficheros de datos"
 msgid "Parasites"
 msgstr "Parásitos"
 
-#. initialize the list of gimp dynamics
+#. initialize the list of Glimpse dynamics
 #: ../app/core/gimp.c:956 ../app/dialogs/preferences-dialog.c:2744
 #: ../app/tools/gimppaintoptions-gui.c:204
 msgid "Dynamics"
@@ -8041,10 +8041,10 @@ msgstr ""
 
 #: ../app/core/gimpgradient-load.c:83
 #, c-format
-msgid "Fatal parse error in gradient file '%s': Not a GIMP gradient file."
+msgid "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 msgstr ""
 "Fallu fatal d'analís nel ficheru de dilíu '%s': Nun ye un ficheru de dilíos "
-"de GIMP."
+"de Glimpse."
 
 #: ../app/core/gimpgradient-load.c:111
 #, c-format
@@ -8779,11 +8779,11 @@ msgstr ""
 #, c-format
 msgid ""
 "Fatal parse error in pattern file '%s: Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"Glimpse Patterns must be GRAY or RGB."
 msgstr ""
 "Fallu d'analís fatal nel ficheru de patrón «%s»: Profundidá del patrón non "
 "soportada %d.\n"
-"Los patrones de GIMP tienen de ser GRAY o RGB."
+"Los patrones de Glimpse tienen de ser GRAY o RGB."
 
 #: ../app/core/gimppattern-load.c:144
 #, c-format
@@ -8969,19 +8969,19 @@ msgstr ""
 #: ../app/core/gimp-user-install.c:160
 #, c-format
 msgid ""
-"It seems you have used GIMP %s before.  GIMP will now migrate your user "
+"It seems you have used Glimpse %s before.  Glimpse will now migrate your user "
 "settings to '%s'."
 msgstr ""
-"Paez ser qu'useste GIMP %s enantes.  GIMP migrará los sos axustes d'usuariu "
+"Paez ser qu'useste GIMP %s enantes.  Glimpse migrará los sos axustes d'usuariu "
 "a «%s»."
 
 #: ../app/core/gimp-user-install.c:165
 #, c-format
 msgid ""
-"It appears that you are using GIMP for the first time.  GIMP will now create "
+"It appears that you are using Glimpse for the first time.  Glimpse will now create "
 "a folder named '%s' and copy some files to it."
 msgstr ""
-"Paez ser que tas usando GIMP per primer vegada, GIMP creará agora una "
+"Paez ser que tas usando Glimpse per primer vegada, Glimpse creará agora una "
 "carpeta denomada «%s» y copiará dellos ficheros nella."
 
 #: ../app/core/gimp-user-install.c:317
@@ -9000,12 +9000,12 @@ msgid "Cannot create folder '%s': %s"
 msgstr "Nun puede crease la carpeta «%s»: %s"
 
 #: ../app/dialogs/about-dialog.c:115 ../app/gui/gui.c:493
-msgid "About GIMP"
-msgstr "Tocante a GIMP"
+msgid "About Glimpse"
+msgstr "Tocante a Glimpse"
 
 #: ../app/dialogs/about-dialog.c:124
-msgid "Visit the GIMP website"
-msgstr "Visite'l sitiu web de GIMP"
+msgid "Visit the Glimpse website"
+msgstr "Visite'l sitiu web de Glimpse"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -9022,7 +9022,7 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:522
 msgid "Glimpse is brought to you by"
-msgstr "GIMP féxose pa ti por"
+msgstr "Glimpse féxose pa ti por"
 
 #: ../app/dialogs/about-dialog.c:597
 msgid "This is an unstable development release."
@@ -9156,7 +9156,7 @@ msgstr "Color PP/SP"
 
 #: ../app/dialogs/dialogs-constructors.c:203 ../app/gui/gui.c:161
 #: ../app/gui/gui-message.c:149
-msgid "GIMP Message"
+msgid "Glimpse Message"
 msgstr "Mensax d'El Gimp"
 
 #: ../app/dialogs/fade-dialog.c:109
@@ -9209,12 +9209,12 @@ msgstr ""
 #: ../app/dialogs/file-save-dialog.c:558
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 
 #: ../app/dialogs/file-save-dialog.c:565
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export to "
 "export to other file formats."
 msgstr ""
 
@@ -9485,8 +9485,8 @@ msgid "Module Manager"
 msgstr "Xestor de módulos"
 
 #: ../app/dialogs/module-dialog.c:150
-msgid "You will have to restart GIMP for the changes to take effect."
-msgstr "Necesitarás reaniciar GIMP pa que los cambeos se faigan."
+msgid "You will have to restart Glimpse for the changes to take effect."
+msgstr "Necesitarás reaniciar Glimpse pa que los cambeos se faigan."
 
 #: ../app/dialogs/module-dialog.c:191
 msgid "Module"
@@ -9656,13 +9656,13 @@ msgstr ""
 "¿Daveres quies reafitar toles preferencies a los valores predeterminaos?"
 
 #: ../app/dialogs/preferences-dialog.c:355
-msgid "You will have to restart GIMP for the following changes to take effect:"
-msgstr "Necesitarás reaniciar El Gimp pa que los siguientes cambeos se faigan:"
+msgid "You will have to restart Glimpse for the following changes to take effect:"
+msgstr "Necesitarás reaniciar El Glimpse pa que los siguientes cambeos se faigan:"
 
 #: ../app/dialogs/preferences-dialog.c:537
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "Les tos combinaciones de tecles afitaránse a los valores de fábrica la "
 "próxima vegada qu'anicie GIMP."
@@ -9687,7 +9687,7 @@ msgstr ""
 #: ../app/dialogs/preferences-dialog.c:646
 msgid ""
 "Your input device settings will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "La to configuración de preseos d'entrada reafitaráse al valor de fábrica la "
 "próxima vegada qu'anicies GIMP."
@@ -10503,16 +10503,16 @@ msgid "pixels/%a"
 msgstr "píxeles/%a"
 
 #: ../app/dialogs/quit-dialog.c:105
-msgid "Quit GIMP"
-msgstr "Colar de GIMP"
+msgid "Quit Glimpse"
+msgstr "Colar de Glimpse"
 
 #: ../app/dialogs/quit-dialog.c:105
 msgid "Close All Images"
 msgstr "Zarrar toles imáxenes"
 
 #: ../app/dialogs/quit-dialog.c:164
-msgid "If you quit GIMP now, these changes will be lost."
-msgstr "Si coles de Gimp agora, estos cambeos perderánse."
+msgid "If you quit Glimpse now, these changes will be lost."
+msgstr "Si coles de Glimpse agora, estos cambeos perderánse."
 
 #: ../app/dialogs/quit-dialog.c:167
 msgid "If you close these images now, changes will be lost."
@@ -10591,12 +10591,12 @@ msgid "_Emulate brush dynamics"
 msgstr "_Emular la dinámica del pincel"
 
 #: ../app/dialogs/tips-dialog.c:88
-msgid "The GIMP tips file is empty!"
-msgstr "¡El ficheru de conseyos de GIMP ta baleru!"
+msgid "The Glimpse tips file is empty!"
+msgstr "¡El ficheru de conseyos de Glimpse ta baleru!"
 
 #: ../app/dialogs/tips-dialog.c:92
-msgid "The GIMP tips file appears to be missing!"
-msgstr "¡Parez que falta el ficheru de conseyos de GIMP!"
+msgid "The Glimpse tips file appears to be missing!"
+msgstr "¡Parez que falta el ficheru de conseyos de Glimpse!"
 
 #: ../app/dialogs/tips-dialog.c:94
 #, c-format
@@ -10605,11 +10605,11 @@ msgstr ""
 "Tendría d'esistir un ficheru denomáu «%s». Comprueba la so instalación."
 
 #: ../app/dialogs/tips-dialog.c:100
-msgid "The GIMP tips file could not be parsed!"
-msgstr "¡El ficheru de conseyos de GIMP nun pudo analizase!"
+msgid "The Glimpse tips file could not be parsed!"
+msgstr "¡El ficheru de conseyos de Glimpse nun pudo analizase!"
 
 #: ../app/dialogs/tips-dialog.c:128
-msgid "GIMP Tip of the Day"
+msgid "Glimpse Tip of the Day"
 msgstr "Conseyu del día d'El Gimp"
 
 #: ../app/dialogs/tips-dialog.c:134
@@ -10635,17 +10635,17 @@ msgid "tips-locale:C"
 msgstr "tips-locale:es"
 
 #: ../app/dialogs/user-install-dialog.c:84
-msgid "GIMP User Installation"
-msgstr "Instalación d'usuariu de GIMP"
+msgid "Glimpse User Installation"
+msgstr "Instalación d'usuariu de Glimpse"
 
 #: ../app/dialogs/user-install-dialog.c:93
 msgid "User installation failed!"
 msgstr "¡Falló la instalación d'usuariu!"
 
 #: ../app/dialogs/user-install-dialog.c:95
-msgid "The GIMP user installation failed; see the log for details."
+msgid "The Glimpse user installation failed; see the log for details."
 msgstr ""
-"La instalación d'usuariu de GIMP falló, llei l'informe pa tener más detalles."
+"La instalación d'usuariu de Glimpse falló, llei l'informe pa tener más detalles."
 
 #: ../app/dialogs/user-install-dialog.c:98
 msgid "Installation Log"
@@ -11086,7 +11086,7 @@ msgid "Indexed"
 msgstr "indexáu"
 
 #: ../app/gegl/gimpcurvesconfig.c:449
-msgid "not a GIMP Curves file"
+msgid "not a Glimpse Curves file"
 msgstr "Nun ye un ficheru de curves del GIMP"
 
 #: ../app/gegl/gimpcurvesconfig.c:464 ../app/gegl/gimplevelsconfig.c:786
@@ -11104,16 +11104,16 @@ msgid "Deform the cage to deform the image"
 msgstr ""
 
 #: ../app/gegl/gimplevelsconfig.c:739
-msgid "not a GIMP Levels file"
+msgid "not a Glimpse Levels file"
 msgstr "nun ye un ficheru de niveles GIMP"
 
 #: ../app/gegl/gimpoperationcagecoefcalc.c:68
-msgid "Compute a set of coefficient buffer for the GIMP cage tool"
+msgid "Compute a set of coefficient buffer for the Glimpse cage tool"
 msgstr ""
 
 #: ../app/gegl/gimpoperationcagetransform.c:106
 msgid ""
-"Convert a set of coefficient buffer to a coordinate buffer for the GIMP cage "
+"Convert a set of coefficient buffer to a coordinate buffer for the Glimpse cage "
 "tool"
 msgstr ""
 
@@ -11133,8 +11133,8 @@ msgid "Documents"
 msgstr "Documentos"
 
 #: ../app/gui/splash.c:116
-msgid "GIMP Startup"
-msgstr "Arranque de Gimp"
+msgid "Glimpse Startup"
+msgstr "Arranque de Glimpse"
 
 #: ../app/paint/gimpairbrush.c:65 ../app/tools/gimpairbrushtool.c:55
 msgid "Airbrush"
@@ -11829,12 +11829,12 @@ msgid ""
 "Plug-in crashed: \"%s\"\n"
 "(%s)\n"
 "\n"
-"The dying plug-in may have messed up GIMP's internal state. You may want to "
-"save your images and restart GIMP to be on the safe side."
+"The dying plug-in may have messed up Glimpse's internal state. You may want to "
+"save your images and restart Glimpse to be on the safe side."
 msgstr ""
 "El complementu falló: «%s»\n"
 "(%s)\n"
-"El complementu que falló puede que tollera l'estáu internu de GIMP. "
+"El complementu que falló puede que tollera l'estáu internu de Glimpse. "
 "Convendría que grabases toles tos imáxenes y rearranques GIMP, pa nun "
 "arriesgar."
 
@@ -11929,8 +11929,8 @@ msgstr "Falta'l complementu (%s)"
 
 #: ../app/plug-in/plug-in-rc.c:205
 #, c-format
-msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "Ignorando «%s»: Versión de protocolu de GIMP incorreuta."
+msgid "Skipping '%s': wrong Glimpse protocol version."
+msgstr "Ignorando «%s»: Versión de protocolu de Glimpse incorreuta."
 
 #: ../app/plug-in/plug-in-rc.c:477
 #, c-format
@@ -14144,8 +14144,8 @@ msgstr ""
 "atributos de testu."
 
 #: ../app/tools/gimptexttool-editor.c:1172
-msgid "GIMP Text Editor"
-msgstr "Editor de testos de GIMP"
+msgid "Glimpse Text Editor"
+msgstr "Editor de testos de Glimpse"
 
 #: ../app/tools/gimpthresholdtool.c:88
 msgid "Threshold Tool: Reduce image to two colors using a threshold"
@@ -15504,15 +15504,15 @@ msgid "Help browser is missing"
 msgstr "Falta el visor d'ayuda"
 
 #: ../app/widgets/gimphelp.c:295
-msgid "The GIMP help browser is not available."
+msgid "The Glimpse help browser is not available."
 msgstr "Nun ta disponible el visor d'ayuda del GIMP"
 
 #: ../app/widgets/gimphelp.c:296
 msgid ""
-"The GIMP help browser plug-in appears to be missing from your installation. "
+"The Glimpse help browser plug-in appears to be missing from your installation. "
 "You may instead use the web browser for reading the help pages."
 msgstr ""
-"Paez que falta'l complementu del visor d'ayuda del GIMP na so instalación. "
+"Paez que falta'l complementu del visor d'ayuda del Glimpse na so instalación. "
 "En cuenta d'ello, pues usar el restolador web pa lleer les páxines d'ayuda."
 
 #: ../app/widgets/gimphelp.c:342
@@ -15520,15 +15520,15 @@ msgid "Help browser doesn't start"
 msgstr "El visor d'ayuda nun s'anicia"
 
 #: ../app/widgets/gimphelp.c:343
-msgid "Could not start the GIMP help browser plug-in."
-msgstr "Nun pudo aniciase'l complementu del visor d'ayuda de GIMP."
+msgid "Could not start the Glimpse help browser plug-in."
+msgstr "Nun pudo aniciase'l complementu del visor d'ayuda de Glimpse."
 
 #: ../app/widgets/gimphelp.c:370
 msgid "Use _Web Browser"
 msgstr "Usar el restolador _web"
 
 #: ../app/widgets/gimphelp.c:620
-msgid "GIMP user manual is missing"
+msgid "Glimpse user manual is missing"
 msgstr "Falta'l manual d'usuariu del GIMP"
 
 #: ../app/widgets/gimphelp.c:627
@@ -15536,8 +15536,8 @@ msgid "_Read Online"
 msgstr "_Lleer en llinia"
 
 #: ../app/widgets/gimphelp.c:651
-msgid "The GIMP user manual is not installed on your computer."
-msgstr "El manual d'usuariu del GIMP nun ta instaláu nel so equipu."
+msgid "The Glimpse user manual is not installed on your computer."
+msgstr "El manual d'usuariu del Glimpse nun ta instaláu nel so equipu."
 
 #: ../app/widgets/gimphelp.c:654
 msgid ""
@@ -16095,8 +16095,8 @@ msgid "English"
 msgstr ""
 
 #: ../app/widgets/gimpuimanager.c:742
-msgid "Your GIMP installation is incomplete:"
-msgstr "La so instalación de GIMP nun ta completa:"
+msgid "Your Glimpse installation is incomplete:"
+msgstr "La so instalación de Glimpse nun ta completa:"
 
 #: ../app/widgets/gimpuimanager.c:744
 msgid "Please make sure the menu XML files are correctly installed."
@@ -16265,8 +16265,8 @@ msgid "Undefined"
 msgstr ""
 
 #: ../app/xcf/xcf.c:100 ../app/xcf/xcf.c:168
-msgid "GIMP XCF image"
-msgstr "Imaxe XCF de GIMP"
+msgid "Glimpse XCF image"
+msgstr "Imaxe XCF de Glimpse"
 
 #: ../app/xcf/xcf.c:272
 #, c-format
@@ -16435,21 +16435,21 @@ msgstr ""
 #~ "Asocedió un fallu al guardar los valores predeterminaos de les "
 #~ "ferramientes: %s"
 
-#~ msgid "Use a running GIMP only, never start a new one"
-#~ msgstr "Usar namái un GIMP n'execución, enxamás aniciar otru nuevu"
+#~ msgid "Use a running Glimpse only, never start a new one"
+#~ msgstr "Usar namái un Glimpse n'execución, enxamás aniciar otru nuevu"
 
-#~ msgid "Only check if GIMP is running, then quit"
+#~ msgid "Only check if Glimpse is running, then quit"
 #~ msgstr "Namái comprobar si ta executándose GIMP, dempués colar"
 
-#~ msgid "Print X window ID of GIMP toolbox window, then quit"
+#~ msgid "Print X window ID of Glimpse toolbox window, then quit"
 #~ msgstr ""
 #~ "Imprenta el ID de la ventana X de la ventana de la caxa de ferramientes "
-#~ "de GIMP, dempués cuela"
+#~ "de Glimpse, dempués cuela"
 
-#~ msgid "Start GIMP without showing the startup window"
-#~ msgstr "Aniciar GIMP ensin amosar la ventana d'aniciu"
+#~ msgid "Start Glimpse without showing the startup window"
+#~ msgstr "Aniciar Glimpse ensin amosar la ventana d'aniciu"
 
-#~ msgid "Could not connect to GIMP."
+#~ msgid "Could not connect to Glimpse."
 #~ msgstr "Nun pudo coneutase con GIMP."
 
 #~ msgid "Make sure that the Toolbox is visible!"
@@ -16460,18 +16460,18 @@ msgstr ""
 
 #~ msgid ""
 #~ "Copyright © 1995-2008\n"
-#~ "Spencer Kimball, Peter Mattis and the GIMP Development Team"
+#~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "Copyright © 1995-2008\n"
-#~ "Spencer Kimball, Peter Mattis y l'equipu de desendolcu de GIMP"
+#~ "Spencer Kimball, Peter Mattis y l'equipu de desendolcu de Glimpse"
 
 #~ msgid ""
-#~ "GIMP is free software; you can redistribute it and/or modify it under the "
+#~ "Glimpse is free software; you can redistribute it and/or modify it under the "
 #~ "terms of the GNU General Public License as published by the Free Software "
 #~ "Foundation; either version 2 of the License, or (at your option) any "
 #~ "later version.\n"
 #~ "\n"
-#~ "GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+#~ "Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 #~ "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 #~ "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 #~ "details.\n"
@@ -16480,12 +16480,12 @@ msgstr ""
 #~ "with GIMP; if not, write to the Free Software Foundation, Inc., 59 Temple "
 #~ "Place - Suite 330, Boston, MA 02111-1307, USA."
 #~ msgstr ""
-#~ "GIMP ye software llibre; puedes redistribuyilu y/o camudalu baxo los "
+#~ "Glimpse ye software llibre; puedes redistribuyilu y/o camudalu baxo los "
 #~ "términos de la Llicencia Pública Xeneral GNU como ta espublizada pola "
 #~ "Free Software Foundation; seya la versión 2 de la Llicencia, o (a la to "
 #~ "opción) cualquier versión posterior.\n"
 #~ "\n"
-#~ "GIMP distribuise esperando que seya amañoso, pero ENSIN GARANTÍA DENGUNA; "
+#~ "Glimpse distribuise esperando que seya amañoso, pero ENSIN GARANTÍA DENGUNA; "
 #~ "ensin siquiera la garantía implícita de COMERCIALIDÁ o AXUSTE A UN ENVÍS "
 #~ "DETERMINÁU.  Llei la Llicencia Pública Xeneral GNU pa mayores detalles.\n"
 #~ "\n"
@@ -16944,5 +16944,5 @@ msgstr ""
 #~ msgid "Empty Path"
 #~ msgstr "Camín baleru"
 
-#~ msgid "GIMP Image Editor"
+#~ msgid "Glimpse Image Editor"
 #~ msgstr "Editor d'imáxenes GIMP"

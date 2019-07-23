@@ -3428,7 +3428,7 @@ msgid "Invalid X resolution."
 msgstr "अवैध एक्स चित्रकण घनता [रिझोल्यूशन]."
 
 #: ../plug-ins/common/file-pnm.c:627
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "गिम्प हाताळू शकते त्यापेक्षा प्रतिमा रुंदी मोठी आहे."
 
 #: ../plug-ins/common/file-pnm.c:634
@@ -3436,7 +3436,7 @@ msgid "Invalid Y resolution."
 msgstr "अवैध वाय चित्रकण घनता [रिझोल्यूशन]."
 
 #: ../plug-ins/common/file-pnm.c:636
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "गिम्प हाताळू शकते त्यापेक्षा प्रतिमा उंची मोठी आहे."
 
 #: ../plug-ins/common/file-pnm.c:648
@@ -4002,7 +4002,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "गिम्प हाताळू शकते त्यापेक्षा प्रतिमा रुंदी मोठी आहे"
@@ -4022,7 +4022,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "गिम्प हाताळू शकते त्यापेक्षा प्रतिमेची उंची मोठी आहे"
@@ -10323,7 +10323,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "'%s' साठी मदत पृष्ठे उपलब्ध नाहीत."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "गिम्प हस्तलिखित मदत उपलब्ध नाही."
 
 #. TRANSLATORS: do not end the URL with a dot,

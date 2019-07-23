@@ -285,7 +285,7 @@ def load_ora(filename, raw_filename):
                 n = os.path.basename(path)
                 name = os.path.splitext(n)[0]
 
-            # create temp file. Needed because gimp cannot load files from inside a zip file
+            # create temp file. Needed because Glimpse cannot load files from inside a zip file
             tmp = os.path.join(tempdir, 'tmp.png')
             f = open(tmp, 'wb')
             try:

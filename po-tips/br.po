@@ -142,7 +142,7 @@ msgstr "Ma ne hañval ket deoc'h ho luc'hskeudennoù c'hwilervet bezañ livet ka
 #~ "<tt>Alt</tt>-klikañ war alberz ar maskl treuzfollenn e boestad emziviz an "
 #~ "treufollennoù a ziweredeka/weredeka diskouezadur ar maskl end-eeun."
 #~ msgid ""
-#~ "The GIMP can undo most changes to the image, so feel free to experiment."
+#~ "The Glimpse can undo most changes to the image, so feel free to experiment."
 #~ msgstr ""
 #~ "Barrek eo GIMP da zisober an holl zaskemmadurioù graet war ar skeudenn. "
 #~ "Bezit dinec'h ha grit taolioù arnod."

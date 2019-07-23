@@ -1111,7 +1111,7 @@ ReadImage (FILE        *fd,
 
   if (len > (G_MAXSIZE / height / (alpha_frame ? (promote_to_rgb ? 4 : 2) : 1)))
   {
-    g_message ("'%s' has a larger image size than GIMP can handle.",
+    g_message ("'%s' has a larger image size than Glimpse can handle.",
                gimp_filename_to_utf8 (filename));
     *image_ID = -1;
     return FALSE;

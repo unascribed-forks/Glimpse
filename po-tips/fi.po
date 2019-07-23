@@ -380,7 +380,7 @@ msgstr ""
 #~ "piilottaa tai näyttää työkalupakin ja muut apuikkunat."
 
 #~ msgid ""
-#~ "The GIMP can undo most changes to the image, so feel free to experiment."
+#~ "The Glimpse can undo most changes to the image, so feel free to experiment."
 #~ msgstr ""
 #~ "GIMP tukee kumoamistoimintoa suurimpaan osaan kuvan muutoksista. Käytä "
 #~ "tätä luovasti työskentelyssäsi."

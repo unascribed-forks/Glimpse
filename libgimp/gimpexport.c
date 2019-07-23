@@ -990,7 +990,7 @@ gimp_export_image (gint32                 *image_ID,
  * @format_name: The short name of the image_format (e.g. JPEG or PNG).
  * @role:        The dialog's @role which will be set with
  *               gtk_window_set_role().
- * @help_id:     The GIMP help id.
+ * @help_id:     The Glimpse help id.
  *
  * Creates a new export dialog. All file plug-ins should use this
  * dialog to get a consistent look on the export dialogs. Use

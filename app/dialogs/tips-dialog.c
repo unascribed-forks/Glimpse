@@ -136,7 +136,7 @@ tips_dialog_create (Gimp *gimp)
   if (tips_dialog)
     return tips_dialog;
 
-  tips_dialog = gimp_dialog_new (_("GIMP Tip of the Day"),
+  tips_dialog = gimp_dialog_new (_("Glimpse Tip of the Day"),
                                  "gimp-tip-of-the-day",
                                  NULL, 0, NULL, NULL,
                                  NULL);

@@ -4190,7 +4190,7 @@ msgid "Invalid X resolution."
 msgstr "Diarunusted X didalvoudek."
 
 #: ../plug-ins/common/file-pnm.c:555
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "Brasoc'h eo led ar skeudenn eget ar pezh a vez dornataet gant GIMP."
 
 #: ../plug-ins/common/file-pnm.c:562
@@ -4198,7 +4198,7 @@ msgid "Invalid Y resolution."
 msgstr "Diarunusted Y didalvoudek."
 
 #: ../plug-ins/common/file-pnm.c:564
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "Brasoc'h eo sav ar skeudenn eget pezh a vez dornataet gant GIMP."
 
 #: ../plug-ins/common/file-pnm.c:574
@@ -4566,7 +4566,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s' :\n"
 "brasoc'h eo led ar skeudenn eget pezh a vez dornataet gant GIMP"
@@ -4588,7 +4588,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s'\n"
 "Brasoc'h eo sav ar skeudenn eget ar pezh a vez dornataet gant GIMP."
@@ -4777,7 +4777,7 @@ msgstr "Sanell TIFF"
 #: ../plug-ins/file-psd/psd-load.c:333
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 bit, so it will be converted for you. Information will be lost because of this conversion."
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 bit, so it will be converted for you. Information will be lost because of this conversion."
 msgstr ""
 "Evezh :\n"
 "16 eizhbit dre sanell zo d'ar skeudenn emaoc'h o kargañ. 8 eizhbit hepken a vez dornataet gant GIMP, amdroet e vo evideoc'h. Kollet e vo stlennoù zo en abeg d'an amdreiñ-mañ."
@@ -11415,7 +11415,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "N'eo ket hegerz ar pajennadoù skoazellañ evit '%s\"."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "N'eo ket hegerz dornlev an arveriad evit GIMP."
 
 #: ../plug-ins/help/gimphelpdomain.c:187

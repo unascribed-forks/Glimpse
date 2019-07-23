@@ -1,6 +1,6 @@
 # Hungarian translation for gimp.
 # Copyright (C) 1998, 2000, 2001, 2003, 2004, 2007, 2008, 2009, 2013, 2014, 2016, 2018, 2019 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gimp package.
+# This file is distributed under the same license as the Glimpse package.
 #
 # Balázs Nagy <julian7 at kva dot hu>, 1998.
 # András Tímár <timar at gnome dot hu>, 2000, 2001, 2003.
@@ -39,11 +39,11 @@ msgstr "Képek létrehozása és fotók szerkesztése"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:3
 msgid ""
-"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
+"Glimpse is an acronym for GNU Image Manipulation Program. It is a freely "
 "distributed program for such tasks as photo retouching, image composition "
 "and image authoring."
 msgstr ""
-"A GIMP a GNU Image Manipulation Program rövidítése. Ez egy szabadon "
+"A Glimpse a GNU Image Manipulation Program rövidítése. Ez egy szabadon "
 "terjesztett program fényképretusálás, képösszeállítás és képszerkesztési "
 "feladatokhoz."
 
@@ -60,33 +60,33 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:5
 msgid ""
-"GIMP is expandable and extensible. It is designed to be augmented with plug-"
+"Glimpse is expandable and extensible. It is designed to be augmented with plug-"
 "ins and extensions to do just about anything. The advanced scripting "
 "interface allows everything from the simplest task to the most complex image "
-"manipulation procedures to be easily scripted. GIMP is available for Linux, "
+"manipulation procedures to be easily scripted. Glimpse is available for Linux, "
 "Microsoft Windows and OS X."
 msgstr ""
-"A GIMP kiegészíthető és bővíthető. Úgy tervezték, hogy bővíthető legyen "
+"A Glimpse kiegészíthető és bővíthető. Úgy tervezték, hogy bővíthető legyen "
 "bővítményekkel és kiegészítőkkel, amikkel szinte minden meg lehet csinálni. "
 "A speciális parancsfájlfelület lehetővé tesz mindent a legegyszerűbb "
 "feladatoktól kezdve a legkomplexebb képmanipulációs eljárásokig egyszerű "
-"parancsfájlokkal. A GIMP elérhető Linux, Microsoft Windows és OS X "
+"parancsfájlokkal. A Glimpse elérhető Linux, Microsoft Windows és OS X "
 "rendszerekre is."
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:6
-msgid "Painting in GIMP"
-msgstr "Festés a GIMP-ben"
+msgid "Painting in Glimpse"
+msgstr "Festés a Glimpse-ben"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:7
-msgid "Photo editing in GIMP"
-msgstr "Fényképszerkesztés a GIMP-ben"
+msgid "Photo editing in Glimpse"
+msgstr "Fényképszerkesztés a Glimpse-ben"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:8
 msgid ""
-"GIMP 2.10.10 is quite a big update with many new features and bug fixes. "
+"Glimpse 2.10.10 is quite a big update with many new features and bug fixes. "
 "Notable improvements include:"
 msgstr ""
-"A GIMP 2.10.10 egy nagy frissítés, számos új funkcióval és hibajavítással. A "
+"A Glimpse 2.10.10 egy nagy frissítés, számos új funkcióval és hibajavítással. A "
 "jelentősebb fejlesztések:"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:9
@@ -211,10 +211,10 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:28
 msgid ""
-"GIMP 2.10.8 is mostly a bug fix and optimization release. In particular, it "
+"Glimpse 2.10.8 is mostly a bug fix and optimization release. In particular, it "
 "includes:"
 msgstr ""
-"A GIMP 2.10.8 főleg egy hibajavítási és optimalizálási kiadás. Konkrétan "
+"A Glimpse 2.10.8 főleg egy hibajavítási és optimalizálási kiadás. Konkrétan "
 "ezeket tartalmazza:"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:29
@@ -248,10 +248,10 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:33
 msgid ""
-"GIMP 2.10.6 comes with a lot of bug fixes, optimizations and features. Most "
+"Glimpse 2.10.6 comes with a lot of bug fixes, optimizations and features. Most "
 "notable changes are:"
 msgstr ""
-"A GIMP 2.10.6 sok hibajavítást, optimalizációt, és új funkciót tartalmaz. A "
+"A Glimpse 2.10.6 sok hibajavítást, optimalizációt, és új funkciót tartalmaz. A "
 "legfontosabb változások:"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:34
@@ -301,15 +301,15 @@ msgstr ""
 "párbeszédablakokon"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:41
-msgid "New language (having GIMP translated in 81 languages now): Marathi"
-msgstr "Új nyelv (a GIMP most már 81 nyelvre lett lefordítva): maráthi"
+msgid "New language (having Glimpse translated in 81 languages now): Marathi"
+msgstr "Új nyelv (a Glimpse most már 81 nyelvre lett lefordítva): maráthi"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:42
 msgid ""
-"GIMP 2.10.4 includes a lot of bug fixes as well as various optimizations. "
+"Glimpse 2.10.4 includes a lot of bug fixes as well as various optimizations. "
 "Most notable changes are:"
 msgstr ""
-"A GIMP 2.10.4 rengeteg hibajavítást és optimalizációt tartalmaz. A "
+"A Glimpse 2.10.4 rengeteg hibajavítást és optimalizációt tartalmaz. A "
 "legfontosabb változások:"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:43
@@ -347,11 +347,11 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:48
 msgid ""
-"This second release in the GIMP 2.10 series, so soon after 2.10.0, is mostly "
+"This second release in the Glimpse 2.10 series, so soon after 2.10.0, is mostly "
 "the usual bug-fixing version after a major release, with a few dozen bugs "
 "fixed."
 msgstr ""
-"Ez a második kiadás a GIMP 2.10-es sorozatában, közel a 2.10.0-hoz. Ez "
+"Ez a második kiadás a Glimpse 2.10-es sorozatában, közel a 2.10.0-hoz. Ez "
 "leginkább egy szokásos hibajavító verzió a fő kiadás után, amely néhány "
 "tucat hibát javít."
 
@@ -433,8 +433,8 @@ msgstr ""
 "ikonméret"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:61
-msgid "New themes for GIMP: Light, Gray, Dark, and System"
-msgstr "Új GIMP témák: Világos, Szürke, Sötét és Rendszer"
+msgid "New themes for Glimpse: Light, Gray, Dark, and System"
+msgstr "Új Glimpse témák: Világos, Szürke, Sötét és Rendszer"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:62
 msgid "And much, much more…"
@@ -442,11 +442,11 @@ msgstr "És még sok más…"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:63
 msgid ""
-"In this second release candidate before GIMP 2.10.0, while debugging is "
+"In this second release candidate before Glimpse 2.10.0, while debugging is "
 "still a prime target, a new focus has been put on speed and optimization in "
 "order to provide a smoother painting experience. Bigger changes are:"
 msgstr ""
-"A GIMP 2.10.0 második kiadásra jelölt verziójában ugyan még mindig a "
+"A Glimpse 2.10.0 második kiadásra jelölt verziójában ugyan még mindig a "
 "hibakeresés a legfőbb cél, fókuszba került a sebesség és az optimalizáció, "
 "hogy még simább festési élményt nyújtsunk. A legfőbb változások a "
 "következőek:"
@@ -497,17 +497,17 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:69
 msgid ""
-"GIMP 2.10.0-RC1 is the first release candidate before GIMP 2.10.0 stable "
+"Glimpse 2.10.0-RC1 is the first release candidate before Glimpse 2.10.0 stable "
 "release, with a focus on debugging and stability. Other than the many bug "
 "fixes, most notable improvements are:"
 msgstr ""
-"A GIMP 2.10.0-RC1 az első kiadásra jelölt verzió a GIMP 2.10.0 stabil "
+"A Glimpse 2.10.0-RC1 az első kiadásra jelölt verzió a Glimpse 2.10.0 stabil "
 "kiadása előtt, amely a hibakeresésre és stabilitásra fókuszál. A számos "
 "hibajavítás mellett, a legfontosabb fejlesztések a következők:"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:70
-msgid "New dashboard dockable to monitor GIMP resource usage"
-msgstr "Új dokkolható vezérlőpult a GIMP erőforrás-használatának követésére"
+msgid "New dashboard dockable to monitor Glimpse resource usage"
+msgstr "Új dokkolható vezérlőpult a Glimpse erőforrás-használatának követésére"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:71
 msgid ""
@@ -547,10 +547,10 @@ msgstr "Különböző fejlesztések a felületen"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:78
 msgid ""
-"GIMP 2.9.8 introduces on-canvas gradient editing and various enhancements "
+"Glimpse 2.9.8 introduces on-canvas gradient editing and various enhancements "
 "while focusing on bugfixing and stability."
 msgstr ""
-"A GIMP 2.9.8 bevezeti a vásznon történő színátmenet-szerkesztést, valamint "
+"A Glimpse 2.9.8 bevezeti a vásznon történő színátmenet-szerkesztést, valamint "
 "különféle fejlesztésekkel érkezik a hibajavításokra és a stabilitásra "
 "fókuszálva."
 
@@ -601,12 +601,12 @@ msgid "New support for HGT format (Digital Elevation Model data)"
 msgstr "Támogatás a HGT formátumhoz (Digital Elevation Model adatok)"
 
 #: ../desktop/gimp-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for GIMP"
-msgstr "További szűrők a GIMP-hez"
+msgid "Extra files for Glimpse"
+msgstr "További szűrők a Glimpse-hez"
 
 #: ../desktop/gimp-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for GIMP"
-msgstr "Minták, színátmenetek és egyéb további fájlok a GIMP-hez"
+msgid "Patterns, gradients, and other extra files for Glimpse"
+msgstr "Minták, színátmenetek és egyéb további fájlok a Glimpse-hez"
 
 #: ../desktop/gimp.desktop.in.in.h:2
 msgid "Image Editor"
@@ -614,8 +614,8 @@ msgstr "Képszerkesztő"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: ../desktop/gimp.desktop.in.in.h:5
-msgid "GIMP;graphic;design;illustration;painting;"
-msgstr "GIMP;grafika;dizájn;tervezés;illusztráció;festés;"
+msgid "Glimpse;graphic;design;illustration;painting;"
+msgstr "Glimpse;grafika;dizájn;tervezés;illusztráció;festés;"
 
 #: ../app/about.h:23
 msgid "GIMP"
@@ -626,10 +626,10 @@ msgstr "GIMP"
 #, c-format
 msgid ""
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the GIMP Development Team"
+"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 msgstr ""
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis és a GIMP-fejlesztőcsapat"
+"Spencer Kimball, Peter Mattis és a Glimpse-fejlesztőcsapat"
 
 #. TRANSLATORS: do not end the license URL with a dot, because it would
 #. * be in the link. Because of technical limitations, make sure the URL
@@ -638,29 +638,29 @@ msgstr ""
 #.
 #: ../app/about.h:39
 msgid ""
-"GIMP is free software: you can redistribute it and/or modify it under the "
+"Glimpse is free software: you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 3 of the License, or (at your option) any later "
 "version.\n"
 "\n"
-"GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GIMP. If not, see: https://www.gnu.org/licenses/"
+"Glimpse. If not, see: https://www.gnu.org/licenses/"
 msgstr ""
-"A GIMP szabad szoftver: terjeszthető illetve módosítható a Free Software "
+"A Glimpse szabad szoftver: terjeszthető illetve módosítható a Free Software "
 "Foundation által kiadott GNU General Public License dokumentumában leírtak; "
 "akár a licenc 3-as, akár (tetszőleges) későbbi változata szerint.\n"
 "\n"
-"A GIMP abban a reményben kerül közreadásra, hogy hasznos lesz, de minden "
+"A Glimpse abban a reményben kerül közreadásra, hogy hasznos lesz, de minden "
 "egyéb GARANCIA NÉLKÜL, az ELADHATÓSÁGRA vagy VALAMELY CÉLRA VALÓ "
 "ALKALMAZHATÓSÁGRA való származtatott garanciát is beleértve. További "
 "részleteket a GNU General Public License tartalmaz.\n"
 "\n"
-"A felhasználónak a GIMP-pel együtt meg kell kapnia a GNU General Public "
+"A felhasználónak a Glimpse-pel együtt meg kell kapnia a GNU General Public "
 "License egy példányát; ha mégsem kapta meg, akkor tekintse meg itt: https://"
 "www.gnu.org/licenses/"
 
@@ -687,7 +687,7 @@ msgid "Be more verbose"
 msgstr "Több részlet megjelenítése"
 
 #: ../app/main.c:172
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse instance"
 msgstr "Új GIMP-példány indítása"
 
 #: ../app/main.c:177
@@ -711,8 +711,8 @@ msgid "Do not show a splash screen"
 msgstr "Nem jeleníti meg az üdvözlőképernyőt"
 
 #: ../app/main.c:202
-msgid "Do not use shared memory between GIMP and plug-ins"
-msgstr "Nem osztja meg a GIMP a bővítményekkel a memóriát"
+msgid "Do not use shared memory between Glimpse and plug-ins"
+msgstr "Nem osztja meg a Glimpse a bővítményekkel a memóriát"
 
 #: ../app/main.c:207
 msgid "Do not use special CPU acceleration functions"
@@ -783,18 +783,18 @@ msgstr "[FÁJL|URI…]"
 
 #: ../app/main.c:484
 msgid ""
-"GIMP could not initialize the graphical user interface.\n"
+"Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
 "A program nem tudta előkészíteni a grafikus felületet.\n"
 "Ellenőrizze, hogy helyesen van-e beállítva a megjelenítési környezet."
 
 #: ../app/main.c:503
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse instance is already running."
 msgstr "Már fut egy másik GIMP-példány."
 
 #: ../app/main.c:594
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "GIMP-kimenet. Az ablak bezárásához nyomjon le egy gombot."
 
 #: ../app/main.c:595
@@ -803,7 +803,7 @@ msgid "(Type any character to close this window)\n"
 msgstr "(Az ablak bezárásához nyomjon le egy gombot)\n"
 
 #: ../app/main.c:612
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "GIMP-kimenet. Minimalizálhatja az ablakot, de ne zárja be."
 
 #: ../app/sanity.c:562
@@ -820,14 +820,14 @@ msgstr ""
 #: ../app/sanity.c:581
 #, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"A GIMP felhasználói beállításait tartalmazó könyvtár neve nem konvertálható "
+"A Glimpse felhasználói beállításait tartalmazó könyvtár neve nem konvertálható "
 "UTF-8 formátumra: %s\n"
 "\n"
 "Valószínűleg a fájlrendszer nem UTF-8 formátumban tárolja a fájlneveket, és "
@@ -839,7 +839,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "Ecsetszerkesztő"
 
-#. initialize the list of gimp brushes
+#. initialize the list of Glimpse brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:335 ../app/dialogs/preferences-dialog.c:3169
 msgid "Brushes"
@@ -922,7 +922,7 @@ msgstr "Fájl"
 msgid "Filters"
 msgstr "Szűrők"
 
-#. initialize the list of gimp fonts
+#. initialize the list of Glimpse fonts
 #: ../app/actions/actions.c:171 ../app/core/gimp-data-factories.c:383
 #: ../app/dialogs/dialogs.c:353 ../app/dialogs/preferences-dialog.c:3199
 msgid "Fonts"
@@ -933,7 +933,7 @@ msgstr "Betűkészletek"
 msgid "Gradient Editor"
 msgstr "Színátmenet-szerkesztő"
 
-#. initialize the list of gimp gradients
+#. initialize the list of Glimpse gradients
 #: ../app/actions/actions.c:177 ../app/core/gimp-data-factories.c:374
 #: ../app/dialogs/dialogs.c:347 ../app/dialogs/preferences-dialog.c:3193
 msgid "Gradients"
@@ -978,13 +978,13 @@ msgstr "MyPaint ecsetek"
 msgid "Palette Editor"
 msgstr "Palettaszerkesztő"
 
-#. initialize the list of gimp palettes
+#. initialize the list of Glimpse palettes
 #: ../app/actions/actions.c:204 ../app/core/gimp-data-factories.c:369
 #: ../app/dialogs/dialogs.c:350 ../app/dialogs/preferences-dialog.c:3187
 msgid "Palettes"
 msgstr "Paletták"
 
-#. initialize the list of gimp patterns
+#. initialize the list of Glimpse patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:344 ../app/dialogs/preferences-dialog.c:3181
 msgid "Patterns"
@@ -3465,13 +3465,13 @@ msgstr "_A nap tippje"
 
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
-msgid "Show some helpful tips on using GIMP"
-msgstr "Tippek megjelenítése a GIMP használatáról"
+msgid "Show some helpful tips on using Glimpse"
+msgstr "Tippek megjelenítése a Glimpse használatáról"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
-msgid "About GIMP"
-msgstr "A GIMP névjegye"
+msgid "About Glimpse"
+msgstr "A Glimpse névjegye"
 
 #: ../app/actions/dialogs-actions.c:283
 msgctxt "dialogs-action"
@@ -4571,8 +4571,8 @@ msgstr "_Kilépés"
 
 #: ../app/actions/file-actions.c:125
 msgctxt "file-action"
-msgid "Quit the GNU Image Manipulation Program"
-msgstr "Kilépés a GIMP programból"
+msgid "Quit Glimpse"
+msgstr "Kilépés a Glimpse programból"
 
 #: ../app/actions/file-actions.c:133 ../app/actions/file-actions.c:308
 msgctxt "file-action"
@@ -5945,8 +5945,8 @@ msgstr "Sú_gó"
 
 #: ../app/actions/help-actions.c:42
 msgctxt "help-action"
-msgid "Open the GIMP user manual"
-msgstr "A GIMP felhasználói kézikönyvének megnyitása"
+msgid "Open the Glimpse user manual"
+msgstr "A Glimpse felhasználói kézikönyvének megnyitása"
 
 #: ../app/actions/help-actions.c:47
 msgctxt "help-action"
@@ -10361,8 +10361,8 @@ msgstr "Egyablakos mód"
 
 #: ../app/actions/windows-actions.c:138
 msgctxt "windows-action"
-msgid "When enabled, GIMP is in a single-window mode."
-msgstr "Ha be van kapcsolva, akkor a GIMP egyablakos módban van."
+msgid "When enabled, Glimpse is in a single-window mode."
+msgstr "Ha be van kapcsolva, akkor a Glimpse egyablakos módban van."
 
 #: ../app/actions/windows-actions.c:147
 msgctxt "windows-tabs-position-action"
@@ -10509,8 +10509,8 @@ msgstr "Jobbkezes"
 
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
-msgid "GIMP help browser"
-msgstr "GIMP súgóböngésző"
+msgid "Glimpse help browser"
+msgstr "Glimpse súgóböngésző"
 
 #: ../app/config/config-enums.c:187
 msgctxt "help-browser-type"
@@ -10700,7 +10700,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:49
 msgid "Sets the type of mouse pointers to use."
-msgstr "A GIMP által használt egérmutató-típust adja meg."
+msgstr "a Glimpse által használt egérmutató-típust adja meg."
 
 #: ../app/config/gimprc-blurbs.h:52
 msgid "Sets the handedness for cursor positioning."
@@ -10911,7 +10911,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:256
 msgid ""
-"GIMP will warn the user if an attempt is made to create an image that would "
+"Glimpse will warn the user if an attempt is made to create an image that would "
 "take more memory than the size specified here."
 msgstr ""
 "A program figyelmeztetni fogja a felhasználót, ha olyan képet kísérel meg "
@@ -10956,25 +10956,25 @@ msgstr ""
 "meg."
 
 #: ../app/config/gimprc-blurbs.h:289
-msgid "Sets how many threads GIMP should use for operations that support it."
-msgstr "Megadja, hogy a GIMP hány szálat próbáljon egyidejűleg használni."
+msgid "Sets how many threads Glimpse should use for operations that support it."
+msgstr "Megadja, hogy a Glimpse hány szálat próbáljon egyidejűleg használni."
 
 #: ../app/config/gimprc-blurbs.h:311
 msgid ""
-"Sets whether GIMP should create previews of layers and channels. Previews in "
+"Sets whether Glimpse should create previews of layers and channels. Previews in "
 "the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
-"Megadja, hogy létrehozzon-e előnézeteket a GIMP a rétegekről és a "
+"Megadja, hogy létrehozzon-e előnézeteket a Glimpse a rétegekről és a "
 "csatornákról. A rétegek és a csatornák párbeszédablakában megjelenő "
 "előnézetek hasznosak, de nagy képek esetében lelassíthatják a működést."
 
 #: ../app/config/gimprc-blurbs.h:316
 msgid ""
-"Sets whether GIMP should create previews of layer groups. Layer group "
+"Sets whether Glimpse should create previews of layer groups. Layer group "
 "previews are more expensive than ordinary layer previews."
 msgstr ""
-"Megadja, hogy létrehozzon-e előnézeteket a GIMP a rétegcsoportokról. A "
+"Megadja, hogy létrehozzon-e előnézeteket a Glimpse a rétegcsoportokról. A "
 "rétegcsoport előnézetek költségesebbek, mint a közönséges réteg előnézetek."
 
 #: ../app/config/gimprc-blurbs.h:320
@@ -11009,23 +11009,23 @@ msgstr ""
 "többablakos módban érvényesül."
 
 #: ../app/config/gimprc-blurbs.h:337
-msgid "Let GIMP try to restore your last saved session on each startup."
+msgid "Let Glimpse try to restore your last saved session on each startup."
 msgstr ""
 "A legutóbbi mentett munkafolyamat visszaállítása a program minden "
 "indításakor."
 
 #: ../app/config/gimprc-blurbs.h:340
 msgid ""
-"When enabled, GIMP will try to restore windows on the monitor they were open "
+"When enabled, Glimpse will try to restore windows on the monitor they were open "
 "before.  When disabled, windows will appear on the currently used monitor."
 msgstr ""
-"Ha be van kapcsolva, akkor a GIMP megpróbálja azon a kijelzőn helyreállítani "
+"Ha be van kapcsolva, akkor a Glimpse megpróbálja azon a kijelzőn helyreállítani "
 "az ablakokat, ahol előtte nyitva voltak. Ha ki van kapcsolva, akkor az "
 "ablakok a jelenleg használt kijelzőn jelennek meg."
 
 #: ../app/config/gimprc-blurbs.h:345
 msgid ""
-"Remember the current tool, pattern, color, and brush across GIMP sessions."
+"Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
 "Az aktuális eszköz, minta, szín és ecset megőrzése a programból való "
 "kilépéskor."
@@ -11048,14 +11048,14 @@ msgstr ""
 "dokumentumelőzményekben."
 
 #: ../app/config/gimprc-blurbs.h:358
-msgid "Save the positions and sizes of the main dialogs when GIMP exits."
+msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
-"A fő párbeszédablakok pozíciójának és méretének mentése a GIMP-ből történő "
+"A fő párbeszédablakok pozíciójának és méretének mentése a Glimpse-ből történő "
 "kilépéskor."
 
 #: ../app/config/gimprc-blurbs.h:361
-msgid "Save the tool options when GIMP exits."
-msgstr "Az eszközbeállítások mentése a GIMP-ből történő kilépéskor."
+msgid "Save the tool options when Glimpse exits."
+msgstr "Az eszközbeállítások mentése a Glimpse-ből történő kilépéskor."
 
 #: ../app/config/gimprc-blurbs.h:367
 msgid ""
@@ -11160,8 +11160,8 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "Buboréksúgó megjelenítése, amikor a mutató egy elem felett van."
 
 #: ../app/config/gimprc-blurbs.h:419
-msgid "Use GIMP in a single-window mode."
-msgstr "A GIMP egyablakos módban működjön."
+msgid "Use Glimpse in a single-window mode."
+msgstr "A Glimpse egyablakos módban működjön."
 
 #: ../app/config/gimprc-blurbs.h:422
 msgid "Hide docks and other windows, leaving only image windows."
@@ -11198,14 +11198,14 @@ msgstr "Mi a teendő, amikor a szóközbillentyű lenyomásra kerül a képablak
 
 #: ../app/config/gimprc-blurbs.h:446
 msgid ""
-"Sets the swap file location. GIMP uses a tile based memory allocation "
+"Sets the swap file location. Glimpse uses a tile based memory allocation "
 "scheme. The swap file is used to quickly and easily swap tiles out to disk "
-"and back in. Be aware that the swap file can easily get very large if GIMP "
+"and back in. Be aware that the swap file can easily get very large if Glimpse "
 "is used with large images. Also, things can get horribly slow if the swap "
 "file is created on a folder that is mounted over NFS.  For these reasons, it "
 "may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
-"Megadja a cserefájl helyét. A GIMP egy képrészletekre épülő memóriafoglalási "
+"Megadja a cserefájl helyét. A Glimpse egy képrészletekre épülő memóriafoglalási "
 "módszert használ, a képrészleteket szükség esetén kiírja a cserefájlba "
 "illetve visszaolvassa onnan. Nagy képek feldolgozása esetén a cserefájl "
 "mérete erősen megnőhet. Ha a cserefájl elérése NFS-en keresztül történik, "
@@ -11226,22 +11226,22 @@ msgstr ""
 "billentyűkombinációt)."
 
 #: ../app/config/gimprc-blurbs.h:462
-msgid "Save changed keyboard shortcuts when GIMP exits."
-msgstr "Megváltozott gyorsbillentyűk mentése a GIMP-ből történő kilépéskor."
+msgid "Save changed keyboard shortcuts when Glimpse exits."
+msgstr "Megváltozott gyorsbillentyűk mentése a Glimpse-ből történő kilépéskor."
 
 #: ../app/config/gimprc-blurbs.h:465
-msgid "Restore saved keyboard shortcuts on each GIMP startup."
+msgid "Restore saved keyboard shortcuts on each Glimpse startup."
 msgstr ""
-"Lementett gyorsbillentyűk visszaállítása a GIMP minden egyes indulásakor."
+"Lementett gyorsbillentyűk visszaállítása a Glimpse minden egyes indulásakor."
 
 #: ../app/config/gimprc-blurbs.h:468
 msgid ""
 "Sets the folder for temporary storage. Files will appear here during the "
-"course of running GIMP.  Most files will disappear when GIMP exits, but some "
+"course of running Glimpse.  Most files will disappear when Glimpse exits, but some "
 "files are likely to remain, so it is best if this folder not be one that is "
 "shared by other users."
 msgstr ""
-"Megadja az átmeneti adatok könyvtárát. A GIMP működése közben fájlok fognak "
+"Megadja az átmeneti adatok könyvtárát. A Glimpse működése közben fájlok fognak "
 "megjelenni ezen a helyen. A legtöbb fájl törlésre kerül a programból való "
 "kilépéskor, de valószínű, hogy bizonyos fájlok megmaradnak. Nem érdemes "
 "tehát olyan könyvtárt választani, amelyet több felhasználó is használhat."
@@ -11533,12 +11533,12 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:631
 msgid ""
-"When the amount of pixel data exceeds this limit, GIMP will start to swap "
+"When the amount of pixel data exceeds this limit, Glimpse will start to swap "
 "tiles to disk.  This is a lot slower but it makes it possible to work on "
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
 msgstr ""
-"Ha a képpont-adatok mennyisége meghaladja ezt a korlátot, akkor a GIMP "
+"Ha a képpont-adatok mennyisége meghaladja ezt a korlátot, akkor a Glimpse "
 "elkezdi kitenni lemezre a képrészleteket. Ez a tárolási módszer lényegesen "
 "lassabb, de lehetővé teszi olyan képek feldolgozását is, amelyek egyébként "
 "nem férnének be a memóriába. Ha nagyobb méretű memória van a gépben, akkor "
@@ -11566,10 +11566,10 @@ msgstr "Megadja az átlátszóságot ábrázoló négyzetháló négyzeteinek m�
 
 #: ../app/config/gimprc-blurbs.h:655
 msgid ""
-"When enabled, GIMP will not save an image if it has not been changed since "
+"When enabled, Glimpse will not save an image if it has not been changed since "
 "it was opened."
 msgstr ""
-"Ha be van kapcsolva, akkor a GIMP nem végez mentést olyan kép esetében, "
+"Ha be van kapcsolva, akkor a Glimpse nem végez mentést olyan kép esetében, "
 "amely nem volt módosítva a (kép) megnyitása óta."
 
 #: ../app/config/gimprc-blurbs.h:659
@@ -11840,8 +11840,8 @@ msgstr "Csak az összeomlások hibakeresése"
 
 #: ../app/core/core-enums.c:454
 msgctxt "debug-policy"
-msgid "Never debug GIMP"
-msgstr "Sose keressen hibát a GIMP-ben"
+msgid "Never debug Glimpse"
+msgstr "Sose keressen hibát a Glimpse-ben"
 
 #: ../app/core/core-enums.c:540
 msgctxt "dynamics-output-type"
@@ -12566,7 +12566,7 @@ msgstr ""
 msgid "Deleting \"%s\" failed: %s"
 msgstr "„%s” törlése sikertelen: %s"
 
-#. initialize the list of gimp dynamics
+#. initialize the list of Glimpse dynamics
 #: ../app/core/gimp-data-factories.c:354 ../app/core/gimpcontext.c:722
 #: ../app/dialogs/preferences-dialog.c:3175
 #: ../app/tools/gimppaintoptions-gui.c:221
@@ -12620,7 +12620,7 @@ msgstr "Előtérből háttérbe (HSV óramutató járása szerinti színezet)"
 msgid "FG to Transparent"
 msgstr "Előtérből átlátszóba"
 
-#. Translator:  This message is displayed while GIMP is waiting for
+#. Translator:  This message is displayed while Glimpse is waiting for
 #. * some operation to finish.  The %s argument is a message describing
 #. * the operation.
 #.
@@ -12668,19 +12668,19 @@ msgstr "Hiba a(z) „%s” bezárásakor: %s"
 #: ../app/core/gimp-user-install.c:215
 #, c-format
 msgid ""
-"It seems you have used GIMP %s before.  GIMP will now migrate your user "
+"It seems you have used Glimpse %s before.  Glimpse will now migrate your user "
 "settings to '%s'."
 msgstr ""
-"Úgy tűnik, korábban már használta a GIMP %s programot. A GIMP átteszi az Ön "
+"Úgy tűnik, korábban már használta a Glimpse %s programot. a Glimpse átteszi az Ön "
 "felhasználói beállításait erre: „%s”."
 
 #: ../app/core/gimp-user-install.c:220
 #, c-format
 msgid ""
-"It appears that you are using GIMP for the first time.  GIMP will now create "
+"It appears that you are using Glimpse for the first time.  Glimpse will now create "
 "a folder named '%s' and copy some files to it."
 msgstr ""
-"Úgy tűnik, először használja a GIMP programot. A GIMP létrehoz egy „%s” nevű "
+"Úgy tűnik, először használja a Glimpse programot. A Glimpse létrehoz egy „%s” nevű "
 "mappát, amelybe ez után belemásol néhány fájlt."
 
 #: ../app/core/gimp-user-install.c:419
@@ -12761,11 +12761,11 @@ msgstr "Névtelen"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr ""
 "Végzetes feldolgozási hiba az ecsetfájlban:\n"
 "Nem támogatott ecsetmélység (%d).\n"
-"A GIMP ecsetei GRAY vagy RGBA módúak lehetnek."
+"A Glimpse ecsetei GRAY vagy RGBA módúak lehetnek."
 
 #: ../app/core/gimpbrush-load.c:518
 #, c-format
@@ -12832,17 +12832,17 @@ msgstr "Vágólap kép"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a Glimpse brush file."
 msgstr "Nem GIMP-ecsetfájl."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown Glimpse brush version."
 msgstr "Ismeretlen GIMP-ecsetverzió."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown Glimpse brush shape."
 msgstr "Ismeretlen GIMP-ecsetalakzat."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -13399,8 +13399,8 @@ msgstr "Kitöltés homogén színnel"
 
 #: ../app/core/gimpgradient-load.c:73
 #, c-format
-msgid "Not a GIMP gradient file."
-msgstr "Nem GIMP színátmenetfájl."
+msgid "Not a Glimpse gradient file."
+msgstr "Nem Glimpse színátmenetfájl."
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -14352,10 +14352,10 @@ msgstr "Ismeretlen mintaformátum-verzió: %d."
 #, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"Glimpse Patterns must be GRAY or RGB."
 msgstr ""
 "Nem támogatott mintamélység (%d).\n"
-"A GIMP mintái GRAY vagy RGB módúak lehetnek."
+"A Glimpse mintái GRAY vagy RGB módúak lehetnek."
 
 #: ../app/core/gimppattern-load.c:99
 #, c-format
@@ -14823,12 +14823,12 @@ msgid "percent"
 msgstr "százalék"
 
 #: ../app/dialogs/about-dialog.c:115
-msgid "About GIMP"
-msgstr "A GIMP névjegye"
+msgid "About Glimpse"
+msgstr "A Glimpse névjegye"
 
 #: ../app/dialogs/about-dialog.c:124
-msgid "Visit the GIMP website"
-msgstr "A GIMP weblapjának megtekintése"
+msgid "Visit the Glimpse website"
+msgstr "A Glimpse weblapjának megtekintése"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -14846,7 +14846,7 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:529
 msgid "Glimpse is brought to you by"
-msgstr "A GIMP szerzői:"
+msgstr "A Glimpse szerzői:"
 
 #: ../app/dialogs/about-dialog.c:605
 #, c-format
@@ -15100,12 +15100,12 @@ msgstr "Biztos, hogy törölni kívánja ezt: „%s” a listáról és a lemezr
 
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:192
 #: ../app/gui/gui-message.c:271
-msgid "GIMP Message"
+msgid "Glimpse Message"
 msgstr "GIMP-üzenet"
 
 #: ../app/dialogs/dialogs-constructors.c:225
-msgid "GIMP Debug"
-msgstr "GIMP hibakeresés"
+msgid "Glimpse Debug"
+msgstr "Glimpse hibakeresés"
 
 #: ../app/dialogs/dialogs.c:314
 msgid "Devices"
@@ -15202,10 +15202,10 @@ msgstr "A megadott fájlnév nem használható exportáláshoz"
 #: ../app/dialogs/file-save-dialog.c:619
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "Ezzel a párbeszédablakkal exportálhatja a képet különböző formátumokba. Ha a "
-"GIMP XCF formátumába szeretne menteni, akkor használja ehelyett a "
+"Glimpse XCF formátumába szeretne menteni, akkor használja ehelyett a "
 "Fájl→Mentés parancsot."
 
 #: ../app/dialogs/file-save-dialog.c:622
@@ -15218,10 +15218,10 @@ msgstr "A megadott fájlnév nem használható mentéshez"
 
 #: ../app/dialogs/file-save-dialog.c:627
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export to "
 "export to other file formats."
 msgstr ""
-"Ezzel a párbeszédablakkal a GIMP XCF formátumába mentheti a képet. A "
+"Ezzel a párbeszédablakkal a Glimpse XCF formátumába mentheti a képet. A "
 "Fájl→Exportálás paranccsal exportálhat más formátumokba."
 
 #: ../app/dialogs/file-save-dialog.c:629
@@ -15581,8 +15581,8 @@ msgid "_Refresh"
 msgstr "_Frissítés"
 
 #: ../app/dialogs/module-dialog.c:153
-msgid "You will have to restart GIMP for the changes to take effect."
-msgstr "A változtatások érvénybe léptetéséhez újra kell indítania a GIMP-et."
+msgid "You will have to restart Glimpse for the changes to take effect."
+msgstr "A változtatások érvénybe léptetéséhez újra kell indítania a Glimpse-et."
 
 #: ../app/dialogs/module-dialog.c:194
 msgid "Module"
@@ -15759,17 +15759,17 @@ msgstr ""
 "értékekre?"
 
 #: ../app/dialogs/preferences-dialog.c:381
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid "You will have to restart Glimpse for the following changes to take effect:"
 msgstr ""
-"A következő változtatások érvénybe léptetéséhez újra kell indítania a GIMP-"
+"A következő változtatások érvénybe léptetéséhez újra kell indítania a Glimpse-"
 "et:"
 
 #: ../app/dialogs/preferences-dialog.c:647
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
-"A gyorsbillentyűk vissza lesznek állítva az alapértelmezett értékekre a GIMP "
+"A gyorsbillentyűk vissza lesznek állítva az alapértelmezett értékekre a Glimpse "
 "következő indításakor."
 
 #: ../app/dialogs/preferences-dialog.c:658
@@ -15787,15 +15787,15 @@ msgid ""
 "GIMP."
 msgstr ""
 "Az ablakbeállítások vissza lesznek állítva az alapértelmezett értékekre a "
-"GIMP következő indításakor."
+"Glimpse következő indításakor."
 
 #: ../app/dialogs/preferences-dialog.c:756
 msgid ""
 "Your input device settings will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "A beviteli eszközök beállításai vissza lesznek állítva az alapértelmezett "
-"értékekre a GIMP következő indításakor."
+"értékekre a Glimpse következő indításakor."
 
 #: ../app/dialogs/preferences-dialog.c:798
 msgid ""
@@ -15803,7 +15803,7 @@ msgid ""
 "GIMP."
 msgstr ""
 "Az eszközbeállítások vissza lesznek állítva az alapértelmezett értékekre a "
-"GIMP következő indításakor."
+"Glimpse következő indításakor."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2527
@@ -15950,12 +15950,12 @@ msgstr "Hibakeresés"
 
 #: ../app/dialogs/preferences-dialog.c:1245
 msgid ""
-"We hope you will never need these settings, but as all software, GIMP has "
+"We hope you will never need these settings, but as all software, Glimpse has "
 "bugs, and crashes can occur. If it happens, you can help us by reporting "
 "bugs."
 msgstr ""
 "Reméljük hogy sosem lesz szüksége ezekre a beállításokra, de ahogy minden "
-"szoftvernél, a GIMP-nél is vannak hibák, és összeomlások is történhetnek. Ha "
+"szoftvernél, a Glimpse-nél is vannak hibák, és összeomlások is történhetnek. Ha "
 "ez történik, akkor segíthet nekünk a hibák jelentésével."
 
 #: ../app/dialogs/preferences-dialog.c:1254
@@ -16204,11 +16204,11 @@ msgstr "Játszótér"
 
 #: ../app/dialogs/preferences-dialog.c:1610
 msgid ""
-"These features are unfinished, buggy and may crash GIMP. It is unadvised to "
+"These features are unfinished, buggy and may crash Glimpse. It is unadvised to "
 "use them unless you really know what you are doing or you intend to "
 "contribute patches."
 msgstr ""
-"Ezek a funkciók befejezetlenek, hibásak és a GIMP összeomlását okozhatják. "
+"Ezek a funkciók befejezetlenek, hibásak és a Glimpse összeomlását okozhatják. "
 "Nem ajánlatos használni őket, hacsak nem biztos a dolgában, vagy javításokat "
 "szeretne beküldeni."
 
@@ -16403,8 +16403,8 @@ msgid "Appearance"
 msgstr "Megjelenés"
 
 #: ../app/dialogs/preferences-dialog.c:2107
-msgid "Show GIMP _logo (drag-and-drop target)"
-msgstr "GIMP _logó megjelenítése (fogd és vidd cél)"
+msgid "Show Glimpse _logo (drag-and-drop target)"
+msgstr "Glimpse _logó megjelenítése (fogd és vidd cél)"
 
 #: ../app/dialogs/preferences-dialog.c:2111
 msgid "Show _foreground & background color"
@@ -16741,10 +16741,10 @@ msgstr "Használandó súgóböngés_ző:"
 
 #: ../app/dialogs/preferences-dialog.c:2567
 msgid ""
-"The GIMP help browser doesn't seem to be installed. Using the web browser "
+"The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr ""
-"Úgy tűnik, hogy a GIMP súgóböngésző nincs telepítve. Használja helyette a "
+"Úgy tűnik, hogy a Glimpse súgóböngésző nincs telepítve. Használja helyette a "
 "webböngészőt."
 
 #. Action Search
@@ -17296,16 +17296,16 @@ msgid "pixels/%a"
 msgstr "képpont/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
-msgid "Quit GIMP"
-msgstr "Kilépés a GIMP-ből"
+msgid "Quit Glimpse"
+msgstr "Kilépés a Glimpse-ből"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
 msgstr "Az összes kép bezárása"
 
 #: ../app/dialogs/quit-dialog.c:256
-msgid "If you quit GIMP now, these changes will be lost."
-msgstr "Ha kilép a GIMP-ből, akkor ezek a változások el fognak veszni."
+msgid "If you quit Glimpse now, these changes will be lost."
+msgstr "Ha kilép a Glimpse-ből, akkor ezek a változások el fognak veszni."
 
 # %s: időszakasz (például 10 másodperc)
 #: ../app/dialogs/quit-dialog.c:259
@@ -17452,12 +17452,12 @@ msgid "_Emulate brush dynamics"
 msgstr "_Ecsetdinamika emulálása"
 
 #: ../app/dialogs/tips-dialog.c:99
-msgid "The GIMP tips file is empty!"
-msgstr "A GIMP-tippfájl üres."
+msgid "The Glimpse tips file is empty!"
+msgstr "a Glimpse-tippfájl üres."
 
 #: ../app/dialogs/tips-dialog.c:103
-msgid "The GIMP tips file appears to be missing!"
-msgstr "A GIMP-tippfájl úgy tűnik, hogy hiányzik."
+msgid "The Glimpse tips file appears to be missing!"
+msgstr "a Glimpse-tippfájl úgy tűnik, hogy hiányzik."
 
 #: ../app/dialogs/tips-dialog.c:105
 #, c-format
@@ -17465,11 +17465,11 @@ msgid "There should be a file called '%s'. Please check your installation."
 msgstr "Léteznie kellene egy „%s” nevű fájlnak. Ellenőrizze a telepítését."
 
 #: ../app/dialogs/tips-dialog.c:111
-msgid "The GIMP tips file could not be parsed!"
-msgstr "A GIMP-tippfájlt nem lehet feldolgozni."
+msgid "The Glimpse tips file could not be parsed!"
+msgstr "a Glimpse-tippfájlt nem lehet feldolgozni."
 
 #: ../app/dialogs/tips-dialog.c:139
-msgid "GIMP Tip of the Day"
+msgid "Glimpse Tip of the Day"
 msgstr "GIMP: A nap tippje"
 
 #: ../app/dialogs/tips-dialog.c:145
@@ -17495,17 +17495,17 @@ msgid "tips-locale:C"
 msgstr "tips-locale:hu"
 
 #: ../app/dialogs/user-install-dialog.c:85
-msgid "GIMP User Installation"
-msgstr "GIMP felhasználói telepítés"
+msgid "Glimpse User Installation"
+msgstr "Glimpse felhasználói telepítés"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
 msgstr "A felhasználói telepítés nem sikerült."
 
 #: ../app/dialogs/user-install-dialog.c:96
-msgid "The GIMP user installation failed; see the log for details."
+msgid "The Glimpse user installation failed; see the log for details."
 msgstr ""
-"A GIMP felhasználói telepítése nem sikerült; részletek a naplóban láthatók."
+"A Glimpse felhasználói telepítése nem sikerült; részletek a naplóban láthatók."
 
 #: ../app/dialogs/user-install-dialog.c:99
 msgid "Installation Log"
@@ -18377,15 +18377,15 @@ msgid "Invalid character sequence in URI"
 msgstr "Érvénytelen karaktersorozat az URI-ben"
 
 #: ../app/file-data/file-data.c:59 ../app/file-data/file-data.c:124
-msgid "GIMP brush"
+msgid "Glimpse brush"
 msgstr "GIMP-ecset"
 
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "Glimpse brush (animated)"
 msgstr "GIMP-ecset (animált)"
 
 #: ../app/file-data/file-data.c:365 ../app/file-data/file-data.c:426
-msgid "GIMP pattern"
+msgid "Glimpse pattern"
 msgstr "GIMP-minta"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318
@@ -19087,7 +19087,7 @@ msgid "Curve"
 msgstr "Görbe"
 
 #: ../app/operations/gimpcurvesconfig.c:544
-msgid "not a GIMP Curves file"
+msgid "not a Glimpse Curves file"
 msgstr "nem GIMP-görbefájl"
 
 #: ../app/operations/gimpcurvesconfig.c:575
@@ -19161,7 +19161,7 @@ msgid "Clamp final output values."
 msgstr "A végső kimeneti értékek leszorítása."
 
 #: ../app/operations/gimplevelsconfig.c:836
-msgid "not a GIMP Levels file"
+msgid "not a Glimpse Levels file"
 msgstr "nem GIMP-szintfájl"
 
 #: ../app/operations/gimplevelsconfig.c:911
@@ -19178,15 +19178,15 @@ msgid "Adjust brightness and contrast"
 msgstr "Fényerő és kontraszt beállítása"
 
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
-msgid "Compute a set of coefficient buffer for the GIMP cage tool"
-msgstr "Együttható-tárolók számítása a GIMP ketrec eszköz számára"
+msgid "Compute a set of coefficient buffer for the Glimpse cage tool"
+msgstr "Együttható-tárolók számítása a Glimpse ketrec eszköz számára"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 msgid ""
-"Convert a set of coefficient buffer to a coordinate buffer for the GIMP cage "
+"Convert a set of coefficient buffer to a coordinate buffer for the Glimpse cage "
 "tool"
 msgstr ""
-"Együttható-tárolók átalakítása koordinátatárolóvá a GIMP ketrec eszköz "
+"Együttható-tárolók átalakítása koordinátatárolóvá a Glimpse ketrec eszköz "
 "számára"
 
 #: ../app/operations/gimpoperationcagetransform.c:129
@@ -19282,9 +19282,9 @@ msgstr "Érték"
 msgid "The alpha value"
 msgstr "Az alfa érték"
 
-#. TRANSLATORS: there is no need to translate this in GIMP. This uses
+#. TRANSLATORS: there is no need to translate this in Glimpse. This uses
 #. * "gtk20" domain as a special trick to determine language direction,
-#. * but xgettext extracts it anyway mistakenly into GIMP po files.
+#. * but xgettext extracts it anyway mistakenly into Glimpse po files.
 #. * Leave an empty string as translation. It does not matter.
 #.
 #: ../app/gui/gui.c:238
@@ -19304,8 +19304,8 @@ msgid "_Recover"
 msgstr "_Helyreállítás"
 
 #: ../app/gui/gui.c:342
-msgid "Eeek! It looks like GIMP recovered from a crash!"
-msgstr "Jaj! Úgy tűnik, a GIMP összeomlás után állt helyre."
+msgid "Eeek! It looks like Glimpse recovered from a crash!"
+msgstr "Jaj! Úgy tűnik, a Glimpse összeomlás után állt helyre."
 
 #. TRANSLATORS: even if English singular form does
 #. * not use %d, you can use %d for translation in
@@ -19332,8 +19332,8 @@ msgid "Documents"
 msgstr "Dokumentumok"
 
 #: ../app/gui/splash.c:138
-msgid "GIMP Startup"
-msgstr "A GIMP indítása"
+msgid "Glimpse Startup"
+msgstr "A Glimpse indítása"
 
 #: ../app/paint/gimpairbrush.c:77 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -20645,14 +20645,14 @@ msgid ""
 "Plug-in crashed: \"%s\"\n"
 "(%s)\n"
 "\n"
-"The dying plug-in may have messed up GIMP's internal state. You may want to "
-"save your images and restart GIMP to be on the safe side."
+"The dying plug-in may have messed up Glimpse's internal state. You may want to "
+"save your images and restart Glimpse to be on the safe side."
 msgstr ""
 "A bővítmény összeomlott: „%s”\n"
 "(%s)\n"
 "\n"
-"A bővítmény halálakor összekuszálhatta a GIMP belső állapotát. A biztonság "
-"kedvéért mentse el a képeit, és indítsa újra a GIMP-et."
+"A bővítmény halálakor összekuszálhatta a Glimpse belső állapotát. A biztonság "
+"kedvéért mentse el a képeit, és indítsa újra a Glimpse-et."
 
 #: ../app/plug-in/gimpplugin-message.c:486
 #, c-format
@@ -20763,7 +20763,7 @@ msgstr ""
 
 #: ../app/plug-in/plug-in-rc.c:237
 #, c-format
-msgid "Skipping '%s': wrong GIMP protocol version."
+msgid "Skipping '%s': wrong Glimpse protocol version."
 msgstr "„%s” kihagyása: helytelen GIMP-protokollverzió."
 
 #: ../app/plug-in/plug-in-rc.c:244
@@ -22831,8 +22831,8 @@ msgid "_Move"
 msgstr "Át_helyezés"
 
 #: ../app/tools/gimpmybrushtool.c:74
-msgid "MyPaint Brush Tool: Use MyPaint brushes in GIMP"
-msgstr "MyPaint ecseteszköz: MyPaint ecsetek használata a GIMP programban"
+msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
+msgstr "MyPaint ecseteszköz: MyPaint ecsetek használata a Glimpse programban"
 
 #: ../app/tools/gimpmybrushtool.c:75
 msgid "M_yPaint Brush"
@@ -23543,8 +23543,8 @@ msgstr ""
 "szövegtulajdonságaival."
 
 #: ../app/tools/gimptexttool-editor.c:1357
-msgid "GIMP Text Editor"
-msgstr "GIMP szövegszerkesztő"
+msgid "Glimpse Text Editor"
+msgstr "Glimpse szövegszerkesztő"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -24916,9 +24916,9 @@ msgstr "Hibakövető megnyitása"
 #: ../app/widgets/gimpcriticaldialog.c:132
 #: ../app/widgets/gimpcriticaldialog.c:455
 msgid ""
-"To help us improve GIMP, you can report the bug with these simple steps:"
+"To help us improve Glimpse, you can report the bug with these simple steps:"
 msgstr ""
-"Hogy segítsen a GIMP tökéletesítésében, ezekkel az egyszerű lépésekkel "
+"Hogy segítsen a Glimpse tökéletesítésében, ezekkel az egyszerű lépésekkel "
 "jelentheti a hibákat:"
 
 #: ../app/widgets/gimpcriticaldialog.c:134
@@ -24952,11 +24952,11 @@ msgstr ""
 
 #: ../app/widgets/gimpcriticaldialog.c:142
 msgid ""
-"This error may have left GIMP in an inconsistent state. It is advised to "
-"save your work and restart GIMP."
+"This error may have left Glimpse in an inconsistent state. It is advised to "
+"save your work and restart Glimpse."
 msgstr ""
-"Ez a hiba lehet hogy a GIMP-et inkonzisztens állapotban hagyta. Javasolt "
-"hogy mentse a munkáját, és indítsa újra a GIMP-et."
+"Ez a hiba lehet hogy a Glimpse-et inkonzisztens állapotban hagyta. Javasolt "
+"hogy mentse a munkáját, és indítsa újra a Glimpse-et."
 
 #: ../app/widgets/gimpcriticaldialog.c:153
 msgid ""
@@ -25031,26 +25031,26 @@ msgstr "A(z) „%s” megnyitása meghiúsult: %s"
 
 #: ../app/widgets/gimpcriticaldialog.c:421
 #, c-format
-msgid "GIMP crashed with a fatal error: %s"
-msgstr "A GIMP végzetes hibával omlott össze: %s"
+msgid "Glimpse crashed with a fatal error: %s"
+msgstr "A Glimpse végzetes hibával omlott össze: %s"
 
 #. First error. Let's just display it.
 #: ../app/widgets/gimpcriticaldialog.c:428
 #, c-format
-msgid "GIMP encountered an error: %s"
-msgstr "A GIMP hibába futott: %s"
+msgid "Glimpse encountered an error: %s"
+msgstr "A Glimpse hibába futott: %s"
 
 #. Let's not display all errors. They will be in the bug report
 #. * part anyway.
 #.
 #: ../app/widgets/gimpcriticaldialog.c:436
 #, c-format
-msgid "GIMP encountered several critical errors!"
-msgstr "A GIMP több kritikus hibába futott."
+msgid "Glimpse encountered several critical errors!"
+msgstr "A Glimpse több kritikus hibába futott."
 
 #: ../app/widgets/gimpcriticaldialog.c:488
-msgid "_Restart GIMP"
-msgstr "A GIMP új_raindítása"
+msgid "_restart Glimpse"
+msgstr "a Glimpse új_raindítása"
 
 #: ../app/widgets/gimpdashboard.c:454 ../app/widgets/gimpdashboard.c:506
 msgctxt "dashboard-variable"
@@ -25260,7 +25260,7 @@ msgid "Total size of scratch memory"
 msgstr "Ideiglenes tárolásra használt memória teljes mérete"
 
 #. Translators:  "TempBuf" is a technical term referring to an internal
-#. * GIMP data structure.  It's probably OK to leave it untranslated.
+#. * Glimpse data structure.  It's probably OK to leave it untranslated.
 #.
 #: ../app/widgets/gimpdashboard.c:715
 msgctxt "dashboard-variable"
@@ -25578,7 +25578,7 @@ msgid "Messages are redirected to stderr."
 msgstr "Az üzenetek a hibakimenetre (stderr) kerülnek."
 
 #. %s is a message domain,
-#. * like "GIMP Message" or
+#. * like "Glimpse Message" or
 #. * "PNG Message"
 #.
 #: ../app/widgets/gimperrordialog.c:196
@@ -25758,15 +25758,15 @@ msgid "Help browser is missing"
 msgstr "A súgóböngésző hiányzik"
 
 #: ../app/widgets/gimphelp.c:372
-msgid "The GIMP help browser is not available."
-msgstr "A GIMP súgóböngésző nem érhető el."
+msgid "The Glimpse help browser is not available."
+msgstr "A Glimpse súgóböngésző nem érhető el."
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
-"The GIMP help browser plug-in appears to be missing from your installation. "
+"The Glimpse help browser plug-in appears to be missing from your installation. "
 "You may instead use the web browser for reading the help pages."
 msgstr ""
-"Úgy tűnik, a GIMP súgóböngésző-bővítmény nincs benne a telepítésben. "
+"Úgy tűnik, a Glimpse súgóböngésző-bővítmény nincs benne a telepítésben. "
 "Használhat helyette webböngészőt a súgó szövegeinek olvasására."
 
 #: ../app/widgets/gimphelp.c:419
@@ -25774,8 +25774,8 @@ msgid "Help browser doesn't start"
 msgstr "A súgóböngésző nem indul"
 
 #: ../app/widgets/gimphelp.c:420
-msgid "Could not start the GIMP help browser plug-in."
-msgstr "Nem sikerült elindítani a GIMP súgóböngésző-bővítményt."
+msgid "Could not start the Glimpse help browser plug-in."
+msgstr "Nem sikerült elindítani a Glimpse súgóböngésző-bővítményt."
 
 #: ../app/widgets/gimphelp.c:422
 msgid "You may instead use the web browser for reading the help pages."
@@ -25786,12 +25786,12 @@ msgid "Use _Web Browser"
 msgstr "_Webböngésző használata"
 
 #: ../app/widgets/gimphelp.c:793
-msgid "GIMP user manual is missing"
-msgstr "A GIMP felhasználói kézikönyve nem található"
+msgid "Glimpse user manual is missing"
+msgstr "A Glimpse felhasználói kézikönyve nem található"
 
 #: ../app/widgets/gimphelp.c:809
-msgid "The GIMP user manual is not installed in your language."
-msgstr "A GIMP felhasználói kézikönyve nincs telepítve az Ön nyelvén."
+msgid "The Glimpse user manual is not installed in your language."
+msgstr "A Glimpse felhasználói kézikönyve nincs telepítve az Ön nyelvén."
 
 #: ../app/widgets/gimphelp.c:820
 msgid "Read Selected _Language"
@@ -26099,13 +26099,13 @@ msgstr ""
 #: ../app/widgets/gimpsavedialog.c:398
 #, c-format
 msgid ""
-"The image uses features from %s and won't be readable by older GIMP versions."
+"The image uses features from %s and won't be readable by older Glimpse versions."
 msgstr ""
-"A kép funkciókat használ innen: %s, ezért régebbi GIMP verziókban nem lesz "
+"A kép funkciókat használ innen: %s, ezért régebbi Glimpse verziókban nem lesz "
 "olvasható."
 
 #: ../app/widgets/gimpsavedialog.c:407
-msgid "Metadata won't be visible in GIMP older than version 2.10."
+msgid "Metadata won't be visible in Glimpse older than version 2.10."
 msgstr ""
 "A metaadatok nem lesznek láthatók a 2.10-es verziónál régebbi GIMP-ben."
 
@@ -26486,8 +26486,8 @@ msgid "%s Preset"
 msgstr "%s előbeállítás"
 
 #: ../app/widgets/gimpuimanager.c:778
-msgid "Your GIMP installation is incomplete:"
-msgstr "A GIMP telepítése nem teljes:"
+msgid "Your Glimpse installation is incomplete:"
+msgstr "A Glimpse telepítése nem teljes:"
 
 #: ../app/widgets/gimpuimanager.c:780
 msgid "Please make sure the menu XML files are correctly installed."
@@ -26675,8 +26675,8 @@ msgid "Undefined"
 msgstr "Nem meghatározott"
 
 #: ../app/xcf/xcf.c:114 ../app/xcf/xcf.c:185
-msgid "GIMP XCF image"
-msgstr "GIMP XCF kép"
+msgid "Glimpse XCF image"
+msgstr "Glimpse XCF kép"
 
 #: ../app/xcf/xcf.c:272 ../app/xcf/xcf.c:361
 msgid "Memory Stream"
@@ -26791,7 +26791,7 @@ msgid "Error writing XCF: unsupported BPC when writing pixel: %d"
 msgstr "Hiba az XCF írásakor: nem támogatott BPC a képpont írásakor: %d"
 
 #: ../app-tools/gimp-debug-tool.c:78
-msgid "GIMP Crash Debug"
+msgid "Glimpse Crash Debug"
 msgstr "GIMP összeomlási hibakeresés"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1

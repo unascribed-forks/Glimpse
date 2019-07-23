@@ -8566,7 +8566,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 msgstr "Ishusho Itangira... 8 kugirango Bya iyi Ihindurangero"
@@ -11551,12 +11551,12 @@ msgstr "ni Kuri Inzira Cyangwa Kuri IDOSIYE"
 
 #: plug-ins/help/domain.c:177
 #, fuzzy
-msgid "The GIMP help files are not installed."
+msgid "The Glimpse help files are not installed."
 msgstr "Ifashayobora Idosiye OYA"
 
 #: plug-ins/help/domain.c:179
 #, fuzzy
-msgid "There is a problem with the GIMP help files."
+msgid "There is a problem with the Glimpse help files."
 msgstr "ni a Na: i Ifashayobora Idosiye"
 
 #: plug-ins/help/domain.c:184

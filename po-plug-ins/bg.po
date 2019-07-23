@@ -6223,7 +6223,7 @@ msgid "Invalid X resolution."
 msgstr "Невалидна резолюция по хоризонтал."
 
 #: ../plug-ins/common/pnm.c:540
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "Широчината на изображението е прекалено голяма за GIMP"
 
 #: ../plug-ins/common/pnm.c:547
@@ -6231,7 +6231,7 @@ msgid "Invalid Y resolution."
 msgstr "Невалидна резолюция по вертикал."
 
 #: ../plug-ins/common/pnm.c:549
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "Височината на изображението е прекалено голяма за GIMP"
 
 #: ../plug-ins/common/pnm.c:561
@@ -7814,7 +7814,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "„%s“:\n"
 "Широчината на изображението е прекалено голяма за GIMP"
@@ -7834,7 +7834,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "„%s“:\n"
 "Височината на изображението е прекалено голяма за GIMP"
@@ -8021,7 +8021,7 @@ msgstr "TIFF канал"
 #: ../plug-ins/common/tiff-load.c:944
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 msgstr ""
@@ -10402,7 +10402,7 @@ msgstr ""
 "В режим Вороной само КРвектори близки до зададената точка биват повлияни."
 
 #: ../plug-ins/help/gimphelpdomain.c:178
-msgid "The GIMP help files are not found."
+msgid "The Glimpse help files are not found."
 msgstr "Помощните файлове на GIMP не са намерени."
 
 #: ../plug-ins/help/gimphelpdomain.c:179
@@ -10414,7 +10414,7 @@ msgstr ""
 "ръководството на http://docs.gimp.org/."
 
 #: ../plug-ins/help/gimphelpdomain.c:185
-msgid "There is a problem with the GIMP help files."
+msgid "There is a problem with the Glimpse help files."
 msgstr "Има проблем с помощните файлове на GIMP."
 
 #: ../plug-ins/help/gimphelpdomain.c:187

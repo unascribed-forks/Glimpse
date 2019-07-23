@@ -4027,7 +4027,7 @@ msgid "Invalid X resolution."
 msgstr "잘못된  X 해상도"
 
 #: ../plug-ins/common/file-pnm.c:555
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "이미지의 너비가 너무 큽니다."
 
 #: ../plug-ins/common/file-pnm.c:562
@@ -4035,7 +4035,7 @@ msgid "Invalid Y resolution."
 msgstr "잘못된 Y 해상도"
 
 #: ../plug-ins/common/file-pnm.c:564
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "이미지의 높이가 너무 큽니다."
 
 #: ../plug-ins/common/file-pnm.c:574
@@ -4383,7 +4383,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "이미지 너비가 너무 큽니다."
@@ -4403,7 +4403,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "이미지 높이가 너무 큽니다."
@@ -4581,7 +4581,7 @@ msgstr "TIFF 채널"
 #: ../plug-ins/file-psd/psd-load.c:333
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 msgstr ""
@@ -11196,7 +11196,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "도움말 페이지 '%s'을(를) 볼 수 없습니다."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "김프 사용자 설명서를 사용할 수 없습니다."
 
 #: ../plug-ins/help/gimphelpdomain.c:187

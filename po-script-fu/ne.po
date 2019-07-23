@@ -797,7 +797,7 @@ msgstr "मार्गहरू प्रयोग गर्दै"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "प्रयोगकर्ता म्यानुअललाई पुस्तकचिनो गर्नुहोस्"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -836,7 +836,7 @@ msgstr "मुख्य वेब साइट"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:192
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:205
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:218
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "गिम्प वेब साइटलाई पुस्तकचिनो गर्नुहोस्"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
@@ -844,7 +844,7 @@ msgid "_Developer Web Site"
 msgstr "विकासकर्ता वेब साइट"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "प्रयोगकर्ता म्यानुअल वेब साइट"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217

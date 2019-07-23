@@ -530,7 +530,7 @@ load_image (const gchar  *filename,
   if (xwdhdr.l_pixmap_width > GIMP_MAX_IMAGE_SIZE
       || xwdhdr.l_bytes_per_line > GIMP_MAX_IMAGE_SIZE * 3)
     {
-      g_message (_("'%s':\nImage width is larger than GIMP can handle"),
+      g_message (_("'%s':\nImage width is larger than Glimpse can handle"),
                  gimp_filename_to_utf8 (filename));
       goto out;
     }
@@ -544,7 +544,7 @@ load_image (const gchar  *filename,
 
   if (xwdhdr.l_pixmap_height > GIMP_MAX_IMAGE_SIZE)
     {
-      g_message (_("'%s':\nImage height is larger than GIMP can handle"),
+      g_message (_("'%s':\nImage height is larger than Glimpse can handle"),
                  gimp_filename_to_utf8 (filename));
       goto out;
     }

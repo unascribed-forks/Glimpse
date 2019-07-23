@@ -813,7 +813,7 @@ msgstr "Uzo de _vojoj"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "Ligilo al la manlibro de la uzanto"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -852,7 +852,7 @@ msgstr "Ĉefa _retpaĝaro"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:192
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:205
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:218
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "Ligilo al la retpaĝaro de GIMPo"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
@@ -860,7 +860,7 @@ msgid "_Developer Web Site"
 msgstr "Retpaĝaro de la _programistoj"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "Retpaĝaro de la _uzanta manlibro"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217

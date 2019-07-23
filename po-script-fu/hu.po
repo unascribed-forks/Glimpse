@@ -824,7 +824,7 @@ msgstr "Út_vonalak használata"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "Könyvjelző a felhasználói kézikönyvhöz"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -862,7 +862,7 @@ msgstr "_Fő webhely"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "Könyvjelző a GIMP weblapjához"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
@@ -894,7 +894,7 @@ msgid "Bookmark to the bug tracker of GIMP"
 msgstr "Könyvjelző a GIMP hibakövetőjéhez"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "A felhasználói _kézikönyv webhelye"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69

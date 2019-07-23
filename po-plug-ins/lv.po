@@ -3437,7 +3437,7 @@ msgid "Invalid X resolution."
 msgstr "Nederīga X izšķirtspēja."
 
 #: ../plug-ins/common/file-pnm.c:627
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "Attēla platums ir lielāks, nekā GIMP var pavilkt."
 
 #: ../plug-ins/common/file-pnm.c:634
@@ -3445,7 +3445,7 @@ msgid "Invalid Y resolution."
 msgstr "Nederīga Y izšķirtspēja."
 
 #: ../plug-ins/common/file-pnm.c:636
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "Attēla augstums ir lielāks, nekā GIMP var pavilkt."
 
 #: ../plug-ins/common/file-pnm.c:648
@@ -4014,7 +4014,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "“%s”:\n"
 "Attēla platums ir lielāks, nekā GIMP var pavilkt"
@@ -4034,7 +4034,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "“%s”:\n"
 "Attēla augstums ir lielāks, nekā GIMP var pavilkt"
@@ -10368,7 +10368,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "“%s” palīdzības lapas nav pieejamas."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "GIMP lietotāja rokasgrāmata nav pieejama."
 
 #. TRANSLATORS: do not end the URL with a dot,

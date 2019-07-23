@@ -6286,16 +6286,16 @@ msgid "Invalid X resolution."
 msgstr "Invalid X resolution."
 
 #: ../plug-ins/common/pnm.c:540
-msgid "Image width is larger than GIMP can handle."
-msgstr "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
+msgstr "Image width is larger than Glimpse can handle."
 
 #: ../plug-ins/common/pnm.c:547
 msgid "Invalid Y resolution."
 msgstr "Invalid Y resolution."
 
 #: ../plug-ins/common/pnm.c:549
-msgid "Image height is larger than GIMP can handle."
-msgstr "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
+msgstr "Image height is larger than Glimpse can handle."
 
 #: ../plug-ins/common/pnm.c:561
 msgid "Invalid maximum value."
@@ -7873,10 +7873,10 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 
 #: ../plug-ins/common/sunras.c:456 ../plug-ins/common/xbm.c:824
 #: ../plug-ins/common/xwd.c:492
@@ -7893,10 +7893,10 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 
 #: ../plug-ins/common/sunras.c:502
 msgid "This image depth is not supported"
@@ -8079,12 +8079,12 @@ msgstr "TIFF Channel"
 #: ../plug-ins/common/tiff-load.c:969
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 msgstr ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 
@@ -10451,8 +10451,8 @@ msgstr ""
 "influence"
 
 #: ../plug-ins/help/gimphelpdomain.c:178
-msgid "The GIMP help files are not found."
-msgstr "The GIMP help files were not found."
+msgid "The Glimpse help files are not found."
+msgstr "The Glimpse help files were not found."
 
 #: ../plug-ins/help/gimphelpdomain.c:179
 msgid ""
@@ -10463,8 +10463,8 @@ msgstr ""
 "http://docs.gimp.org/."
 
 #: ../plug-ins/help/gimphelpdomain.c:185
-msgid "There is a problem with the GIMP help files."
-msgstr "There is a problem with the GIMP help files."
+msgid "There is a problem with the Glimpse help files."
+msgstr "There is a problem with the Glimpse help files."
 
 #: ../plug-ins/help/gimphelpdomain.c:187
 msgid "Please check your installation."

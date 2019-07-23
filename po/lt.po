@@ -10,7 +10,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP HEAD\n"
+"Project-Id-Version: Glimpse HEAD\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2014-01-01 18:22+0000\n"
 "PO-Revision-Date: 2014-01-04 23:45+0200\n"
@@ -27,11 +27,11 @@ msgstr ""
 
 #: ../desktop/gimp.appdata.xml.in.h:1
 msgid ""
-"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
+"Glimpse is an acronym for GNU Image Manipulation Program. It is a freely "
 "distributed program for such tasks as photo retouching, image composition "
 "and image authoring."
 msgstr ""
-"GIMP yra GNU paveikslėlių keitimo programos santrumpa. Tai yra laisvai "
+"Glimpse yra GNU paveikslėlių keitimo programos santrumpa. Tai yra laisvai "
 "platinama programa tokiems veiksmams kaip nuotraukų retušavimas, "
 "paveikslėlių kompozicija ir kūrimas."
 
@@ -48,16 +48,16 @@ msgstr ""
 
 #: ../desktop/gimp.appdata.xml.in.h:3
 msgid ""
-"GIMP is expandable and extensible. It is designed to be augmented with plug-"
+"Glimpse is expandable and extensible. It is designed to be augmented with plug-"
 "ins and extensions to do just about anything. The advanced scripting "
 "interface allows everything from the simplest task to the most complex image "
-"manipulation procedures to be easily scripted. GIMP is also available for "
+"manipulation procedures to be easily scripted. Glimpse is also available for "
 "Microsoft Windows and OS X."
 msgstr ""
-"GIMP yra plečiama programa. Ji yra sukurta taip, kad įskiepių bei plėtinių "
+"Glimpse yra plečiama programa. Ji yra sukurta taip, kad įskiepių bei plėtinių "
 "pagalba būtų galima padaryti beveik bet ką. Sudėtinga scenarijų sąsaja "
 "leidžia scenarijais aprašyti viską pradedant paprasčiausiomis užduotimi ir "
-"baigiant sudėtingomis paveikslėlių keitimo procedūromis. GIMP taip pat "
+"baigiant sudėtingomis paveikslėlių keitimo procedūromis. Glimpse taip pat "
 "galima naudoti Microsoft Windows ir OS X sistemose."
 
 #: ../desktop/gimp.desktop.in.in.h:1 ../app/about.h:26
@@ -81,19 +81,19 @@ msgstr "GIMP"
 #, c-format
 msgid ""
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the GIMP Development Team"
+"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 msgstr ""
 "Autorinės teisės priklauso © 1995-%s\n"
-"Spencer Kimball, Peter Mattis ir GIMP kūrimo komandai"
+"Spencer Kimball, Peter Mattis ir Glimpse kūrimo komandai"
 
 #: ../app/about.h:34
 msgid ""
-"GIMP is free software: you can redistribute it and/or modify it under the "
+"Glimpse is free software: you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 3 of the License, or (at your option) any later "
 "version.\n"
 "\n"
-"GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details.\n"
@@ -101,12 +101,12 @@ msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "GIMP.  If not, see https://www.gnu.org/licenses/."
 msgstr ""
-"GIMP yra laisva programinė įranga. Galite ją platinti ir/arba modifikuoti "
+"Glimpse yra laisva programinė įranga. Galite ją platinti ir/arba modifikuoti "
 "laikydamiesi Laisvosios programinės įrangos fondo paskelbtų GNU Bendrosios "
 "viešosios licencijos sąlygų. 3-iosios arba (savo nuožiūra) bet kurios "
 "vėlesnės licencijos versijos sąlygų.\n"
 "\n"
-"GIMP yra platinama tikintis, kad ji bus naudinga, tačiau NETEIKIANT JOKIŲ "
+"Glimpse yra platinama tikintis, kad ji bus naudinga, tačiau NETEIKIANT JOKIŲ "
 "GARANTIJŲ. Netgi numanomų PARDAVIMO arba TINKAMUMO TAM TIKRAM TIKSLUI "
 "garantijų. Daugiau informacijos galite rasti GNU Bendrojoje viešojoje "
 "licencijoje.\n"
@@ -141,8 +141,8 @@ msgid "Be more verbose"
 msgstr "Rodyti išsamesnius pranešimus"
 
 #: ../app/main.c:163
-msgid "Start a new GIMP instance"
-msgstr "Paleisti naują GIMP kopiją"
+msgid "Start a new Glimpse instance"
+msgstr "Paleisti naują Glimpse kopiją"
 
 #: ../app/main.c:168
 msgid "Open images as new"
@@ -165,8 +165,8 @@ msgid "Do not show a splash screen"
 msgstr "Nerodyti paleisties lango"
 
 #: ../app/main.c:193
-msgid "Do not use shared memory between GIMP and plugins"
-msgstr "Nenaudoti bendrosios atminties tarp GIMP ir įskiepų"
+msgid "Do not use shared memory between Glimpse and plugins"
+msgstr "Nenaudoti bendrosios atminties tarp Glimpse ir įskiepų"
 
 #: ../app/main.c:198
 msgid "Do not use special CPU acceleration functions"
@@ -229,19 +229,19 @@ msgstr "[FAILAS|URI...]"
 
 #: ../app/main.c:405
 msgid ""
-"GIMP could not initialize the graphical user interface.\n"
+"Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
-"GIMP nepavyko inicializuoti grafinės naudotojo sąsajos.\n"
+"Glimpse nepavyko inicializuoti grafinės naudotojo sąsajos.\n"
 "Įsitikinkite, kad jūsų ekrano aplinka tinkamai sukonfigūruota."
 
 #: ../app/main.c:424
-msgid "Another GIMP instance is already running."
-msgstr "Jau paleista kita GIMP kopija."
+msgid "Another Glimpse instance is already running."
+msgstr "Jau paleista kita Glimpse kopija."
 
 #: ../app/main.c:494
-msgid "GIMP output. Type any character to close this window."
-msgstr "GIMP išvestis. Norėdami užverti šį langą, įveskite bet kokį simbolį."
+msgid "Glimpse output. Type any character to close this window."
+msgstr "Glimpse išvestis. Norėdami užverti šį langą, įveskite bet kokį simbolį."
 
 #: ../app/main.c:495
 #, c-format
@@ -249,8 +249,8 @@ msgid "(Type any character to close this window)\n"
 msgstr "(Norėdami užverti šį langą, įveskite bet kokį simbolį)\n"
 
 #: ../app/main.c:512
-msgid "GIMP output. You can minimize this window, but don't close it."
-msgstr "GIMP išvestis. Galite sumažinti šį langą, tačiau jo neuždaryti."
+msgid "Glimpse output. You can minimize this window, but don't close it."
+msgstr "Glimpse išvestis. Galite sumažinti šį langą, tačiau jo neuždaryti."
 
 #: ../app/sanity.c:572
 #, c-format
@@ -266,14 +266,14 @@ msgstr ""
 #: ../app/sanity.c:591
 #, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"Aplanko, kuriame yra GIMP naudojo konfigūracija, pavadinimo konvertuoti į "
+"Aplanko, kuriame yra Glimpse naudojo konfigūracija, pavadinimo konvertuoti į "
 "UTF-8 nepavyko: %s\n"
 "\n"
 "Tikriausiai jūsų failų sistema saugo failus kitokia koduote nei UTF-8 ir jūs "
@@ -296,7 +296,7 @@ msgstr "%s versija %s"
 msgid "Brush Editor"
 msgstr "Teptukų rengyklė"
 
-#. initialize the list of gimp brushes
+#. initialize the list of Glimpse brushes
 #: ../app/actions/actions.c:112 ../app/core/gimp.c:964
 #: ../app/dialogs/dialogs.c:321 ../app/dialogs/preferences-dialog.c:2595
 msgid "Brushes"
@@ -385,7 +385,7 @@ msgstr "Šriftai"
 msgid "Gradient Editor"
 msgstr "Gradientų rengyklė"
 
-#. initialize the list of gimp gradients
+#. initialize the list of Glimpse gradients
 #: ../app/actions/actions.c:172 ../app/core/gimp.c:984
 #: ../app/dialogs/dialogs.c:325 ../app/dialogs/preferences-dialog.c:2611
 msgid "Gradients"
@@ -424,13 +424,13 @@ msgstr "Sluoksniai"
 msgid "Palette Editor"
 msgstr "Palečių rengyklė"
 
-#. initialize the list of gimp palettes
+#. initialize the list of Glimpse palettes
 #: ../app/actions/actions.c:196 ../app/core/gimp.c:979
 #: ../app/dialogs/dialogs.c:327 ../app/dialogs/preferences-dialog.c:2607
 msgid "Palettes"
 msgstr "Paletės"
 
-#. initialize the list of gimp patterns
+#. initialize the list of Glimpse patterns
 #: ../app/actions/actions.c:199 ../app/core/gimp.c:974
 #: ../app/dialogs/dialogs.c:323 ../app/dialogs/preferences-dialog.c:2603
 msgid "Patterns"
@@ -1362,12 +1362,12 @@ msgstr "_Dienos patarimas"
 
 #: ../app/actions/dialogs-actions.c:257
 msgctxt "dialogs-action"
-msgid "Show some helpful tips on using GIMP"
+msgid "Show some helpful tips on using Glimpse"
 msgstr "Rodyti naudingų patarimų, kaip naudotis GIMP"
 
 #: ../app/actions/dialogs-actions.c:263 ../app/actions/dialogs-actions.c:268
 msgctxt "dialogs-action"
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "Apie GIMP"
 
 #: ../app/actions/dialogs-actions.c:265
@@ -2364,7 +2364,7 @@ msgstr "_Baigti darbą"
 
 #: ../app/actions/file-actions.c:113
 msgctxt "file-action"
-msgid "Quit the GNU Image Manipulation Program"
+msgid "Quit Glimpse"
 msgstr "Užverti GNU paveikslėlių manipuliavimo programą"
 
 #: ../app/actions/file-actions.c:121
@@ -3291,8 +3291,8 @@ msgstr "_Žinynas"
 
 #: ../app/actions/help-actions.c:42
 msgctxt "help-action"
-msgid "Open the GIMP user manual"
-msgstr "Atverti GIMP naudotojo žinyną"
+msgid "Open the Glimpse user manual"
+msgstr "Atverti Glimpse naudotojo žinyną"
 
 #: ../app/actions/help-actions.c:47
 msgctxt "help-action"
@@ -6273,8 +6273,8 @@ msgstr "Vieno lango veiksena"
 
 #: ../app/actions/windows-actions.c:130
 msgctxt "windows-action"
-msgid "When enabled, GIMP is in a single-window mode."
-msgstr "Kai įjungta, GIMP yra vieno lango veiksenoje."
+msgid "When enabled, Glimpse is in a single-window mode."
+msgstr "Kai įjungta, Glimpse yra vieno lango veiksenoje."
 
 #: ../app/actions/windows-actions.c:139
 msgctxt "windows-tabs-position-action"
@@ -6393,7 +6393,7 @@ msgstr "Aukšta"
 
 #: ../app/config/config-enums.c:147
 msgctxt "help-browser-type"
-msgid "GIMP help browser"
+msgid "Glimpse help browser"
 msgstr "GIMP žinyno naršyklė"
 
 #: ../app/config/config-enums.c:148
@@ -6646,7 +6646,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:218
 msgid ""
-"GIMP will warn the user if an attempt is made to create an image that would "
+"Glimpse will warn the user if an attempt is made to create an image that would "
 "take more memory than the size specified here."
 msgstr ""
 "GIMP įspės naudotoją, jei jis bandys sukurti paveikslėlį, kuris užims "
@@ -6689,8 +6689,8 @@ msgstr ""
 "lango kampe, dydį."
 
 #: ../app/config/gimprc-blurbs.h:246
-msgid "Sets how many processors GIMP should try to use simultaneously."
-msgstr "Nurodo kiek vienu metu procesorių GIMP turėtų naudoti."
+msgid "Sets how many processors Glimpse should try to use simultaneously."
+msgstr "Nurodo kiek vienu metu procesorių Glimpse turėtų naudoti."
 
 #: ../app/config/gimprc-blurbs.h:259
 msgid ""
@@ -6708,11 +6708,11 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:275
 msgid ""
-"Sets whether GIMP should create previews of layers and channels. Previews in "
+"Sets whether Glimpse should create previews of layers and channels. Previews in "
 "the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
-"Nurodo ar GIMP turėtų kurti sluoksnių ir kanalų peržiūras. Peržiūros "
+"Nurodo ar Glimpse turėtų kurti sluoksnių ir kanalų peržiūras. Peržiūros "
 "sluoksnių ir kanalų dialoguose yra patogu, tačiau jos gali viską sulėtinti, "
 "kai dirbama su dideliais paveikslėliais."
 
@@ -6745,15 +6745,15 @@ msgstr ""
 "bei atitraukiant paveikslėlius."
 
 #: ../app/config/gimprc-blurbs.h:295
-msgid "Let GIMP try to restore your last saved session on each startup."
+msgid "Let Glimpse try to restore your last saved session on each startup."
 msgstr ""
-"Kiekvieno paleidimo metu leisti GIMP pabandyti atstatyti paskutinę išsaugotą "
+"Kiekvieno paleidimo metu leisti Glimpse pabandyti atstatyti paskutinę išsaugotą "
 "sesiją."
 
 #: ../app/config/gimprc-blurbs.h:298
 msgid ""
-"Remember the current tool, pattern, color, and brush across GIMP sessions."
-msgstr "Tarp GIMP sesijų atsiminti esamą įrankį, raštą, spalvą ir teptuką."
+"Remember the current tool, pattern, color, and brush across Glimpse sessions."
+msgstr "Tarp Glimpse sesijų atsiminti esamą įrankį, raštą, spalvą ir teptuką."
 
 #: ../app/config/gimprc-blurbs.h:302
 msgid ""
@@ -6764,12 +6764,12 @@ msgstr ""
 "dokumentų sąraše."
 
 #: ../app/config/gimprc-blurbs.h:306
-msgid "Save the positions and sizes of the main dialogs when GIMP exits."
+msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
 "Baigiant darbą su GIMP, įrašyti pagrindinių dialogų dydžius ir padėtis."
 
 #: ../app/config/gimprc-blurbs.h:309
-msgid "Save the tool options when GIMP exits."
+msgid "Save the tool options when Glimpse exits."
 msgstr "Baigiant darbą su GIMP, įrašyti įrankių parinktis."
 
 #: ../app/config/gimprc-blurbs.h:315
@@ -6881,8 +6881,8 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "Kai žymiklis užvedamas virš elemento, rodyti paaiškinimą."
 
 #: ../app/config/gimprc-blurbs.h:367
-msgid "Use GIMP in a single-window mode."
-msgstr "Naudoti GIMP vieno lango veiksenoje."
+msgid "Use Glimpse in a single-window mode."
+msgstr "Naudoti Glimpse vieno lango veiksenoje."
 
 #: ../app/config/gimprc-blurbs.h:370
 msgid "Hide docks and other windows, leaving only image windows."
@@ -6894,17 +6894,17 @@ msgstr "Ką daryti, kai paveikslėlio lange paspaudžiamas tarpo klavišas."
 
 #: ../app/config/gimprc-blurbs.h:376
 msgid ""
-"Sets the swap file location. GIMP uses a tile based memory allocation "
+"Sets the swap file location. Glimpse uses a tile based memory allocation "
 "scheme. The swap file is used to quickly and easily swap tiles out to disk "
-"and back in. Be aware that the swap file can easily get very large if GIMP "
+"and back in. Be aware that the swap file can easily get very large if Glimpse "
 "is used with large images. Also, things can get horribly slow if the swap "
 "file is created on a folder that is mounted over NFS.  For these reasons, it "
 "may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
-"Nurodo mainų failo vietą. GIMP naudoja tekstūromis pagrįsta atminties "
+"Nurodo mainų failo vietą. Glimpse naudoja tekstūromis pagrįsta atminties "
 "paskirstymo schemą. Mainų failas naudojamas norint greitai ir lengvai įkelti "
 "tekstūras į diską ir iš jo. Turėkite omenyje, kad mainų failas lengvai gali "
-"tapti labai didelis, jei GIMP naudojami labai dideli paveikslėliai. Taip "
+"tapti labai didelis, jei Glimpse naudojami labai dideli paveikslėliai. Taip "
 "pat, sistema gali nepakenčiamai sulėtėti, jei mainų failas sukuriamas "
 "aplanke, prijungtame naudojant NFS. Dėl šiu priežasčių rekomenduojama "
 "patalpinti mainų failą aplanke „/tmp“."
@@ -6922,22 +6922,22 @@ msgstr ""
 "pasirinktą kombinaciją kol pažymėtas meniu punktas"
 
 #: ../app/config/gimprc-blurbs.h:392
-msgid "Save changed keyboard shortcuts when GIMP exits."
-msgstr "Išsaugo pakeistas klavišų kombinacijas GIMP baigiant darbą."
+msgid "Save changed keyboard shortcuts when Glimpse exits."
+msgstr "Išsaugo pakeistas klavišų kombinacijas Glimpse baigiant darbą."
 
 #: ../app/config/gimprc-blurbs.h:395
-msgid "Restore saved keyboard shortcuts on each GIMP startup."
-msgstr "Atkurti išsaugotus klavišų susiejimus kiekvieno GIMP paleidimo metu."
+msgid "Restore saved keyboard shortcuts on each Glimpse startup."
+msgstr "Atkurti išsaugotus klavišų susiejimus kiekvieno Glimpse paleidimo metu."
 
 #: ../app/config/gimprc-blurbs.h:398
 msgid ""
 "Sets the folder for temporary storage. Files will appear here during the "
-"course of running GIMP.  Most files will disappear when GIMP exits, but some "
+"course of running Glimpse.  Most files will disappear when Glimpse exits, but some "
 "files are likely to remain, so it is best if this folder not be one that is "
 "shared by other users."
 msgstr ""
-"Nurodo laikinojo saugojimo aplanką. GIMP veikimo metu ten bus saugomi "
-"failai. Užvėrus GIMP dauguma failų pranyks, tačiau kai kurie gali likti, "
+"Nurodo laikinojo saugojimo aplanką. Glimpse veikimo metu ten bus saugomi "
+"failai. Užvėrus Glimpse dauguma failų pranyks, tačiau kai kurie gali likti, "
 "taigi, būtų geriausia, jei šis aplankas būtų neviešinamas kitiems "
 "naudotojams."
 
@@ -6955,12 +6955,12 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:417
 msgid ""
-"When the amount of pixel data exceeds this limit, GIMP will start to swap "
+"When the amount of pixel data exceeds this limit, Glimpse will start to swap "
 "tiles to disk.  This is a lot slower but it makes it possible to work on "
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
 msgstr ""
-"Kai pikselių duomenų kiekis viršija šią ribą, programa GIMP pradės įkelinėti "
+"Kai pikselių duomenų kiekis viršija šią ribą, programa Glimpse pradės įkelinėti "
 "išklotines į diską. Tai žymiai lėčiau, tačiau šitaip įmanoma dirbti su "
 "paveikslėliais, kurie netelpa atmintinėje. Jeigu turite daug operatyviosios "
 "atmintinės, galite nustatyti šią reikšmę į didesnę."
@@ -6987,10 +6987,10 @@ msgstr "Nurodo šaškių lentos naudojamos pavaizduoti permatomumui dydį."
 
 #: ../app/config/gimprc-blurbs.h:441
 msgid ""
-"When enabled, GIMP will not save an image if it has not been changed since "
+"When enabled, Glimpse will not save an image if it has not been changed since "
 "it was opened."
 msgstr ""
-"Kai įjungta, GIMP neišsaugos paveikslėlio, jei jis nuo jo atvėrimo nebuvo "
+"Kai įjungta, Glimpse neišsaugos paveikslėlio, jei jis nuo jo atvėrimo nebuvo "
 "pakeistas."
 
 #: ../app/config/gimprc-blurbs.h:445
@@ -8122,16 +8122,16 @@ msgstr "Teptuko kampas"
 
 #: ../app/core/gimpbrushgenerated-load.c:86
 #, c-format
-msgid "Fatal parse error in brush file '%s': Not a GIMP brush file."
+msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 msgstr ""
-"Lemtinga apdorojimo klaida teptukų faile „%s“: tai ne GIMP teptukų failas."
+"Lemtinga apdorojimo klaida teptukų faile „%s“: tai ne Glimpse teptukų failas."
 
 #: ../app/core/gimpbrushgenerated-load.c:103
 #, c-format
 msgid ""
-"Fatal parse error in brush file '%s': Unknown GIMP brush version in line %d."
+"Fatal parse error in brush file '%s': Unknown Glimpse brush version in line %d."
 msgstr ""
-"Lemtinga apdorojimo klaida teptukų faile „%s“: nežinoma GIMP teptukų versija "
+"Lemtinga apdorojimo klaida teptukų faile „%s“: nežinoma Glimpse teptukų versija "
 "eilutėje %d."
 
 #: ../app/core/gimpbrushgenerated-load.c:127 ../app/core/gimpbrush-load.c:281
@@ -8143,9 +8143,9 @@ msgstr "Netinkama UTF-8 eilutė teptukų faile „%s“."
 #: ../app/core/gimpbrushgenerated-load.c:149
 #, c-format
 msgid ""
-"Fatal parse error in brush file '%s': Unknown GIMP brush shape in line %d."
+"Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line %d."
 msgstr ""
-"Lemtinga apdorojimo klaida teptukų faile „%s“: nežinoma GIMP teptuko forma "
+"Lemtinga apdorojimo klaida teptukų faile „%s“: nežinoma Glimpse teptuko forma "
 "eilutėje %d."
 
 #: ../app/core/gimpbrushgenerated-load.c:225
@@ -8213,28 +8213,28 @@ msgstr "Bevardis"
 #, c-format
 #| msgid ""
 #| "Fatal parse error in brush file '%s': Unsupported brush depth %d\n"
-#| "GIMP brushes must be GRAY or RGBA."
+#| "Glimpse brushes must be GRAY or RGBA."
 msgid ""
 "Fatal parse error in brush file '%s': Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA.\n"
-"This might be an obsolete GIMP brush file, try loading it as image and save "
+"Glimpse brushes must be GRAY or RGBA.\n"
+"This might be an obsolete Glimpse brush file, try loading it as image and save "
 "it again."
 msgstr ""
 "Lemtinga apdorojimo klaida teptuko faile „%s“: nepalaikomas teptuko gylis "
 "%d\n"
-"GIMP teptukai turi būti GRAY arba RGBA.\n"
-"Tai gali būti pasenęs GIMP teptuko failas, pabandykite į įkelti kaip "
+"Glimpse teptukai turi būti GRAY arba RGBA.\n"
+"Tai gali būti pasenęs Glimpse teptuko failas, pabandykite į įkelti kaip "
 "paveikslėlį ir vėl įrašyti."
 
 #: ../app/core/gimpbrush-load.c:400
 #, c-format
 msgid ""
 "Fatal parse error in brush file '%s': Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr ""
 "Lemtinga apdorojimo klaida teptukų faile „%s“: nepalaikomas teptuko gylis "
 "%d\n"
-"GIMP teptukai turi būti PILKI arba RGBA."
+"Glimpse teptukai turi būti PILKI arba RGBA."
 
 #: ../app/core/gimpbrush-load.c:472 ../app/core/gimpbrush-load.c:874
 #, c-format
@@ -8274,7 +8274,7 @@ msgstr "Ieškoma duomenų failų"
 msgid "Parasites"
 msgstr "Parazitai"
 
-#. initialize the list of gimp dynamics
+#. initialize the list of Glimpse dynamics
 #: ../app/core/gimp.c:969 ../app/dialogs/preferences-dialog.c:2599
 #: ../app/tools/gimppaintoptions-gui.c:208
 msgid "Dynamics"
@@ -8686,9 +8686,9 @@ msgstr ""
 
 #: ../app/core/gimpgradient-load.c:83
 #, c-format
-msgid "Fatal parse error in gradient file '%s': Not a GIMP gradient file."
+msgid "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 msgstr ""
-"Kritinė skaitymo klaida gradiento faile „%s“: tai ne GIMP gradiento failas."
+"Kritinė skaitymo klaida gradiento faile „%s“: tai ne Glimpse gradiento failas."
 
 #: ../app/core/gimpgradient-load.c:111
 #, c-format
@@ -9464,10 +9464,10 @@ msgstr ""
 #, c-format
 msgid ""
 "Fatal parse error in pattern file '%s: Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"Glimpse Patterns must be GRAY or RGB."
 msgstr ""
 "Lemtinga klaida raštų faile „%s“: nepalaikomas rašto gylis %d.\n"
-"GIMP raštai būti PILKI arba RGBA."
+"Glimpse raštai būti PILKI arba RGBA."
 
 #: ../app/core/gimppattern-load.c:144
 #, c-format
@@ -9650,19 +9650,19 @@ msgstr "procentai"
 #: ../app/core/gimp-user-install.c:208
 #, c-format
 msgid ""
-"It seems you have used GIMP %s before.  GIMP will now migrate your user "
+"It seems you have used Glimpse %s before.  Glimpse will now migrate your user "
 "settings to '%s'."
 msgstr ""
-"Panašu, kad anksčiau naudojote GIMP %s. GIMP dabar migruos naudotojo "
+"Panašu, kad anksčiau naudojote GIMP %s. Glimpse dabar migruos naudotojo "
 "parametrus į „%s“."
 
 #: ../app/core/gimp-user-install.c:213
 #, c-format
 msgid ""
-"It appears that you are using GIMP for the first time.  GIMP will now create "
+"It appears that you are using Glimpse for the first time.  Glimpse will now create "
 "a folder named '%s' and copy some files to it."
 msgstr ""
-"Panašu, kad naudojate GIMP pirmą kartą. GIMP dabar sukurs aplanką „%s“ ir į "
+"Panašu, kad naudojate Glimpse pirmą kartą. Glimpse dabar sukurs aplanką „%s“ ir į "
 "jį nukopijuos keletą failų."
 
 #: ../app/core/gimp-user-install.c:412
@@ -9681,12 +9681,12 @@ msgid "Cannot create folder '%s': %s"
 msgstr "Negalima sukurti aplanko „%s“: %s"
 
 #: ../app/dialogs/about-dialog.c:115
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "Apie GIMP"
 
 #: ../app/dialogs/about-dialog.c:124
-msgid "Visit the GIMP website"
-msgstr "Aplankykite GIMP svetainę"
+msgid "Visit the Glimpse website"
+msgstr "Aplankykite Glimpse svetainę"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -9702,7 +9702,7 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:522
 msgid "Glimpse is brought to you by"
-msgstr "GIMP Jums sukūrė"
+msgstr "Glimpse Jums sukūrė"
 
 #: ../app/dialogs/about-dialog.c:597
 msgid "This is an unstable development release."
@@ -9880,8 +9880,8 @@ msgstr "Priekinio plano / fono spalva"
 
 #: ../app/dialogs/dialogs-constructors.c:203 ../app/gui/gui.c:162
 #: ../app/gui/gui-message.c:150
-msgid "GIMP Message"
-msgstr "GIMP pranešimas"
+msgid "Glimpse Message"
+msgstr "Glimpse pranešimas"
 
 #: ../app/dialogs/fade-dialog.c:109
 #, c-format
@@ -9938,10 +9938,10 @@ msgstr "Nurodytas failo pavadinimas negali būti naudojamas eksportavimui"
 #: ../app/dialogs/file-save-dialog.c:606
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "Galite naudoti šį dialogą eksportavimui įvairiais failų formatais. Jei "
-"norite išsaugoti paveikslėlį GIMP XCF formatų, naudokite Failas→Įrašyti."
+"norite išsaugoti paveikslėlį Glimpse XCF formatų, naudokite Failas→Įrašyti."
 
 #: ../app/dialogs/file-save-dialog.c:609
 #| msgctxt "dialogs-action"
@@ -9956,10 +9956,10 @@ msgstr "Nurodytas failo pavadinimas negali būti naudojamas įrašymui"
 
 #: ../app/dialogs/file-save-dialog.c:614
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export to "
 "export to other file formats."
 msgstr ""
-"Galite naudoti šį dialogą įrašymui GIMP XCF formatu. Eksportavimui kitais "
+"Galite naudoti šį dialogą įrašymui Glimpse XCF formatu. Eksportavimui kitais "
 "failų formatais naudokite Failas→Eksportuoti."
 
 #: ../app/dialogs/file-save-dialog.c:616
@@ -10234,8 +10234,8 @@ msgid "Module Manager"
 msgstr "Modulių tvarkyklė"
 
 #: ../app/dialogs/module-dialog.c:151
-msgid "You will have to restart GIMP for the changes to take effect."
-msgstr "Kad įsigaliotų pakeitimai, turėsite paleisti programą GIMP iš naujo."
+msgid "You will have to restart Glimpse for the changes to take effect."
+msgstr "Kad įsigaliotų pakeitimai, turėsite paleisti programą Glimpse iš naujo."
 
 #: ../app/dialogs/module-dialog.c:192
 msgid "Module"
@@ -10406,13 +10406,13 @@ msgid "Do you really want to reset all preferences to default values?"
 msgstr "Ar tikrai norite atstatyti visus nustatymus į numatytąsias reikšmes?"
 
 #: ../app/dialogs/preferences-dialog.c:352
-msgid "You will have to restart GIMP for the following changes to take effect:"
-msgstr "Kad įsigaliotų sekantys pakeitimai, turėsite paleisti GIMP iš naujo:"
+msgid "You will have to restart Glimpse for the following changes to take effect:"
+msgstr "Kad įsigaliotų sekantys pakeitimai, turėsite paleisti Glimpse iš naujo:"
 
 #: ../app/dialogs/preferences-dialog.c:534
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "Jūsų klavišų kombinacijos bus atstatytos į numatytąsias reikšmes, kai kitą "
 "kartą paleisite GIMP."
@@ -10436,7 +10436,7 @@ msgstr ""
 #: ../app/dialogs/preferences-dialog.c:643
 msgid ""
 "Your input device settings will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "Kitą kartą paleidus GIMP, įvesties įrenginių parametrai bus atstatyti į "
 "numatytąsias reikšmes."
@@ -11300,7 +11300,7 @@ msgid "pixels/%a"
 msgstr "pikseliai/%a"
 
 #: ../app/dialogs/quit-dialog.c:145
-msgid "Quit GIMP"
+msgid "Quit Glimpse"
 msgstr "Baigti darbą su GIMP"
 
 #: ../app/dialogs/quit-dialog.c:145
@@ -11308,7 +11308,7 @@ msgid "Close All Images"
 msgstr "Užverti visus paveikslėlius"
 
 #: ../app/dialogs/quit-dialog.c:213
-msgid "If you quit GIMP now, these changes will be lost."
+msgid "If you quit Glimpse now, these changes will be lost."
 msgstr "Jeigu dabar baigsite darbą su GIMP, šie pakeitimai bus prarasti."
 
 #: ../app/dialogs/quit-dialog.c:216
@@ -11422,12 +11422,12 @@ msgid "_Emulate brush dynamics"
 msgstr "_Simuliuoti teptuko dinamiką"
 
 #: ../app/dialogs/tips-dialog.c:89
-msgid "The GIMP tips file is empty!"
-msgstr "GIMP patarimų failas yra tuščias!"
+msgid "The Glimpse tips file is empty!"
+msgstr "Glimpse patarimų failas yra tuščias!"
 
 #: ../app/dialogs/tips-dialog.c:93
-msgid "The GIMP tips file appears to be missing!"
-msgstr "Panašu, kad nėra GIMP patarimų failo!"
+msgid "The Glimpse tips file appears to be missing!"
+msgstr "Panašu, kad nėra Glimpse patarimų failo!"
 
 #: ../app/dialogs/tips-dialog.c:95
 #, c-format
@@ -11436,12 +11436,12 @@ msgstr ""
 "Turėtų būti failas pavadinimu „%s“. Patikrinkite ar teisingai įdiegėte GIMP."
 
 #: ../app/dialogs/tips-dialog.c:101
-msgid "The GIMP tips file could not be parsed!"
-msgstr "Nepavyko perskaityti GIMP patarimų failo!"
+msgid "The Glimpse tips file could not be parsed!"
+msgstr "Nepavyko perskaityti Glimpse patarimų failo!"
 
 #: ../app/dialogs/tips-dialog.c:129
-msgid "GIMP Tip of the Day"
-msgstr "GIMP dienos patarimas"
+msgid "Glimpse Tip of the Day"
+msgstr "Glimpse dienos patarimas"
 
 #: ../app/dialogs/tips-dialog.c:135
 msgid "_Previous Tip"
@@ -11466,16 +11466,16 @@ msgid "tips-locale:C"
 msgstr "tips-locale:lt"
 
 #: ../app/dialogs/user-install-dialog.c:85
-msgid "GIMP User Installation"
-msgstr "GIMP naudotojo diegimas"
+msgid "Glimpse User Installation"
+msgstr "Glimpse naudotojo diegimas"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
 msgstr "Naudotojo įdiegimas nesėkmingas!"
 
 #: ../app/dialogs/user-install-dialog.c:96
-msgid "The GIMP user installation failed; see the log for details."
-msgstr "GIMP naudotojo įdiegimas nepavyko; išsamesnė informacija žurnale."
+msgid "The Glimpse user installation failed; see the log for details."
+msgstr "Glimpse naudotojo įdiegimas nepavyko; išsamesnė informacija žurnale."
 
 #: ../app/dialogs/user-install-dialog.c:99
 msgid "Installation Log"
@@ -11962,8 +11962,8 @@ msgstr ""
 "deformuojant paveikslėlį"
 
 #: ../app/operations/gimpcurvesconfig.c:456
-msgid "not a GIMP Curves file"
-msgstr "tai ne GIMP kreivių failas"
+msgid "not a Glimpse Curves file"
+msgstr "tai ne Glimpse kreivių failas"
 
 #: ../app/operations/gimpcurvesconfig.c:471
 #: ../app/operations/gimplevelsconfig.c:808
@@ -11971,19 +11971,19 @@ msgid "parse error"
 msgstr "apdorojimo klaida"
 
 #: ../app/operations/gimplevelsconfig.c:761
-msgid "not a GIMP Levels file"
-msgstr "tai ne GIMP lygių failas"
+msgid "not a Glimpse Levels file"
+msgstr "tai ne Glimpse lygių failas"
 
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
-msgid "Compute a set of coefficient buffer for the GIMP cage tool"
-msgstr "Apskaičiuoti koeficientų buferių aibę GIMP narvo įrankiui"
+msgid "Compute a set of coefficient buffer for the Glimpse cage tool"
+msgstr "Apskaičiuoti koeficientų buferių aibę Glimpse narvo įrankiui"
 
 #: ../app/operations/gimpoperationcagetransform.c:106
 msgid ""
-"Convert a set of coefficient buffer to a coordinate buffer for the GIMP cage "
+"Convert a set of coefficient buffer to a coordinate buffer for the Glimpse cage "
 "tool"
 msgstr ""
-"Konvertuoti koeficientų buferių aibę į koordinačių buferį GIMP narvo įrankiui"
+"Konvertuoti koeficientų buferių aibę į koordinačių buferį Glimpse narvo įrankiui"
 
 #: ../app/operations/gimpoperationcagetransform.c:128
 msgid "Fill with plain color"
@@ -12003,9 +12003,9 @@ msgid ""
 "value"
 msgstr "Padaryti permatomumą visišką arba jokio pagal alfa kanalo slenkstį"
 
-#. TRANSLATORS: there is no need to translate this in GIMP. This uses
+#. TRANSLATORS: there is no need to translate this in Glimpse. This uses
 #. * "gtk20" domain as a special trick to determine language direction,
-#. * but xgettext extracts it anyway mistakenly into GIMP po files.
+#. * but xgettext extracts it anyway mistakenly into Glimpse po files.
 #. * Leave an empty string as translation. It does not matter.
 #.
 #: ../app/gui/gui.c:207
@@ -12018,8 +12018,8 @@ msgid "Documents"
 msgstr "Dokumentai"
 
 #: ../app/gui/splash.c:116
-msgid "GIMP Startup"
-msgstr "GIMP paleidimas"
+msgid "Glimpse Startup"
+msgstr "Glimpse paleidimas"
 
 #: ../app/paint/gimpairbrush.c:66 ../app/tools/gimpairbrushtool.c:55
 msgid "Airbrush"
@@ -12854,14 +12854,14 @@ msgid ""
 "Plug-in crashed: \"%s\"\n"
 "(%s)\n"
 "\n"
-"The dying plug-in may have messed up GIMP's internal state. You may want to "
-"save your images and restart GIMP to be on the safe side."
+"The dying plug-in may have messed up Glimpse's internal state. You may want to "
+"save your images and restart Glimpse to be on the safe side."
 msgstr ""
 "Įskiepis nulūžo: „%s“\n"
 "(%s)\n"
 "\n"
-"Lūžtantis įskiepis galėjo sutrikdyti vidinę GIMP būseną. Dėl viso pikto "
-"galite įrašyti paveikslėlius ir paleisti GIMP iš naujo."
+"Lūžtantis įskiepis galėjo sutrikdyti vidinę Glimpse būseną. Dėl viso pikto "
+"galite įrašyti paveikslėlius ir paleisti Glimpse iš naujo."
 
 #: ../app/plug-in/gimppluginmanager.c:297
 msgid "Plug-In Interpreters"
@@ -12959,12 +12959,12 @@ msgstr "Nėra įskiepio (%s)"
 
 #: ../app/plug-in/plug-in-rc.c:227
 #, c-format
-msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "Praleidžiama „%s“: neteisinga GIMP protokolo versija."
+msgid "Skipping '%s': wrong Glimpse protocol version."
+msgstr "Praleidžiama „%s“: neteisinga Glimpse protokolo versija."
 
 #: ../app/plug-in/plug-in-rc.c:234
 #, c-format
-#| msgid "Skipping '%s': wrong GIMP protocol version."
+#| msgid "Skipping '%s': wrong Glimpse protocol version."
 msgid "Skipping '%s': wrong pluginrc file format version."
 msgstr "Praleidžiama „%s“: neteisinga pluginrc failo formato versija."
 
@@ -15324,8 +15324,8 @@ msgstr ""
 "tekstinių požymių."
 
 #: ../app/tools/gimptexttool-editor.c:1199
-msgid "GIMP Text Editor"
-msgstr "GIMP teksto rengyklė"
+msgid "Glimpse Text Editor"
+msgstr "Glimpse teksto rengyklė"
 
 #: ../app/tools/gimpthresholdtool.c:89
 msgid "Threshold Tool: Reduce image to two colors using a threshold"
@@ -16698,7 +16698,7 @@ msgid "Messages are redirected to stderr."
 msgstr "Pranešimai yra nukreipiami į stderr."
 
 #. %s is a message domain,
-#. * like "GIMP Message" or
+#. * like "Glimpse Message" or
 #. * "PNG Message"
 #.
 #: ../app/widgets/gimperrordialog.c:175
@@ -16868,12 +16868,12 @@ msgid "Help browser is missing"
 msgstr "Nėra žinyno naršyklės"
 
 #: ../app/widgets/gimphelp.c:295
-msgid "The GIMP help browser is not available."
+msgid "The Glimpse help browser is not available."
 msgstr "GIMP žinyno naršyklė neprieinama."
 
 #: ../app/widgets/gimphelp.c:296
 msgid ""
-"The GIMP help browser plug-in appears to be missing from your installation. "
+"The Glimpse help browser plug-in appears to be missing from your installation. "
 "You may instead use the web browser for reading the help pages."
 msgstr ""
 "Atrodo, kad pas neturite įdiegę GIMP žinyno naršyklės įskiepio. Vietoje to "
@@ -16884,7 +16884,7 @@ msgid "Help browser doesn't start"
 msgstr "Nepavyksta paleisti žinyno naršyklės"
 
 #: ../app/widgets/gimphelp.c:343
-msgid "Could not start the GIMP help browser plug-in."
+msgid "Could not start the Glimpse help browser plug-in."
 msgstr "Nepavyko paleisti GIMP žinyno naršyklės įskiepio."
 
 #: ../app/widgets/gimphelp.c:370
@@ -16892,16 +16892,16 @@ msgid "Use _Web Browser"
 msgstr "Naudoti _žiniatinklio naršyklę"
 
 #: ../app/widgets/gimphelp.c:620
-msgid "GIMP user manual is missing"
-msgstr "Nėra GIMP naudotojo žinyno"
+msgid "Glimpse user manual is missing"
+msgstr "Nėra Glimpse naudotojo žinyno"
 
 #: ../app/widgets/gimphelp.c:627
 msgid "_Read Online"
 msgstr "_Skaityti internete"
 
 #: ../app/widgets/gimphelp.c:651
-msgid "The GIMP user manual is not installed on your computer."
-msgstr "GIMP naudotojo žinynas jūsų kompiuteryje neįdiegtas."
+msgid "The Glimpse user manual is not installed on your computer."
+msgstr "Glimpse naudotojo žinynas jūsų kompiuteryje neįdiegtas."
 
 #: ../app/widgets/gimphelp.c:654
 msgid ""
@@ -17496,7 +17496,7 @@ msgid "%s Preset"
 msgstr "%s parinkčių šablonas"
 
 #: ../app/widgets/gimpuimanager.c:741
-msgid "Your GIMP installation is incomplete:"
+msgid "Your Glimpse installation is incomplete:"
 msgstr "GIMP įdiegta nepilnai:"
 
 #: ../app/widgets/gimpuimanager.c:743
@@ -17672,8 +17672,8 @@ msgid "Undefined"
 msgstr "Neapibrėžta"
 
 #: ../app/xcf/xcf.c:103 ../app/xcf/xcf.c:174
-msgid "GIMP XCF image"
-msgstr "GIMP XCF paveikslėlis"
+msgid "Glimpse XCF image"
+msgstr "Glimpse XCF paveikslėlis"
 
 #: ../app/xcf/xcf.c:282
 #, c-format

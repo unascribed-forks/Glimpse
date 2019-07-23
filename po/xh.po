@@ -1,12 +1,12 @@
 # Xhosa translation of gimp
 # Copyright (C) 2005 Canonical Ltd.
-# This file is distributed under the same license as the gimp package.
+# This file is distributed under the same license as the Glimpse package.
 # Translation by Canonical Ltd <translations@canonical.com> with thanks to
 # Translation World CC in South Africa, 2005.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gimp part1\n"
+"Project-Id-Version: Glimpse part1\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2012-05-06 03:28+0200\n"
 "PO-Revision-Date: 2005-03-22 16:29+0200\n"
@@ -39,7 +39,7 @@ msgstr "I-GIMP"
 #, fuzzy, c-format
 msgid ""
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the GIMP Development Team"
+"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 msgstr ""
 "<b>I- GIMP - GNU iNkqubo yokuSebenzisa uMfanekiso</b>\n"
 "Amalungelo omqulunqi © 1995-%s\n"
@@ -47,12 +47,12 @@ msgstr ""
 
 #: ../app/about.h:34
 msgid ""
-"GIMP is free software: you can redistribute it and/or modify it under the "
+"Glimpse is free software: you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 3 of the License, or (at your option) any later "
 "version.\n"
 "\n"
-"GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details.\n"
@@ -98,7 +98,7 @@ msgid "Be more verbose"
 msgstr ""
 
 #: ../app/main.c:163
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse instance"
 msgstr ""
 
 #: ../app/main.c:168
@@ -130,10 +130,10 @@ msgstr "  -s, --no-splash          Musa ukuyiveza ifestile yokuvula.\n"
 
 #: ../app/main.c:193
 #, fuzzy
-msgid "Do not use shared memory between GIMP and plugins"
+msgid "Do not use shared memory between Glimpse and plugins"
 msgstr ""
 "  --no-shm                 Ungasebenzisi uvimba wolwazi ekwabelwana ngawo "
-"phakathi kwe-GIMP kunye nezingeniso.\n"
+"phakathi kwe-Glimpse kunye nezingeniso.\n"
 
 #: ../app/main.c:198
 #, fuzzy
@@ -212,19 +212,19 @@ msgstr ""
 
 #: ../app/main.c:405
 msgid ""
-"GIMP could not initialize the graphical user interface.\n"
+"Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
-"I-GIMP ayikwazi ukuqala unxulumano nomsebenzisi oluzotyiweyo.\n"
+"I-Glimpse ayikwazi ukuqala unxulumano nomsebenzisi oluzotyiweyo.\n"
 "Qinisekisa ukuba umiselo lwenkqubo olululo lwemekho yakho yokubonakalisa "
 "lukho."
 
 #: ../app/main.c:424
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse instance is already running."
 msgstr ""
 
 #: ../app/main.c:494
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr ""
 
 #: ../app/main.c:495
@@ -233,7 +233,7 @@ msgid "(Type any character to close this window)\n"
 msgstr ""
 
 #: ../app/main.c:512
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr ""
 
 #: ../app/sanity.c:433
@@ -251,14 +251,14 @@ msgstr ""
 #: ../app/sanity.c:452
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"Igama lovimba weefayili onomiselo lomsebenzisi we-GIMP alinako ukuguqulwa "
+"Igama lovimba weefayili onomiselo lomsebenzisi we-Glimpse alinako ukuguqulwa "
 "liye kwi-UTF-8: %s\n"
 "\n"
 "Kunokwenzeka ukuba inkqubo yakho yeefayile igcina iifayili kunxulumaniso "
@@ -281,7 +281,7 @@ msgstr "Uhlobo lwe-GIMP"
 msgid "Brush Editor"
 msgstr "Umhleli weBhrashi"
 
-#. initialize the list of gimp brushes
+#. initialize the list of Glimpse brushes
 #: ../app/actions/actions.c:113 ../app/core/gimp.c:951
 #: ../app/dialogs/dialogs.c:319 ../app/dialogs/preferences-dialog.c:2740
 msgid "Brushes"
@@ -379,7 +379,7 @@ msgstr "Iifonti"
 msgid "Gradient Editor"
 msgstr "Umhleli Wothambeko"
 
-#. initialize the list of gimp gradients
+#. initialize the list of Glimpse gradients
 #: ../app/actions/actions.c:176 ../app/core/gimp.c:971
 #: ../app/dialogs/dialogs.c:323 ../app/dialogs/preferences-dialog.c:2756
 msgid "Gradients"
@@ -419,13 +419,13 @@ msgstr "Imaleko"
 msgid "Palette Editor"
 msgstr "Umhleli Wengqokelela Yezixhobo"
 
-#. initialize the list of gimp palettes
+#. initialize the list of Glimpse palettes
 #: ../app/actions/actions.c:200 ../app/core/gimp.c:966
 #: ../app/dialogs/dialogs.c:325 ../app/dialogs/preferences-dialog.c:2752
 msgid "Palettes"
 msgstr "Iingqokelela zezixhobo"
 
-#. initialize the list of gimp patterns
+#. initialize the list of Glimpse patterns
 #: ../app/actions/actions.c:203 ../app/core/gimp.c:961
 #: ../app/dialogs/dialogs.c:321 ../app/dialogs/preferences-dialog.c:2748
 msgid "Patterns"
@@ -1512,7 +1512,7 @@ msgstr "_Icebiso Losuku"
 
 #: ../app/actions/dialogs-actions.c:259
 msgctxt "dialogs-action"
-msgid "Show some helpful tips on using GIMP"
+msgid "Show some helpful tips on using Glimpse"
 msgstr ""
 
 #: ../app/actions/dialogs-actions.c:264
@@ -1524,7 +1524,7 @@ msgstr "_Malunga"
 #: ../app/actions/dialogs-actions.c:265
 #, fuzzy
 msgctxt "dialogs-action"
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "Malunga ne-GIMP"
 
 #: ../app/actions/dialogs-actions.c:328
@@ -2636,7 +2636,7 @@ msgstr "_Phuma"
 
 #: ../app/actions/file-actions.c:113
 msgctxt "file-action"
-msgid "Quit the GNU Image Manipulation Program"
+msgid "Quit Glimpse"
 msgstr ""
 
 #: ../app/actions/file-actions.c:121
@@ -3391,7 +3391,7 @@ msgstr "_Uncedo"
 
 #: ../app/actions/help-actions.c:41
 msgctxt "help-action"
-msgid "Open the GIMP user manual"
+msgid "Open the Glimpse user manual"
 msgstr ""
 
 #: ../app/actions/help-actions.c:46
@@ -6608,21 +6608,21 @@ msgstr ""
 #: ../app/actions/windows-actions.c:125
 #, fuzzy
 msgctxt "windows-action"
-msgid "When enabled GIMP is in a single-window mode."
-msgstr "Xa yenziwe ukuba isebenze, i-GIMP iya kubonisa iinkumbulo kwiimenyu."
+msgid "When enabled Glimpse is in a single-window mode."
+msgstr "Xa yenziwe ukuba isebenze, i-Glimpse iya kubonisa iinkumbulo kwiimenyu."
 
 #: ../app/base/tile-swap.c:711
 #, fuzzy
 msgid ""
-"Unable to open swap file. GIMP has run out of memory and cannot use the swap "
+"Unable to open swap file. Glimpse has run out of memory and cannot use the swap "
 "file. Some parts of your images may be corrupted. Try to save your work "
-"using different filenames, restart GIMP and check the location of the swap "
+"using different filenames, restart Glimpse and check the location of the swap "
 "directory in your Preferences."
 msgstr ""
-"Ayikwazi ukuvula ifayili yotshintshiselwano. I-Gimp iphelelwe nguvimba "
+"Ayikwazi ukuvula ifayili yotshintshiselwano. I-Glimpse iphelelwe nguvimba "
 "wolwazi ngoko ke ayikwazi ukusebenzisa ifayili yotshintshiselwano. Amanye "
 "amalungu emifanekiso yakho anokuba onakele. Zama ukugcina umsebenzi wakho "
-"usebenzisa amagama eefayili awohlukeneyo, phinda uqale ngokutsha i-Gimp uze "
+"usebenzisa amagama eefayili awohlukeneyo, phinda uqale ngokutsha i-Glimpse uze "
 "ukhangele indawo kavimba wotshintshiselwano Kokuthethekayo kwakho."
 
 #: ../app/base/tile-swap.c:726
@@ -6703,7 +6703,7 @@ msgstr "Amagqabantsintsi"
 #: ../app/config/config-enums.c:147
 #, fuzzy
 msgctxt "help-browser-type"
-msgid "GIMP help browser"
+msgid "Glimpse help browser"
 msgstr "Isikhangeli soncedo se-GIMP"
 
 #: ../app/config/config-enums.c:148
@@ -6958,10 +6958,10 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:221
 msgid ""
-"GIMP will warn the user if an attempt is made to create an image that would "
+"Glimpse will warn the user if an attempt is made to create an image that would "
 "take more memory than the size specified here."
 msgstr ""
-"I-GIMP iya kumlumkisa umsebenzisi ukuba kwenziwe inzame yokwakha umfanekiso "
+"I-Glimpse iya kumlumkisa umsebenzisi ukuba kwenziwe inzame yokwakha umfanekiso "
 "onokuthi uthathe uvimba wolwazi omkhulu kunobo bungakanani buchazwe apha."
 
 #: ../app/config/gimprc-blurbs.h:231
@@ -7004,7 +7004,7 @@ msgstr ""
 "esemazantsi ngasekunene kwifestile yomfanekiso."
 
 #: ../app/config/gimprc-blurbs.h:249
-msgid "Sets how many processors GIMP should try to use simultaneously."
+msgid "Sets how many processors Glimpse should try to use simultaneously."
 msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:262
@@ -7024,11 +7024,11 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:278
 msgid ""
-"Sets whether GIMP should create previews of layers and channels. Previews in "
+"Sets whether Glimpse should create previews of layers and channels. Previews in "
 "the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
-"Imisela ukuba ngaba i-GIMP imele yakhe okukuqale ujonge imaleko kunye "
+"Imisela ukuba ngaba i-Glimpse imele yakhe okukuqale ujonge imaleko kunye "
 "neziqhagamshelini na. Unxibelelwano lokokuqale ujonge imaleko "
 "neziqhagamshelanisi yinto ekumnandi ukuba nayo kodwa inokwenza izinto "
 "zihambe kancinci xa usebenza ngemifanekiso emikhulu."
@@ -7066,14 +7066,14 @@ msgstr ""
 "imifanekiso."
 
 #: ../app/config/gimprc-blurbs.h:298
-msgid "Let GIMP try to restore your last saved session on each startup."
+msgid "Let Glimpse try to restore your last saved session on each startup."
 msgstr ""
-"Vumela i-GIMP izame ukubuyisela iseshoni yakho yokugqibela egciniweyo ngalo "
+"Vumela i-Glimpse izame ukubuyisela iseshoni yakho yokugqibela egciniweyo ngalo "
 "lonke ixesha ivula."
 
 #: ../app/config/gimprc-blurbs.h:301
 msgid ""
-"Remember the current tool, pattern, color, and brush across GIMP sessions."
+"Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
 "Khumbula isixhobo, ipateni, umbala, kunye nebrashi esebenza ngoku kuzo zonke "
 "iiseshoni ze-GIMP."
@@ -7086,14 +7086,14 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:309
 #, fuzzy
-msgid "Save the positions and sizes of the main dialogs when GIMP exits."
+msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
-"Gcina iindawo nobungakanani bonxibelelwano olungundoqo xa i-GIMP iphuma."
+"Gcina iindawo nobungakanani bonxibelelwano olungundoqo xa i-Glimpse iphuma."
 
 #: ../app/config/gimprc-blurbs.h:312
 #, fuzzy
-msgid "Save the tool options when GIMP exits."
-msgstr "Gcina izinqumlisi ze-keyboard ezitshintshiweyo xa i-GIMP iphuma."
+msgid "Save the tool options when Glimpse exits."
+msgstr "Gcina izinqumlisi ze-keyboard ezitshintshiweyo xa i-Glimpse iphuma."
 
 #: ../app/config/gimprc-blurbs.h:318
 msgid ""
@@ -7202,7 +7202,7 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:370
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:373
@@ -7216,18 +7216,18 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:379
 #, fuzzy
 msgid ""
-"Sets the swap file location. GIMP uses a tile based memory allocation "
+"Sets the swap file location. Glimpse uses a tile based memory allocation "
 "scheme. The swap file is used to quickly and easily swap tiles out to disk "
-"and back in. Be aware that the swap file can easily get very large if GIMP "
+"and back in. Be aware that the swap file can easily get very large if Glimpse "
 "is used with large images. Also, things can get horribly slow if the swap "
 "file is created on a folder that is mounted over NFS.  For these reasons, it "
 "may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
-"Imisela indawo yefayili yotshintshiselwano. I-gimp isebenzisa uyilo lolwabo "
+"Imisela indawo yefayili yotshintshiselwano. I-Glimpse isebenzisa uyilo lolwabo "
 "lwethayili esekelwe kuvimba wolwazi. Ifayili yotshintshiselwano isetyenziswa "
 "ukutshintshiselana ngeefayili ukuphuma nokungena kwidiski ngokukhawuleza "
 "nangokulula. Yiqaphele into yokuba ifayili yotshintshiselwano inokuba nkulu "
-"kakhulu ngokulula ukuba ngaba i-GIMP isetyenziswa nemifanekiso emikhulu. "
+"kakhulu ngokulula ukuba ngaba i-Glimpse isetyenziswa nemifanekiso emikhulu. "
 "Kananjalo, izinto zinokucotha ngohlobo olugqithisileyo ukuba ngaba ifayili "
 "yotshintshiselwano yakhiwe kuvimba weefayili omiswe phezu kwe-NFS. Ngezi "
 "zizathu ke, ingafuneka into yokuba ubeke ifayili yakho yotshintshiselwano "
@@ -7248,11 +7248,11 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:395
 #, fuzzy
-msgid "Save changed keyboard shortcuts when GIMP exits."
-msgstr "Gcina izinqumlisi ze-keyboard ezitshintshiweyo xa i-GIMP iphuma."
+msgid "Save changed keyboard shortcuts when Glimpse exits."
+msgstr "Gcina izinqumlisi ze-keyboard ezitshintshiweyo xa i-Glimpse iphuma."
 
 #: ../app/config/gimprc-blurbs.h:398
-msgid "Restore saved keyboard shortcuts on each GIMP startup."
+msgid "Restore saved keyboard shortcuts on each Glimpse startup."
 msgstr ""
 "Buyisela izinqumlisi ze-keyboard ezigciniweyo ngalo lonke ixesha i-GIMP "
 "ivula."
@@ -7261,13 +7261,13 @@ msgstr ""
 #, fuzzy
 msgid ""
 "Sets the folder for temporary storage. Files will appear here during the "
-"course of running GIMP.  Most files will disappear when GIMP exits, but some "
+"course of running Glimpse.  Most files will disappear when Glimpse exits, but some "
 "files are likely to remain, so it is best if this folder not be one that is "
 "shared by other users."
 msgstr ""
 "Imisela uvimba wefayili wokugcina wethutyana. Iifayili ziza kuvela apha "
-"ngalo lonke ixesha i-GIMP isebenza. Iifayili ezininzi ziya kuthi shwaka xa i-"
-"GIMP iphuma, kodwa ezinye zinokusala, ngoko ke kungangcono kakhulu xa lo "
+"ngalo lonke ixesha i-Glimpse isebenza. Iifayili ezininzi ziya kuthi shwaka xa i-"
+"Glimpse iphuma, kodwa ezinye zinokusala, ngoko ke kungangcono kakhulu xa lo "
 "vimba weefayili ingenakuba ngulowo kwabelwana ngaye nabanye abasebenzisi."
 
 #: ../app/config/gimprc-blurbs.h:413
@@ -7286,7 +7286,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:420
 msgid ""
-"When the amount of pixel data exceeds this limit, GIMP will start to swap "
+"When the amount of pixel data exceeds this limit, Glimpse will start to swap "
 "tiles to disk.  This is a lot slower but it makes it possible to work on "
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
@@ -7319,10 +7319,10 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:444
 #, fuzzy
 msgid ""
-"When enabled, GIMP will not save an image if it has not been changed since "
+"When enabled, Glimpse will not save an image if it has not been changed since "
 "it was opened."
 msgstr ""
-"Xa yenziwe ukuba isebenze, i-GIMP ayiyi kugcina ukuba akukho nto "
+"Xa yenziwe ukuba isebenze, i-Glimpse ayiyi kugcina ukuba akukho nto "
 "itshintshileyo kumfanekiso ukusukela ngexesha lokuwuvula."
 
 #: ../app/config/gimprc-blurbs.h:448
@@ -8559,7 +8559,7 @@ msgstr "Iziqulathi zefayili zeBhrashi"
 
 #: ../app/core/gimpbrushgenerated-load.c:85
 #, c-format
-msgid "Fatal parse error in brush file '%s': Not a GIMP brush file."
+msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 msgstr ""
 "Impazamo eyingozi kulwahlulo ngezijungqu kwifayili yebrashi '%s': Ayiyiyo "
 "ifayili yebrashi ye-GIMP."
@@ -8567,10 +8567,10 @@ msgstr ""
 #: ../app/core/gimpbrushgenerated-load.c:102
 #, fuzzy, c-format
 msgid ""
-"Fatal parse error in brush file '%s': Unknown GIMP brush version in line %d."
+"Fatal parse error in brush file '%s': Unknown Glimpse brush version in line %d."
 msgstr ""
 "Impazamo eyingozi kulwahlulo ngezijungqu kwifayili yebrashi '%s': Uhlobo "
-"lwebrashi ye-GIMP olungaziwayo."
+"lwebrashi ye-Glimpse olungaziwayo."
 
 #: ../app/core/gimpbrushgenerated-load.c:126 ../app/core/gimpbrush-load.c:278
 #: ../app/core/gimpbrushpipe-load.c:95
@@ -8581,10 +8581,10 @@ msgstr "Uluhlu lwamagama lwe-UTF-8 olungasebenziyo kwifayili yamagama '%s'."
 #: ../app/core/gimpbrushgenerated-load.c:148
 #, fuzzy, c-format
 msgid ""
-"Fatal parse error in brush file '%s': Unknown GIMP brush shape in line %d."
+"Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line %d."
 msgstr ""
 "Impazamo eyingozi kulwahlulo ngezijungqu kwifayili yebrashi '%s': Imilo "
-"yebrashi ye-GIMP engaziwayo."
+"yebrashi ye-Glimpse engaziwayo."
 
 #: ../app/core/gimpbrushgenerated-load.c:224
 #, fuzzy, c-format
@@ -8661,11 +8661,11 @@ msgstr "Engenagama"
 #, c-format
 msgid ""
 "Fatal parse error in brush file '%s': Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr ""
 "Impazamo eyingozi yolwahlulo ngezijungqu kwifayili yebrashi '%s': Ubunzulu "
 "bebrashi obungenankxaso %d\n"
-"Iibrashi ze-GIMP mazibe NGWEVU okanye RGBA."
+"Iibrashi ze-Glimpse mazibe NGWEVU okanye RGBA."
 
 #: ../app/core/gimpbrush-load.c:452
 #, fuzzy, c-format
@@ -8709,7 +8709,7 @@ msgstr "Ikhangela iifayili zedata"
 msgid "Parasites"
 msgstr "Izidleleleli"
 
-#. initialize the list of gimp dynamics
+#. initialize the list of Glimpse dynamics
 #: ../app/core/gimp.c:956 ../app/dialogs/preferences-dialog.c:2744
 #: ../app/tools/gimppaintoptions-gui.c:204
 msgid "Dynamics"
@@ -9160,7 +9160,7 @@ msgstr ""
 
 #: ../app/core/gimpgradient-load.c:83
 #, c-format
-msgid "Fatal parse error in gradient file '%s': Not a GIMP gradient file."
+msgid "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 msgstr ""
 "Impazamo eyingozi kulwahlulo ngezijungqu kwifayili yothambeko '%s': Ayiyiyo "
 "ifayili yothambeko ye-GIMP."
@@ -9990,11 +9990,11 @@ msgstr ""
 #, c-format
 msgid ""
 "Fatal parse error in pattern file '%s: Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"Glimpse Patterns must be GRAY or RGB."
 msgstr ""
 "Impazamo eyingozi yolwahlulo ngezijungqu kwifayili yepateni '%s': Ubunzulu "
 "obungenankxaso bepateni %d.\n"
-"Iipateni ze-GIMP kumele zibeNGWEVU okanye RGB."
+"Iipateni ze-Glimpse kumele zibeNGWEVU okanye RGB."
 
 #: ../app/core/gimppattern-load.c:144
 #, c-format
@@ -10202,14 +10202,14 @@ msgstr "ipesenti"
 #: ../app/core/gimp-user-install.c:160
 #, c-format
 msgid ""
-"It seems you have used GIMP %s before.  GIMP will now migrate your user "
+"It seems you have used Glimpse %s before.  Glimpse will now migrate your user "
 "settings to '%s'."
 msgstr ""
 
 #: ../app/core/gimp-user-install.c:165
 #, c-format
 msgid ""
-"It appears that you are using GIMP for the first time.  GIMP will now create "
+"It appears that you are using Glimpse for the first time.  Glimpse will now create "
 "a folder named '%s' and copy some files to it."
 msgstr ""
 
@@ -10230,11 +10230,11 @@ msgstr "Ayikwazi ukudala isiqulathi seefayili '%s': %s"
 
 #: ../app/dialogs/about-dialog.c:115 ../app/gui/gui.c:493
 #, fuzzy
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "Malunga ne-GIMP"
 
 #: ../app/dialogs/about-dialog.c:124
-msgid "Visit the GIMP website"
+msgid "Visit the Glimpse website"
 msgstr ""
 
 #. Translators: insert your names here,
@@ -10385,7 +10385,7 @@ msgstr "Umbala we-FG/BG"
 
 #: ../app/dialogs/dialogs-constructors.c:203 ../app/gui/gui.c:161
 #: ../app/gui/gui-message.c:149
-msgid "GIMP Message"
+msgid "Glimpse Message"
 msgstr "Umyalezo we-GIMP"
 
 #: ../app/dialogs/fade-dialog.c:109
@@ -10441,12 +10441,12 @@ msgstr ""
 #: ../app/dialogs/file-save-dialog.c:558
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 
 #: ../app/dialogs/file-save-dialog.c:565
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export to "
 "export to other file formats."
 msgstr ""
 
@@ -10729,9 +10729,9 @@ msgstr "uMphathi weModyuli"
 
 #: ../app/dialogs/module-dialog.c:150
 #, fuzzy
-msgid "You will have to restart GIMP for the changes to take effect."
+msgid "You will have to restart Glimpse for the changes to take effect."
 msgstr ""
-"Kuyakufuneka uyivule kwakhona i-GIMP ukuze utshintsho olulandelayo lwsenzeke:"
+"Kuyakufuneka uyivule kwakhona i-Glimpse ukuze utshintsho olulandelayo lwsenzeke:"
 
 #: ../app/dialogs/module-dialog.c:191
 #, fuzzy
@@ -10911,14 +10911,14 @@ msgstr ""
 "amiliselweyo?"
 
 #: ../app/dialogs/preferences-dialog.c:355
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid "You will have to restart Glimpse for the following changes to take effect:"
 msgstr ""
-"Kuyakufuneka uyivule kwakhona i-GIMP ukuze utshintsho olulandelayo lwsenzeke:"
+"Kuyakufuneka uyivule kwakhona i-Glimpse ukuze utshintsho olulandelayo lwsenzeke:"
 
 #: ../app/dialogs/preferences-dialog.c:537
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "Izinqumlisi zakho ze-keyboard ziyakuvula kwakhona ungazikhuphanga kumbane "
 "kumaxabiso okumiselwa kwixesha elizayo uqala i-GIMP."
@@ -10946,7 +10946,7 @@ msgstr ""
 #: ../app/dialogs/preferences-dialog.c:646
 msgid ""
 "Your input device settings will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "Imimiselo yakho yesixhobo solwazi olungenisiweyo iyakuvula kwakhona "
 "unyayikhuphanga kumbane kumaxabiso okumiselwa kwixa elizayo uqala i-GIMP."
@@ -11811,7 +11811,7 @@ msgstr "ii-pixel/%a"
 
 #: ../app/dialogs/quit-dialog.c:105
 #, fuzzy
-msgid "Quit GIMP"
+msgid "Quit Glimpse"
 msgstr "Phuma kwi-GIMP"
 
 #: ../app/dialogs/quit-dialog.c:105
@@ -11820,8 +11820,8 @@ msgid "Close All Images"
 msgstr "Imifanekiso"
 
 #: ../app/dialogs/quit-dialog.c:164
-msgid "If you quit GIMP now, these changes will be lost."
-msgstr "Ukuba ngaba uyaphuma kwi-GIMP ngoku, olu tshintsho luya kulahleka."
+msgid "If you quit Glimpse now, these changes will be lost."
+msgstr "Ukuba ngaba uyaphuma kwi-Glimpse ngoku, olu tshintsho luya kulahleka."
 
 #: ../app/dialogs/quit-dialog.c:167
 #, fuzzy
@@ -11908,13 +11908,13 @@ msgstr ""
 
 #: ../app/dialogs/tips-dialog.c:88
 #, fuzzy
-msgid "The GIMP tips file is empty!"
-msgstr "<b>Ifayili yamacebo ye-GIMP khange yahluleke ngokwezijungqe!</b>"
+msgid "The Glimpse tips file is empty!"
+msgstr "<b>Ifayili yamacebo ye-Glimpse khange yahluleke ngokwezijungqe!</b>"
 
 #: ../app/dialogs/tips-dialog.c:92
 #, fuzzy
-msgid "The GIMP tips file appears to be missing!"
-msgstr "<b>Kubonakala ngathi ifayili yakho yamacebo ye-GIMP ilahlekile!</b>"
+msgid "The Glimpse tips file appears to be missing!"
+msgstr "<b>Kubonakala ngathi ifayili yakho yamacebo ye-Glimpse ilahlekile!</b>"
 
 #: ../app/dialogs/tips-dialog.c:94
 #, c-format
@@ -11925,11 +11925,11 @@ msgstr ""
 
 #: ../app/dialogs/tips-dialog.c:100
 #, fuzzy
-msgid "The GIMP tips file could not be parsed!"
-msgstr "<b>Ifayili yamacebo ye-GIMP khange yahluleke ngokwezijungqe!</b>"
+msgid "The Glimpse tips file could not be parsed!"
+msgstr "<b>Ifayili yamacebo ye-Glimpse khange yahluleke ngokwezijungqe!</b>"
 
 #: ../app/dialogs/tips-dialog.c:128
-msgid "GIMP Tip of the Day"
+msgid "Glimpse Tip of the Day"
 msgstr "Icebo loSuku lwe-GIMP"
 
 #: ../app/dialogs/tips-dialog.c:134
@@ -11957,7 +11957,7 @@ msgid "tips-locale:C"
 msgstr "amacebo-bonisa:C"
 
 #: ../app/dialogs/user-install-dialog.c:84
-msgid "GIMP User Installation"
+msgid "Glimpse User Installation"
 msgstr "Useko ziXhobo loMsebenzisi we-GIMP"
 
 #: ../app/dialogs/user-install-dialog.c:93
@@ -11966,7 +11966,7 @@ msgid "User installation failed!"
 msgstr "Useko zixhobo lwengxelo yokwenzekileyo yomsebenzisi"
 
 #: ../app/dialogs/user-install-dialog.c:95
-msgid "The GIMP user installation failed; see the log for details."
+msgid "The Glimpse user installation failed; see the log for details."
 msgstr ""
 
 #: ../app/dialogs/user-install-dialog.c:98
@@ -12426,7 +12426,7 @@ msgstr "inesalathisi"
 
 #: ../app/gegl/gimpcurvesconfig.c:449
 #, fuzzy
-msgid "not a GIMP Curves file"
+msgid "not a Glimpse Curves file"
 msgstr "Ayiyofayili eqhelekileyo"
 
 #: ../app/gegl/gimpcurvesconfig.c:464 ../app/gegl/gimplevelsconfig.c:786
@@ -12448,16 +12448,16 @@ msgstr "Yakha unxibelelwano olutsha lwalo mfanekiso"
 
 #: ../app/gegl/gimplevelsconfig.c:739
 #, fuzzy
-msgid "not a GIMP Levels file"
+msgid "not a Glimpse Levels file"
 msgstr "Ayiyofayili eqhelekileyo"
 
 #: ../app/gegl/gimpoperationcagecoefcalc.c:68
-msgid "Compute a set of coefficient buffer for the GIMP cage tool"
+msgid "Compute a set of coefficient buffer for the Glimpse cage tool"
 msgstr ""
 
 #: ../app/gegl/gimpoperationcagetransform.c:106
 msgid ""
-"Convert a set of coefficient buffer to a coordinate buffer for the GIMP cage "
+"Convert a set of coefficient buffer to a coordinate buffer for the Glimpse cage "
 "tool"
 msgstr ""
 
@@ -12477,7 +12477,7 @@ msgid "Documents"
 msgstr "Amaxwebhu"
 
 #: ../app/gui/splash.c:116
-msgid "GIMP Startup"
+msgid "Glimpse Startup"
 msgstr "Ukuvula i-GIMP"
 
 #: ../app/paint/gimpairbrush.c:65 ../app/tools/gimpairbrushtool.c:55
@@ -13184,14 +13184,14 @@ msgid ""
 "Plug-in crashed: \"%s\"\n"
 "(%s)\n"
 "\n"
-"The dying plug-in may have messed up GIMP's internal state. You may want to "
-"save your images and restart GIMP to be on the safe side."
+"The dying plug-in may have messed up Glimpse's internal state. You may want to "
+"save your images and restart Glimpse to be on the safe side."
 msgstr ""
 "Ungeniso lonakele: \"%s\"\n"
 "(%s)\n"
 "\n"
 "Ungeniso olufayo mhlawumbi lonakalise ubume bangaphakathio be-GIMP. "
-"Unokufuna ukugcina imifanekiso yakho uze uphinde uqale i-GIMP ukuze ube "
+"Unokufuna ukugcina imifanekiso yakho uze uphinde uqale i-Glimpse ukuze ube "
 "secaleni elikhuselekileyo."
 
 #: ../app/plug-in/gimppluginmanager.c:296
@@ -13282,7 +13282,7 @@ msgstr ""
 
 #: ../app/plug-in/plug-in-rc.c:205
 #, c-format
-msgid "Skipping '%s': wrong GIMP protocol version."
+msgid "Skipping '%s': wrong Glimpse protocol version."
 msgstr "Ukutsiba '%s': uhlobo lweprotokoli olungachanekanga lwe-GIMP."
 
 #: ../app/plug-in/plug-in-rc.c:477
@@ -15653,7 +15653,7 @@ msgstr ""
 "zombhalo."
 
 #: ../app/tools/gimptexttool-editor.c:1172
-msgid "GIMP Text Editor"
+msgid "Glimpse Text Editor"
 msgstr "uMhleli woMbhalo we-GIMP"
 
 #: ../app/tools/gimpthresholdtool.c:88
@@ -17089,16 +17089,16 @@ msgstr "N_ceda isikhangeli ukusebenzisa:"
 
 #: ../app/widgets/gimphelp.c:295
 #, fuzzy
-msgid "The GIMP help browser is not available."
+msgid "The Glimpse help browser is not available."
 msgstr "Isikhangeli soncedo se-GIMP"
 
 #: ../app/widgets/gimphelp.c:296
 #, fuzzy
 msgid ""
-"The GIMP help browser plug-in appears to be missing from your installation. "
+"The Glimpse help browser plug-in appears to be missing from your installation. "
 "You may instead use the web browser for reading the help pages."
 msgstr ""
-"Ukufakwa kwesikhangeli soncedo se-GIMP kubonakala ngathi silahlekile kuseko-"
+"Ukufakwa kwesikhangeli soncedo se-Glimpse kubonakala ngathi silahlekile kuseko-"
 "zixhobo lwakho."
 
 #: ../app/widgets/gimphelp.c:342
@@ -17106,7 +17106,7 @@ msgid "Help browser doesn't start"
 msgstr "Isikhangeli soncedo asiqali"
 
 #: ../app/widgets/gimphelp.c:343
-msgid "Could not start the GIMP help browser plug-in."
+msgid "Could not start the Glimpse help browser plug-in."
 msgstr "Khange ikwazi ukuqala isikhangeli soncedo songeniso lwe-GIMP."
 
 #: ../app/widgets/gimphelp.c:370
@@ -17115,7 +17115,7 @@ msgid "Use _Web Browser"
 msgstr "Isikhangeli se-Web"
 
 #: ../app/widgets/gimphelp.c:620
-msgid "GIMP user manual is missing"
+msgid "Glimpse user manual is missing"
 msgstr ""
 
 #: ../app/widgets/gimphelp.c:627
@@ -17123,7 +17123,7 @@ msgid "_Read Online"
 msgstr ""
 
 #: ../app/widgets/gimphelp.c:651
-msgid "The GIMP user manual is not installed on your computer."
+msgid "The Glimpse user manual is not installed on your computer."
 msgstr ""
 
 #: ../app/widgets/gimphelp.c:654
@@ -17726,8 +17726,8 @@ msgid "English"
 msgstr ""
 
 #: ../app/widgets/gimpuimanager.c:742
-msgid "Your GIMP installation is incomplete:"
-msgstr "Ufako lwakho lwe-GIMP alugqitywanga:"
+msgid "Your Glimpse installation is incomplete:"
+msgstr "Ufako lwakho lwe-Glimpse alugqitywanga:"
 
 #: ../app/widgets/gimpuimanager.c:744
 #, fuzzy
@@ -17921,8 +17921,8 @@ msgid "Undefined"
 msgstr "Engachazwanga"
 
 #: ../app/xcf/xcf.c:100 ../app/xcf/xcf.c:168
-msgid "GIMP XCF image"
-msgstr "Umfanekiso we-GIMP XCF"
+msgid "Glimpse XCF image"
+msgstr "Umfanekiso we-Glimpse XCF"
 
 #: ../app/xcf/xcf.c:272
 #, fuzzy, c-format
@@ -18237,17 +18237,17 @@ msgstr ""
 #~ msgstr "(Le festile yenkxaso iza kuvala kwimizuzwana elishumi)\n"
 
 #~ msgid ""
-#~ "GIMP is not properly installed for the current user.\n"
+#~ "Glimpse is not properly installed for the current user.\n"
 #~ "User installation was skipped because the '--no-interface' flag was "
 #~ "used.\n"
-#~ "To perform user installation, run the GIMP without the '--no-interface' "
+#~ "To perform user installation, run the Glimpse without the '--no-interface' "
 #~ "flag."
 #~ msgstr ""
-#~ "Useko-zixhobo lwe-GIMP lomsebenzisi wangoku alwenzekanga ngendlela "
+#~ "Useko-zixhobo lwe-Glimpse lomsebenzisi wangoku alwenzekanga ngendlela "
 #~ "eyiyo.\n"
 #~ "Useko-zixhobo lomsebenzisi lwatsitywa kuba kwakusetyenziswe iflegi i-'--"
 #~ "no-interface'.\n"
-#~ "Ukwenza useko-zixhobo lomsebenzisi, sebenzisa i-GIMP ngaphandle kweflegi "
+#~ "Ukwenza useko-zixhobo lomsebenzisi, sebenzisa i-Glimpse ngaphandle kweflegi "
 #~ "i-'--no-interface'."
 
 #~ msgid "The GIMP"
@@ -18495,32 +18495,32 @@ msgstr ""
 #~ msgstr "Ukwahlula ngezijungqu '%s'\n"
 
 #~ msgid ""
-#~ "When enabled, the GIMP will use a different info window per image view."
+#~ "When enabled, the Glimpse will use a different info window per image view."
 #~ msgstr ""
-#~ "Xa yenziwe ukuba isebenze, i-GIMP iya kusebenzisa ifestile yolwazi "
+#~ "Xa yenziwe ukuba isebenze, i-Glimpse iya kusebenzisa ifestile yolwazi "
 #~ "eyahlukileyo kubuko lomfanekiso ngalunye."
 
 #~ msgid ""
-#~ "On multiprocessor machines, if GIMP has been compiled with --enable-mp "
-#~ "this sets how many processors GIMP should use simultaneously."
+#~ "On multiprocessor machines, if Glimpse has been compiled with --enable-mp "
+#~ "this sets how many processors Glimpse should use simultaneously."
 #~ msgstr ""
-#~ "Kwiimatshini ezenza izinto ezininzi, ukuba ngaba i-GIMP iqulunywe kunye "
+#~ "Kwiimatshini ezenza izinto ezininzi, ukuba ngaba i-Glimpse iqulunywe kunye "
 #~ "ne--enable-mp oku kumisela ubuninzi bezinto ezinokusetyenziswa yi-GIMP "
 #~ "ngaxesha linye."
 
-#~ msgid "Enable to display a handy GIMP tip on startup."
-#~ msgstr "Yenza ukuba icebiso eliluncedo lwe-GIMP livele xa kuvulwa."
+#~ msgid "Enable to display a handy Glimpse tip on startup."
+#~ msgstr "Yenza ukuba icebiso eliluncedo lwe-Glimpse livele xa kuvulwa."
 
 #~ msgid "Enable to display tooltips."
 #~ msgstr "Yenza ukuba amacebiso ngezixhobo avele."
 
 #~ msgid ""
 #~ "There is always a tradeoff between memory usage and speed.  In most "
-#~ "cases, the GIMP opts for speed over memory.  However, if memory is a big "
+#~ "cases, the Glimpse opts for speed over memory.  However, if memory is a big "
 #~ "issue, try to enable this setting."
 #~ msgstr ""
 #~ "Kusoloko kukho utshintshiselwano phakathi kosetyenziso lovimba wolwazi "
-#~ "kunye nesantya. Amaxesha amaninzi, i-GIMP ikhetha isantya ngaphezu "
+#~ "kunye nesantya. Amaxesha amaninzi, i-Glimpse ikhetha isantya ngaphezu "
 #~ "kovimba wolwazi. Nangona kunjalo, ukuba ngaba uvimba wolwazi ungumba "
 #~ "omkhulu, zama ukuba wenze lo mmiselo usebenze."
 
@@ -18529,22 +18529,22 @@ msgstr ""
 #~ "can not create thumbnails if layer previews are disabled."
 #~ msgstr ""
 #~ "Imisela ubungakanani botyhilo olukhawulezayo obuboniswe kunxibelelwano "
-#~ "oluVuliweyo. Qaphela ukuba i-GIMP ayinako ukwakha utyhilo olukhawulezayo "
+#~ "oluVuliweyo. Qaphela ukuba i-Glimpse ayinako ukwakha utyhilo olukhawulezayo "
 #~ "ukuba okokuqale ujonge umaleko kwenziwe ukuba kungasebenzi."
 
 #~ msgid ""
-#~ "The tile cache is used to make sure the GIMP doesn't thrash tiles between "
-#~ "memory and disk. Setting this value higher will cause the GIMP to use "
-#~ "less swap space, but will also cause the GIMP to use more memory. "
-#~ "Conversely, a smaller cache size causes the GIMP to use more swap space "
+#~ "The tile cache is used to make sure the Glimpse doesn't thrash tiles between "
+#~ "memory and disk. Setting this value higher will cause the Glimpse to use "
+#~ "less swap space, but will also cause the Glimpse to use more memory. "
+#~ "Conversely, a smaller cache size causes the Glimpse to use more swap space "
 #~ "and less memory."
 #~ msgstr ""
-#~ "Ithayili ye-cache isetyenziswa ukuqinisekisa ukuba i-GIMP ayizibethi "
+#~ "Ithayili ye-cache isetyenziswa ukuqinisekisa ukuba i-Glimpse ayizibethi "
 #~ "iithayili phakathi kovimba wolwazi kunye nediski. Ukumisela eli xabiso "
-#~ "phezulu kuya kwenza ukuba i-GIMP isebenzise isithuba sotshintshiselwano "
-#~ "esincinci, kanti ke kananjalo kuya kwenza ukuba i-GIMP isebenzisa uvimba "
+#~ "phezulu kuya kwenza ukuba i-Glimpse isebenzise isithuba sotshintshiselwano "
+#~ "esincinci, kanti ke kananjalo kuya kwenza ukuba i-Glimpse isebenzisa uvimba "
 #~ "wolwazi omkhulu. Ngokuphikisana noku, i-cache enobungakanani obuncinci "
-#~ "yenza i-GIMP isebenzise isithuba sotshintshiselwano esikhulu kunye "
+#~ "yenza i-Glimpse isebenzise isithuba sotshintshiselwano esikhulu kunye "
 #~ "novimba wolwazi omncinci."
 
 #~ msgid ""
@@ -18780,11 +18780,11 @@ msgstr ""
 #~ msgid "There are %d images with unsaved changes:"
 #~ msgstr "Kukho %d imifanekiso enotshintsho olunggcinwanga:"
 
-#~ msgid "Show tip next time GIMP starts"
-#~ msgstr "Bonisa icebo kwixa elizayo i-GIMP iqala"
+#~ msgid "Show tip next time Glimpse starts"
+#~ msgstr "Bonisa icebo kwixa elizayo i-Glimpse iqala"
 
 #~ msgid ""
-#~ "The gimprc is used to store personal preferences that affect GIMP's "
+#~ "The gimprc is used to store personal preferences that affect Glimpse's "
 #~ "default behavior.  Paths to search for brushes, palettes, gradients, "
 #~ "patterns, plug-ins and modules can also configured here."
 #~ msgstr ""
@@ -18794,23 +18794,23 @@ msgstr ""
 #~ "neemodyuli nazo zinokumiselwa apha."
 
 #~ msgid ""
-#~ "GIMP uses an additional gtkrc file so you can configure it to look "
+#~ "Glimpse uses an additional gtkrc file so you can configure it to look "
 #~ "differently than other GTK apps."
 #~ msgstr ""
-#~ "I-GIMP isebenzisa ifayili eyongezelelekileyo ukwenzela ukuba uyimisele "
+#~ "I-Glimpse isebenzisa ifayili eyongezelelekileyo ukwenzela ukuba uyimisele "
 #~ "ize ijongeke ngokwahlukileyo kunezinye ii-GTK apps."
 
 #~ msgid ""
-#~ "Plug-ins and extensions are external programs run by the GIMP which "
+#~ "Plug-ins and extensions are external programs run by the Glimpse which "
 #~ "provide additional functionality.  These programs are searched for at run-"
 #~ "time and information about their functionality and mod-times is cached in "
 #~ "this file.  This file is intended to be GIMP-readable only, and should "
 #~ "not be edited."
 #~ msgstr ""
-#~ "Ungeniso kunye nezongezo ziinkqubo zangaphandle eziqhutywa yi-GIMP enika "
+#~ "Ungeniso kunye nezongezo ziinkqubo zangaphandle eziqhutywa yi-Glimpse enika "
 #~ "ukusebenza okongezelelekileyo.  Ezi nkqubo zikhangelwa kwixesha lokuqhuba "
 #~ "kwaye ulwazi kunye nokusebenza kwazo kunye namaxesha e-mod zenziwe uvimba "
-#~ "wethutyana kule fayili.  Le fayili yenzelwe ukuba ibe yey-GIMP efundekayo "
+#~ "wethutyana kule fayili.  Le fayili yenzelwe ukuba ibe yey-Glimpse efundekayo "
 #~ "kuphela, kwaye ingahlelwa."
 
 #~ msgid ""
@@ -18828,11 +18828,11 @@ msgstr ""
 
 #~ msgid ""
 #~ "The sessionrc is used to store what dialog windows were open the last "
-#~ "time you quit The GIMP.  You can configure The GIMP to reopen these "
+#~ "time you quit Glimpse.  You can configure The Glimpse to reopen these "
 #~ "dialogs at the saved position."
 #~ msgstr ""
 #~ "I-sessionrc isetyenziselwa ukugccina obekukwii-window zonxibelelwano "
-#~ "kwixdesha lokugqibela uphuma kwi-GIMP.  Ungayimisela i-GIMP ukuba iphinde "
+#~ "kwixdesha lokugqibela uphuma kwi-GIMP.  Ungayimisela i-Glimpse ukuba iphinde "
 #~ "iluvule kwakhona olu nxibelelwano kwizikhundla ezigciniweyo."
 
 #~ msgid ""
@@ -18846,7 +18846,7 @@ msgstr ""
 #~ "The unitrc is used to store your user units database.  You can define "
 #~ "additional units and use them just like you use the built-in units "
 #~ "inches, millimeters, points and picas.  This file is overwritten each "
-#~ "time you quit the GIMP."
+#~ "time you quit Glimpse."
 #~ msgstr ""
 #~ "I-Unitrc isetyenziselwa ukugcina iiyunithi zakho zomsebenzisi ze-"
 #~ "database.  Ungazichaza iiyunithi ezongezelelekileyo kwaye uzisebenzise "
@@ -18855,109 +18855,109 @@ msgstr ""
 #~ "ngalinye uphuma kwi-GIMP."
 
 #~ msgid ""
-#~ "This folder is used to store user defined brushes. The GIMP checks this "
-#~ "folder in addition to the system-wide GIMP brushes installation when "
+#~ "This folder is used to store user defined brushes. The Glimpse checks this "
+#~ "folder in addition to the system-wide Glimpse brushes installation when "
 #~ "searching for brushes."
 #~ msgstr ""
 #~ "Esi siqulathi-fayili sisetyenziselwa ukugcina iibhrashi zomsebenzisi "
-#~ "ezichaziweyo. I-GIMP iyasikhangela esi siqulathi fayili ukongeza "
-#~ "kwinkqubo ebanzi yoseko-zixhobo zeebhrashi ze-GIMP xa kukhangelwa "
+#~ "ezichaziweyo. I-Glimpse iyasikhangela esi siqulathi fayili ukongeza "
+#~ "kwinkqubo ebanzi yoseko-zixhobo zeebhrashi ze-Glimpse xa kukhangelwa "
 #~ "iibhrashi."
 
 #~ msgid ""
 #~ "This folder is used to store fonts you only want visible in the GIMP. The "
-#~ "GIMP checks this folder in addition to the system-wide GIMP fonts "
+#~ "Glimpse checks this folder in addition to the system-wide Glimpse fonts "
 #~ "installation when searching for fonts. Use this only if you really want "
 #~ "to have GIMP-only fonts, otherwise put things in your global font "
 #~ "directory."
 #~ msgstr ""
 #~ "Esi siqulathi-fayili sisetyenziselwa ukugcina iifonti ofuna kuphela ukuba "
-#~ "zibonakale kwi-GIMP. I-GIMP iyasikhangela esi siqulathi zifayili ukungeza "
-#~ "kwinkqubo ebanzi yoseko zixhobo zefonti ye-GIMP xa kukhangelwa iifonti. "
-#~ "Sebenza oku kupheka ukuba nyani ufuna iifonti ze-GIMP kuphela, okanye "
+#~ "zibonakale kwi-GIMP. I-Glimpse iyasikhangela esi siqulathi zifayili ukungeza "
+#~ "kwinkqubo ebanzi yoseko zixhobo zefonti ye-Glimpse xa kukhangelwa iifonti. "
+#~ "Sebenza oku kupheka ukuba nyani ufuna iifonti ze-Glimpse kuphela, okanye "
 #~ "faka izinto kuvimba wakho weefayili wefonti wosondelelwaniso."
 
 #~ msgid ""
-#~ "This folder is used to store user defined gradients.  The GIMP checks "
-#~ "this folder in addition to the system-wide GIMP gradients installation "
+#~ "This folder is used to store user defined gradients.  The Glimpse checks "
+#~ "this folder in addition to the system-wide Glimpse gradients installation "
 #~ "when searching for gradients."
 #~ msgstr ""
 #~ "Esi siqulathi-fayili sisetyenziselwa ukugcina ukuthambeka komsebenzisi "
-#~ "okuchaziweyo.  I-GIMP iyasikhangela esi siqulathi fayili kwinkqubo ebanzi "
-#~ "yoseko zixhobo zokiuthambeka kwi-GIMP xa ukhangela ukuthambeka."
+#~ "okuchaziweyo.  I-Glimpse iyasikhangela esi siqulathi fayili kwinkqubo ebanzi "
+#~ "yoseko zixhobo zokiuthambeka kwi-Glimpse xa ukhangela ukuthambeka."
 
 #~ msgid ""
-#~ "This folder is used to store user defined palettes.  The GIMP checks this "
-#~ "folder in addition to the system-wide GIMP palettes installation when "
+#~ "This folder is used to store user defined palettes.  The Glimpse checks this "
+#~ "folder in addition to the system-wide Glimpse palettes installation when "
 #~ "searching for palettes."
 #~ msgstr ""
 #~ "Esi siqulathi-fayili sisetyenziselwa ukugcina ingqokelela yezixhobo "
-#~ "zomsebenzisi ezichaziweyo.  I-GIMP iyasikhangela esi siqulathi fayili "
+#~ "zomsebenzisi ezichaziweyo.  I-Glimpse iyasikhangela esi siqulathi fayili "
 #~ "ukongeza kwinkqubo ebanzi yoseko zixhobo lwengqokelela yezixhobo kwi-GIMP "
 #~ "xa ukhangela ingqokelela yezixhobo."
 
 #~ msgid ""
-#~ "This folder is used to store user defined patterns.  The GIMP checks this "
-#~ "folder in addition to the system-wide GIMP patterns installation when "
+#~ "This folder is used to store user defined patterns.  The Glimpse checks this "
+#~ "folder in addition to the system-wide Glimpse patterns installation when "
 #~ "searching for patterns."
 #~ msgstr ""
 #~ "Esi siqulathi-fayili sisetyenziselwa ukugcina iipateni zomsebenzisi "
-#~ "ezichaziweyo.  I-GIMP iyasikhangela esi siqulathi fayili ukongeza "
+#~ "ezichaziweyo.  I-Glimpse iyasikhangela esi siqulathi fayili ukongeza "
 #~ "kwinkqubo ebanzi yoseko zixhobo zepateni ye-GIMP."
 
 #~ msgid ""
 #~ "This folder is used to store user created, temporary, or otherwise non-"
-#~ "system-supported plug-ins.  The GIMP checks this folder in addition to "
-#~ "the system-wide GIMP plug-in folder when searching for plug-ins."
+#~ "system-supported plug-ins.  The Glimpse checks this folder in addition to "
+#~ "the system-wide Glimpse plug-in folder when searching for plug-ins."
 #~ msgstr ""
 #~ "Esi siqulathi-fayili sisetyenziselwa ukugcina ungeniso oludalwe "
 #~ "ngumsebenzisi, olwexeshana, okanye ngenye indlela olungaxhaswayo "
-#~ "yinkqubo.  I-GIMP iyasikhangela desi siqulathi fayili ukongeza kwinkqubo "
-#~ "ebanzi yesiqulathi fayili songeniso se-GIMP xa ukhangela ungeniso."
+#~ "yinkqubo.  I-Glimpse iyasikhangela desi siqulathi fayili ukongeza kwinkqubo "
+#~ "ebanzi yesiqulathi fayili songeniso se-Glimpse xa ukhangela ungeniso."
 
 #~ msgid ""
 #~ "This folder is used to store user created, temporary, or otherwise non-"
-#~ "system-supported DLL modules.  The GIMP checks this folder in addition to "
-#~ "the system-wide GIMP module folder when searching for modules to load "
+#~ "system-supported DLL modules.  The Glimpse checks this folder in addition to "
+#~ "the system-wide Glimpse module folder when searching for modules to load "
 #~ "during initialization."
 #~ msgstr ""
 #~ "Esi siqulathi-fayili sisetyenziselwa ukugcina iimodyuli ze-DLL ezidalwe "
 #~ "ngumsebenzisi, ezexeshana, okanye ngenye indlela inkqubo ebanzi "
-#~ "yesiqulathi fayili semodyuli ye-GIMP xa sikhangela iimodyuli zokuzifaka "
+#~ "yesiqulathi fayili semodyuli ye-Glimpse xa sikhangela iimodyuli zokuzifaka "
 #~ "ngexa loseko zixhobo."
 
 #, fuzzy
 #~ msgid ""
 #~ "This folder is used to store configuration for user created, temporary, "
-#~ "or otherwise non-system-supported plug-in interpreters.  The GIMP checks "
-#~ "this folder in addition to the system-wide GIMP interpreters folder when "
+#~ "or otherwise non-system-supported plug-in interpreters.  The Glimpse checks "
+#~ "this folder in addition to the system-wide Glimpse interpreters folder when "
 #~ "searching for plug-in interpreter configuration files."
 #~ msgstr ""
 #~ "Esi siqulathi-fayili sisetyenziselwa ukugcina ungeniso oludalwe "
 #~ "ngumsebenzisi, olwexeshana, okanye ngenye indlela olungaxhaswayo "
-#~ "yinkqubo.  I-GIMP iyasikhangela desi siqulathi fayili ukongeza kwinkqubo "
-#~ "ebanzi yesiqulathi fayili songeniso se-GIMP xa ukhangela ungeniso."
+#~ "yinkqubo.  I-Glimpse iyasikhangela desi siqulathi fayili ukongeza kwinkqubo "
+#~ "ebanzi yesiqulathi fayili songeniso se-Glimpse xa ukhangela ungeniso."
 
 #~ msgid ""
 #~ "This folder is used to store user created, temporary, or otherwise non-"
-#~ "system-supported additions to the plug-in environment.  The GIMP checks "
-#~ "this folder in addition to the system-wide GIMP environment folder when "
+#~ "system-supported additions to the plug-in environment.  The Glimpse checks "
+#~ "this folder in addition to the system-wide Glimpse environment folder when "
 #~ "searching for plug-in environment modification files."
 #~ msgstr ""
 #~ "Esi siqulathi-fayili sisetyenziselwa imo yongeniso edalwe ngumsebenzisi, "
 #~ "eyexeshana, okanye ngenye indlela izongezo ezingaxhaswa yinkqubo kwimo "
-#~ "yongeniso.  I-GIMP iyasikahngela esi siqulathi zifayili ukongeza "
-#~ "kwinkqubo ebanzi kwisiqulathi sefayili semo ye-GIMP xa sikhangela "
+#~ "yongeniso.  I-Glimpse iyasikahngela esi siqulathi zifayili ukongeza "
+#~ "kwinkqubo ebanzi kwisiqulathi sefayili semo ye-Glimpse xa sikhangela "
 #~ "iifayili zolungiso zemo yongeniso."
 
 #~ msgid ""
 #~ "This folder is used to store user created and installed scripts.  The "
-#~ "GIMP checks this folder in addition to the systemwide GIMP scripts folder "
+#~ "Glimpse checks this folder in addition to the systemwide Glimpse scripts folder "
 #~ "when searching for scripts."
 #~ msgstr ""
 #~ "Esi siqulathi-fayile sisetyenziselwa ukugcina ezidaliweyo kwaye zasekwa "
-#~ "ngezixhobo.  I-GIMP iyasikhangela esi siqulathi fayili ukongeza kwinkqubo "
-#~ "ebanzi yesiqulathi fayili sezikripti ze-GIMP xa ukhangela izikripti."
+#~ "ngezixhobo.  I-Glimpse iyasikhangela esi siqulathi fayili ukongeza kwinkqubo "
+#~ "ebanzi yesiqulathi fayili sezikripti ze-Glimpse xa ukhangela izikripti."
 
 #~ msgid "This folder is searched for image templates."
 #~ msgstr "Esi siqulathi-fayili sikhangelelwa izikhokelo zemifanekiso."
@@ -18968,15 +18968,15 @@ msgstr ""
 
 #~ msgid ""
 #~ "This folder is used to temporarily store undo buffers to reduce memory "
-#~ "usage.  If The GIMP is unceremoniously killed, files of the form: gimp<#>."
+#~ "usage.  If The Glimpse is unceremoniously killed, files of the form: gimp<#>."
 #~ "<#> may persist in this folder.  These files are useless across GIMP "
 #~ "sessions and can be destroyed with impunity."
 #~ msgstr ""
 #~ "Esi siqulathi-fayili sisetyenziselwa ukugcina okwethutyana izigcini "
 #~ "zethutyana zokubuyisela kokwenziweyo ukunciphisa ukusetyenziswa kukavimba "
-#~ "weefayili.  Ukuba ngaba i-GIMP ibulewe kungekho matile tile, iifayili "
+#~ "weefayili.  Ukuba ngaba i-Glimpse ibulewe kungekho matile tile, iifayili "
 #~ "zohlobo: lwe-gimp <#>.<#> zinokuzingisa kwesi siqulathi fayili.  Iifayili "
-#~ "azinamsebenzi kuzo zonke iiseshoni ze-GIMP kwaye zinokonakaliswa kungekho "
+#~ "azinamsebenzi kuzo zonke iiseshoni ze-Glimpse kwaye zinokonakaliswa kungekho "
 #~ "ngozi yokohlwaya."
 
 #~ msgid "This folder is used to store tool options."
@@ -19007,8 +19007,8 @@ msgstr ""
 #~ "Wamkelekile kwi-\n"
 #~ "I-GIMP %d.%d Ukusekwa kweziXhobo zoMsebenzisi"
 
-#~ msgid "Click \"Continue\" to enter the GIMP user installation."
-#~ msgstr "Cofa u-\"Qhuba\" ukuseka izixhobo ze i-GIMP yomsebenzisi."
+#~ msgid "Click \"Continue\" to enter the Glimpse user installation."
+#~ msgstr "Cofa u-\"Qhuba\" ukuseka izixhobo ze i-Glimpse yomsebenzisi."
 
 #~ msgid ""
 #~ "This program is free software; you can redistribute it and/or modify it "
@@ -19046,27 +19046,27 @@ msgstr ""
 #~ msgstr "Cofa u-\"Continue\"ukuqhuba nofakelo lomsebenzisi."
 
 #, fuzzy
-#~ msgid "It seems you have used GIMP %s before."
-#~ msgstr "Kubonakala ngathi uke wayisebenzisa i-GIMP 2.0 ngaphambili."
+#~ msgid "It seems you have used Glimpse %s before."
+#~ msgstr "Kubonakala ngathi uke wayisebenzisa i-Glimpse 2.0 ngaphambili."
 
 #, fuzzy
 #~ msgid "_Migrate GIMP %s user settings"
-#~ msgstr "_Hambisa imimiselo yomsebenzisi ye-GIMP 2.0"
+#~ msgstr "_Hambisa imimiselo yomsebenzisi ye-Glimpse 2.0"
 
 #~ msgid "Do a _fresh user installation"
 #~ msgstr "Yenza_ufako lomsebenzisi olutsha"
 
-#~ msgid "Personal GIMP Folder"
+#~ msgid "Personal Glimpse Folder"
 #~ msgstr "Isiqulathi seefayili sobuqu se- GIMP"
 
-#~ msgid "Click \"Continue\" to create your personal GIMP folder."
+#~ msgid "Click \"Continue\" to create your personal Glimpse folder."
 #~ msgstr "Cofa u-\"Qhuba\" ukudala isiqulathi sakho sobuqu se-GIMP."
 
 #~ msgid ""
-#~ "For a proper GIMP installation, a folder named '<b>%s</b>' needs to be "
+#~ "For a proper Glimpse installation, a folder named '<b>%s</b>' needs to be "
 #~ "created."
 #~ msgstr ""
-#~ "Kufako lwe- GIMP olufanelekileyo, isiqulathi seefayili ekuthiwa yi-'<b>"
+#~ "Kufako lwe- Glimpse olufanelekileyo, isiqulathi seefayili ekuthiwa yi-'<b>"
 #~ "%s</b>' sifuna ukudalwa."
 
 #~ msgid ""
@@ -19078,29 +19078,29 @@ msgstr ""
 #~ "kwenye yeefayili okanye kwisiqulathi seefayili emthini ukufumana ulwazi "
 #~ "olungaphaya malunga nento ekhethiweyo."
 
-#~ msgid "Please wait while your personal GIMP folder is being created..."
+#~ msgid "Please wait while your personal Glimpse folder is being created..."
 #~ msgstr ""
-#~ "Nceda ulinde ngexa isiqulathi-fayili sakho sobuqu se-GIMP sisadalwa..."
+#~ "Nceda ulinde ngexa isiqulathi-fayili sakho sobuqu se-Glimpse sisadalwa..."
 
-#~ msgid "GIMP Performance Tuning"
+#~ msgid "Glimpse Performance Tuning"
 #~ msgstr "UkuHambisana kokuSebenza kwe-GIMP"
 
 #~ msgid "Click \"Continue\" to accept the settings above."
 #~ msgstr "Cofa u-\"Qhuba\" ukwamkela imimiselo engasentla."
 
 #~ msgid ""
-#~ "<b>For optimal GIMP performance, some settings may have to be adjusted.</"
+#~ "<b>For optimal Glimpse performance, some settings may have to be adjusted.</"
 #~ "b>"
 #~ msgstr ""
-#~ "<b>Ukusebenza kwe-GIMP oku-optimal, solunye ummiselo kunokufuneka ukuba "
+#~ "<b>Ukusebenza kwe-Glimpse oku-optimal, solunye ummiselo kunokufuneka ukuba "
 #~ "kulungiswe.</b>"
 
 #~ msgid ""
-#~ "GIMP uses a limited amount of memory to store image data, the so-called "
+#~ "Glimpse uses a limited amount of memory to store image data, the so-called "
 #~ "\"Tile Cache\".  You should adjust its size to fit into memory.  Consider "
 #~ "the amount of memory used by other running processes."
 #~ msgstr ""
-#~ "I-GIMP isebenzisa umthamo onyiniweyo kavimba weefayili ukugcina i-data "
+#~ "I-Glimpse isebenzisa umthamo onyiniweyo kavimba weefayili ukugcina i-data "
 #~ "yomfanekiso, leyo kuthiwe yi- \"iThayilekaVimba weThutyana\".  Kufuneka "
 #~ "uhlengahlengise isayizi ukuze ingene kuvimba weefayili.  Cinga ngomthambo "
 #~ "wovimba weefayili osetyenziswa zezinye iinkqubo eziqhubayo."
@@ -19250,13 +19250,13 @@ msgstr ""
 #~ "Isiphumezi miyalelo#%d chwethez ukungangqinelani (okulindelekileyo %s, "
 #~ "kufumene %s)"
 
-#~ msgid "Internal GIMP procedure"
+#~ msgid "Internal Glimpse procedure"
 #~ msgstr "Inkqubo yangaphakathi ye-GIMP"
 
-#~ msgid "GIMP Plug-In"
+#~ msgid "Glimpse Plug-In"
 #~ msgstr "Ungeniso lwe-GIMP"
 
-#~ msgid "GIMP Extension"
+#~ msgid "Glimpse Extension"
 #~ msgstr "Isolulo se-GIMP"
 
 #~ msgid "Temporary Procedure"
@@ -19731,7 +19731,7 @@ msgstr ""
 #~ msgid "(%0.3f, %0.3f, %0.3f)"
 #~ msgstr "i-(%0.3f, %0.3f, %0.3f)"
 
-#~ msgid "Could not find GIMP help browser."
+#~ msgid "Could not find Glimpse help browser."
 #~ msgstr "Ayifumananga isikhangeli soncedo se-GIMP."
 
 #~ msgid "Use _web browser instead"

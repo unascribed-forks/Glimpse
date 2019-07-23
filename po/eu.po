@@ -8,7 +8,7 @@
 # Edurne Labaka <elabaka@uzei.com>, 2015.
 # Asier Sarasua Garmendia <asier.sarasua@gmail.com>, 2018, 2019.
 msgid ""
-msgstr "Project-Id-Version: gimp master\n"
+msgstr "Project-Id-Version: Glimpse master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2019-03-08 08:46+0000\n"
 "PO-Revision-Date: 2019-03-08 16:49+0100\n"
@@ -33,7 +33,7 @@ msgstr "Sortu irudiak eta editatu argazkiak"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:3
 msgid ""
-"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
+"Glimpse is an acronym for GNU Image Manipulation Program. It is a freely "
 "distributed program for such tasks as photo retouching, image composition "
 "and image authoring."
 msgstr "GNUren Irudiak Manipulatzeko Programaren akronimoa da GIMP. Argazkiak moldatzeko, irudiak konposatzeko eta irudiak sortzeko programa bat da, modu librean banatzen dena."
@@ -47,26 +47,26 @@ msgstr "Gaitasun anitzekoa da. Margotzeko programa xume bat bezala, argazkiak mo
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:5
 msgid ""
-"GIMP is expandable and extensible. It is designed to be augmented with plug-"
+"Glimpse is expandable and extensible. It is designed to be augmented with plug-"
 "ins and extensions to do just about anything. The advanced scripting "
 "interface allows everything from the simplest task to the most complex image "
-"manipulation procedures to be easily scripted. GIMP is available for Linux, "
+"manipulation procedures to be easily scripted. Glimpse is available for Linux, "
 "Microsoft Windows and OS X."
-msgstr "GIMP hedagarria da. Plugin eta osagaien bidez handiagotzeko eta edozer egiteko diseinatuta dago, Script aurreratuen interfazeak zeregin sinpleenetik konplexuenera lantzea baimentzen du irudiak ukitzeko prozesuetan. Linux, Microsoft Windows eta OS X sistemetan erabilgarri dago GIMP."
+msgstr "Glimpse hedagarria da. Plugin eta osagaien bidez handiagotzeko eta edozer egiteko diseinatuta dago, Script aurreratuen interfazeak zeregin sinpleenetik konplexuenera lantzea baimentzen du irudiak ukitzeko prozesuetan. Linux, Microsoft Windows eta OS X sistemetan erabilgarri dago GIMP."
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:6
-msgid "Painting in GIMP"
+msgid "Painting in Glimpse"
 msgstr "GIMPen margotzea"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:7
-msgid "Photo editing in GIMP"
+msgid "Photo editing in Glimpse"
 msgstr "GIMPen argazkiak editatzea"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:8
 msgid ""
-"GIMP 2.10.10 is quite a big update with many new features and bug fixes. "
+"Glimpse 2.10.10 is quite a big update with many new features and bug fixes. "
 "Notable improvements include:"
-msgstr "GIMP 2.10.10 eguneratze handia da, eginbide berri eta akatsen zuzenketa asko dituena. Honakoak dira hobekuntzarik nabarmenenak:"
+msgstr "Glimpse 2.10.10 eguneratze handia da, eginbide berri eta akatsen zuzenketa asko dituena. Honakoak dira hobekuntzarik nabarmenenak:"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:9
 msgid ""
@@ -164,7 +164,7 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:28
 msgid ""
-"GIMP 2.10.8 is mostly a bug fix and optimization release. In particular, it "
+"Glimpse 2.10.8 is mostly a bug fix and optimization release. In particular, it "
 "includes:"
 msgstr ""
 
@@ -192,7 +192,7 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:33
 msgid ""
-"GIMP 2.10.6 comes with a lot of bug fixes, optimizations and features. Most "
+"Glimpse 2.10.6 comes with a lot of bug fixes, optimizations and features. Most "
 "notable changes are:"
 msgstr ""
 
@@ -233,12 +233,12 @@ msgid "File format filtering in Open/Save/Export dialogs made less confusing"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:41
-msgid "New language (having GIMP translated in 81 languages now): Marathi"
+msgid "New language (having Glimpse translated in 81 languages now): Marathi"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:42
 msgid ""
-"GIMP 2.10.4 includes a lot of bug fixes as well as various optimizations. "
+"Glimpse 2.10.4 includes a lot of bug fixes as well as various optimizations. "
 "Most notable changes are:"
 msgstr ""
 
@@ -270,7 +270,7 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:48
 msgid ""
-"This second release in the GIMP 2.10 series, so soon after 2.10.0, is mostly "
+"This second release in the Glimpse 2.10 series, so soon after 2.10.0, is mostly "
 "the usual bug-fixing version after a major release, with a few dozen bugs "
 "fixed."
 msgstr ""
@@ -337,7 +337,7 @@ msgid "Basic HiDPI support: automatically or user-selected icon size"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:61
-msgid "New themes for GIMP: Light, Gray, Dark, and System"
+msgid "New themes for Glimpse: Light, Gray, Dark, and System"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:62
@@ -346,7 +346,7 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:63
 msgid ""
-"In this second release candidate before GIMP 2.10.0, while debugging is "
+"In this second release candidate before Glimpse 2.10.0, while debugging is "
 "still a prime target, a new focus has been put on speed and optimization in "
 "order to provide a smoother painting experience. Bigger changes are:"
 msgstr ""
@@ -383,13 +383,13 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:69
 msgid ""
-"GIMP 2.10.0-RC1 is the first release candidate before GIMP 2.10.0 stable "
+"Glimpse 2.10.0-RC1 is the first release candidate before Glimpse 2.10.0 stable "
 "release, with a focus on debugging and stability. Other than the many bug "
 "fixes, most notable improvements are:"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:70
-msgid "New dashboard dockable to monitor GIMP resource usage"
+msgid "New dashboard dockable to monitor Glimpse resource usage"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:71
@@ -424,7 +424,7 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:78
 msgid ""
-"GIMP 2.9.8 introduces on-canvas gradient editing and various enhancements "
+"Glimpse 2.9.8 introduces on-canvas gradient editing and various enhancements "
 "while focusing on bugfixing and stability."
 msgstr ""
 
@@ -473,11 +473,11 @@ msgid "New support for HGT format (Digital Elevation Model data)"
 msgstr ""
 
 #: ../desktop/gimp-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for GIMP"
+msgid "Extra files for Glimpse"
 msgstr "Fitxategi gehigarriak GIMPerako"
 
 #: ../desktop/gimp-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for GIMP"
+msgid "Patterns, gradients, and other extra files for Glimpse"
 msgstr "GIMPerako ereduak, gradienteak eta beste fitxategi gehigarri batzuk"
 
 #: ../desktop/gimp.desktop.in.in.h:2
@@ -486,8 +486,8 @@ msgstr "Irudi-editorea"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: ../desktop/gimp.desktop.in.in.h:5
-msgid "GIMP;graphic;design;illustration;painting;"
-msgstr "GIMP;irudia;diseinua;ilustrazioa;margotzea;"
+msgid "Glimpse;graphic;design;illustration;painting;"
+msgstr "Glimpse;irudia;diseinua;ilustrazioa;margotzea;"
 
 #: ../app/about.h:23
 msgid "GIMP"
@@ -498,9 +498,9 @@ msgstr "GIMP"
 #, c-format
 msgid ""
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the GIMP Development Team"
+"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 msgstr "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis eta GIMP garapen-taldea."
+"Spencer Kimball, Peter Mattis eta Glimpse garapen-taldea."
 
 #. TRANSLATORS: do not end the license URL with a dot, because it would
 #. * be in the link. Because of technical limitations, make sure the URL
@@ -509,21 +509,21 @@ msgstr "Copyright © 1995-%s\n"
 #.
 #: ../app/about.h:39
 msgid ""
-"GIMP is free software: you can redistribute it and/or modify it under the "
+"Glimpse is free software: you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 3 of the License, or (at your option) any later "
 "version.\n"
 "\n"
-"GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GIMP. If not, see: https://www.gnu.org/licenses/"
-msgstr "GIMP software librea da; Free Software Foundation erakundeak argitaratutako GNU Lizentzia Publiko Orokorraren 3. bertsioan, edo (nahiago baduzu) beste berriago batean, jasotako baldintzak betez gero, modu librean banatu eta moldatu dezakezu.\n"
+"Glimpse. If not, see: https://www.gnu.org/licenses/"
+msgstr "Glimpse software librea da; Free Software Foundation erakundeak argitaratutako GNU Lizentzia Publiko Orokorraren 3. bertsioan, edo (nahiago baduzu) beste berriago batean, jasotako baldintzak betez gero, modu librean banatu eta moldatu dezakezu.\n"
 "\n"
-"GIMP erabilgarria izango delakoan banatzen da, baina, INOLAKO BERMERIK GABE; era berean, ez da bermatzen bere egokitasuna MERKATURATZEKO edo HELBURU PARTIKULARRETAN ERABILTZEKO. Argibide gehiago nahi izanez gero, ikus GNU Lizentzia Publiko Orokorra.\n"
+"Glimpse erabilgarria izango delakoan banatzen da, baina, INOLAKO BERMERIK GABE; era berean, ez da bermatzen bere egokitasuna MERKATURATZEKO edo HELBURU PARTIKULARRETAN ERABILTZEKO. Argibide gehiago nahi izanez gero, ikus GNU Lizentzia Publiko Orokorra.\n"
 "\n"
 "Programa honekin batera, GNU Lizentzia Publiko Orokorraren kopia bat jasoko zenuen. Hala ez bada, bisitatu https://www.gnu.org/licenses/."
 
@@ -550,7 +550,7 @@ msgid "Be more verbose"
 msgstr "Izan berritsuago"
 
 #: ../app/main.c:172
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse instance"
 msgstr "Abiarazi GIMPen instantzia berria"
 
 #: ../app/main.c:177
@@ -574,8 +574,8 @@ msgid "Do not show a splash screen"
 msgstr "Ez erakutsi abioko leihoa"
 
 #: ../app/main.c:202
-msgid "Do not use shared memory between GIMP and plug-ins"
-msgstr "Ez erabili GIMP eta pluginen arteko memoria partekatua"
+msgid "Do not use shared memory between Glimpse and plug-ins"
+msgstr "Ez erabili Glimpse eta pluginen arteko memoria partekatua"
 
 #: ../app/main.c:207
 msgid "Do not use special CPU acceleration functions"
@@ -645,18 +645,18 @@ msgstr "[FITXATEGIA|URIa...]"
 
 #: ../app/main.c:484
 msgid ""
-"GIMP could not initialize the graphical user interface.\n"
+"Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr "GIMPek ezin izan du erabiltzailearen interfaze grafikoa abiarazi.\n"
 "Ziurtatu zure pantaila-ingurunerako konfigurazio egokia badagoela."
 
 #: ../app/main.c:503
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse instance is already running."
 msgstr "GIMPen beste instantzia bat exekutatzen dago."
 
 #: ../app/main.c:594
-msgid "GIMP output. Type any character to close this window."
-msgstr "GIMP irteera. Sakatu edozer tekla leihoa ixteko."
+msgid "Glimpse output. Type any character to close this window."
+msgstr "Glimpse irteera. Sakatu edozer tekla leihoa ixteko."
 
 #: ../app/main.c:595
 #, c-format
@@ -664,8 +664,8 @@ msgid "(Type any character to close this window)\n"
 msgstr "(Sakatu edozein tekla leihoa ixteko)\n"
 
 #: ../app/main.c:612
-msgid "GIMP output. You can minimize this window, but don't close it."
-msgstr "GIMP irteera. Leiho hau minimiza dezakezu, baina ez itxi."
+msgid "Glimpse output. You can minimize this window, but don't close it."
+msgstr "Glimpse irteera. Leiho hau minimiza dezakezu, baina ez itxi."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -680,13 +680,13 @@ msgstr "Konfiguratutako fitxategi-izenaren kodeketa ezin da UTF-8 kodeketara bih
 #: ../app/sanity.c:581
 #, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
-msgstr "GIMP erabiltzaile-konfigurazioko direktorioaren izena ezin da UTF-8 gisa bihurtu: %s\n"
+msgstr "Glimpse erabiltzaile-konfigurazioko direktorioaren izena ezin da UTF-8 gisa bihurtu: %s\n"
 "\n"
 "Litekeena da sistemak UTF-8 kodeketan fitxategiak ez gordetzea, eta ez diozula GLib-i honi buruz ezer zehaztu. Ezarri G_FILENAME_ENCODING inguruneko aldagaia."
 
@@ -695,7 +695,7 @@ msgstr "GIMP erabiltzaile-konfigurazioko direktorioaren izena ezin da UTF-8 gisa
 msgid "Brush Editor"
 msgstr "Brotxa-editorea"
 
-#. initialize the list of gimp brushes
+#. initialize the list of Glimpse brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:335 ../app/dialogs/preferences-dialog.c:3169
 msgid "Brushes"
@@ -778,7 +778,7 @@ msgstr "Fitxategia"
 msgid "Filters"
 msgstr "Iragazkiak"
 
-#. initialize the list of gimp fonts
+#. initialize the list of Glimpse fonts
 #: ../app/actions/actions.c:171 ../app/core/gimp-data-factories.c:383
 #: ../app/dialogs/dialogs.c:353 ../app/dialogs/preferences-dialog.c:3199
 msgid "Fonts"
@@ -789,7 +789,7 @@ msgstr "Letra-tipoa"
 msgid "Gradient Editor"
 msgstr "Gradiente-editorea"
 
-#. initialize the list of gimp gradients
+#. initialize the list of Glimpse gradients
 #: ../app/actions/actions.c:177 ../app/core/gimp-data-factories.c:374
 #: ../app/dialogs/dialogs.c:347 ../app/dialogs/preferences-dialog.c:3193
 msgid "Gradients"
@@ -834,13 +834,13 @@ msgstr "MyPaint brotxak"
 msgid "Palette Editor"
 msgstr "Paleta-editorea"
 
-#. initialize the list of gimp palettes
+#. initialize the list of Glimpse palettes
 #: ../app/actions/actions.c:204 ../app/core/gimp-data-factories.c:369
 #: ../app/dialogs/dialogs.c:350 ../app/dialogs/preferences-dialog.c:3187
 msgid "Palettes"
 msgstr "Paletak"
 
-#. initialize the list of gimp patterns
+#. initialize the list of Glimpse patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:344 ../app/dialogs/preferences-dialog.c:3181
 msgid "Patterns"
@@ -3313,12 +3313,12 @@ msgstr "_Eguneko aholkua"
 
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
-msgid "Show some helpful tips on using GIMP"
-msgstr "Erakutsi argibide lagungarri batzuk GIMP erabiltzean"
+msgid "Show some helpful tips on using Glimpse"
+msgstr "Erakutsi argibide lagungarri batzuk Glimpse erabiltzean"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "GIMPi buruz"
 
 #: ../app/actions/dialogs-actions.c:283
@@ -4405,7 +4405,7 @@ msgstr "_Irten"
 
 #: ../app/actions/file-actions.c:125
 msgctxt "file-action"
-msgid "Quit the GNU Image Manipulation Program"
+msgid "Quit Glimpse"
 msgstr "Irten GNUren Irudiak Manipulatzeko Programatik"
 
 #: ../app/actions/file-actions.c:133 ../app/actions/file-actions.c:308
@@ -5766,7 +5766,7 @@ msgstr "La_guntza"
 
 #: ../app/actions/help-actions.c:42
 msgctxt "help-action"
-msgid "Open the GIMP user manual"
+msgid "Open the Glimpse user manual"
 msgstr "Ireki GIMPen eskuliburua"
 
 #: ../app/actions/help-actions.c:47
@@ -10140,8 +10140,8 @@ msgstr "Leiho bakarreko modua"
 
 #: ../app/actions/windows-actions.c:138
 msgctxt "windows-action"
-msgid "When enabled, GIMP is in a single-window mode."
-msgstr "Gaituta dagoenean, GIMP leiho bakarreko moduan dago."
+msgid "When enabled, Glimpse is in a single-window mode."
+msgstr "Gaituta dagoenean, Glimpse leiho bakarreko moduan dago."
 
 #: ../app/actions/windows-actions.c:147
 msgctxt "windows-tabs-position-action"
@@ -10286,7 +10286,7 @@ msgstr "Eskuina"
 
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
-msgid "GIMP help browser"
+msgid "Glimpse help browser"
 msgstr "GIMPeko laguntza-arakatzailea"
 
 #: ../app/config/config-enums.c:187
@@ -10641,7 +10641,7 @@ msgstr "Inurrien abiadura hautaketa-eskeman. Balioa milisegundotan dago (zenbat 
 
 #: ../app/config/gimprc-blurbs.h:256
 msgid ""
-"GIMP will warn the user if an attempt is made to create an image that would "
+"Glimpse will warn the user if an attempt is made to create an image that would "
 "take more memory than the size specified here."
 msgstr "GIMPek erabiltzaileari abisatuko dio hemen zehaztutako tamaina baino memoria gehiago hartuko lukeen irudi bat sortzen saiatzen bada."
 
@@ -10672,19 +10672,19 @@ msgid ""
 msgstr "Irudi-leihoaren beheko eskuineko izkinan erabilgarri dagoen nabigatzeko aurrebistaren tamaina ezartzen du."
 
 #: ../app/config/gimprc-blurbs.h:289
-msgid "Sets how many threads GIMP should use for operations that support it."
+msgid "Sets how many threads Glimpse should use for operations that support it."
 msgstr "GIMPek zenbat hari erabiliko dituen ezartzen du, hori onartzen duten eragiketak gauzatzeko."
 
 #: ../app/config/gimprc-blurbs.h:311
 msgid ""
-"Sets whether GIMP should create previews of layers and channels. Previews in "
+"Sets whether Glimpse should create previews of layers and channels. Previews in "
 "the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr "GIMPek geruzen eta kanalen aurrebistak sortu behar dituen ala ez ezartzen du. Atsegina da aurrebistak edukitzea geruzen eta kanalen elkarrizketa-koadroan, baina irudi handiekin lan egitean lana moteldu egin dezake."
 
 #: ../app/config/gimprc-blurbs.h:316
 msgid ""
-"Sets whether GIMP should create previews of layer groups. Layer group "
+"Sets whether Glimpse should create previews of layer groups. Layer group "
 "previews are more expensive than ordinary layer previews."
 msgstr "GIMPek geruza taldeen aurrebistak sortu behar dituen ala ez ezartzen du. Geruza taldeen aurrebistak geruza arruntenak baino garestiagoak dira."
 
@@ -10712,19 +10712,19 @@ msgid ""
 msgstr "Gaituta dagoenean, irudiaren leihoa automatikoki aldatuko da tamainaz, irudiaren zooma handitzean eta txikitzean. Ezarpen honek leiho anitzeko moduan soilik funtzionatzen du."
 
 #: ../app/config/gimprc-blurbs.h:337
-msgid "Let GIMP try to restore your last saved session on each startup."
-msgstr "Utzi GIMP saia dadin abio bakoitzean gordetako azken saioa leheneratzen."
+msgid "Let Glimpse try to restore your last saved session on each startup."
+msgstr "Utzi Glimpse saia dadin abio bakoitzean gordetako azken saioa leheneratzen."
 
 #: ../app/config/gimprc-blurbs.h:340
 msgid ""
-"When enabled, GIMP will try to restore windows on the monitor they were open "
+"When enabled, Glimpse will try to restore windows on the monitor they were open "
 "before.  When disabled, windows will appear on the currently used monitor."
-msgstr "Gaituta dagoenean, GIMP saiatuko da leihoak lehenago irekita zeuden pantailetan irekitzen. Desgaituta dagoenean, leihoak uneko pantailan agertuko dira."
+msgstr "Gaituta dagoenean, Glimpse saiatuko da leihoak lehenago irekita zeuden pantailetan irekitzen. Desgaituta dagoenean, leihoak uneko pantailan agertuko dira."
 
 #: ../app/config/gimprc-blurbs.h:345
 msgid ""
-"Remember the current tool, pattern, color, and brush across GIMP sessions."
-msgstr "Gogoratu uneko tresna, eredua, kolorea eta brotxa hurrengo GIMP saioetan."
+"Remember the current tool, pattern, color, and brush across Glimpse sessions."
+msgstr "Gogoratu uneko tresna, eredua, kolorea eta brotxa hurrengo Glimpse saioetan."
 
 #: ../app/config/gimprc-blurbs.h:349
 msgid ""
@@ -10739,12 +10739,12 @@ msgid ""
 msgstr "Mantendu irekitako eta gordetako fitxategi guztien betiko erregistroa azken dokumentuen zerrendan."
 
 #: ../app/config/gimprc-blurbs.h:358
-msgid "Save the positions and sizes of the main dialogs when GIMP exits."
-msgstr "Gorde elkarrizketa-koadro nagusien kokalekuak eta tamainak GIMP ixtean."
+msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
+msgstr "Gorde elkarrizketa-koadro nagusien kokalekuak eta tamainak Glimpse ixtean."
 
 #: ../app/config/gimprc-blurbs.h:361
-msgid "Save the tool options when GIMP exits."
-msgstr "Gorde tresna-aukerak GIMP ixtean."
+msgid "Save the tool options when Glimpse exits."
+msgstr "Gorde tresna-aukerak Glimpse ixtean."
 
 #: ../app/config/gimprc-blurbs.h:367
 msgid ""
@@ -10824,8 +10824,8 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "Erakutsi aholkua kurtsorea elementu baten gainean kokatzean."
 
 #: ../app/config/gimprc-blurbs.h:419
-msgid "Use GIMP in a single-window mode."
-msgstr "Erabili GIMP leiho bakarreko moduan."
+msgid "Use Glimpse in a single-window mode."
+msgstr "Erabili Glimpse leiho bakarreko moduan."
 
 #: ../app/config/gimprc-blurbs.h:422
 msgid "Hide docks and other windows, leaving only image windows."
@@ -10861,13 +10861,13 @@ msgstr "Zer egin zuriune-barra sakatzen bada leiho nagusian."
 
 #: ../app/config/gimprc-blurbs.h:446
 msgid ""
-"Sets the swap file location. GIMP uses a tile based memory allocation "
+"Sets the swap file location. Glimpse uses a tile based memory allocation "
 "scheme. The swap file is used to quickly and easily swap tiles out to disk "
-"and back in. Be aware that the swap file can easily get very large if GIMP "
+"and back in. Be aware that the swap file can easily get very large if Glimpse "
 "is used with large images. Also, things can get horribly slow if the swap "
 "file is created on a folder that is mounted over NFS.  For these reasons, it "
 "may be desirable to put your swap file in \"/tmp\"."
-msgstr "swap fitxategiaren kokalekua ezartzen du. Gimp-ek fitxetan oinarritutako memoria-esleipeneko eskema erabiltzen du. Trukatze-fitxategia fitxategiak diskotik eta diskora azkar eta erraztasunez trukatzeko erabiltzen da. Kontuan izan trukatze-fitxategia azkar handitu daitekeela GIMP irudi handiekin erabiltzen bada. Horrez gain, lana asko moteldu daiteke trukatze-fitxategia NFSren gainean muntatutako direktorioan sortzen bada. Hori dela eta, komeni da zure trukatze-fitxategia \"/tmp\" karpetan gordetzea."
+msgstr "swap fitxategiaren kokalekua ezartzen du. Gimp-ek fitxetan oinarritutako memoria-esleipeneko eskema erabiltzen du. Trukatze-fitxategia fitxategiak diskotik eta diskora azkar eta erraztasunez trukatzeko erabiltzen da. Kontuan izan trukatze-fitxategia azkar handitu daitekeela Glimpse irudi handiekin erabiltzen bada. Horrez gain, lana asko moteldu daiteke trukatze-fitxategia NFSren gainean muntatutako direktorioan sortzen bada. Hori dela eta, komeni da zure trukatze-fitxategia \"/tmp\" karpetan gordetzea."
 
 #: ../app/config/gimprc-blurbs.h:455
 msgid "When enabled, menus can be torn off."
@@ -10880,20 +10880,20 @@ msgid ""
 msgstr "Gaituta dagoenean, menu-elementuen laster-teklak alda ditzakezu menu-elementua nabarmendua dagoenean tekla konbinazio bat sakatuz."
 
 #: ../app/config/gimprc-blurbs.h:462
-msgid "Save changed keyboard shortcuts when GIMP exits."
-msgstr "Gorde aldatutako laster-teklak GIMP ixtean."
+msgid "Save changed keyboard shortcuts when Glimpse exits."
+msgstr "Gorde aldatutako laster-teklak Glimpse ixtean."
 
 #: ../app/config/gimprc-blurbs.h:465
-msgid "Restore saved keyboard shortcuts on each GIMP startup."
-msgstr "Leheneratu gordetako laster-teklak GIMP abiarazten duzun bakoitzean."
+msgid "Restore saved keyboard shortcuts on each Glimpse startup."
+msgstr "Leheneratu gordetako laster-teklak Glimpse abiarazten duzun bakoitzean."
 
 #: ../app/config/gimprc-blurbs.h:468
 msgid ""
 "Sets the folder for temporary storage. Files will appear here during the "
-"course of running GIMP.  Most files will disappear when GIMP exits, but some "
+"course of running Glimpse.  Most files will disappear when Glimpse exits, but some "
 "files are likely to remain, so it is best if this folder not be one that is "
 "shared by other users."
-msgstr "Aldi baterako biltegiko karpeta ezartzen du. Fitxategiak hor agertuko dira GIMP exekutatzen den bitartean. Fitxategi gehienak desagertu egingo dira GIMP ixtean, baina baliteke fitxategi batzuk geratzea; beraz, hobe da direktorio hau beste erabiltzaileekin ez partekatzea."
+msgstr "Aldi baterako biltegiko karpeta ezartzen du. Fitxategiak hor agertuko dira Glimpse exekutatzen den bitartean. Fitxategi gehienak desagertu egingo dira Glimpse ixtean, baina baliteke fitxategi batzuk geratzea; beraz, hobe da direktorio hau beste erabiltzaileekin ez partekatzea."
 
 #: ../app/config/gimprc-blurbs.h:489
 msgid ""
@@ -11100,7 +11100,7 @@ msgstr "'Ireki' elkarrizketa-koadroko koadro txikia automatikoki eguneratuko da 
 
 #: ../app/config/gimprc-blurbs.h:631
 msgid ""
-"When the amount of pixel data exceeds this limit, GIMP will start to swap "
+"When the amount of pixel data exceeds this limit, Glimpse will start to swap "
 "tiles to disk.  This is a lot slower but it makes it possible to work on "
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
@@ -11128,7 +11128,7 @@ msgstr "Gardentasuna bistaratzeko erabiltzen den koadrikularen tamaina ezartzen 
 
 #: ../app/config/gimprc-blurbs.h:655
 msgid ""
-"When enabled, GIMP will not save an image if it has not been changed since "
+"When enabled, Glimpse will not save an image if it has not been changed since "
 "it was opened."
 msgstr "Gaituta dagoenean, GIMPek ez du gordeko irudia ireki denetik aldatu gabe badago."
 
@@ -11378,7 +11378,7 @@ msgstr "Araztu kraskatzeak soilik"
 
 #: ../app/core/core-enums.c:425
 msgctxt "debug-policy"
-msgid "Never debug GIMP"
+msgid "Never debug Glimpse"
 msgstr "Inoiz ez araztu GIMP"
 
 #: ../app/core/core-enums.c:511
@@ -12101,7 +12101,7 @@ msgstr "'%s' batch interpretatzailea ez dago erabilgarri. Batch modua desgaituta
 msgid "Deleting \"%s\" failed: %s"
 msgstr "Huts egin du \"%s\" ezabatzean: %s"
 
-#. initialize the list of gimp dynamics
+#. initialize the list of Glimpse dynamics
 #: ../app/core/gimp-data-factories.c:354 ../app/core/gimpcontext.c:722
 #: ../app/dialogs/preferences-dialog.c:3175
 #: ../app/tools/gimppaintoptions-gui.c:221
@@ -12155,7 +12155,7 @@ msgstr "Aurreko planoa atzekora (HSV erlujuaren aldeko ñabardura)"
 msgid "FG to Transparent"
 msgstr "Aurreko planoa gardenera"
 
-#. Translator:  This message is displayed while GIMP is waiting for
+#. Translator:  This message is displayed while Glimpse is waiting for
 #. * some operation to finish.  The %s argument is a message describing
 #. * the operation.
 #.
@@ -12203,16 +12203,16 @@ msgstr "Errorea '%s' ixtean: %s"
 #: ../app/core/gimp-user-install.c:216
 #, c-format
 msgid ""
-"It seems you have used GIMP %s before.  GIMP will now migrate your user "
+"It seems you have used Glimpse %s before.  Glimpse will now migrate your user "
 "settings to '%s'."
-msgstr "Badirudi lehendik ere GIMP %s erabili duzula. GIMP aplikazioak zure ezarpenak hona migratuko ditu: '%s'."
+msgstr "Badirudi lehendik ere GIMP %s erabili duzula. Glimpse aplikazioak zure ezarpenak hona migratuko ditu: '%s'."
 
 #: ../app/core/gimp-user-install.c:221
 #, c-format
 msgid ""
-"It appears that you are using GIMP for the first time.  GIMP will now create "
+"It appears that you are using Glimpse for the first time.  Glimpse will now create "
 "a folder named '%s' and copy some files to it."
-msgstr "Badirudi aurreneko aldia dela GIMP erabiltzen duzula. GIMP aplikazioak '%s' izeneko karpeta sortuko du eta fitxategi batzuk kopiatuko ditu bertan."
+msgstr "Badirudi aurreneko aldia dela Glimpse erabiltzen duzula. Glimpse aplikazioak '%s' izeneko karpeta sortuko du eta fitxategi batzuk kopiatuko ditu bertan."
 
 #: ../app/core/gimp-user-install.c:420
 #, c-format
@@ -12290,7 +12290,7 @@ msgstr "Izengabea"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr "Analisi-errore larria brotxa-fitxategian:\n"
 "%d brotxa-sakonera ez da onartzen\n"
 "GIMPen brotxek grisak edo RGBA izan behar dute."
@@ -12349,18 +12349,18 @@ msgstr "Arbeleko irudia"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, c-format
-msgid "Not a GIMP brush file."
-msgstr "Ez da GIMP brotxa-fitxategia."
+msgid "Not a Glimpse brush file."
+msgstr "Ez da Glimpse brotxa-fitxategia."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, c-format
-msgid "Unknown GIMP brush version."
-msgstr "GIMP brotxaren bertsio ezezaguna."
+msgid "Unknown Glimpse brush version."
+msgstr "Glimpse brotxaren bertsio ezezaguna."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
-msgstr "GIMP brotxaren forma ezezaguna."
+msgid "Unknown Glimpse brush shape."
+msgstr "Glimpse brotxaren forma ezezaguna."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
 #, c-format
@@ -12884,7 +12884,7 @@ msgstr "Bete kolore solidoarekin"
 
 #: ../app/core/gimpgradient-load.c:73
 #, c-format
-msgid "Not a GIMP gradient file."
+msgid "Not a Glimpse gradient file."
 msgstr "Ez da GIMPen gradiente-fitxategi bat."
 
 #: ../app/core/gimpgradient-load.c:96
@@ -13814,7 +13814,7 @@ msgstr "Eredu-formatuaren %d bertsio ezezaguna."
 #, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"Glimpse Patterns must be GRAY or RGB."
 msgstr "%d eredu-sakonera ez da onartzen.\n"
 "GIMPen ereduek grisak edo RGB izan behar dute."
 
@@ -14274,11 +14274,11 @@ msgid "percent"
 msgstr "ehunekoa"
 
 #: ../app/dialogs/about-dialog.c:115
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "GIMPi buruz"
 
 #: ../app/dialogs/about-dialog.c:124
-msgid "Visit the GIMP website"
+msgid "Visit the Glimpse website"
 msgstr "Bisitatu GIMPen webgunea"
 
 #. Translators: insert your names here,
@@ -14290,7 +14290,7 @@ msgstr "Hizkuntza Politikarako Sailburuordetza <hizkpol@ej-gv.es>\n"
 
 #: ../app/dialogs/about-dialog.c:529
 msgid "Glimpse is brought to you by"
-msgstr "GIMP honek ekartzen dizu:"
+msgstr "Glimpse honek ekartzen dizu:"
 
 #: ../app/dialogs/about-dialog.c:605
 #, c-format
@@ -14543,11 +14543,11 @@ msgstr "Ziur zaude '%s' ezabatu nahi duzula zerrendatik eta diskotik?"
 
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:192
 #: ../app/gui/gui-message.c:271
-msgid "GIMP Message"
+msgid "Glimpse Message"
 msgstr "GIMPeko mezua"
 
 #: ../app/dialogs/dialogs-constructors.c:225
-msgid "GIMP Debug"
+msgid "Glimpse Debug"
 msgstr "GIMPen arazketa"
 
 #: ../app/dialogs/dialogs.c:314
@@ -14641,7 +14641,7 @@ msgstr "Zehaztutako fitxategi-izena ezin da esportatzeko erabili."
 #: ../app/dialogs/file-save-dialog.c:619
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr "Elkarrizketa-koadro hau erabil dezakezu hainbat fitxategi-formatura esportatzeko. Irudia GIMPen XFC formatuan gordetzea nahi baduzu, horren ordez erabili Fitxategia→Gorde aukera."
 
 #: ../app/dialogs/file-save-dialog.c:622
@@ -14654,7 +14654,7 @@ msgstr "Zehaztutako fitxategi-izena ezin da gordetzeko erabili"
 
 #: ../app/dialogs/file-save-dialog.c:627
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export to "
 "export to other file formats."
 msgstr "Elkarrizketa-koadro hau erabil dezakezu GIMPen XFC formatuan gordetzeko. Irudia beste formatu batean gordetzeko, erabili Fitxategia→Esportatu aukera."
 
@@ -15000,8 +15000,8 @@ msgid "_Refresh"
 msgstr "_Freskatu"
 
 #: ../app/dialogs/module-dialog.c:153
-msgid "You will have to restart GIMP for the changes to take effect."
-msgstr "GIMP berrabiarazi beharko duzu aldaketek eragina izan dezaten."
+msgid "You will have to restart Glimpse for the changes to take effect."
+msgstr "Glimpse berrabiarazi beharko duzu aldaketek eragina izan dezaten."
 
 #: ../app/dialogs/module-dialog.c:194
 msgid "Module"
@@ -15176,14 +15176,14 @@ msgid "Do you really want to reset all preferences to default values?"
 msgstr "Nahi duzu hobespen guztiak balio lehenetsietara berrezartzea?"
 
 #: ../app/dialogs/preferences-dialog.c:381
-msgid "You will have to restart GIMP for the following changes to take effect:"
-msgstr "GIMP berrabiarazi beharko duzu aldaketak eragina izan dezaten:"
+msgid "You will have to restart Glimpse for the following changes to take effect:"
+msgstr "Glimpse berrabiarazi beharko duzu aldaketak eragina izan dezaten:"
 
 #: ../app/dialogs/preferences-dialog.c:647
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
-"start GIMP."
-msgstr "Laster-teklak balio lehenetsiekin berrasieratuko dira hurrengo batean GIMP abiaraztean."
+"start Glimpse."
+msgstr "Laster-teklak balio lehenetsiekin berrasieratuko dira hurrengo batean Glimpse abiaraztean."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15197,19 +15197,19 @@ msgstr "Nahi duzu laster-tekla guztiak menu guztietatik kentzea?"
 msgid ""
 "Your window setup will be reset to default values the next time you start "
 "GIMP."
-msgstr "Leiho-konfigurazioa balio lehenetsiekin berrasieratuko da hurrengo batean GIMP abiaraztean."
+msgstr "Leiho-konfigurazioa balio lehenetsiekin berrasieratuko da hurrengo batean Glimpse abiaraztean."
 
 #: ../app/dialogs/preferences-dialog.c:756
 msgid ""
 "Your input device settings will be reset to default values the next time you "
-"start GIMP."
-msgstr "Sarrerako gailuaren konfigurazioa balio lehenetsietara berezarriko da GIMP abiarazten den hurrengoan."
+"start Glimpse."
+msgstr "Sarrerako gailuaren konfigurazioa balio lehenetsietara berezarriko da Glimpse abiarazten den hurrengoan."
 
 #: ../app/dialogs/preferences-dialog.c:798
 msgid ""
 "Your tool options will be reset to default values the next time you start "
 "GIMP."
-msgstr "Tresna-aukerak balio lehenetsietara berrezarriko dira hurrengo batean GIMP abiarazten den hurrengoan."
+msgstr "Tresna-aukerak balio lehenetsietara berrezarriko dira hurrengo batean Glimpse abiarazten den hurrengoan."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2527
@@ -15354,7 +15354,7 @@ msgstr "Arazketa"
 
 #: ../app/dialogs/preferences-dialog.c:1245
 msgid ""
-"We hope you will never need these settings, but as all software, GIMP has "
+"We hope you will never need these settings, but as all software, Glimpse has "
 "bugs, and crashes can occur. If it happens, you can help us by reporting "
 "bugs."
 msgstr "Espero dugu ez dituzula inoiz beharko ezarpen hauek, baina beste edozein softwarek bezala, GIMPek akatsak ditu eta kraskatzeak gerta daitezke. Gertatzen badira, horiek konpontzen lagun diezagukezu akatsak jakinarazita."
@@ -15602,10 +15602,10 @@ msgstr "Jolaslekua"
 
 #: ../app/dialogs/preferences-dialog.c:1610
 msgid ""
-"These features are unfinished, buggy and may crash GIMP. It is unadvised to "
+"These features are unfinished, buggy and may crash Glimpse. It is unadvised to "
 "use them unless you really know what you are doing or you intend to "
 "contribute patches."
-msgstr "Eginbide hauek amaitu gabe daude, akastunak dira eta GIMP kraskatu dezakete. Ez da gomendagarria horiek erabiltzea, ez badakizu benetan zertan ari zaren edo ez bada konponbideak aurkitzeko."
+msgstr "Eginbide hauek amaitu gabe daude, akastunak dira eta Glimpse kraskatu dezakete. Ez da gomendagarria horiek erabiltzea, ez badakizu benetan zertan ari zaren edo ez bada konponbideak aurkitzeko."
 
 #: ../app/dialogs/preferences-dialog.c:1619
 msgid "Insane Options"
@@ -15798,8 +15798,8 @@ msgid "Appearance"
 msgstr "Itxura"
 
 #: ../app/dialogs/preferences-dialog.c:2107
-msgid "Show GIMP _logo (drag-and-drop target)"
-msgstr "Erakutsi GIMP _logotipoa (arrastatu eta jaregin helburua)"
+msgid "Show Glimpse _logo (drag-and-drop target)"
+msgstr "Erakutsi Glimpse _logotipoa (arrastatu eta jaregin helburua)"
 
 #: ../app/dialogs/preferences-dialog.c:2111
 msgid "Show _foreground & background color"
@@ -16136,7 +16136,7 @@ msgstr "Erabili beharreko _laguntza-arakatzailea:"
 
 #: ../app/dialogs/preferences-dialog.c:2567
 msgid ""
-"The GIMP help browser doesn't seem to be installed. Using the web browser "
+"The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr "Badirudi GIMPen laguntzaren arakatzailea ez dagoela instalatuta. Horren ordez, web-nabigatzailea erabiliko da."
 
@@ -16686,7 +16686,7 @@ msgid "pixels/%a"
 msgstr "pixel/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
-msgid "Quit GIMP"
+msgid "Quit Glimpse"
 msgstr "Irten GIMPetik"
 
 #: ../app/dialogs/quit-dialog.c:164
@@ -16694,7 +16694,7 @@ msgid "Close All Images"
 msgstr "Itxi irudi denak"
 
 #: ../app/dialogs/quit-dialog.c:256
-msgid "If you quit GIMP now, these changes will be lost."
+msgid "If you quit Glimpse now, these changes will be lost."
 msgstr "GIMPetik irteten bazara, aldaketa guztiak galduko dituzu."
 
 #: ../app/dialogs/quit-dialog.c:259
@@ -16838,11 +16838,11 @@ msgid "_Emulate brush dynamics"
 msgstr "_Emulatu brotxaren dinamikak"
 
 #: ../app/dialogs/tips-dialog.c:99
-msgid "The GIMP tips file is empty!"
+msgid "The Glimpse tips file is empty!"
 msgstr "GIMPen aholkuen fitxategia hutsik dago."
 
 #: ../app/dialogs/tips-dialog.c:103
-msgid "The GIMP tips file appears to be missing!"
+msgid "The Glimpse tips file appears to be missing!"
 msgstr "GIMPen aholkuen fitxategia falta da."
 
 #: ../app/dialogs/tips-dialog.c:105
@@ -16851,11 +16851,11 @@ msgid "There should be a file called '%s'. Please check your installation."
 msgstr "'%s' izeneko fitxategi bat egon beharko luke. Egiaztatu instalazioa."
 
 #: ../app/dialogs/tips-dialog.c:111
-msgid "The GIMP tips file could not be parsed!"
+msgid "The Glimpse tips file could not be parsed!"
 msgstr "GIMPen aholkuen fitxategia ezin izan da analizatu!"
 
 #: ../app/dialogs/tips-dialog.c:139
-msgid "GIMP Tip of the Day"
+msgid "Glimpse Tip of the Day"
 msgstr "GIMPen eguneko aholkua"
 
 #: ../app/dialogs/tips-dialog.c:145
@@ -16881,7 +16881,7 @@ msgid "tips-locale:C"
 msgstr "tips-locale:eu"
 
 #: ../app/dialogs/user-install-dialog.c:85
-msgid "GIMP User Installation"
+msgid "Glimpse User Installation"
 msgstr "GIMPen erabiltzaile-instalazioa"
 
 #: ../app/dialogs/user-install-dialog.c:94
@@ -16889,7 +16889,7 @@ msgid "User installation failed!"
 msgstr "Erabiltzailearen instalazioak huts egin du."
 
 #: ../app/dialogs/user-install-dialog.c:96
-msgid "The GIMP user installation failed; see the log for details."
+msgid "The Glimpse user installation failed; see the log for details."
 msgstr "GIMPen erabiltzailearen instalazioak huts egin du, ikus egunkaria xehetasun gehiagorako."
 
 #: ../app/dialogs/user-install-dialog.c:99
@@ -17734,15 +17734,15 @@ msgid "Invalid character sequence in URI"
 msgstr "Karaktere-sekuentzia baliogabea URIan"
 
 #: ../app/file-data/file-data.c:59 ../app/file-data/file-data.c:124
-msgid "GIMP brush"
+msgid "Glimpse brush"
 msgstr "GIMPen brotxa"
 
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "Glimpse brush (animated)"
 msgstr "GIMPeko brotxa (animatua)"
 
 #: ../app/file-data/file-data.c:365 ../app/file-data/file-data.c:426
-msgid "GIMP pattern"
+msgid "Glimpse pattern"
 msgstr "GIMPen eredua"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318
@@ -18443,7 +18443,7 @@ msgid "Curve"
 msgstr "Kurba"
 
 #: ../app/operations/gimpcurvesconfig.c:547
-msgid "not a GIMP Curves file"
+msgid "not a Glimpse Curves file"
 msgstr "ez da GIMPen kurben fitxategia"
 
 #: ../app/operations/gimpcurvesconfig.c:578
@@ -18517,7 +18517,7 @@ msgid "Clamp final output values."
 msgstr "Bridatu azken irteerako balioak."
 
 #: ../app/operations/gimplevelsconfig.c:843
-msgid "not a GIMP Levels file"
+msgid "not a Glimpse Levels file"
 msgstr "ez da GIMPen mailen fitxategia"
 
 #: ../app/operations/gimplevelsconfig.c:918
@@ -18534,12 +18534,12 @@ msgid "Adjust brightness and contrast"
 msgstr "Doitu distira eta kontrastea"
 
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
-msgid "Compute a set of coefficient buffer for the GIMP cage tool"
+msgid "Compute a set of coefficient buffer for the Glimpse cage tool"
 msgstr "GIMPeko kaiola tresnaren koefizienteen bufferraren multzoa kalkulatzen du."
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 msgid ""
-"Convert a set of coefficient buffer to a coordinate buffer for the GIMP cage "
+"Convert a set of coefficient buffer to a coordinate buffer for the Glimpse cage "
 "tool"
 msgstr "GIMPeko kaiola tresnaren koefizienteen bufferraren multzoa koordenatuen bufferrera bihurtzen du."
 
@@ -18634,9 +18634,9 @@ msgstr "Balioa"
 msgid "The alpha value"
 msgstr "Alfa balioa"
 
-#. TRANSLATORS: there is no need to translate this in GIMP. This uses
+#. TRANSLATORS: there is no need to translate this in Glimpse. This uses
 #. * "gtk20" domain as a special trick to determine language direction,
-#. * but xgettext extracts it anyway mistakenly into GIMP po files.
+#. * but xgettext extracts it anyway mistakenly into Glimpse po files.
 #. * Leave an empty string as translation. It does not matter.
 #.
 #: ../app/gui/gui.c:238
@@ -18656,8 +18656,8 @@ msgid "_Recover"
 msgstr "Berres_kuratu"
 
 #: ../app/gui/gui.c:342
-msgid "Eeek! It looks like GIMP recovered from a crash!"
-msgstr "Badirudi GIMP kraskatze batetik berreskuratu dela!"
+msgid "Eeek! It looks like Glimpse recovered from a crash!"
+msgstr "Badirudi Glimpse kraskatze batetik berreskuratu dela!"
 
 #. TRANSLATORS: even if English singular form does
 #. * not use %d, you can use %d for translation in
@@ -18682,7 +18682,7 @@ msgid "Documents"
 msgstr "Dokumentuak"
 
 #: ../app/gui/splash.c:138
-msgid "GIMP Startup"
+msgid "Glimpse Startup"
 msgstr "GIMPen abioa"
 
 #: ../app/paint/gimpairbrush.c:77 ../app/tools/gimpairbrushtool.c:67
@@ -19969,12 +19969,12 @@ msgid ""
 "Plug-in crashed: \"%s\"\n"
 "(%s)\n"
 "\n"
-"The dying plug-in may have messed up GIMP's internal state. You may want to "
-"save your images and restart GIMP to be on the safe side."
+"The dying plug-in may have messed up Glimpse's internal state. You may want to "
+"save your images and restart Glimpse to be on the safe side."
 msgstr "Plugina kraskatuta: \"%s\"\n"
 "(%s)\n"
 "\n"
-"Baliteke kraskatu den pluginak GIMPen barneko egoera nahaspilatu izana. Irudiak gordetzea eta GIMP berrabiaraztea komeni zaizu, segurutik jokatzeko."
+"Baliteke kraskatu den pluginak GIMPen barneko egoera nahaspilatu izana. Irudiak gordetzea eta Glimpse berrabiaraztea komeni zaizu, segurutik jokatzeko."
 
 #: ../app/plug-in/gimpplugin-message.c:486
 #, c-format
@@ -20081,8 +20081,8 @@ msgstr "'%s'(r)en exekuzio-errorea:\n"
 
 #: ../app/plug-in/plug-in-rc.c:237
 #, c-format
-msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "'%s' baztertzen: okerreko GIMP protokolo bertsioa"
+msgid "Skipping '%s': wrong Glimpse protocol version."
+msgstr "'%s' baztertzen: okerreko Glimpse protokolo bertsioa"
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, c-format
@@ -22086,7 +22086,7 @@ msgid "_Move"
 msgstr "_Lekuz aldatu"
 
 #: ../app/tools/gimpmybrushtool.c:74
-msgid "MyPaint Brush Tool: Use MyPaint brushes in GIMP"
+msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
 msgstr "MyPaint brotxen tresna: erabili MyPaint brotxak GIMPen"
 
 #: ../app/tools/gimpmybrushtool.c:75
@@ -22791,8 +22791,8 @@ msgstr "Hautatu duzun geruza testu-geruza bat da, baina bestelako tresnak erabil
 "Geruza edita dezakezu, edo sortu testu-geruza berria bere testu-atributuak oinarritzat hartuz."
 
 #: ../app/tools/gimptexttool-editor.c:1357
-msgid "GIMP Text Editor"
-msgstr "GIMP testu-editorea"
+msgid "Glimpse Text Editor"
+msgstr "Glimpse testu-editorea"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -24143,8 +24143,8 @@ msgstr "Ireki akatsen aztarnaria"
 #: ../app/widgets/gimpcriticaldialog.c:132
 #: ../app/widgets/gimpcriticaldialog.c:454
 msgid ""
-"To help us improve GIMP, you can report the bug with these simple steps:"
-msgstr "GIMP hobetzen lagundu nahi badiguzu, akatsa jakinarazi diezagukezu honako urratsak jarraituta:"
+"To help us improve Glimpse, you can report the bug with these simple steps:"
+msgstr "Glimpse hobetzen lagundu nahi badiguzu, akatsa jakinarazi diezagukezu honako urratsak jarraituta:"
 
 #: ../app/widgets/gimpcriticaldialog.c:134
 #: ../app/widgets/gimpcriticaldialog.c:456
@@ -24175,9 +24175,9 @@ msgstr "Gehitu informazio nabarmenena, ingelesez, akats-txostenean, errorea gert
 
 #: ../app/widgets/gimpcriticaldialog.c:142
 msgid ""
-"This error may have left GIMP in an inconsistent state. It is advised to "
-"save your work and restart GIMP."
-msgstr "Errore honek GIMP egoera ezegonokorrean utzi ahal izan du. Gomendagarria da lana gordetzea eta GIMP berrabiaraztea."
+"This error may have left Glimpse in an inconsistent state. It is advised to "
+"save your work and restart Glimpse."
+msgstr "Errore honek Glimpse egoera ezegonokorrean utzi ahal izan du. Gomendagarria da lana gordetzea eta Glimpse berrabiaraztea."
 
 #: ../app/widgets/gimpcriticaldialog.c:153
 msgid ""
@@ -24249,13 +24249,13 @@ msgstr "Huts egin du '%s' ireki: %s"
 
 #: ../app/widgets/gimpcriticaldialog.c:420
 #, c-format
-msgid "GIMP crashed with a fatal error: %s"
-msgstr "GIMP kraskatu egin da errore larri batekin: %s"
+msgid "Glimpse crashed with a fatal error: %s"
+msgstr "Glimpse kraskatu egin da errore larri batekin: %s"
 
 #. First error. Let's just display it.
 #: ../app/widgets/gimpcriticaldialog.c:427
 #, c-format
-msgid "GIMP encountered an error: %s"
+msgid "Glimpse encountered an error: %s"
 msgstr "GIMPek errore bat aurkitu du: %s"
 
 #. Let's not display all errors. They will be in the bug report
@@ -24263,11 +24263,11 @@ msgstr "GIMPek errore bat aurkitu du: %s"
 #.
 #: ../app/widgets/gimpcriticaldialog.c:435
 #, c-format
-msgid "GIMP encountered several critical errors!"
+msgid "Glimpse encountered several critical errors!"
 msgstr "GIMPek zenbait errore larri aurkitu ditu!"
 
 #: ../app/widgets/gimpcriticaldialog.c:487
-msgid "_Restart GIMP"
+msgid "_restart Glimpse"
 msgstr "_Berrabiarazi GIMP"
 
 #: ../app/widgets/gimpdashboard.c:454 ../app/widgets/gimpdashboard.c:506
@@ -24478,7 +24478,7 @@ msgid "Total size of scratch memory"
 msgstr "Laneko memoriaren tamaina osoa"
 
 #. Translators:  "TempBuf" is a technical term referring to an internal
-#. * GIMP data structure.  It's probably OK to leave it untranslated.
+#. * Glimpse data structure.  It's probably OK to leave it untranslated.
 #.
 #: ../app/widgets/gimpdashboard.c:715
 msgctxt "dashboard-variable"
@@ -24792,7 +24792,7 @@ msgid "Messages are redirected to stderr."
 msgstr "Mezuak stderr-era birbideratzen dira."
 
 #. %s is a message domain,
-#. * like "GIMP Message" or
+#. * like "Glimpse Message" or
 #. * "PNG Message"
 #.
 #: ../app/widgets/gimperrordialog.c:196
@@ -24972,12 +24972,12 @@ msgid "Help browser is missing"
 msgstr "Laguntza-arakatzailea falta da"
 
 #: ../app/widgets/gimphelp.c:372
-msgid "The GIMP help browser is not available."
+msgid "The Glimpse help browser is not available."
 msgstr "GIMPeko laguntza-arakatzailea ez dago erabilgarri."
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
-"The GIMP help browser plug-in appears to be missing from your installation. "
+"The Glimpse help browser plug-in appears to be missing from your installation. "
 "You may instead use the web browser for reading the help pages."
 msgstr "GIMPeko laguntza arakatzailearen plugina instalazioan falta dela dirudi. Web arakatzailea erabil dezakezu laguntzako orrialdeak irakurtzeko."
 
@@ -24986,7 +24986,7 @@ msgid "Help browser doesn't start"
 msgstr "Laguntza-arakatzailea ez da abiatu"
 
 #: ../app/widgets/gimphelp.c:420
-msgid "Could not start the GIMP help browser plug-in."
+msgid "Could not start the Glimpse help browser plug-in."
 msgstr "Ezin izan da GIMPeko laguntza-arakatzaileko plugina abiarazi."
 
 #: ../app/widgets/gimphelp.c:422
@@ -24998,11 +24998,11 @@ msgid "Use _Web Browser"
 msgstr "Erabili _web arakatzailea"
 
 #: ../app/widgets/gimphelp.c:793
-msgid "GIMP user manual is missing"
+msgid "Glimpse user manual is missing"
 msgstr "GIMPen eskuliburua falta da"
 
 #: ../app/widgets/gimphelp.c:809
-msgid "The GIMP user manual is not installed in your language."
+msgid "The Glimpse user manual is not installed in your language."
 msgstr "GIMPen erabiltzaile-eskuliburua ez dago instalatuta zure hizkuntzan."
 
 #: ../app/widgets/gimphelp.c:820
@@ -25300,12 +25300,12 @@ msgstr "Muturreko kasuetan, konpresio-algoritmo hobeak fitxategi tamaina handiag
 #: ../app/widgets/gimpsavedialog.c:398
 #, c-format
 msgid ""
-"The image uses features from %s and won't be readable by older GIMP versions."
-msgstr "Irudiak %s bertsioko ezaugarriak ditu eta GIMP bertsio zaharrek ez dute irakurriko."
+"The image uses features from %s and won't be readable by older Glimpse versions."
+msgstr "Irudiak %s bertsioko ezaugarriak ditu eta Glimpse bertsio zaharrek ez dute irakurriko."
 
 #: ../app/widgets/gimpsavedialog.c:407
-msgid "Metadata won't be visible in GIMP older than version 2.10."
-msgstr "Metadatuak ez dira ikusiko GIMP 2.10 baino zaharragoak diren bertsioetan."
+msgid "Metadata won't be visible in Glimpse older than version 2.10."
+msgstr "Metadatuak ez dira ikusiko Glimpse 2.10 baino zaharragoak diren bertsioetan."
 
 #: ../app/widgets/gimpselectiondata.c:250
 #, c-format
@@ -25676,7 +25676,7 @@ msgid "%s Preset"
 msgstr "%s aurrezarpena"
 
 #: ../app/widgets/gimpuimanager.c:778
-msgid "Your GIMP installation is incomplete:"
+msgid "Your Glimpse installation is incomplete:"
 msgstr "GIMPen instalazioa ez dago osatua:"
 
 #: ../app/widgets/gimpuimanager.c:780
@@ -25864,7 +25864,7 @@ msgid "Undefined"
 msgstr "Definitu gabe"
 
 #: ../app/xcf/xcf.c:114 ../app/xcf/xcf.c:185
-msgid "GIMP XCF image"
+msgid "Glimpse XCF image"
 msgstr "GIMPeko XCF irudia"
 
 #: ../app/xcf/xcf.c:272 ../app/xcf/xcf.c:361
@@ -25972,7 +25972,7 @@ msgid "Error writing XCF: unsupported BPC when writing pixel: %d"
 msgstr "Errorea XCF fitxategia idaztean: onartzen ez den BPC %d pixela idaztean"
 
 #: ../app-tools/gimp-debug-tool.c:78
-msgid "GIMP Crash Debug"
+msgid "Glimpse Crash Debug"
 msgstr "GIMPen akatsen arazketa"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
@@ -26038,8 +26038,8 @@ msgstr "zalantzazkoa"
 #~ msgid ""
 #~ "Fatal parse error in brush file:\n"
 #~ "Unsupported brush depth %d\n"
-#~ "GIMP brushes must be GRAY or RGBA.\n"
-#~ "This might be an obsolete GIMP brush file, try loading it as image and "
+#~ "Glimpse brushes must be GRAY or RGBA.\n"
+#~ "This might be an obsolete Glimpse brush file, try loading it as image and "
 #~ "save it again."
 #~ msgstr ""
 #~ "Analisi-errore larria brotxa-fitxategian:\n"

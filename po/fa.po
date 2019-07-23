@@ -1,12 +1,12 @@
-# Persian translation of GIMP UI.
+# Persian translation of Glimpse UI.
 # Copyright (C) 2007 Sharif FarsiWeb, Inc.
-# This file is distributed under the same license as the GIMP package.
+# This file is distributed under the same license as the Glimpse package.
 # Meelad Zakaria <meelad@farsiweb.info>, 2007.
 # Farzad Ghanei <farzad@farsiweb.info>, 2007.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP UI VERSION\n"
+"Project-Id-Version: Glimpse UI VERSION\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2012-05-06 03:28+0200\n"
 "PO-Revision-Date: 2007-04-25 19:03+0330\n"
@@ -40,7 +40,7 @@ msgstr "گیمپ"
 #, c-format
 msgid ""
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the GIMP Development Team"
+"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 msgstr ""
 "<b>گیمپ - برنامهٔ روتوش تصاویر پروژهٔ گنو</b>\n"
 "Copyright © 1995-%s\n"
@@ -49,12 +49,12 @@ msgstr ""
 #: ../app/about.h:34
 #, fuzzy
 msgid ""
-"GIMP is free software: you can redistribute it and/or modify it under the "
+"Glimpse is free software: you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 3 of the License, or (at your option) any later "
 "version.\n"
 "\n"
-"GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details.\n"
@@ -112,7 +112,7 @@ msgid "Be more verbose"
 msgstr "تفصیلات بیشتر"
 
 #: ../app/main.c:163
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse instance"
 msgstr "آغاز یک گیمپ دیگر"
 
 #: ../app/main.c:168
@@ -146,9 +146,9 @@ msgstr "آغاز گیمپ بدون نمایش پنجرهٔ آغازین"
 # "  --verbose                نمایش پیام‌های بالا آمدن.\n"
 #: ../app/main.c:193
 #, fuzzy
-msgid "Do not use shared memory between GIMP and plugins"
+msgid "Do not use shared memory between Glimpse and plugins"
 msgstr ""
-"  --no-shm                 Do not use shared memory between GIMP and "
+"  --no-shm                 Do not use shared memory between Glimpse and "
 "plugins.\n"
 
 # "  --no-shm                 بین گیمپ و متصل‌شونده‌ها از حافظهٔ مشترک استفاده نشود.\n"
@@ -229,18 +229,18 @@ msgstr "[پرونده|URI...]"
 
 #: ../app/main.c:405
 msgid ""
-"GIMP could not initialize the graphical user interface.\n"
+"Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
-"GIMP could not initialize the graphical user interface.\n"
+"Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 
 #: ../app/main.c:424
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse instance is already running."
 msgstr "یک نمونهٔ دیگر از گیمپ در حال اجرا است."
 
 #: ../app/main.c:494
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "خروجی گیمپ. یک نویسه وارد کنید تا این پنجره بسته شود."
 
 #: ../app/main.c:495
@@ -249,7 +249,7 @@ msgid "(Type any character to close this window)\n"
 msgstr "(یک نویسه وارد کنید تا این پنجره بسته شود)\n"
 
 #: ../app/main.c:512
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "خروجی گیمپ. می‌توانید این پنجره را حداقل کنید، اما آن را نبندید."
 
 # "پردازش دستورات در حالت دسته‌ای."
@@ -269,14 +269,14 @@ msgstr ""
 #: ../app/sanity.c:452
 #, fuzzy, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Most probably your filesystem stores files in an encoding different from "
@@ -302,7 +302,7 @@ msgstr "ویرایشگر قلم‌مو"
 # "نام پوشهٔ حاوی پیکربندی‌ کاربر گیمپ نمی‌تواند به UTF-8 تبدیل شود: %s\n"
 # "سیستم پرونده‌ای شما احتمالاً پرونده‌ها را با کدگذاری‌ای غیر از UTF-8 ذخیره می‌کند "
 # "و شما در این مورد به GLib اطلاع نداده‌اید. لطفاً متغیر محیطی G_FILENAME_ENCODING را مقداردهی کنید."
-#. initialize the list of gimp brushes
+#. initialize the list of Glimpse brushes
 #: ../app/actions/actions.c:113 ../app/core/gimp.c:951
 #: ../app/dialogs/dialogs.c:319 ../app/dialogs/preferences-dialog.c:2740
 msgid "Brushes"
@@ -398,7 +398,7 @@ msgstr "قلم‌ها"
 msgid "Gradient Editor"
 msgstr "ویرایشگر طیف"
 
-#. initialize the list of gimp gradients
+#. initialize the list of Glimpse gradients
 #: ../app/actions/actions.c:176 ../app/core/gimp.c:971
 #: ../app/dialogs/dialogs.c:323 ../app/dialogs/preferences-dialog.c:2756
 msgid "Gradients"
@@ -438,13 +438,13 @@ msgstr "لایه‌ها"
 msgid "Palette Editor"
 msgstr "ویرایشگر تخته‌رنگ"
 
-#. initialize the list of gimp palettes
+#. initialize the list of Glimpse palettes
 #: ../app/actions/actions.c:200 ../app/core/gimp.c:966
 #: ../app/dialogs/dialogs.c:325 ../app/dialogs/preferences-dialog.c:2752
 msgid "Palettes"
 msgstr "تخته‌رنگ‌ها"
 
-#. initialize the list of gimp patterns
+#. initialize the list of Glimpse patterns
 #: ../app/actions/actions.c:203 ../app/core/gimp.c:961
 #: ../app/dialogs/dialogs.c:321 ../app/dialogs/preferences-dialog.c:2748
 msgid "Patterns"
@@ -1540,7 +1540,7 @@ msgstr "ن_کتهٔ روز"
 
 #: ../app/actions/dialogs-actions.c:259
 msgctxt "dialogs-action"
-msgid "Show some helpful tips on using GIMP"
+msgid "Show some helpful tips on using Glimpse"
 msgstr ""
 
 #: ../app/actions/dialogs-actions.c:264
@@ -1552,7 +1552,7 @@ msgstr "_درباره"
 #: ../app/actions/dialogs-actions.c:265
 #, fuzzy
 msgctxt "dialogs-action"
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "دربارهٔ گیمپ"
 
 #: ../app/actions/dialogs-actions.c:328
@@ -2690,7 +2690,7 @@ msgstr "_خروج"
 #: ../app/actions/file-actions.c:113
 #, fuzzy
 msgctxt "file-action"
-msgid "Quit the GNU Image Manipulation Program"
+msgid "Quit Glimpse"
 msgstr "ترک برنامهٔ روتوش تصویر گنوم"
 
 #: ../app/actions/file-actions.c:121
@@ -3447,7 +3447,7 @@ msgstr "_راهنما"
 #: ../app/actions/help-actions.c:41
 #, fuzzy
 msgctxt "help-action"
-msgid "Open the GIMP user manual"
+msgid "Open the Glimpse user manual"
 msgstr "باز کردن محاورهٔ انتخاب قلم"
 
 #: ../app/actions/help-actions.c:46
@@ -6707,15 +6707,15 @@ msgstr ""
 #: ../app/actions/windows-actions.c:125
 #, fuzzy
 msgctxt "windows-action"
-msgid "When enabled GIMP is in a single-window mode."
+msgid "When enabled Glimpse is in a single-window mode."
 msgstr "وقتی فعال باشد، گیمپ یادیارها را هم در منوها نشان می‌دهد."
 
 #: ../app/base/tile-swap.c:711
 #, fuzzy
 msgid ""
-"Unable to open swap file. GIMP has run out of memory and cannot use the swap "
+"Unable to open swap file. Glimpse has run out of memory and cannot use the swap "
 "file. Some parts of your images may be corrupted. Try to save your work "
-"using different filenames, restart GIMP and check the location of the swap "
+"using different filenames, restart Glimpse and check the location of the swap "
 "directory in your Preferences."
 msgstr ""
 "باز کردن پروندهٔ مبادله ممکن نیست. حافظه تمام شده و گیمپ نمی‌تواند از پروندهٔ "
@@ -6805,7 +6805,7 @@ msgstr "روشنایی‌ها"
 #: ../app/config/config-enums.c:147
 #, fuzzy
 msgctxt "help-browser-type"
-msgid "GIMP help browser"
+msgid "Glimpse help browser"
 msgstr "مرورگر راهنمای گیمپ"
 
 #: ../app/config/config-enums.c:148
@@ -7042,7 +7042,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:221
 msgid ""
-"GIMP will warn the user if an attempt is made to create an image that would "
+"Glimpse will warn the user if an attempt is made to create an image that would "
 "take more memory than the size specified here."
 msgstr ""
 "در صورتی که کاربر سعی کند تصویری ایجاد کند که از مقداری که اینجا مشخص شده "
@@ -7083,7 +7083,7 @@ msgstr ""
 "اندازهٔ پیش‌نمایش ناوش موجود در گوشهٔ پایین و راست پنجرهٔ تصویر را تنظیم می‌کند."
 
 #: ../app/config/gimprc-blurbs.h:249
-msgid "Sets how many processors GIMP should try to use simultaneously."
+msgid "Sets how many processors Glimpse should try to use simultaneously."
 msgstr "تعداد پردازنده‌هایی را که گیمپ به طور هم‌زمان استفاده می‌کند تنظیم می‌کند."
 
 #: ../app/config/gimprc-blurbs.h:262
@@ -7102,7 +7102,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:278
 msgid ""
-"Sets whether GIMP should create previews of layers and channels. Previews in "
+"Sets whether Glimpse should create previews of layers and channels. Previews in "
 "the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
@@ -7141,12 +7141,12 @@ msgstr ""
 "تصویر هم به طور خودکار تغییر خواهد کرد."
 
 #: ../app/config/gimprc-blurbs.h:298
-msgid "Let GIMP try to restore your last saved session on each startup."
+msgid "Let Glimpse try to restore your last saved session on each startup."
 msgstr "گیمپ هر بار موقع آغاز به کار، آخرین نشست ذخیره شده را بازگرداند."
 
 #: ../app/config/gimprc-blurbs.h:301
 msgid ""
-"Remember the current tool, pattern, color, and brush across GIMP sessions."
+"Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
 "ابزار، الگو، رنگ و قلم‌موی فعلی در نشست‌های متفاوت گیمپ به خاطر سپرده شود ."
 
@@ -7159,11 +7159,11 @@ msgstr "همهٔ پرونده‌های باز و ذخیره شده به تاری
 
 #: ../app/config/gimprc-blurbs.h:309
 #, fuzzy
-msgid "Save the positions and sizes of the main dialogs when GIMP exits."
+msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr "هنگام خروج از گیمپ، موقعیت و اندازهٔ محاوره‌های اصلی ذخیره شود."
 
 #: ../app/config/gimprc-blurbs.h:312
-msgid "Save the tool options when GIMP exits."
+msgid "Save the tool options when Glimpse exits."
 msgstr "هنگام خروج از گیمپ گزینه‌های ابزار ذخیره شود."
 
 #: ../app/config/gimprc-blurbs.h:318
@@ -7269,7 +7269,7 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "هر وقت نشانگر بالای شیئی متوقف شد، راهنمای آنی آن نمایش داده شود."
 
 #: ../app/config/gimprc-blurbs.h:370
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:373
@@ -7283,9 +7283,9 @@ msgstr "کاری که پس از فشردن کلید فاصله در پنجرهٔ
 #: ../app/config/gimprc-blurbs.h:379
 #, fuzzy
 msgid ""
-"Sets the swap file location. GIMP uses a tile based memory allocation "
+"Sets the swap file location. Glimpse uses a tile based memory allocation "
 "scheme. The swap file is used to quickly and easily swap tiles out to disk "
-"and back in. Be aware that the swap file can easily get very large if GIMP "
+"and back in. Be aware that the swap file can easily get very large if Glimpse "
 "is used with large images. Also, things can get horribly slow if the swap "
 "file is created on a folder that is mounted over NFS.  For these reasons, it "
 "may be desirable to put your swap file in \"/tmp\"."
@@ -7312,18 +7312,18 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:395
 #, fuzzy
-msgid "Save changed keyboard shortcuts when GIMP exits."
+msgid "Save changed keyboard shortcuts when Glimpse exits."
 msgstr "ذخیرهٔ میان‌برهای صفحه‌کلید عوض شده هنگام خروج از گیمپ."
 
 #: ../app/config/gimprc-blurbs.h:398
-msgid "Restore saved keyboard shortcuts on each GIMP startup."
+msgid "Restore saved keyboard shortcuts on each Glimpse startup."
 msgstr "بازگرداندن میان‌برهای صفحه‌کلید ذخیره شده هر بار که گیمپ آغاز می‌شود."
 
 #: ../app/config/gimprc-blurbs.h:401
 #, fuzzy
 msgid ""
 "Sets the folder for temporary storage. Files will appear here during the "
-"course of running GIMP.  Most files will disappear when GIMP exits, but some "
+"course of running Glimpse.  Most files will disappear when Glimpse exits, but some "
 "files are likely to remain, so it is best if this folder not be one that is "
 "shared by other users."
 msgstr ""
@@ -7347,7 +7347,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:420
 msgid ""
-"When the amount of pixel data exceeds this limit, GIMP will start to swap "
+"When the amount of pixel data exceeds this limit, Glimpse will start to swap "
 "tiles to disk.  This is a lot slower but it makes it possible to work on "
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
@@ -7382,7 +7382,7 @@ msgstr "اندازهٔ صفحهٔ شطرنجی مورد استفاده برای 
 #: ../app/config/gimprc-blurbs.h:444
 #, fuzzy
 msgid ""
-"When enabled, GIMP will not save an image if it has not been changed since "
+"When enabled, Glimpse will not save an image if it has not been changed since "
 "it was opened."
 msgstr ""
 "وقتی روشن باشد، گیمپ تصاویری را که از زمان باز شدن تغییری نکرده باشند، ذخیره "
@@ -8630,13 +8630,13 @@ msgstr "پوشه‌های قلم‌موها"
 
 #: ../app/core/gimpbrushgenerated-load.c:85
 #, c-format
-msgid "Fatal parse error in brush file '%s': Not a GIMP brush file."
+msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 msgstr "خطای تجزیهٔ مهلک در پروندهٔ قلم‌موی «‎%s»: پروندهٔ قلم‌موی گیمپ نیست."
 
 #: ../app/core/gimpbrushgenerated-load.c:102
 #, fuzzy, c-format
 msgid ""
-"Fatal parse error in brush file '%s': Unknown GIMP brush version in line %d."
+"Fatal parse error in brush file '%s': Unknown Glimpse brush version in line %d."
 msgstr "خطای تجزیهٔ مهلک در پروندهٔ قلم‌موی «%s»: نسخهٔ ناشناختهٔ قلم‌موی گیمپ."
 
 #: ../app/core/gimpbrushgenerated-load.c:126 ../app/core/gimpbrush-load.c:278
@@ -8648,7 +8648,7 @@ msgstr "رشتهٔ یوتی‌اف-۸ نامعتبر در پروندهٔ قلم�
 #: ../app/core/gimpbrushgenerated-load.c:148
 #, fuzzy, c-format
 msgid ""
-"Fatal parse error in brush file '%s': Unknown GIMP brush shape in line %d."
+"Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line %d."
 msgstr "خطای تجزیهٔ مهلک در پروندهٔ قلم‌موی «%s»: شکل ناشناختهٔ قلم‌موی گیمپ."
 
 #: ../app/core/gimpbrushgenerated-load.c:224
@@ -8713,7 +8713,7 @@ msgstr "بی‌نام"
 #, c-format
 msgid ""
 "Fatal parse error in brush file '%s': Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr ""
 "خطای تجزیهٔ مهلک در پروندهٔ قلم‌موی «‎%s»: عمق قلم‌موی پشتیبانی‌نشدهٔ %Id\n"
 "قلم‌موهای گیمپ باید GRAY یا RGBA باشند."
@@ -8754,7 +8754,7 @@ msgstr "در حال گشتن به دنبال پرونده‌های داده"
 msgid "Parasites"
 msgstr "پارازیت‌ها"
 
-#. initialize the list of gimp dynamics
+#. initialize the list of Glimpse dynamics
 #: ../app/core/gimp.c:956 ../app/dialogs/preferences-dialog.c:2744
 #: ../app/tools/gimppaintoptions-gui.c:204
 msgid "Dynamics"
@@ -9200,7 +9200,7 @@ msgstr "خطای تجزیهٔ مهلک در پروندهٔ طیف «‎%s»: خ�
 
 #: ../app/core/gimpgradient-load.c:83
 #, c-format
-msgid "Fatal parse error in gradient file '%s': Not a GIMP gradient file."
+msgid "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 msgstr "خطای تجزیهٔ مهلک در پروندهٔ طیف «‎%s»: پروندهٔ طیف متعلق به گیمپ نیست."
 
 #: ../app/core/gimpgradient-load.c:111
@@ -9994,7 +9994,7 @@ msgstr "خطای تجزیهٔ مهلک در پروندهٔ الگوی «%s»: ن
 #, c-format
 msgid ""
 "Fatal parse error in pattern file '%s: Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"Glimpse Patterns must be GRAY or RGB."
 msgstr ""
 "خطای تجزیهٔ مهلک در پروندهٔ الگوی «%s»: عمق %Id برای الگو پشتیبانی نمی‌شود.\n"
 "الگوهای گیمپ باید خاکستری یا RGB باشند."
@@ -10206,7 +10206,7 @@ msgstr "درصد"
 #: ../app/core/gimp-user-install.c:160
 #, c-format
 msgid ""
-"It seems you have used GIMP %s before.  GIMP will now migrate your user "
+"It seems you have used Glimpse %s before.  Glimpse will now migrate your user "
 "settings to '%s'."
 msgstr ""
 "به نظر می‌رسد قبلاً از گیمپ %s استفاده کرده‌اید. گیمپ تنظیمات کاربری شما را به "
@@ -10215,7 +10215,7 @@ msgstr ""
 #: ../app/core/gimp-user-install.c:165
 #, c-format
 msgid ""
-"It appears that you are using GIMP for the first time.  GIMP will now create "
+"It appears that you are using Glimpse for the first time.  Glimpse will now create "
 "a folder named '%s' and copy some files to it."
 msgstr ""
 "به نظر می‌رسد برای اولین بار از گیمپ استفاده می‌کنید. گیمپ پوشه‌ای به نام «‎%s» "
@@ -10238,11 +10238,11 @@ msgstr "نمی‌توان پوشهٔ «%s» را ایجاد کرد: %s"
 
 #: ../app/dialogs/about-dialog.c:115 ../app/gui/gui.c:493
 #, fuzzy
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "دربارهٔ گیمپ"
 
 #: ../app/dialogs/about-dialog.c:124
-msgid "Visit the GIMP website"
+msgid "Visit the Glimpse website"
 msgstr "بازدید از وب‌گاه گیمپ"
 
 #. Translators: insert your names here,
@@ -10393,7 +10393,7 @@ msgstr "رنگ پیش‌زمینه/پس‌زمینه"
 
 #: ../app/dialogs/dialogs-constructors.c:203 ../app/gui/gui.c:161
 #: ../app/gui/gui-message.c:149
-msgid "GIMP Message"
+msgid "Glimpse Message"
 msgstr "پیغام گیمپ"
 
 #: ../app/dialogs/fade-dialog.c:109
@@ -10448,12 +10448,12 @@ msgstr ""
 #: ../app/dialogs/file-save-dialog.c:558
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 
 #: ../app/dialogs/file-save-dialog.c:565
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export to "
 "export to other file formats."
 msgstr ""
 
@@ -10729,7 +10729,7 @@ msgstr "_مدیر پیمانه‌ها"
 
 #: ../app/dialogs/module-dialog.c:150
 #, fuzzy
-msgid "You will have to restart GIMP for the changes to take effect."
+msgid "You will have to restart Glimpse for the changes to take effect."
 msgstr "برای تأثیر گذاشتن این تغییرات باید گیمپ را مجدداً آغاز کنید:"
 
 #: ../app/dialogs/module-dialog.c:191
@@ -10903,13 +10903,13 @@ msgid "Do you really want to reset all preferences to default values?"
 msgstr "آیا واقعاً می‌خواهید همهٔ ترجیحات را به مقادیر پیش‌فرضشان برگردانید؟"
 
 #: ../app/dialogs/preferences-dialog.c:355
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid "You will have to restart Glimpse for the following changes to take effect:"
 msgstr "برای تأثیر گذاشتن این تغییرات باید گیمپ را مجدداً آغاز کنید:"
 
 #: ../app/dialogs/preferences-dialog.c:537
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "دفعهٔ بعدی که گیمپ را آغاز کنید میان‌برهای صفحه‌کلید به مقادیر پیش‌فرضشان بر "
 "خواهند گشت."
@@ -10933,7 +10933,7 @@ msgstr ""
 #: ../app/dialogs/preferences-dialog.c:646
 msgid ""
 "Your input device settings will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "دفعهٔ بعدی که گیمپ را آغاز کنید تنظیمات دستگاه‌های ورودیتان به مقادیر پیش‌فرضش "
 "بر خواهد گشت."
@@ -11765,7 +11765,7 @@ msgstr "نقطه/%a"
 
 #: ../app/dialogs/quit-dialog.c:105
 #, fuzzy
-msgid "Quit GIMP"
+msgid "Quit Glimpse"
 msgstr "خروج از گیمپ"
 
 #: ../app/dialogs/quit-dialog.c:105
@@ -11773,7 +11773,7 @@ msgid "Close All Images"
 msgstr "بستن همهٔ تصاویر"
 
 #: ../app/dialogs/quit-dialog.c:164
-msgid "If you quit GIMP now, these changes will be lost."
+msgid "If you quit Glimpse now, these changes will be lost."
 msgstr "اگر حالا از گیمپ خارج شوید این تغییرات از دست خواهند رفت."
 
 #: ../app/dialogs/quit-dialog.c:167
@@ -11855,12 +11855,12 @@ msgstr ""
 
 #: ../app/dialogs/tips-dialog.c:88
 #, fuzzy
-msgid "The GIMP tips file is empty!"
+msgid "The Glimpse tips file is empty!"
 msgstr "<b>پروندهٔ نکات گیمپ تجزیه نمی‌شود!</b>"
 
 #: ../app/dialogs/tips-dialog.c:92
 #, fuzzy
-msgid "The GIMP tips file appears to be missing!"
+msgid "The Glimpse tips file appears to be missing!"
 msgstr "<b>به نظر می‌رسد پروندهٔ نکات گیمپ شما گم شده است!</b>"
 
 #: ../app/dialogs/tips-dialog.c:94
@@ -11871,11 +11871,11 @@ msgstr ""
 
 #: ../app/dialogs/tips-dialog.c:100
 #, fuzzy
-msgid "The GIMP tips file could not be parsed!"
+msgid "The Glimpse tips file could not be parsed!"
 msgstr "<b>پروندهٔ نکات گیمپ تجزیه نمی‌شود!</b>"
 
 #: ../app/dialogs/tips-dialog.c:128
-msgid "GIMP Tip of the Day"
+msgid "Glimpse Tip of the Day"
 msgstr "نکتهٔ روز گیمپ"
 
 #: ../app/dialogs/tips-dialog.c:134
@@ -11903,7 +11903,7 @@ msgid "tips-locale:C"
 msgstr "tips-locale:fa"
 
 #: ../app/dialogs/user-install-dialog.c:84
-msgid "GIMP User Installation"
+msgid "Glimpse User Installation"
 msgstr "نصب کاربر گیمپ"
 
 #: ../app/dialogs/user-install-dialog.c:93
@@ -11911,7 +11911,7 @@ msgid "User installation failed!"
 msgstr "نصب کاربر با شکست مواجه شد!"
 
 #: ../app/dialogs/user-install-dialog.c:95
-msgid "The GIMP user installation failed; see the log for details."
+msgid "The Glimpse user installation failed; see the log for details."
 msgstr ""
 "نصب کاربر گیمپ با شکست مواجه شد؛ برای جزئیات به پروندهٔ ثبت وقایع مراجعه کنید."
 
@@ -12355,7 +12355,7 @@ msgstr "نمونه‌رنگی"
 
 #: ../app/gegl/gimpcurvesconfig.c:449
 #, fuzzy
-msgid "not a GIMP Curves file"
+msgid "not a Glimpse Curves file"
 msgstr "یک پروندهٔ متعارف نیست"
 
 #: ../app/gegl/gimpcurvesconfig.c:464 ../app/gegl/gimplevelsconfig.c:786
@@ -12376,16 +12376,16 @@ msgstr "تغییر اندازهٔ لایه به اندازهٔ تصویر"
 
 #: ../app/gegl/gimplevelsconfig.c:739
 #, fuzzy
-msgid "not a GIMP Levels file"
+msgid "not a Glimpse Levels file"
 msgstr "یک پروندهٔ متعارف نیست"
 
 #: ../app/gegl/gimpoperationcagecoefcalc.c:68
-msgid "Compute a set of coefficient buffer for the GIMP cage tool"
+msgid "Compute a set of coefficient buffer for the Glimpse cage tool"
 msgstr ""
 
 #: ../app/gegl/gimpoperationcagetransform.c:106
 msgid ""
-"Convert a set of coefficient buffer to a coordinate buffer for the GIMP cage "
+"Convert a set of coefficient buffer to a coordinate buffer for the Glimpse cage "
 "tool"
 msgstr ""
 
@@ -12405,7 +12405,7 @@ msgid "Documents"
 msgstr "نوشتارها"
 
 #: ../app/gui/splash.c:116
-msgid "GIMP Startup"
+msgid "Glimpse Startup"
 msgstr "آغاز به کار گیمپ"
 
 #: ../app/paint/gimpairbrush.c:65 ../app/tools/gimpairbrushtool.c:55
@@ -13110,8 +13110,8 @@ msgid ""
 "Plug-in crashed: \"%s\"\n"
 "(%s)\n"
 "\n"
-"The dying plug-in may have messed up GIMP's internal state. You may want to "
-"save your images and restart GIMP to be on the safe side."
+"The dying plug-in may have messed up Glimpse's internal state. You may want to "
+"save your images and restart Glimpse to be on the safe side."
 msgstr ""
 "متصل شونده دچار فروپاشی شد: «%s»\n"
 "(%s)\n"
@@ -13206,7 +13206,7 @@ msgstr "متصل شونده موجود نیست (%s)"
 
 #: ../app/plug-in/plug-in-rc.c:205
 #, c-format
-msgid "Skipping '%s': wrong GIMP protocol version."
+msgid "Skipping '%s': wrong Glimpse protocol version."
 msgstr "از «%s» می‌گذریم: نسخهٔ قرارداد گیمپ غلط است."
 
 #: ../app/plug-in/plug-in-rc.c:477
@@ -15546,7 +15546,7 @@ msgstr ""
 "ایجاد کنید."
 
 #: ../app/tools/gimptexttool-editor.c:1172
-msgid "GIMP Text Editor"
+msgid "Glimpse Text Editor"
 msgstr "ویرایشگر متن گیمپ"
 
 #: ../app/tools/gimpthresholdtool.c:88
@@ -16992,13 +16992,13 @@ msgstr "مرورگر را_هنمای مورد استفاده:"
 
 #: ../app/widgets/gimphelp.c:295
 #, fuzzy
-msgid "The GIMP help browser is not available."
+msgid "The Glimpse help browser is not available."
 msgstr "مرورگر راهنمای گیمپ"
 
 #: ../app/widgets/gimphelp.c:296
 #, fuzzy
 msgid ""
-"The GIMP help browser plug-in appears to be missing from your installation. "
+"The Glimpse help browser plug-in appears to be missing from your installation. "
 "You may instead use the web browser for reading the help pages."
 msgstr "به نظر می‌رسد متصل شوندهٔ راهنمای مرورگر گیمپ در نصب شما موجود نیست."
 
@@ -17007,7 +17007,7 @@ msgid "Help browser doesn't start"
 msgstr "مرورگر راهنما آغاز نمی‌شود"
 
 #: ../app/widgets/gimphelp.c:343
-msgid "Could not start the GIMP help browser plug-in."
+msgid "Could not start the Glimpse help browser plug-in."
 msgstr "نمی‌توان متصل شوندهٔ مرورگر راهنمای گیمپ را آغاز کرد."
 
 #: ../app/widgets/gimphelp.c:370
@@ -17016,7 +17016,7 @@ msgid "Use _Web Browser"
 msgstr "مرورگر وب"
 
 #: ../app/widgets/gimphelp.c:620
-msgid "GIMP user manual is missing"
+msgid "Glimpse user manual is missing"
 msgstr ""
 
 #: ../app/widgets/gimphelp.c:627
@@ -17024,7 +17024,7 @@ msgid "_Read Online"
 msgstr ""
 
 #: ../app/widgets/gimphelp.c:651
-msgid "The GIMP user manual is not installed on your computer."
+msgid "The Glimpse user manual is not installed on your computer."
 msgstr ""
 
 #: ../app/widgets/gimphelp.c:654
@@ -17615,7 +17615,7 @@ msgid "English"
 msgstr ""
 
 #: ../app/widgets/gimpuimanager.c:742
-msgid "Your GIMP installation is incomplete:"
+msgid "Your Glimpse installation is incomplete:"
 msgstr "گیمپ شما ناقص نصب شده است:"
 
 #: ../app/widgets/gimpuimanager.c:744
@@ -17809,7 +17809,7 @@ msgid "Undefined"
 msgstr "تعریف نشده"
 
 #: ../app/xcf/xcf.c:100 ../app/xcf/xcf.c:168
-msgid "GIMP XCF image"
+msgid "Glimpse XCF image"
 msgstr "تصویر XCF گیمپ"
 
 #: ../app/xcf/xcf.c:272
@@ -18113,16 +18113,16 @@ msgstr ""
 #~ msgid "Error saving tool options presets: %s"
 #~ msgstr "خطا در حین ذخیره کردن پروندهٔ XCF: %s"
 
-#~ msgid "Use a running GIMP only, never start a new one"
+#~ msgid "Use a running Glimpse only, never start a new one"
 #~ msgstr "همیشه از گیمپ در حال اجرا استفاده شود و هرگز نمونهٔ جدید آغاز نشود"
 
-#~ msgid "Only check if GIMP is running, then quit"
+#~ msgid "Only check if Glimpse is running, then quit"
 #~ msgstr "فقط بررسی شود که گیمپ در حال اجرا هست یا نه و سپس خارج شود"
 
-#~ msgid "Start GIMP without showing the startup window"
+#~ msgid "Start Glimpse without showing the startup window"
 #~ msgstr "آغاز گیمپ بدون نمایش پنجرهٔ آغازین"
 
-#~ msgid "Could not connect to GIMP."
+#~ msgid "Could not connect to Glimpse."
 #~ msgstr "نمی‌توان به گیمپ متصل شد."
 
 #~ msgid "Make sure that the Toolbox is visible!"
@@ -18310,7 +18310,7 @@ msgstr ""
 #~ msgstr "جا کردن تصویر _در پنجره"
 
 #, fuzzy
-#~ msgid "Enable displaying a handy GIMP tip on startup."
+#~ msgid "Enable displaying a handy Glimpse tip on startup."
 #~ msgstr ""
 #~ "موقع آغاز گیمپ یک نکتهٔ کارآمد در مورد کار با برنامه نمایش داده شود. "
 
@@ -18482,7 +18482,7 @@ msgstr ""
 #~ msgid "Toolbox and other docks are transient to the active image window"
 #~ msgstr "جعبه‌ابزار و دیگر پنجره‌های شناور به پنجرهٔ تصویر فعال وابسته‌اند"
 
-#~ msgid "Show tip next time GIMP starts"
+#~ msgid "Show tip next time Glimpse starts"
 #~ msgstr "نمایش نکتهٔ روز دفعهٔ بعدی که گیمپ آغاز می‌شود"
 
 #, fuzzy
@@ -18629,7 +18629,7 @@ msgstr ""
 #~ "این پرونده %Id زبانهٔ باز دارد. بستن پنجره سبب بستن همهٔ این زبانه‌ها نیز "
 #~ "خواهد شد."
 
-#~ msgid "Could not find GIMP help browser."
+#~ msgid "Could not find Glimpse help browser."
 #~ msgstr "مرورگر راهنمای گیمپ پیدا نشد."
 
 #~ msgid "Use _web browser instead"
@@ -18663,16 +18663,16 @@ msgstr ""
 #~ msgstr "(این پنجرهٔ پیشانه تا ۱۰ ثانیهٔ دیگر بسته خواهد شد)\n"
 
 #~ msgid ""
-#~ "GIMP is not properly installed for the current user.\n"
+#~ "Glimpse is not properly installed for the current user.\n"
 #~ "User installation was skipped because the '--no-interface' flag was "
 #~ "used.\n"
-#~ "To perform user installation, run the GIMP without the '--no-interface' "
+#~ "To perform user installation, run the Glimpse without the '--no-interface' "
 #~ "flag."
 #~ msgstr ""
-#~ "GIMP is not properly installed for the current user.\n"
+#~ "Glimpse is not properly installed for the current user.\n"
 #~ "User installation was skipped because the '--no-interface' flag was "
 #~ "used.\n"
-#~ "To perform user installation, run the GIMP without the '--no-interface' "
+#~ "To perform user installation, run the Glimpse without the '--no-interface' "
 #~ "flag."
 
 # "گیمپ نتوانست واسط گرافیکی کاربر را آغاز کند.\n"
@@ -18687,7 +18687,7 @@ msgstr ""
 #~ "\n"
 #~ "گزینهٔ نامعتبر «%s»\n"
 
-#~ msgid "GIMP version"
+#~ msgid "Glimpse version"
 #~ msgstr "نسخهٔ گیمپ"
 
 #~ msgid ""
@@ -18957,14 +18957,14 @@ msgstr ""
 #~ msgstr "در حال ذخیره‌سازی «‎%s»\n"
 
 #~ msgid ""
-#~ "When enabled, the GIMP will use a different info window per image view."
+#~ "When enabled, the Glimpse will use a different info window per image view."
 #~ msgstr ""
 #~ "وقتی فعال باشد، گیمپ برای هر تصویر از یک پنجرهٔ اطلاعات متفاوت استفاده "
 #~ "می‌کند."
 
 #~ msgid ""
-#~ "On multiprocessor machines, if GIMP has been compiled with --enable-mp "
-#~ "this sets how many processors GIMP should use simultaneously."
+#~ "On multiprocessor machines, if Glimpse has been compiled with --enable-mp "
+#~ "this sets how many processors Glimpse should use simultaneously."
 #~ msgstr ""
 #~ "در ماشین‌های با چند پردازنده، اگر گیمپ با پرچم ‎--enable-mpترجمه شده باشد، "
 #~ "این مورد تعیین می‌کند که گیمپ به صورت هم‌زمان از چند پردازنده باید استفاده "
@@ -18975,7 +18975,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "There is always a tradeoff between memory usage and speed.  In most "
-#~ "cases, the GIMP opts for speed over memory.  However, if memory is a big "
+#~ "cases, the Glimpse opts for speed over memory.  However, if memory is a big "
 #~ "issue, try to enable this setting."
 #~ msgstr ""
 #~ "همیشه میان میزان استفاده از حافظه و سرعت عمل رابطهٔ معکوس وجود دارد. در "
@@ -18983,10 +18983,10 @@ msgstr ""
 #~ "این وجود اگر معضل حافظه دارید،‌ این تنظیم را فعال کنید."
 
 #~ msgid ""
-#~ "The tile cache is used to make sure the GIMP doesn't thrash tiles between "
-#~ "memory and disk. Setting this value higher will cause the GIMP to use "
-#~ "less swap space, but will also cause the GIMP to use more memory. "
-#~ "Conversely, a smaller cache size causes the GIMP to use more swap space "
+#~ "The tile cache is used to make sure the Glimpse doesn't thrash tiles between "
+#~ "memory and disk. Setting this value higher will cause the Glimpse to use "
+#~ "less swap space, but will also cause the Glimpse to use more memory. "
+#~ "Conversely, a smaller cache size causes the Glimpse to use more swap space "
 #~ "and less memory."
 #~ msgstr ""
 #~ "حافظهٔ پنهان قطعه قطعه برای اطمینان از این استفاده می‌شود که گیمپ پرونده‌ها "
@@ -19276,7 +19276,7 @@ msgstr ""
 #~ msgstr "%Id تصویر با تغییرات ذخیره نشده موجود است:"
 
 #~ msgid ""
-#~ "The gimprc is used to store personal preferences that affect GIMP's "
+#~ "The gimprc is used to store personal preferences that affect Glimpse's "
 #~ "default behavior.  Paths to search for brushes, palettes, gradients, "
 #~ "patterns, plug-ins and modules can also configured here."
 #~ msgstr ""
@@ -19285,14 +19285,14 @@ msgstr ""
 #~ "پیمانه‌ها را نیز می‌توان اینجا تنظیم کرد."
 
 #~ msgid ""
-#~ "GIMP uses an additional gtkrc file so you can configure it to look "
+#~ "Glimpse uses an additional gtkrc file so you can configure it to look "
 #~ "differently than other GTK apps."
 #~ msgstr ""
 #~ "گیمپ از یک پروندهٔ gtkrc اضافی استفاده می‌کند تا شما بتوانید آن را طوری "
 #~ "تنظیم کنید که با دیگر برنامه‌های GTK متفاوت به نظر آید."
 
 #~ msgid ""
-#~ "Plug-ins and extensions are external programs run by the GIMP which "
+#~ "Plug-ins and extensions are external programs run by the Glimpse which "
 #~ "provide additional functionality.  These programs are searched for at run-"
 #~ "time and information about their functionality and mod-times is cached in "
 #~ "this file.  This file is intended to be GIMP-readable only, and should "
@@ -19319,7 +19319,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "The sessionrc is used to store what dialog windows were open the last "
-#~ "time you quit The GIMP.  You can configure The GIMP to reopen these "
+#~ "time you quit Glimpse.  You can configure The Glimpse to reopen these "
 #~ "dialogs at the saved position."
 #~ msgstr ""
 #~ "sessionrc برای ذخیره کردن این که آخرین باری که از گیمپ خارج شدید، چه "
@@ -19337,7 +19337,7 @@ msgstr ""
 #~ "The unitrc is used to store your user units database.  You can define "
 #~ "additional units and use them just like you use the built-in units "
 #~ "inches, millimeters, points and picas.  This file is overwritten each "
-#~ "time you quit the GIMP."
+#~ "time you quit Glimpse."
 #~ msgstr ""
 #~ "unitrcبرای ذخیره کردن پایگاه‌دادهٔ واحدهای کاربر استفاده می‌شود. می‌توانید "
 #~ "واحدهای جدید تعریف کنید و همان‌طور که از واحدهای داخلی اینچ، میلی‌متر، پونت "
@@ -19345,8 +19345,8 @@ msgstr ""
 #~ "گیمپ خارج می‌شوید بازنویسی می‌شود."
 
 #~ msgid ""
-#~ "This folder is used to store user defined brushes. The GIMP checks this "
-#~ "folder in addition to the system-wide GIMP brushes installation when "
+#~ "This folder is used to store user defined brushes. The Glimpse checks this "
+#~ "folder in addition to the system-wide Glimpse brushes installation when "
 #~ "searching for brushes."
 #~ msgstr ""
 #~ "این پوشه برای ذخیره کردن قلم‌موهای تعریف شدهٔ کاربر استفاده می‌شود. گیمپ "
@@ -19355,7 +19355,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "This folder is used to store fonts you only want visible in the GIMP. The "
-#~ "GIMP checks this folder in addition to the system-wide GIMP fonts "
+#~ "Glimpse checks this folder in addition to the system-wide Glimpse fonts "
 #~ "installation when searching for fonts. Use this only if you really want "
 #~ "to have GIMP-only fonts, otherwise put things in your global font "
 #~ "directory."
@@ -19367,16 +19367,16 @@ msgstr ""
 #~ "کنید."
 
 #~ msgid ""
-#~ "This folder is used to store user defined gradients.  The GIMP checks "
-#~ "this folder in addition to the system-wide GIMP gradients installation "
+#~ "This folder is used to store user defined gradients.  The Glimpse checks "
+#~ "this folder in addition to the system-wide Glimpse gradients installation "
 #~ "when searching for gradients."
 #~ msgstr ""
 #~ "این پوشه برای ذخیره کردن طیف‌های تعریف شدهٔ کاربر استفاده می‌شود.  گیمپ حین "
 #~ "جستجو برای طیف‌ها، این پوشه را علاوه بر نصب کلی طیف‌ها بررسی می‌کند."
 
 #~ msgid ""
-#~ "This folder is used to store user defined palettes.  The GIMP checks this "
-#~ "folder in addition to the system-wide GIMP palettes installation when "
+#~ "This folder is used to store user defined palettes.  The Glimpse checks this "
+#~ "folder in addition to the system-wide Glimpse palettes installation when "
 #~ "searching for palettes."
 #~ msgstr ""
 #~ "این پوشه برای ذخیره کردن تخته‌رنگ‌های تعریف شدهٔ کاربر استفاده می‌شود.  گیمپ "
@@ -19384,8 +19384,8 @@ msgstr ""
 #~ "می‌کند."
 
 #~ msgid ""
-#~ "This folder is used to store user defined patterns.  The GIMP checks this "
-#~ "folder in addition to the system-wide GIMP patterns installation when "
+#~ "This folder is used to store user defined patterns.  The Glimpse checks this "
+#~ "folder in addition to the system-wide Glimpse patterns installation when "
 #~ "searching for patterns."
 #~ msgstr ""
 #~ "این پوشه برای ذخیره کردن الگوهای تعریف شدهٔ کاربر استفاده می‌شود.  گیمپ حین "
@@ -19393,8 +19393,8 @@ msgstr ""
 
 #~ msgid ""
 #~ "This folder is used to store user created, temporary, or otherwise non-"
-#~ "system-supported plug-ins.  The GIMP checks this folder in addition to "
-#~ "the system-wide GIMP plug-in folder when searching for plug-ins."
+#~ "system-supported plug-ins.  The Glimpse checks this folder in addition to "
+#~ "the system-wide Glimpse plug-in folder when searching for plug-ins."
 #~ msgstr ""
 #~ "این پوشه برای ذخیره کردن متصل شونده‌های تعریف شدهٔ کاربر، موقتی یا متصل "
 #~ "شونده‌هایی که توسط سیستم پشتیانی نمی‌شوند استفاده می‌شود.  گیمپ حین جستجو "
@@ -19403,8 +19403,8 @@ msgstr ""
 
 #~ msgid ""
 #~ "This folder is used to store user created, temporary, or otherwise non-"
-#~ "system-supported DLL modules.  The GIMP checks this folder in addition to "
-#~ "the system-wide GIMP module folder when searching for modules to load "
+#~ "system-supported DLL modules.  The Glimpse checks this folder in addition to "
+#~ "the system-wide Glimpse module folder when searching for modules to load "
 #~ "during initialization."
 #~ msgstr ""
 #~ "این پوشه برای ذخیره کردن پیمانه‌های DLL تعریف شدهٔ کاربر، موقتی یا "
@@ -19414,8 +19414,8 @@ msgstr ""
 
 #~ msgid ""
 #~ "This folder is used to store user created, temporary, or otherwise non-"
-#~ "system-supported additions to the plug-in environment.  The GIMP checks "
-#~ "this folder in addition to the system-wide GIMP environment folder when "
+#~ "system-supported additions to the plug-in environment.  The Glimpse checks "
+#~ "this folder in addition to the system-wide Glimpse environment folder when "
 #~ "searching for plug-in environment modification files."
 #~ msgstr ""
 #~ "این پوشه برای ذخیره کردن افزدونی‌های محیط متصل شونده‌های تعریف شدهٔ کاربر، "
@@ -19425,7 +19425,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "This folder is used to store user created and installed scripts.  The "
-#~ "GIMP checks this folder in addition to the systemwide GIMP scripts folder "
+#~ "Glimpse checks this folder in addition to the systemwide Glimpse scripts folder "
 #~ "when searching for scripts."
 #~ msgstr ""
 #~ "این پوشه برای ذخیره کردن کدنوشته‌های نصب شده یا ساخته شده توسط کاربر "
@@ -19440,7 +19440,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "This folder is used to temporarily store undo buffers to reduce memory "
-#~ "usage.  If The GIMP is unceremoniously killed, files of the form: gimp<#>."
+#~ "usage.  If The Glimpse is unceremoniously killed, files of the form: gimp<#>."
 #~ "<#> may persist in this folder.  These files are useless across GIMP "
 #~ "sessions and can be destroyed with impunity."
 #~ msgstr ""
@@ -19472,7 +19472,7 @@ msgstr ""
 #~ "The GIMP %d.%d User Installation"
 #~ msgstr "به نصب کاربر nگیمپ ‎%d.%d خوش آمدید"
 
-#~ msgid "Click \"Continue\" to enter the GIMP user installation."
+#~ msgid "Click \"Continue\" to enter the Glimpse user installation."
 #~ msgstr "روی «ادامه» کلیک کنید تا به نصب کاربر گیمپ وارد شوید."
 
 #~ msgid ""
@@ -19508,23 +19508,23 @@ msgstr ""
 #~ msgid "Click \"Continue\" to proceed with the user installation."
 #~ msgstr "روی «ادامه» کلیک کنید تا نصب کاربر ادامه پیدا کند."
 
-#~ msgid "It seems you have used GIMP 2.0 before."
+#~ msgid "It seems you have used Glimpse 2.0 before."
 #~ msgstr "به نظر می‌رسد که قبلاً‌ از گیمپ نسخهٔ 2.0 استفاده کرده‌اید."
 
-#~ msgid "_Migrate GIMP 2.0 user settings"
+#~ msgid "_Migrate Glimpse 2.0 user settings"
 #~ msgstr "انتقال تنظیمات کاربر گیمپ 2.0"
 
 #~ msgid "Do a _fresh user installation"
 #~ msgstr "انجام نصب کاربر _جدید"
 
-#~ msgid "Personal GIMP Folder"
+#~ msgid "Personal Glimpse Folder"
 #~ msgstr "پوشهٔ گیمپ شخصی"
 
-#~ msgid "Click \"Continue\" to create your personal GIMP folder."
+#~ msgid "Click \"Continue\" to create your personal Glimpse folder."
 #~ msgstr "برای ساختن پوشهٔ گیمپ شخصی روی «ادامه» کلیک کنید."
 
 #~ msgid ""
-#~ "For a proper GIMP installation, a folder named '<b>%s</b>' needs to be "
+#~ "For a proper Glimpse installation, a folder named '<b>%s</b>' needs to be "
 #~ "created."
 #~ msgstr "برای نصب مناسب گیمپ، باید پوشه‌ای با نام «%s» ساخته شود."
 
@@ -19536,23 +19536,23 @@ msgstr ""
 #~ "این پوشه حاوی پرنده‌های مهمی خواهد بود. روی یکی از پرونده‌ها یا پوشه‌های "
 #~ "درخت کلیک کنید تا اطلاعات بیشتری دربارهٔ مورد انتخاب شده کسب کنید."
 
-#~ msgid "Please wait while your personal GIMP folder is being created..."
+#~ msgid "Please wait while your personal Glimpse folder is being created..."
 #~ msgstr "لطفاً کمی صبر کنید تا پوشهٔ گیمپ شخصی شما ساخته شود ..."
 
-#~ msgid "GIMP Performance Tuning"
+#~ msgid "Glimpse Performance Tuning"
 #~ msgstr "تنظیم عملکرد گیمپ"
 
 #~ msgid "Click \"Continue\" to accept the settings above."
 #~ msgstr "روی «ادامه» کلیک کنید تا تنظیمات فوق پذیرفته شوند."
 
 #~ msgid ""
-#~ "<b>For optimal GIMP performance, some settings may have to be adjusted.</"
+#~ "<b>For optimal Glimpse performance, some settings may have to be adjusted.</"
 #~ "b>"
 #~ msgstr ""
 #~ "<b>برای اجرای بهینهٔ گیمپ ممکن است لازم باشد برخی تنظیمات انجام شود.</b>"
 
 #~ msgid ""
-#~ "GIMP uses a limited amount of memory to store image data, the so-called "
+#~ "Glimpse uses a limited amount of memory to store image data, the so-called "
 #~ "\"Tile Cache\".  You should adjust its size to fit into memory.  Consider "
 #~ "the amount of memory used by other running processes."
 #~ msgstr ""
@@ -19696,13 +19696,13 @@ msgstr ""
 #~ msgid "Transform Tool procedures"
 #~ msgstr "روال‌های ابزار تبدیل"
 
-#~ msgid "Internal GIMP procedure"
+#~ msgid "Internal Glimpse procedure"
 #~ msgstr "روال داخلی گیمپ"
 
-#~ msgid "GIMP Plug-In"
+#~ msgid "Glimpse Plug-In"
 #~ msgstr "متصل شوندهٔ گیمپ"
 
-#~ msgid "GIMP Extension"
+#~ msgid "Glimpse Extension"
 #~ msgstr "ضمیمهٔ گیمپ"
 
 #~ msgid "Temporary Procedure"

@@ -177,7 +177,7 @@ gimp_dbus_service_activate (GimpDBusServiceUI     *service,
 {
   Gimp *gimp = GIMP_DBUS_SERVICE (service)->gimp;
 
-  /*  We want to be called again later in case that GIMP is not fully
+  /*  We want to be called again later in case that Glimpse is not fully
    *  started yet.
    */
   if (gimp_is_restored (gimp))

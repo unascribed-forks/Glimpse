@@ -3530,7 +3530,7 @@ msgid "Invalid X resolution."
 msgstr "Неправильна роздільна здатність по X"
 
 #: ../plug-ins/common/file-pnm.c:627
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "GIMP не впорається із зображенням такої ширини"
 
 #: ../plug-ins/common/file-pnm.c:634
@@ -3538,7 +3538,7 @@ msgid "Invalid Y resolution."
 msgstr "Неправильна роздільна здатність вздовж Y"
 
 #: ../plug-ins/common/file-pnm.c:636
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "GIMP не впорається із зображенням такої висоти"
 
 #: ../plug-ins/common/file-pnm.c:648
@@ -4107,7 +4107,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "«%s»:\n"
 "GIMP не впорається із зображенням такої ширини"
@@ -4127,7 +4127,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "«%s»:\n"
 "GIMP не впорається із зображенням такої висоти"
@@ -10485,7 +10485,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "Довідка для «%s» недоступна."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "Посібник з GIMP недоступний"
 
 #. TRANSLATORS: do not end the URL with a dot,

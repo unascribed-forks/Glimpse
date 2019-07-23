@@ -4035,7 +4035,7 @@ msgid "Invalid X resolution."
 msgstr "Недапушчальнае разрозьненьне па X."
 
 #: ../plug-ins/common/file-pnm.c:555
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "Шырыня відарыса большая, чым GIMP можа апрацаваць."
 
 #: ../plug-ins/common/file-pnm.c:562
@@ -4043,7 +4043,7 @@ msgid "Invalid Y resolution."
 msgstr "Недапшчальнае разрозьненьне па Y."
 
 #: ../plug-ins/common/file-pnm.c:564
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "Вышыня відарыса большая, чым GIMP можа апрацаваць."
 
 #: ../plug-ins/common/file-pnm.c:574
@@ -4393,7 +4393,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "Шырыня відарыса большая, чым GIMP можа апрацаваць"
@@ -4413,7 +4413,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "Вышыня відарыса большая, чым GIMP можа апрацаваць"
@@ -4591,7 +4591,7 @@ msgstr "Канал TIFF"
 #: ../plug-ins/file-psd/psd-load.c:333
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 msgstr ""
@@ -11237,7 +11237,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "Старонкі дапамогі для «%s» не ў наяўнасьці."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "Кіраўніцтва карыстальніка GIMP не ў наяўнасьці."
 
 #: ../plug-ins/help/gimphelpdomain.c:187

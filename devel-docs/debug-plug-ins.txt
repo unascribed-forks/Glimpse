@@ -6,7 +6,7 @@ completely obvious, so you want to use debugger to see what is going on.
 But hmm, how does one start a plug-in under a debugger if GIMP is the one
 who is starting the plug-in...
 
-To address this issue, libgimp has some hooks controlled by the
+To address this issue, libGlimpse has some hooks controlled by the
 GIMP_PLUGIN_DEBUG environment variable. The idea is that you can attach
 a debugger to the pid of the plug-in you want to debug. The format is as
 follows:

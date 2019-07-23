@@ -799,7 +799,7 @@ msgstr "使用路径(_P)"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "到用户手册的书签"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -837,7 +837,7 @@ msgstr "主站(_M)"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "到 GIMP 网站的书签"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
@@ -849,7 +849,7 @@ msgid "_Roadmap"
 msgstr "开发路线(_R)"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217
-#| msgid "Bookmark to the GIMP web site"
+#| msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgid "Bookmark to the roadmap of GIMP"
 msgstr "到 GIMP 开发路线的书签"
 
@@ -858,7 +858,7 @@ msgid "_Wiki"
 msgstr "维基(_W)"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:230
-#| msgid "Bookmark to the GIMP web site"
+#| msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgid "Bookmark to the wiki of GIMP"
 msgstr "到 GIMP 维基的书签"
 
@@ -867,12 +867,12 @@ msgid "_Bug Reports and Feature Requests"
 msgstr "Bug 报告和特性需求(_B)"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:243
-#| msgid "Bookmark to the user manual"
+#| msgid "Bookmark to the user manual (upstream)"
 msgid "Bookmark to the bug tracker of GIMP"
 msgstr "到 GIMP 缺陷追踪系统的书签"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "用户手册网站(_U)"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69

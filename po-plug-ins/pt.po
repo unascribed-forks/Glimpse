@@ -3149,7 +3149,7 @@ msgid "Invalid X resolution."
 msgstr "Resolução X inválida."
 
 #: ../plug-ins/common/file-pnm.c:625
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "A largura da imagem é maior do que o GIMP pode gerir."
 
 #: ../plug-ins/common/file-pnm.c:632
@@ -3157,7 +3157,7 @@ msgid "Invalid Y resolution."
 msgstr "Resolução Y inválida."
 
 #: ../plug-ins/common/file-pnm.c:634
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "A altura da imagem é maior do que o GIMP pode gerir."
 
 #: ../plug-ins/common/file-pnm.c:646
@@ -3528,7 +3528,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "\"%s\":\n"
 "A largura da imagem é maior do que o GIMP pode gerir"
@@ -3548,7 +3548,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "\"%s\":\n"
 "A altura da imagem é maior do que o GIMP pode gerir"
@@ -9375,7 +9375,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "As páginas de ajuda sobre \"%s\" não estão disponíveis."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "O manual de utilizador do GIMP não está disponível."
 
 #. TRANSLATORS: do not end the URL with a dot,

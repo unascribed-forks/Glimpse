@@ -36,7 +36,6 @@
 
 #include "file/file-open.h"
 
-#include "gimpcairo-wilber.h"
 #include "gimpdevices.h"
 #include "gimpdialogfactory.h"
 #include "gimpdockwindow.h"
@@ -662,8 +661,6 @@ gimp_toolbox_expose_wilber (GtkWidget      *widget,
   cr = gdk_cairo_create (gtk_widget_get_window (widget));
   gdk_cairo_region (cr, event->region);
   cairo_clip (cr);
-
-  gimp_cairo_draw_toolbox_wilber (widget, cr);
 
   cairo_destroy (cr);
 

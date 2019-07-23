@@ -3389,7 +3389,7 @@ msgid "Invalid X resolution."
 msgstr "X bereizmen baliogabea."
 
 #: ../plug-ins/common/file-pnm.c:627
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "Irudiaren zabalera handiegia GIMPek kudeatzeko."
 
 #: ../plug-ins/common/file-pnm.c:634
@@ -3397,7 +3397,7 @@ msgid "Invalid Y resolution."
 msgstr "Y bereizmen baliogabea."
 
 #: ../plug-ins/common/file-pnm.c:636
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "Irudiaren altuera handiegia GIMPek kudeatzeko."
 
 #: ../plug-ins/common/file-pnm.c:648
@@ -3957,7 +3957,7 @@ msgstr "'%s':\n"
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr "'%s':\n"
 "Irudiaren zabalera handiegia da GIMPek kudeatzeko"
 
@@ -3975,7 +3975,7 @@ msgstr "'%s':\n"
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr "'%s':\n"
 "Irudiaren altuera handiegia da GIMPek kudeatzeko"
 
@@ -10208,7 +10208,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "'%s'(r)en laguntzako orrialdeak ez daude erabilgarri."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "GIMPen erabiltzailearen eskuliburua ez dago erabilgarri."
 
 #. TRANSLATORS: do not end the URL with a dot,

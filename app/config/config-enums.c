@@ -183,7 +183,7 @@ gimp_help_browser_type_get_type (void)
 
   static const GimpEnumDesc descs[] =
   {
-    { GIMP_HELP_BROWSER_GIMP, NC_("help-browser-type", "GIMP help browser"), NULL },
+    { GIMP_HELP_BROWSER_GIMP, NC_("help-browser-type", "Glimpse help browser"), NULL },
     { GIMP_HELP_BROWSER_WEB_BROWSER, NC_("help-browser-type", "Web browser"), NULL },
     { 0, NULL, NULL }
   };

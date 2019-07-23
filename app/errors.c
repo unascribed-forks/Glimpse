@@ -323,7 +323,7 @@ gimp_eek (const gchar *reason,
   gint             num_idx;
   gint             i = 0;
 
-  /* GIMP has 2 ways to handle termination signals and fatal errors: one
+  /* Glimpse has 2 ways to handle termination signals and fatal errors: one
    * is the stack trace mode which is set at start as command line
    * option --stack-trace-mode, this won't change for the length of the
    * session and outputs a trace in terminal; the other is set in

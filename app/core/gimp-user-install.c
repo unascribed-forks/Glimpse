@@ -213,12 +213,12 @@ gimp_user_install_run (GimpUserInstall *install)
   if (install->migrate)
     user_install_log (install,
                       _("It seems you have used GIMP %s before.  "
-                        "GIMP will now migrate your user settings to '%s'."),
+                        "Glimpse will now migrate your user settings to '%s'."),
                       install->migrate, dirname);
   else
     user_install_log (install,
                       _("It appears that you are using GIMP for the "
-                        "first time.  GIMP will now create a folder "
+                        "first time.  Glimpse will now create a folder "
                         "named '%s' and copy some files to it."),
                       dirname);
 

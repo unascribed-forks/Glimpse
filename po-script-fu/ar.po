@@ -773,7 +773,7 @@ msgstr "استخدا_م المسارات"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "وضع علامة مرجعية على دليل المستخدم"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -812,7 +812,7 @@ msgstr "موقع الوب الر_ئيسي"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:192
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:205
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:218
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "وضع علامة مرجعية على موقع وب GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
@@ -820,7 +820,7 @@ msgid "_Developer Web Site"
 msgstr "موقع وب الت_طوير"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "موقع وب دليل المست_خدم"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217

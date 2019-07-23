@@ -827,7 +827,7 @@ msgstr "Utilitza _camins"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "Marcador per al manual d'usuari"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -865,7 +865,7 @@ msgstr "Web _principal"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "Marcador per a la web del GIMP"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
@@ -897,7 +897,7 @@ msgid "Bookmark to the bug tracker of GIMP"
 msgstr "Marcador per al gestor d'errades del Gimp"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "Web del manual d'_usuari"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69

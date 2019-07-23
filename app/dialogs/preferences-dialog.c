@@ -1226,7 +1226,7 @@ prefs_dialog_new (Gimp       *gimp,
   /***************/
   /*  Debugging  */
   /***************/
-  /* No debugging preferences are needed on win32. Either GIMP has been
+  /* No debugging preferences are needed on win32. Either Glimpse has been
    * built with DrMinGW support (HAVE_EXCHNDL) or not. If it has, then
    * the backtracing is enabled and can't be disabled. It assume it will
    * work only upon a crash.
@@ -2564,7 +2564,7 @@ prefs_dialog_new (Gimp       *gimp,
   else
     {
       hbox = prefs_hint_box_new (GIMP_ICON_DIALOG_WARNING,
-                                 _("The GIMP help browser doesn't seem to "
+                                 _("The Glimpse help browser doesn't seem to "
                                    "be installed. Using the web browser "
                                    "instead."));
       gtk_box_pack_start (GTK_BOX (vbox2), hbox, FALSE, FALSE, 0);

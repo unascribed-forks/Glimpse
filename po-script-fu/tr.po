@@ -826,7 +826,7 @@ msgstr "_Yolları Kullanmak"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "Kullanıcı kılavuzunu görüntüle"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -865,7 +865,7 @@ msgstr "_Ana Web Sitesi"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "GIMP web sitesini görüntüle"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
@@ -900,7 +900,7 @@ msgid "Bookmark to the bug tracker of GIMP"
 msgstr "GIMP hata izleyicisini görüntüle"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "_Kullanıcı Kılavuzu Web Sitesi"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69

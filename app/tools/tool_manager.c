@@ -36,8 +36,6 @@
 
 #include "display/gimpdisplay.h"
 
-#include "widgets/gimpcairo-wilber.h"
-
 #include "gimptool.h"
 #include "gimptoolcontrol.h"
 #include "tool_manager.h"
@@ -74,8 +72,6 @@ static void   tool_manager_image_clean_dirty  (GimpImage       *image,
                                                GimpToolManager *tool_manager);
 static void   tool_manager_image_saving       (GimpImage       *image,
                                                GimpToolManager *tool_manager);
-
-static void   tool_manager_cast_spell         (GimpToolInfo    *tool_info);
 
 
 /*  public functions  */
@@ -707,9 +703,6 @@ tool_manager_tool_changed (GimpContext     *user_context,
   tool_manager_select_tool (user_context->gimp, new_tool);
 
   g_object_unref (new_tool);
-
-  /* ??? */
-  tool_manager_cast_spell (tool_info);
 }
 
 static void
@@ -820,63 +813,5 @@ tool_manager_image_saving (GimpImage       *image,
       if (display)
         tool_manager_control_active (image->gimp, GIMP_TOOL_ACTION_COMMIT,
                                      display);
-    }
-}
-
-static void
-tool_manager_cast_spell (GimpToolInfo *tool_info)
-{
-  typedef struct
-  {
-    const gchar *sequence;
-    GCallback    func;
-  } Spell;
-
-  static const Spell spells[] =
-  {
-    { .sequence = "gimp-warp-tool\0"
-                  "gimp-iscissors-tool\0"
-                  "gimp-gradient-tool\0"
-                  "gimp-vector-tool\0"
-                  "gimp-ellipse-select-tool\0"
-                  "gimp-rect-select-tool\0",
-      .func     = gimp_cairo_wilber_toggle_pointer_eyes
-    }
-  };
-
-  static const gchar *spell_progress[G_N_ELEMENTS (spells)];
-  const gchar        *tool_name;
-  gint                i;
-
-  tool_name = gimp_object_get_name (GIMP_OBJECT (tool_info));
-
-  for (i = 0; i < G_N_ELEMENTS (spells); i++)
-    {
-      if (! spell_progress[i])
-        spell_progress[i] = spells[i].sequence;
-
-      while (spell_progress[i])
-        {
-          if (! strcmp (tool_name, spell_progress[i]))
-            {
-              spell_progress[i] += strlen (spell_progress[i]) + 1;
-
-              if (! *spell_progress[i])
-                {
-                  spell_progress[i] = NULL;
-
-                  spells[i].func ();
-                }
-
-              break;
-            }
-          else
-            {
-              if (spell_progress[i] == spells[i].sequence)
-                spell_progress[i] = NULL;
-              else
-                spell_progress[i] = spells[i].sequence;
-            }
-        }
     }
 }

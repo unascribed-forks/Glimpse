@@ -4121,7 +4121,7 @@ msgid "Invalid X resolution."
 msgstr "Погрешна Х резолуција."
 
 #: ../plug-ins/common/file-pnm.c:554
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "Големината на сликата е преголема за GIMP"
 
 #: ../plug-ins/common/file-pnm.c:561
@@ -4129,7 +4129,7 @@ msgid "Invalid Y resolution."
 msgstr "Погрешна Y резолуција."
 
 #: ../plug-ins/common/file-pnm.c:563
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "Височината на сликата е преголема за GIMP"
 
 #: ../plug-ins/common/file-pnm.c:575
@@ -4495,7 +4495,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "Ширината на сликата е преголема за GIMP"
@@ -4515,7 +4515,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "'%s':\n"
 "Висината на сликата е преголема за GIMP"
@@ -4701,7 +4701,7 @@ msgstr "TIFF канал"
 #: ../plug-ins/file-psd/psd-load.c:321
 msgid ""
 "Warning:\n"
-"The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+"The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 "bit, so it will be converted for you. Information will be lost because of "
 "this conversion."
 msgstr ""
@@ -11203,7 +11203,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "Помошните страници за '%s' не се достапни."
 
 #: ../plug-ins/help/gimphelpdomain.c:187
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "Корисничкото упатство на GIMP не е достапно."
 
 #: ../plug-ins/help/gimphelpdomain.c:188
@@ -13270,10 +13270,10 @@ msgstr "Нема фатени податоци"
 #~ msgid "checkbutton|Snap to grid"
 #~ msgstr "Држи во мрежа"
 
-#~ msgid "The GIMP help files are not found."
+#~ msgid "The Glimpse help files are not found."
 #~ msgstr "ГИМП датотеките за помош не се најдени."
 
-#~ msgid "There is a problem with the GIMP help files."
+#~ msgid "There is a problem with the Glimpse help files."
 #~ msgstr "Има проблем со ГИМП датотеките за помош."
 
 #~ msgid "Please check your installation."

@@ -44,11 +44,11 @@ msgstr "Luo kuvia ja muokkaa valokuvia"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:3
 msgid ""
-"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
+"Glimpse is an acronym for GNU Image Manipulation Program. It is a freely "
 "distributed program for such tasks as photo retouching, image composition "
 "and image authoring."
 msgstr ""
-"GIMP on lyhenne englanninkielisistä sanoista GNU Image Manipulation Program, "
+"Glimpse on lyhenne englanninkielisistä sanoista GNU Image Manipulation Program, "
 "vapaasti suomennettuna GNU-kuvankäsittelyohjelma. Se on vapaasti jaeltava "
 "ohjelma kuvien käsittelyä ja koostamista varten."
 
@@ -58,35 +58,35 @@ msgid ""
 "expert quality photo retouching program, an online batch processing system, "
 "a mass production image renderer, an image format converter, etc."
 msgstr ""
-"Se sisältää lukuisia ominaisuuksia. GIMP soveltuu yksinkertaiseksi "
+"Se sisältää lukuisia ominaisuuksia. Glimpse soveltuu yksinkertaiseksi "
 "piirrosohjelmaksi, ammattilaisen työkaluksi, kuvamuotojen muuntajaksi ja "
 "niin edelleen."
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:5
 msgid ""
-"GIMP is expandable and extensible. It is designed to be augmented with plug-"
+"Glimpse is expandable and extensible. It is designed to be augmented with plug-"
 "ins and extensions to do just about anything. The advanced scripting "
 "interface allows everything from the simplest task to the most complex image "
-"manipulation procedures to be easily scripted. GIMP is available for Linux, "
+"manipulation procedures to be easily scripted. Glimpse is available for Linux, "
 "Microsoft Windows and OS X."
 msgstr ""
-"GIMP on laajennettavissa. Se on suunniteltu täydennettävksi lisäosilla ja "
+"Glimpse on laajennettavissa. Se on suunniteltu täydennettävksi lisäosilla ja "
 "laajennuksilla, jotka voivat tehdä melkeinpä mitä vain. Kehittynyt "
 "skriptausliittymä sallii kaikenlaisen automatisoinnin yksinkertaisista "
-"tehtävistä aina haastaviin kuvankäsittelytoimenpiteisiin. GIMP on saataville "
+"tehtävistä aina haastaviin kuvankäsittelytoimenpiteisiin. Glimpse on saataville "
 "Linuxille, Microsoft Windowsille ja OS X:lle."
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:6
-msgid "Painting in GIMP"
+msgid "Painting in Glimpse"
 msgstr "GIMPillä maalaaminen"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:7
-msgid "Photo editing in GIMP"
+msgid "Photo editing in Glimpse"
 msgstr "Valokuvien muokkaaminen GIMPillä"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:8
 msgid ""
-"GIMP 2.10.6 comes with a lot of bug fixes, optimizations and features. Most "
+"Glimpse 2.10.6 comes with a lot of bug fixes, optimizations and features. Most "
 "notable changes are:"
 msgstr ""
 
@@ -123,12 +123,12 @@ msgid "File format filtering in Open/Save/Export dialogs made less confusing"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:15
-msgid "New language (having GIMP translated in 81 languages now): Marathi"
+msgid "New language (having Glimpse translated in 81 languages now): Marathi"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:16
 msgid ""
-"GIMP 2.10.4 includes a lot of bug fixes as well as various optimizations. "
+"Glimpse 2.10.4 includes a lot of bug fixes as well as various optimizations. "
 "Most notable changes are:"
 msgstr ""
 
@@ -160,7 +160,7 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:22
 msgid ""
-"This second release in the GIMP 2.10 series, so soon after 2.10.0, is mostly "
+"This second release in the Glimpse 2.10 series, so soon after 2.10.0, is mostly "
 "the usual bug-fixing version after a major release, with a few dozen bugs "
 "fixed."
 msgstr ""
@@ -227,7 +227,7 @@ msgid "Basic HiDPI support: automatically or user-selected icon size"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:35
-msgid "New themes for GIMP: Light, Gray, Dark, and System"
+msgid "New themes for Glimpse: Light, Gray, Dark, and System"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:36
@@ -242,7 +242,7 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:38
 msgid ""
-"In this second release candidate before GIMP 2.10.0, while debugging is "
+"In this second release candidate before Glimpse 2.10.0, while debugging is "
 "still a prime target, a new focus has been put on speed and optimization in "
 "order to provide a smoother painting experience. Bigger changes are:"
 msgstr ""
@@ -285,13 +285,13 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:45
 msgid ""
-"GIMP 2.10.0-RC1 is the first release candidate before GIMP 2.10.0 stable "
+"Glimpse 2.10.0-RC1 is the first release candidate before Glimpse 2.10.0 stable "
 "release, with a focus on debugging and stability. Other than the many bug "
 "fixes, most notable improvements are:"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:46
-msgid "New dashboard dockable to monitor GIMP resource usage"
+msgid "New dashboard dockable to monitor Glimpse resource usage"
 msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:47
@@ -334,7 +334,7 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:55
 msgid ""
-"GIMP 2.9.8 introduces on-canvas gradient editing and various enhancements "
+"Glimpse 2.9.8 introduces on-canvas gradient editing and various enhancements "
 "while focusing on bugfixing and stability."
 msgstr ""
 
@@ -392,11 +392,11 @@ msgid ""
 msgstr ""
 
 #: ../desktop/gimp-data-extras.metainfo.xml.in.in.h:1
-msgid "Extra files for GIMP"
+msgid "Extra files for Glimpse"
 msgstr "GIMPin lisätiedostoja"
 
 #: ../desktop/gimp-data-extras.metainfo.xml.in.in.h:2
-msgid "Patterns, gradients, and other extra files for GIMP"
+msgid "Patterns, gradients, and other extra files for Glimpse"
 msgstr "Kuvioita, liukuvärejä ja muita lisätiedostoja GIMPille"
 
 #: ../desktop/gimp.desktop.in.in.h:2
@@ -405,8 +405,8 @@ msgstr "Kuvankäsittely"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: ../desktop/gimp.desktop.in.in.h:5
-msgid "GIMP;graphic;design;illustration;painting;"
-msgstr "GIMP;grafiikka;maalaus;suunnittelu;valokuva;kuva;"
+msgid "Glimpse;graphic;design;illustration;painting;"
+msgstr "Glimpse;grafiikka;maalaus;suunnittelu;valokuva;kuva;"
 
 #: ../app/about.h:23
 msgid "GIMP"
@@ -417,7 +417,7 @@ msgstr "GIMP"
 #, c-format
 msgid ""
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the GIMP Development Team"
+"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 msgstr ""
 "Tekijänoikeudet © 1995-%s\n"
 "Spencer Kimball, Peter Mattis ja GIMP-kehitystiimi"
@@ -430,12 +430,12 @@ msgstr ""
 #: ../app/about.h:39
 #, fuzzy
 #| msgid ""
-#| "GIMP is free software: you can redistribute it and/or modify it under the "
+#| "Glimpse is free software: you can redistribute it and/or modify it under the "
 #| "terms of the GNU General Public License as published by the Free Software "
 #| "Foundation; either version 3 of the License, or (at your option) any "
 #| "later version.\n"
 #| "\n"
-#| "GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+#| "Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 #| "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 #| "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 #| "details.\n"
@@ -443,25 +443,25 @@ msgstr ""
 #| "You should have received a copy of the GNU General Public License along "
 #| "with GIMP.  If not, see https://www.gnu.org/licenses/."
 msgid ""
-"GIMP is free software: you can redistribute it and/or modify it under the "
+"Glimpse is free software: you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 3 of the License, or (at your option) any later "
 "version.\n"
 "\n"
-"GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GIMP. If not, see: https://www.gnu.org/licenses/"
+"Glimpse. If not, see: https://www.gnu.org/licenses/"
 msgstr ""
-"GIMP on vapaa ohjelma; tätä ohjelmaa on sallittu levittää edelleen ja "
+"Glimpse on vapaa ohjelma; tätä ohjelmaa on sallittu levittää edelleen ja "
 "muuttaa GNU yleisen lisenssin (GPL lisenssin) ehtojen mukaan sellaisina kuin "
 "Free Software Foundation on ne julkaissut; joko Lisenssin version 2, tai "
 "(valinnan mukaan) minkä tahansa myöhemmän version mukaisesti.\n"
 "\n"
-"GIMP ohjelmaa levitetään siinä toivossa, että se olisi hyödyllinen, mutta "
+"Glimpse ohjelmaa levitetään siinä toivossa, että se olisi hyödyllinen, mutta "
 "ILMAN MITÄÄN TAKUUTA; ilman edes hiljaista takuuta KAUPALLISESTI "
 "HYVÄKSYTTÄVÄSTÄ LAADUSTA tai SOVELTUVUUDESTA TIETTYYN TARKOITUKSEEN. Katso "
 "GPL lisenssistä lisää yksityiskohtia.\n"
@@ -492,7 +492,7 @@ msgid "Be more verbose"
 msgstr "Selittävämmin"
 
 #: ../app/main.c:172
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse instance"
 msgstr "Käynnistä uusi Gimp-istunto"
 
 #: ../app/main.c:177
@@ -517,8 +517,8 @@ msgstr "Älä näytä käynnistysikkunaa"
 
 #: ../app/main.c:202
 #, fuzzy
-#| msgid "Do not use shared memory between GIMP and plugins"
-msgid "Do not use shared memory between GIMP and plug-ins"
+#| msgid "Do not use shared memory between Glimpse and plugins"
+msgid "Do not use shared memory between Glimpse and plug-ins"
 msgstr "Älä käytä jaettua muistia GIMPin ja liitännäisten välillä"
 
 #: ../app/main.c:207
@@ -589,18 +589,18 @@ msgstr "[TIEDOSTO|URI...]"
 
 #: ../app/main.c:484
 msgid ""
-"GIMP could not initialize the graphical user interface.\n"
+"Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
-"GIMP ei voi käynnistää graafista käyttöliittymää.\n"
+"Glimpse ei voi käynnistää graafista käyttöliittymää.\n"
 "Varmista, että ympäristö on asetettu oikein."
 
 #: ../app/main.c:503
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse instance is already running."
 msgstr "Toinen Gimp-istunto on jo käynnissä."
 
 #: ../app/main.c:594
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "Gimpin tuloste. Sulje tämä ikkuna kirjoittamalla mitä tahansa."
 
 #: ../app/main.c:595
@@ -609,7 +609,7 @@ msgid "(Type any character to close this window)\n"
 msgstr "(Sulje ikkuna kirjoittamalla jotain tähän ikkunaan)\n"
 
 #: ../app/main.c:612
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "Gimpin tuloste. Voit pienentää ikkunan, mutta älä sulje sitä."
 
 #: ../app/sanity.c:562
@@ -626,7 +626,7 @@ msgstr ""
 #: ../app/sanity.c:581
 #, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -644,7 +644,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "Sivellinmuokkain"
 
-#. initialize the list of gimp brushes
+#. initialize the list of Glimpse brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:335 ../app/dialogs/preferences-dialog.c:3111
 msgid "Brushes"
@@ -727,7 +727,7 @@ msgstr "Tiedosto"
 msgid "Filters"
 msgstr "Suodattimet"
 
-#. initialize the list of gimp fonts
+#. initialize the list of Glimpse fonts
 #: ../app/actions/actions.c:171 ../app/core/gimp-data-factories.c:383
 #: ../app/dialogs/dialogs.c:353 ../app/dialogs/preferences-dialog.c:3131
 msgid "Fonts"
@@ -738,7 +738,7 @@ msgstr "Fontit"
 msgid "Gradient Editor"
 msgstr "Liukuvärin muokkain"
 
-#. initialize the list of gimp gradients
+#. initialize the list of Glimpse gradients
 #: ../app/actions/actions.c:177 ../app/core/gimp-data-factories.c:374
 #: ../app/dialogs/dialogs.c:347 ../app/dialogs/preferences-dialog.c:3127
 msgid "Gradients"
@@ -785,13 +785,13 @@ msgstr "Sivellin"
 msgid "Palette Editor"
 msgstr "Paletin muokkain"
 
-#. initialize the list of gimp palettes
+#. initialize the list of Glimpse palettes
 #: ../app/actions/actions.c:204 ../app/core/gimp-data-factories.c:369
 #: ../app/dialogs/dialogs.c:350 ../app/dialogs/preferences-dialog.c:3123
 msgid "Palettes"
 msgstr "Paletit"
 
-#. initialize the list of gimp patterns
+#. initialize the list of Glimpse patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:344 ../app/dialogs/preferences-dialog.c:3119
 msgid "Patterns"
@@ -3572,12 +3572,12 @@ msgstr "_Päivän vihje"
 
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
-msgid "Show some helpful tips on using GIMP"
+msgid "Show some helpful tips on using Glimpse"
 msgstr "Näytä hyödyllisiä vihjeitä GIMPin käytöstä"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "Tietoja Gimpistä"
 
 #: ../app/actions/dialogs-actions.c:283
@@ -4748,7 +4748,7 @@ msgstr "_Lopeta"
 
 #: ../app/actions/file-actions.c:125
 msgctxt "file-action"
-msgid "Quit the GNU Image Manipulation Program"
+msgid "Quit Glimpse"
 msgstr "Lopeta GIMP"
 
 #: ../app/actions/file-actions.c:133 ../app/actions/file-actions.c:308
@@ -6203,7 +6203,7 @@ msgstr "O_hje"
 
 #: ../app/actions/help-actions.c:42
 msgctxt "help-action"
-msgid "Open the GIMP user manual"
+msgid "Open the Glimpse user manual"
 msgstr "Avaa Gimpin ohjekirja"
 
 #: ../app/actions/help-actions.c:47
@@ -8816,10 +8816,10 @@ msgstr "Tallenna työkaluasetukset poistuttaessa"
 
 #: ../app/actions/tool-preset-editor-actions.c:49
 #, fuzzy
-#| msgid "Save the tool options when GIMP exits."
+#| msgid "Save the tool options when Glimpse exits."
 msgctxt "tool-preset-editor-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Tallenna työkaluasetukset kun GIMP lopetetaan."
+msgstr "Tallenna työkaluasetukset kun Glimpse lopetetaan."
 
 #: ../app/actions/tool-preset-editor-actions.c:55
 #, fuzzy
@@ -8905,10 +8905,10 @@ msgstr "Tallenna työkaluasetukset poistuttaessa"
 
 #: ../app/actions/tool-presets-actions.c:75
 #, fuzzy
-#| msgid "Save the tool options when GIMP exits."
+#| msgid "Save the tool options when Glimpse exits."
 msgctxt "tool-presets-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Tallenna työkaluasetukset kun GIMP lopetetaan."
+msgstr "Tallenna työkaluasetukset kun Glimpse lopetetaan."
 
 #: ../app/actions/tool-presets-actions.c:81
 #, fuzzy
@@ -10986,10 +10986,10 @@ msgstr "Yhden ikkunan tila"
 #: ../app/actions/windows-actions.c:131
 #, fuzzy
 #| msgctxt "windows-action"
-#| msgid "When enabled GIMP is in a single-window mode."
+#| msgid "When enabled Glimpse is in a single-window mode."
 msgctxt "windows-action"
-msgid "When enabled, GIMP is in a single-window mode."
-msgstr "Tämän ollessa valittuna GIMP on yhden ikkunan tilassa."
+msgid "When enabled, Glimpse is in a single-window mode."
+msgstr "Tämän ollessa valittuna Glimpse on yhden ikkunan tilassa."
 
 #: ../app/actions/windows-actions.c:140
 msgctxt "windows-tabs-position-action"
@@ -11100,7 +11100,7 @@ msgstr "Oikeakätinen"
 
 #: ../app/config/config-enums.c:145
 msgctxt "help-browser-type"
-msgid "GIMP help browser"
+msgid "Glimpse help browser"
 msgstr "Gimpin ohjeselain"
 
 #: ../app/config/config-enums.c:146
@@ -11479,10 +11479,10 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:253
 msgid ""
-"GIMP will warn the user if an attempt is made to create an image that would "
+"Glimpse will warn the user if an attempt is made to create an image that would "
 "take more memory than the size specified here."
 msgstr ""
-"GIMP varoittaa käyttäjää mikäli yritetään luoda kuva joka veisi enemmän "
+"Glimpse varoittaa käyttäjää mikäli yritetään luoda kuva joka veisi enemmän "
 "muistia kuin tässä määritelty koko."
 
 #: ../app/config/gimprc-blurbs.h:263
@@ -11519,25 +11519,25 @@ msgstr "Asettaa esikatselunäkymän koon kuvaikkunan oikeassa alakulmassa."
 
 #: ../app/config/gimprc-blurbs.h:286
 #, fuzzy
-#| msgid "Sets how many processors GIMP should try to use simultaneously."
-msgid "Sets how many threads GIMP should use for operations that support it."
+#| msgid "Sets how many processors Glimpse should try to use simultaneously."
+msgid "Sets how many threads Glimpse should use for operations that support it."
 msgstr ""
 "Määrittää kuinka monta prosessoria GIMP:n pitäisi yrittää käyttää "
 "samanaikaisesti."
 
 #: ../app/config/gimprc-blurbs.h:308
 msgid ""
-"Sets whether GIMP should create previews of layers and channels. Previews in "
+"Sets whether Glimpse should create previews of layers and channels. Previews in "
 "the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
-"Kun käytössä, GIMP luo tasojen ja kanavien esikatselunäkymät. "
+"Kun käytössä, Glimpse luo tasojen ja kanavien esikatselunäkymät. "
 "Esikatselunäkymät tasojen ja kanavien valintaikkunassa ovat hyödyllisiä "
 "mutta ne saattavat hidastaa käsiteltäessä isoja kuvia."
 
 #: ../app/config/gimprc-blurbs.h:313
 msgid ""
-"Sets whether GIMP should create previews of layer groups. Layer group "
+"Sets whether Glimpse should create previews of layer groups. Layer group "
 "previews are more expensive than ordinary layer previews."
 msgstr ""
 
@@ -11577,20 +11577,20 @@ msgstr ""
 "suuremmaksi ja pienemmäksi."
 
 #: ../app/config/gimprc-blurbs.h:334
-msgid "Let GIMP try to restore your last saved session on each startup."
+msgid "Let Glimpse try to restore your last saved session on each startup."
 msgstr ""
-"GIMP yrittää palauttaa viimeisimmän tallennetun istunnon jokaisella "
+"Glimpse yrittää palauttaa viimeisimmän tallennetun istunnon jokaisella "
 "käynnistyskerralla."
 
 #: ../app/config/gimprc-blurbs.h:337
 msgid ""
-"When enabled, GIMP will try to restore windows on the monitor they were open "
+"When enabled, Glimpse will try to restore windows on the monitor they were open "
 "before.  When disabled, windows will appear on the currently used monitor."
 msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:342
 msgid ""
-"Remember the current tool, pattern, color, and brush across GIMP sessions."
+"Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
 "Muista käytetty työkalu, kuvio, väri ja sivellin GIMP-istuntojen välillä."
 
@@ -11609,12 +11609,12 @@ msgstr ""
 "Viimeisimmät asiakirjat -luettelossa."
 
 #: ../app/config/gimprc-blurbs.h:355
-msgid "Save the positions and sizes of the main dialogs when GIMP exits."
+msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr "Tallenna tärkeimpien ikkunoiden sijainnit ja koot suljettaessa."
 
 #: ../app/config/gimprc-blurbs.h:358
-msgid "Save the tool options when GIMP exits."
-msgstr "Tallenna työkaluasetukset kun GIMP lopetetaan."
+msgid "Save the tool options when Glimpse exits."
+msgstr "Tallenna työkaluasetukset kun Glimpse lopetetaan."
 
 #: ../app/config/gimprc-blurbs.h:364
 msgid ""
@@ -11717,7 +11717,7 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "Näytä työkalun ohje kun hiiri on kohteen päällä."
 
 #: ../app/config/gimprc-blurbs.h:416
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "Käytä GIMPiä yhden ikkunan tilassa"
 
 #: ../app/config/gimprc-blurbs.h:419
@@ -11753,14 +11753,14 @@ msgstr "Mitä tehdään, kun välilyöntiä painetaan kuvaikkunassa."
 
 #: ../app/config/gimprc-blurbs.h:440
 msgid ""
-"Sets the swap file location. GIMP uses a tile based memory allocation "
+"Sets the swap file location. Glimpse uses a tile based memory allocation "
 "scheme. The swap file is used to quickly and easily swap tiles out to disk "
-"and back in. Be aware that the swap file can easily get very large if GIMP "
+"and back in. Be aware that the swap file can easily get very large if Glimpse "
 "is used with large images. Also, things can get horribly slow if the swap "
 "file is created on a folder that is mounted over NFS.  For these reasons, it "
 "may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
-"Aseta sivutustiedoston sijainti. GIMP käyttää muistia lohkoissa ja sivuttaa "
+"Aseta sivutustiedoston sijainti. Glimpse käyttää muistia lohkoissa ja sivuttaa "
 "käyttämättömät lohkot tiedostoon ladatakseen ne taas käyttöön. "
 "Sivutustiedosto voi kasvaa isoksi jos GIMP:llä muokataan suuria kuvia. "
 "Nopeuden optimoimiseksi sivutustiedostoa ei saa sijoittaa verkkolevylle tai "
@@ -11780,22 +11780,22 @@ msgstr ""
 "näppäinyhdistelmä kun valikon kohde on valittuna."
 
 #: ../app/config/gimprc-blurbs.h:456
-msgid "Save changed keyboard shortcuts when GIMP exits."
-msgstr "Tallenna näppäimistön pikavalinnat kun GIMP lopetetaan."
+msgid "Save changed keyboard shortcuts when Glimpse exits."
+msgstr "Tallenna näppäimistön pikavalinnat kun Glimpse lopetetaan."
 
 #: ../app/config/gimprc-blurbs.h:459
-msgid "Restore saved keyboard shortcuts on each GIMP startup."
-msgstr "Lataa tallennetut näppäimistön pikavalinnat kun GIMP käynnistetään."
+msgid "Restore saved keyboard shortcuts on each Glimpse startup."
+msgstr "Lataa tallennetut näppäimistön pikavalinnat kun Glimpse käynnistetään."
 
 #: ../app/config/gimprc-blurbs.h:462
 msgid ""
 "Sets the folder for temporary storage. Files will appear here during the "
-"course of running GIMP.  Most files will disappear when GIMP exits, but some "
+"course of running Glimpse.  Most files will disappear when Glimpse exits, but some "
 "files are likely to remain, so it is best if this folder not be one that is "
 "shared by other users."
 msgstr ""
-"Asettaa tilapäistiedostojen kansion. Tiedostoja ilmaantuu tänne, kun GIMP on "
-"käynnissä. Suurin osa tiedostoista poistetaan kun GIMP lopetetaan, mutta osa "
+"Asettaa tilapäistiedostojen kansion. Tiedostoja ilmaantuu tänne, kun Glimpse on "
+"käynnissä. Suurin osa tiedostoista poistetaan kun Glimpse lopetetaan, mutta osa "
 "tiedostoista voi jäädä kansioon,joten on parempi ettei tämä kansio ole "
 "jaettu eri käyttäjien kesken."
 
@@ -12008,12 +12008,12 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:625
 msgid ""
-"When the amount of pixel data exceeds this limit, GIMP will start to swap "
+"When the amount of pixel data exceeds this limit, Glimpse will start to swap "
 "tiles to disk.  This is a lot slower but it makes it possible to work on "
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
 msgstr ""
-"Kun pikselitiedon määrä ylittää tämän rajan, GIMP alkaa tallentamaan "
+"Kun pikselitiedon määrä ylittää tämän rajan, Glimpse alkaa tallentamaan "
 "kuvalohkoja levylle. Tämä on paljon hitaampaa, mutta mahdollistaa "
 "työskentelyn kuville, jotka eivät muuten mahtuisi muistiin. Jos "
 "tietokoneessasi on paljon keskusmuistia, kannattaa tätä arvoa muuttaa "
@@ -12041,10 +12041,10 @@ msgstr "Aseta läpinäkyvyyteen käytettävän šakkilautakuvion koon."
 
 #: ../app/config/gimprc-blurbs.h:649
 msgid ""
-"When enabled, GIMP will not save an image if it has not been changed since "
+"When enabled, Glimpse will not save an image if it has not been changed since "
 "it was opened."
 msgstr ""
-"Kun käytössä, GIMP ei tallenna kuvaa, jos sitä ei ole muutettu avaamisen "
+"Kun käytössä, Glimpse ei tallenna kuvaa, jos sitä ei ole muutettu avaamisen "
 "jälkeen."
 
 #: ../app/config/gimprc-blurbs.h:653
@@ -12310,7 +12310,7 @@ msgstr ""
 
 #: ../app/core/core-enums.c:423
 msgctxt "debug-policy"
-msgid "Never debug GIMP"
+msgid "Never debug Glimpse"
 msgstr ""
 
 #: ../app/core/core-enums.c:509
@@ -13084,7 +13084,7 @@ msgstr "Komentojonotulkkia '%s' ei löydy. Komentojono tila ei käytettävissä.
 msgid "Deleting \"%s\" failed: %s"
 msgstr "Tiedoston \"%s\" tuhoaminen epäonnistui: %s"
 
-#. initialize the list of gimp dynamics
+#. initialize the list of Glimpse dynamics
 #: ../app/core/gimp-data-factories.c:354 ../app/core/gimpcontext.c:721
 #: ../app/dialogs/preferences-dialog.c:3115
 #: ../app/tools/gimppaintoptions-gui.c:218
@@ -13146,7 +13146,7 @@ msgstr "Edustaväristä taustaväriin (HSV-värisävy myötäpäivään)"
 msgid "FG to Transparent"
 msgstr "Edustaväristä läpinäkyvään"
 
-#. Translator:  This message is displayed while GIMP is waiting for
+#. Translator:  This message is displayed while Glimpse is waiting for
 #. * some operation to finish.  The %s argument is a message describing
 #. * the operation.
 #.
@@ -13197,19 +13197,19 @@ msgstr "tags-locale:fi"
 #: ../app/core/gimp-user-install.c:216
 #, c-format
 msgid ""
-"It seems you have used GIMP %s before.  GIMP will now migrate your user "
+"It seems you have used Glimpse %s before.  Glimpse will now migrate your user "
 "settings to '%s'."
 msgstr ""
-"Näyttää, että olet käyttänyt aikaisemmin GIMP %s versiota. GIMP muuttaa nyt "
+"Näyttää, että olet käyttänyt aikaisemmin GIMP %s versiota. Glimpse muuttaa nyt "
 "käyttäjän asetuksesi versioon '%s'."
 
 #: ../app/core/gimp-user-install.c:221
 #, c-format
 msgid ""
-"It appears that you are using GIMP for the first time.  GIMP will now create "
+"It appears that you are using Glimpse for the first time.  Glimpse will now create "
 "a folder named '%s' and copy some files to it."
 msgstr ""
-"Näyttää siltä, että te käytätte GIMPiä ensimäistä kertaa.  GIMP luo nyt "
+"Näyttää siltä, että te käytätte GIMPiä ensimäistä kertaa.  Glimpse luo nyt "
 "kansion nimellä '%s' ja kopioi joitakin tiedostoja siihen."
 
 #: ../app/core/gimp-user-install.c:420
@@ -13293,12 +13293,12 @@ msgstr "Nimetön"
 #, fuzzy, c-format
 #| msgid ""
 #| "Fatal parse error in brush file '%s': Unsupported brush depth %d\n"
-#| "GIMP brushes must be GRAY or RGBA."
+#| "Glimpse brushes must be GRAY or RGBA."
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA.\n"
-"This might be an obsolete GIMP brush file, try loading it as image and save "
+"Glimpse brushes must be GRAY or RGBA.\n"
+"This might be an obsolete Glimpse brush file, try loading it as image and save "
 "it again."
 msgstr ""
 "Virhe sivellintiedostossa '%s': Tuntematon siveltimen syvyys %d\n"
@@ -13308,11 +13308,11 @@ msgstr ""
 #, fuzzy, c-format
 #| msgid ""
 #| "Fatal parse error in brush file '%s': Unsupported brush depth %d\n"
-#| "GIMP brushes must be GRAY or RGBA."
+#| "Glimpse brushes must be GRAY or RGBA."
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr ""
 "Virhe sivellintiedostossa '%s': Tuntematon siveltimen syvyys %d\n"
 "GIMPin siveltimet pitää olla HARMAA tai RGBA."
@@ -13398,18 +13398,18 @@ msgstr "Leikepöytä"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-#| msgid "not a GIMP Curves file"
-msgid "Not a GIMP brush file."
+#| msgid "not a Glimpse Curves file"
+msgid "Not a Glimpse brush file."
 msgstr "Ei ole GIMPin käyrätiedosto"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown Glimpse brush version."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown Glimpse brush shape."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -13975,8 +13975,8 @@ msgstr "Täytä värillä"
 
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
-#| msgid "not a GIMP Curves file"
-msgid "Not a GIMP gradient file."
+#| msgid "not a Glimpse Curves file"
+msgid "Not a Glimpse gradient file."
 msgstr "Ei ole GIMPin käyrätiedosto"
 
 #: ../app/core/gimpgradient-load.c:96
@@ -14943,10 +14943,10 @@ msgstr "Jäsennysvirhe: Kuviotiedosto '%s': tuntematon versio %d."
 #, fuzzy, c-format
 #| msgid ""
 #| "Fatal parse error in pattern file '%s: Unsupported pattern depth %d.\n"
-#| "GIMP Patterns must be GRAY or RGB."
+#| "Glimpse Patterns must be GRAY or RGB."
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"Glimpse Patterns must be GRAY or RGB."
 msgstr ""
 "Jäsennysvirhe: Kuviotiedosto '%s': Tuntematon värisyvyys: %d.\n"
 "GIMPin kuvioiden pitää olla HARMAA tai RGBA."
@@ -15495,11 +15495,11 @@ msgid "percent"
 msgstr "prosenttia"
 
 #: ../app/dialogs/about-dialog.c:115
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "Tietoja Gimpistä"
 
 #: ../app/dialogs/about-dialog.c:124
-msgid "Visit the GIMP website"
+msgid "Visit the Glimpse website"
 msgstr "Käy GIMPin nettisivulla"
 
 #. Translators: insert your names here,
@@ -15833,12 +15833,12 @@ msgstr "Haluatko varmasti poistaa '%s':n luettelosta ja myös levyltä?"
 
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:190
 #: ../app/gui/gui-message.c:271
-msgid "GIMP Message"
+msgid "Glimpse Message"
 msgstr "GIMPin ilmoitus"
 
 #: ../app/dialogs/dialogs-constructors.c:225
 #| msgid "Debug"
-msgid "GIMP Debug"
+msgid "Glimpse Debug"
 msgstr "GIMP-virheenjäljitys"
 
 #: ../app/dialogs/dialogs.c:314
@@ -15952,7 +15952,7 @@ msgstr "Annettua tiedostonimeä ei voi käyttää vietäessä"
 #: ../app/dialogs/file-save-dialog.c:619
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 
 #: ../app/dialogs/file-save-dialog.c:622
@@ -15970,7 +15970,7 @@ msgstr "Annetussa tiedostonimessä ei ole mitään tunnettua pääteosaa."
 
 #: ../app/dialogs/file-save-dialog.c:627
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export to "
 "export to other file formats."
 msgstr ""
 
@@ -16362,8 +16362,8 @@ msgid "_Refresh"
 msgstr "_Virkistä siveltimet"
 
 #: ../app/dialogs/module-dialog.c:153
-msgid "You will have to restart GIMP for the changes to take effect."
-msgstr "GIMP täytyy käynnistää uudelleen, jotta muutokset tulevat voimaan."
+msgid "You will have to restart Glimpse for the changes to take effect."
+msgstr "Glimpse täytyy käynnistää uudelleen, jotta muutokset tulevat voimaan."
 
 #: ../app/dialogs/module-dialog.c:194
 msgid "Module"
@@ -16542,16 +16542,16 @@ msgid "Do you really want to reset all preferences to default values?"
 msgstr "Haluatko todella palauttaa kaikki asetukset oletusarvoihin?"
 
 #: ../app/dialogs/preferences-dialog.c:377
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid "You will have to restart Glimpse for the following changes to take effect:"
 msgstr ""
-"GIMP täytyy käynnistää uudestaan jotta seuraavat muutokset tulisivat voimaan:"
+"Glimpse täytyy käynnistää uudestaan jotta seuraavat muutokset tulisivat voimaan:"
 
 #: ../app/dialogs/preferences-dialog.c:619
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
-"Näppäimistön pikavalinnat palautetaan oletusarvoihin kun Gimp seuraavan "
+"Näppäimistön pikavalinnat palautetaan oletusarvoihin kun Glimpse seuraavan "
 "kerran käynnistyy."
 
 #: ../app/dialogs/preferences-dialog.c:630
@@ -16575,17 +16575,17 @@ msgstr ""
 #: ../app/dialogs/preferences-dialog.c:728
 msgid ""
 "Your input device settings will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "Syöttölaitteiden asetukset palautuvat perusasetuksiin seuraavan kerran kun "
-"Gimp käynnistyy."
+"Glimpse käynnistyy."
 
 #: ../app/dialogs/preferences-dialog.c:770
 msgid ""
 "Your tool options will be reset to default values the next time you start "
 "GIMP."
 msgstr ""
-"Työkalujen asetukset palautuvat oletusasetuksiin kun Gimp käynnistyy "
+"Työkalujen asetukset palautuvat oletusasetuksiin kun Glimpse käynnistyy "
 "seuraavan kerran."
 
 #: ../app/dialogs/preferences-dialog.c:822
@@ -16740,7 +16740,7 @@ msgstr "Virheenjäljitys"
 
 #: ../app/dialogs/preferences-dialog.c:1212
 msgid ""
-"We hope you will never need these settings, but as all software, GIMP has "
+"We hope you will never need these settings, but as all software, Glimpse has "
 "bugs, and crashes can occur. If it happens, you can help us by reporting "
 "bugs."
 msgstr ""
@@ -17021,7 +17021,7 @@ msgstr "Taustaväri"
 
 #: ../app/dialogs/preferences-dialog.c:1558
 msgid ""
-"These features are unfinished, buggy and may crash GIMP. It is unadvised to "
+"These features are unfinished, buggy and may crash Glimpse. It is unadvised to "
 "use them unless you really know what you are doing or you intend to "
 "contribute patches."
 msgstr ""
@@ -17229,7 +17229,7 @@ msgid "Appearance"
 msgstr "Ulkoasu"
 
 #: ../app/dialogs/preferences-dialog.c:2054
-msgid "Show GIMP _logo (drag-and-drop target)"
+msgid "Show Glimpse _logo (drag-and-drop target)"
 msgstr ""
 
 #: ../app/dialogs/preferences-dialog.c:2058
@@ -17696,7 +17696,7 @@ msgstr "Käytettävä _selain avustuksille:"
 
 #: ../app/dialogs/preferences-dialog.c:2515
 msgid ""
-"The GIMP help browser doesn't seem to be installed. Using the web browser "
+"The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr ""
 
@@ -17974,9 +17974,9 @@ msgstr "Lisäsyöttölaitteet"
 
 #: ../app/dialogs/preferences-dialog.c:3003
 #, fuzzy
-#| msgid "Save the tool options when GIMP exits."
+#| msgid "Save the tool options when Glimpse exits."
 msgid "S_hare tool and tool options between input devices"
-msgstr "Tallenna työkaluasetukset kun GIMP lopetetaan."
+msgstr "Tallenna työkaluasetukset kun Glimpse lopetetaan."
 
 #: ../app/dialogs/preferences-dialog.c:3007
 msgid "Configure E_xtended Input Devices..."
@@ -18209,7 +18209,7 @@ msgid "pixels/%a"
 msgstr "pikseliä/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
-msgid "Quit GIMP"
+msgid "Quit Glimpse"
 msgstr "Lopetetaanko GIMP?"
 
 #: ../app/dialogs/quit-dialog.c:164
@@ -18217,7 +18217,7 @@ msgid "Close All Images"
 msgstr "Sulje kaikki kuvat"
 
 #: ../app/dialogs/quit-dialog.c:256
-msgid "If you quit GIMP now, these changes will be lost."
+msgid "If you quit Glimpse now, these changes will be lost."
 msgstr "Jos suljet GIMPin nyt, nämä muutokset menetetään."
 
 #: ../app/dialogs/quit-dialog.c:259
@@ -18381,11 +18381,11 @@ msgid "_Emulate brush dynamics"
 msgstr "_Emuloi sivellindynamiikkaa"
 
 #: ../app/dialogs/tips-dialog.c:99
-msgid "The GIMP tips file is empty!"
+msgid "The Glimpse tips file is empty!"
 msgstr "GIMP-vinkkitiedosto on tyhjä!"
 
 #: ../app/dialogs/tips-dialog.c:103
-msgid "The GIMP tips file appears to be missing!"
+msgid "The Glimpse tips file appears to be missing!"
 msgstr "GIMP-vihjeet näyttävät puuttuvan!"
 
 #: ../app/dialogs/tips-dialog.c:105
@@ -18394,11 +18394,11 @@ msgid "There should be a file called '%s'. Please check your installation."
 msgstr "Tiedosto '%s' puuttuu! Tarkista asennuksen oikeellisuus."
 
 #: ../app/dialogs/tips-dialog.c:111
-msgid "The GIMP tips file could not be parsed!"
+msgid "The Glimpse tips file could not be parsed!"
 msgstr "<b>GIMPin vinkkitiedostoa ei voitu tulkita!</b>"
 
 #: ../app/dialogs/tips-dialog.c:139
-msgid "GIMP Tip of the Day"
+msgid "Glimpse Tip of the Day"
 msgstr "Päivän GIMP-vihje"
 
 #: ../app/dialogs/tips-dialog.c:145
@@ -18424,7 +18424,7 @@ msgid "tips-locale:C"
 msgstr "tips-locale:fi"
 
 #: ../app/dialogs/user-install-dialog.c:85
-msgid "GIMP User Installation"
+msgid "Glimpse User Installation"
 msgstr "GIMP-käyttäjän asennus"
 
 #: ../app/dialogs/user-install-dialog.c:94
@@ -18432,7 +18432,7 @@ msgid "User installation failed!"
 msgstr "Käyttäjän asennus epäonnistui!"
 
 #: ../app/dialogs/user-install-dialog.c:96
-msgid "The GIMP user installation failed; see the log for details."
+msgid "The Glimpse user installation failed; see the log for details."
 msgstr "GIMP-käyttäjän asennus epäonnistui; katso lokista lisätietoja."
 
 #: ../app/dialogs/user-install-dialog.c:99
@@ -20332,7 +20332,7 @@ msgid "Curve"
 msgstr "Käyrät"
 
 #: ../app/operations/gimpcurvesconfig.c:547
-msgid "not a GIMP Curves file"
+msgid "not a Glimpse Curves file"
 msgstr "Ei ole GIMPin käyrätiedosto"
 
 #: ../app/operations/gimpcurvesconfig.c:578
@@ -20408,7 +20408,7 @@ msgid "Clamp final output values."
 msgstr ""
 
 #: ../app/operations/gimplevelsconfig.c:843
-msgid "not a GIMP Levels file"
+msgid "not a Glimpse Levels file"
 msgstr "Ei ole GIMPin tasotiedosto"
 
 #: ../app/operations/gimplevelsconfig.c:918
@@ -20427,12 +20427,12 @@ msgid "Adjust brightness and contrast"
 msgstr "Säädä kirkkautta ja kontrastia"
 
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
-msgid "Compute a set of coefficient buffer for the GIMP cage tool"
+msgid "Compute a set of coefficient buffer for the Glimpse cage tool"
 msgstr ""
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 msgid ""
-"Convert a set of coefficient buffer to a coordinate buffer for the GIMP cage "
+"Convert a set of coefficient buffer to a coordinate buffer for the Glimpse cage "
 "tool"
 msgstr ""
 
@@ -20535,9 +20535,9 @@ msgid ""
 "value"
 msgstr ""
 
-#. TRANSLATORS: there is no need to translate this in GIMP. This uses
+#. TRANSLATORS: there is no need to translate this in Glimpse. This uses
 #. * "gtk20" domain as a special trick to determine language direction,
-#. * but xgettext extracts it anyway mistakenly into GIMP po files.
+#. * but xgettext extracts it anyway mistakenly into Glimpse po files.
 #. * Leave an empty string as translation. It does not matter.
 #.
 #: ../app/gui/gui.c:236
@@ -20563,7 +20563,7 @@ msgid "_Recover"
 msgstr ""
 
 #: ../app/gui/gui.c:340
-msgid "Eeek! It looks like GIMP recovered from a crash!"
+msgid "Eeek! It looks like Glimpse recovered from a crash!"
 msgstr ""
 
 #. TRANSLATORS: even if English singular form does
@@ -20589,8 +20589,8 @@ msgid "Documents"
 msgstr "Asiakirjat"
 
 #: ../app/gui/splash.c:138
-msgid "GIMP Startup"
-msgstr "GIMP käynnistyy"
+msgid "Glimpse Startup"
+msgstr "Glimpse käynnistyy"
 
 #: ../app/paint/gimpairbrush.c:77 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -22053,14 +22053,14 @@ msgid ""
 "Plug-in crashed: \"%s\"\n"
 "(%s)\n"
 "\n"
-"The dying plug-in may have messed up GIMP's internal state. You may want to "
-"save your images and restart GIMP to be on the safe side."
+"The dying plug-in may have messed up Glimpse's internal state. You may want to "
+"save your images and restart Glimpse to be on the safe side."
 msgstr ""
 "Liitännäinen kaatui: \"%s\"\n"
 "(%s)\n"
 "\n"
 "Liitännäisen kaatuminen on voinut sekoittaa GIMP:in sisäistä tilaa. Tallenna "
-"kuvat ja käynnistä GIMP uudelleen varmuuden vuoksi."
+"kuvat ja käynnistä Glimpse uudelleen varmuuden vuoksi."
 
 #: ../app/plug-in/gimpplugin-message.c:486
 #, c-format
@@ -22181,12 +22181,12 @@ msgstr ""
 
 #: ../app/plug-in/plug-in-rc.c:237
 #, c-format
-msgid "Skipping '%s': wrong GIMP protocol version."
+msgid "Skipping '%s': wrong Glimpse protocol version."
 msgstr "Ohitetaan \"%s\": väärä GIMP-protokollan versio."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, fuzzy, c-format
-#| msgid "Skipping '%s': wrong GIMP protocol version."
+#| msgid "Skipping '%s': wrong Glimpse protocol version."
 msgid "Skipping '%s': wrong pluginrc file format version."
 msgstr "Ohitetaan \"%s\": väärä GIMP-protokollan versio."
 
@@ -24410,7 +24410,7 @@ msgstr "Siirrä"
 #: ../app/tools/gimpmybrushtool.c:74
 #, fuzzy
 #| msgid "Paintbrush Tool: Paint smooth strokes using a brush"
-msgid "MyPaint Brush Tool: Use MyPaint brushes in GIMP"
+msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
 msgstr "Sivellin: Piirrä pehmeäreunaisia vetoja siveltimellä"
 
 #: ../app/tools/gimpmybrushtool.c:75
@@ -25192,7 +25192,7 @@ msgstr ""
 "Voit muokata tasoa tai luoda uuden tekstitason sen tekstiasetuksista."
 
 #: ../app/tools/gimptexttool-editor.c:1357
-msgid "GIMP Text Editor"
+msgid "Glimpse Text Editor"
 msgstr "GIMPin tekstimuokkain"
 
 #: ../app/tools/gimpthresholdtool.c:95
@@ -26565,7 +26565,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:132
 #: ../app/widgets/gimpcriticaldialog.c:454
 msgid ""
-"To help us improve GIMP, you can report the bug with these simple steps:"
+"To help us improve Glimpse, you can report the bug with these simple steps:"
 msgstr ""
 
 #: ../app/widgets/gimpcriticaldialog.c:134
@@ -26603,8 +26603,8 @@ msgstr ""
 
 #: ../app/widgets/gimpcriticaldialog.c:142
 msgid ""
-"This error may have left GIMP in an inconsistent state. It is advised to "
-"save your work and restart GIMP."
+"This error may have left Glimpse in an inconsistent state. It is advised to "
+"save your work and restart Glimpse."
 msgstr ""
 
 #: ../app/widgets/gimpcriticaldialog.c:153
@@ -26682,13 +26682,13 @@ msgstr "Polun tuonti tiedostosta %s epäonnistui: %s"
 
 #: ../app/widgets/gimpcriticaldialog.c:420
 #, c-format
-msgid "GIMP crashed with a fatal error: %s"
+msgid "Glimpse crashed with a fatal error: %s"
 msgstr ""
 
 #. First error. Let's just display it.
 #: ../app/widgets/gimpcriticaldialog.c:427
 #, c-format
-msgid "GIMP encountered an error: %s"
+msgid "Glimpse encountered an error: %s"
 msgstr ""
 
 #. Let's not display all errors. They will be in the bug report
@@ -26696,11 +26696,11 @@ msgstr ""
 #.
 #: ../app/widgets/gimpcriticaldialog.c:435
 #, c-format
-msgid "GIMP encountered several critical errors!"
+msgid "Glimpse encountered several critical errors!"
 msgstr ""
 
 #: ../app/widgets/gimpcriticaldialog.c:487
-msgid "_Restart GIMP"
+msgid "_restart Glimpse"
 msgstr ""
 
 #: ../app/widgets/gimpdashboard.c:451 ../app/widgets/gimpdashboard.c:503
@@ -27255,7 +27255,7 @@ msgid "Messages are redirected to stderr."
 msgstr "Ilmoitukset ohjataan virhesyötteeseen."
 
 #. %s is a message domain,
-#. * like "GIMP Message" or
+#. * like "Glimpse Message" or
 #. * "PNG Message"
 #.
 #: ../app/widgets/gimperrordialog.c:196
@@ -27433,12 +27433,12 @@ msgid "Help browser is missing"
 msgstr "Ohjeselain puuttuu"
 
 #: ../app/widgets/gimphelp.c:372
-msgid "The GIMP help browser is not available."
+msgid "The Glimpse help browser is not available."
 msgstr "GIMP-ohjeselainta ei ole saatavilla"
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
-"The GIMP help browser plug-in appears to be missing from your installation. "
+"The Glimpse help browser plug-in appears to be missing from your installation. "
 "You may instead use the web browser for reading the help pages."
 msgstr ""
 "GIMP-ohjeselaimen liitännäinen näyttää puuttuvat asennuksestasi. Voit lukea "
@@ -27449,13 +27449,13 @@ msgid "Help browser doesn't start"
 msgstr "Ohjeselain ei käynnistynyt"
 
 #: ../app/widgets/gimphelp.c:420
-msgid "Could not start the GIMP help browser plug-in."
+msgid "Could not start the Glimpse help browser plug-in."
 msgstr "GIMPin ohjeselainta ei voitu käynnistää."
 
 #: ../app/widgets/gimphelp.c:422
 #, fuzzy
 #| msgid ""
-#| "The GIMP help browser plug-in appears to be missing from your "
+#| "The Glimpse help browser plug-in appears to be missing from your "
 #| "installation. You may instead use the web browser for reading the help "
 #| "pages."
 msgid "You may instead use the web browser for reading the help pages."
@@ -27468,13 +27468,13 @@ msgid "Use _Web Browser"
 msgstr "Käytä _WWW-selainta"
 
 #: ../app/widgets/gimphelp.c:793
-msgid "GIMP user manual is missing"
+msgid "Glimpse user manual is missing"
 msgstr "GIMP-ohjekirja puuttuu"
 
 #: ../app/widgets/gimphelp.c:809
 #, fuzzy
-#| msgid "The GIMP user manual is not installed on your computer."
-msgid "The GIMP user manual is not installed in your language."
+#| msgid "The Glimpse user manual is not installed on your computer."
+msgid "The Glimpse user manual is not installed in your language."
 msgstr "GIMP-ohjekirjaa ei ole asennettu tietokoneelle."
 
 #: ../app/widgets/gimphelp.c:820
@@ -27771,7 +27771,7 @@ msgstr "Kaikki XCF-kuvat"
 #, c-format
 msgid ""
 "The image uses features from %s, disabling compression won't make the XCF "
-"file readable by older GIMP versions."
+"file readable by older Glimpse versions."
 msgstr ""
 
 #: ../app/widgets/gimpsavedialog.c:275
@@ -27781,7 +27781,7 @@ msgid ""
 msgstr ""
 
 #: ../app/widgets/gimpsavedialog.c:287
-msgid "Metadata won't be visible in GIMP older than version 2.10."
+msgid "Metadata won't be visible in Glimpse older than version 2.10."
 msgstr ""
 
 #: ../app/widgets/gimpsavedialog.c:344
@@ -28169,7 +28169,7 @@ msgid "%s Preset"
 msgstr "%s Esiasetus"
 
 #: ../app/widgets/gimpuimanager.c:778
-msgid "Your GIMP installation is incomplete:"
+msgid "Your Glimpse installation is incomplete:"
 msgstr "GIMP-asennuksesi on keskeneräinen:"
 
 #: ../app/widgets/gimpuimanager.c:780
@@ -28378,8 +28378,8 @@ msgid "Undefined"
 msgstr "Määrittelemätön"
 
 #: ../app/xcf/xcf.c:114 ../app/xcf/xcf.c:185
-msgid "GIMP XCF image"
-msgstr "GIMP XCF-kuva"
+msgid "Glimpse XCF image"
+msgstr "Glimpse XCF-kuva"
 
 #: ../app/xcf/xcf.c:272 ../app/xcf/xcf.c:360
 msgid "Memory Stream"
@@ -28495,7 +28495,7 @@ msgid "Error writing XCF: unsupported BPC when writing pixel: %d"
 msgstr ""
 
 #: ../app-tools/gimp-debug-tool.c:78
-msgid "GIMP Crash Debug"
+msgid "Glimpse Crash Debug"
 msgstr ""
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
@@ -29086,14 +29086,14 @@ msgstr "sumea"
 #~ msgstr "Käytä GEGLiä tämän ikkunan projektion luomiseen"
 
 #~ msgid ""
-#~ "Unable to open swap file. GIMP has run out of memory and cannot use the "
+#~ "Unable to open swap file. Glimpse has run out of memory and cannot use the "
 #~ "swap file. Some parts of your images may be corrupted. Try to save your "
-#~ "work using different filenames, restart GIMP and check the location of "
+#~ "work using different filenames, restart Glimpse and check the location of "
 #~ "the swap directory in your Preferences."
 #~ msgstr ""
 #~ "Ei voitu avata sivutustiedostoa. Gimpin käytettävissä oleva muisti on "
 #~ "loppunut ja sivutusta ei voi käyttää. Osa kuvastasi voi korruptoitua. "
-#~ "Tallenna työsi uudella nimellä, käynnistä Gimp uudelleen ja tarkista "
+#~ "Tallenna työsi uudella nimellä, käynnistä Glimpse uudelleen ja tarkista "
 #~ "sivutustiedoston sijainti asetuksista."
 
 #~ msgctxt "convert-palette-type"
@@ -29178,18 +29178,18 @@ msgstr "sumea"
 #~ msgstr[0] "Ei voitu lukea %d tavua tiedostosta '%s'. %s"
 #~ msgstr[1] "Ei voitu lukea %d tavua tiedostosta '%s'. %s"
 
-#~ msgid "Fatal parse error in brush file '%s': Not a GIMP brush file."
+#~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 #~ msgstr "Virhe sivellintiedostossa '%s': Ei ole GIMPin sivellintiedosto."
 
 #~ msgid ""
-#~ "Fatal parse error in brush file '%s': Unknown GIMP brush version in line "
+#~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in line "
 #~ "%d."
 #~ msgstr ""
 #~ "Vakava virhe tulkittaessa sivellintiedostoa '%s': Tuntematon GIMPin "
 #~ "sivellinversio rivillä %d."
 
 #~ msgid ""
-#~ "Fatal parse error in brush file '%s': Unknown GIMP brush shape in line %d."
+#~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line %d."
 #~ msgstr ""
 #~ "Vakava virhe tulkittaessa sivellintiedostoa '%s': Tuntematon GIMPin "
 #~ "sivellinmuoto rivillä %d."
@@ -29209,7 +29209,7 @@ msgstr "sumea"
 #~ msgid "Fatal parse error in gradient file '%s': Read error in line %d."
 #~ msgstr "Vakava virhe liukuväritiedostossa \"%s\". Lukuvirhe rivillä %d."
 
-#~ msgid "Fatal parse error in gradient file '%s': Not a GIMP gradient file."
+#~ msgid "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr "Jäsennysvirhe: Liukuväritiedosto '%s' ei ole GIMPin tiedosto."
 
 #~ msgid "Fatal parse error in gradient file '%s': File is corrupt in line %d."

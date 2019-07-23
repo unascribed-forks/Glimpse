@@ -130,7 +130,7 @@ idle_open_data_free (IdleOpenData *data)
 static gboolean
 gui_unique_win32_idle_open (IdleOpenData *data)
 {
-  /*  We want to be called again later in case that GIMP is not fully
+  /*  We want to be called again later in case that Glimpse is not fully
    *  started yet.
    */
   if (! gimp_is_restored (unique_gimp))
@@ -241,7 +241,7 @@ gui_unique_win32_exit (void)
 static gboolean
 gui_unique_quartz_idle_open (GFile *file)
 {
-  /*  We want to be called again later in case that GIMP is not fully
+  /*  We want to be called again later in case that Glimpse is not fully
    *  started yet.
    */
   if (! gimp_is_restored (unique_gimp))

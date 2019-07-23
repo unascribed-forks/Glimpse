@@ -1,11 +1,11 @@
-# Gimp Telugu Translation
+# Glimpse Telugu Translation
 # Copyright (C) 1998-2011 Free Software Foundation, Inc.
-# This file is distributed under the same license as the Gimp package.
+# This file is distributed under the same license as the Glimpse package.
 # Praveen Illa <mail2ipn@gmail.com>, 2010, 2011, 2012.
 # Suravara Translation Team <support@suravara.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP 2.8\n"
+"Project-Id-Version: Glimpse 2.8\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2012-05-06 03:28+0200\n"
 "PO-Revision-Date: 2012-05-15 11:18+0530\n"
@@ -45,16 +45,16 @@ msgstr "గింప్"
 #, c-format
 msgid ""
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the GIMP Development Team"
+"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 msgstr ""
 "నకలుహక్కు (C) 1995-%s\n"
 "స్పెన్సర్ కింబాల్, పీటర్ మ్యాటిస్ మరియు గింప్ అభివృద్ధి బృందం."
 
 #: ../app/about.h:34
 msgid ""
-"GIMP is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.\n"
+"Glimpse is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.\n"
 "\n"
-"GIMP is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
+"Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with GIMP.  If not, see https://www.gnu.org/licenses/."
 msgstr ""
@@ -99,7 +99,7 @@ msgid "Be more verbose"
 msgstr "మరింత సవివరంగా చూపించు"
 
 #: ../app/main.c:163
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse instance"
 msgstr "ఒక కొత్త గింప్ అవతారాన్ని ప్రారంభించు"
 
 #: ../app/main.c:168
@@ -123,7 +123,7 @@ msgid "Do not show a splash screen"
 msgstr "ఆరంభ తెరను చూపించవద్దు"
 
 #: ../app/main.c:193
-msgid "Do not use shared memory between GIMP and plugins"
+msgid "Do not use shared memory between Glimpse and plugins"
 msgstr "గింప్ మరియు  చొప్పింతల మధ్య ఉమ్మడి జ్ఞప్తిని ఉపయోగించవద్దు"
 
 #: ../app/main.c:198
@@ -186,18 +186,18 @@ msgstr "[FILE|URI...]"
 
 #: ../app/main.c:405
 msgid ""
-"GIMP could not initialize the graphical user interface.\n"
+"Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
 "చిత్రరూప వాడుకరి అంతరవర్తిని గింప్ ఆరంభించలేకపోయింది.\n"
 "మీ ప్రదర్శిత పర్యావరణం కోసం సరైన ఏర్పాటు ఉన్నదో లేదో చూసుకోండి."
 
 #: ../app/main.c:424
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse instance is already running."
 msgstr "వేరొక గింప్ ప్రక్రియ ఇప్పటికే నడుస్తూంది."
 
 #: ../app/main.c:494
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "గింప్ ఉత్పత్తి. ఈ కిటికీని మూయుటకు ఏదైనా మీటను నొక్కండి."
 
 #: ../app/main.c:495
@@ -206,7 +206,7 @@ msgid "(Type any character to close this window)\n"
 msgstr "(ఈ కిటికీని మూయుటకు ఏదైనా మీటను నొక్కండి)\n"
 
 #: ../app/main.c:512
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "గింప్ ఉత్పత్తి. మీరు ఈ కిటికీని చిన్నగించవచ్చు, కానీ మూయవద్దు."
 
 #: ../app/sanity.c:433
@@ -223,7 +223,7 @@ msgstr ""
 #: ../app/sanity.c:452
 #, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be converted to UTF-8: %s\n"
+"The name of the directory holding the Glimpse user configuration cannot be converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and you didn't tell GLib about this. Please set the environment variable G_FILENAME_ENCODING."
 msgstr ""
@@ -249,7 +249,7 @@ msgstr "%s సంచిక %s"
 msgid "Brush Editor"
 msgstr "కుంచె కూర్పకం"
 
-#. initialize the list of gimp brushes
+#. initialize the list of Glimpse brushes
 #: ../app/actions/actions.c:113
 #: ../app/core/gimp.c:951
 #: ../app/dialogs/dialogs.c:319
@@ -354,7 +354,7 @@ msgstr "ఖతులు"
 msgid "Gradient Editor"
 msgstr "రంగురీతి కూర్పకం"
 
-#. initialize the list of gimp gradients
+#. initialize the list of Glimpse gradients
 #: ../app/actions/actions.c:176
 #: ../app/core/gimp.c:971
 #: ../app/dialogs/dialogs.c:323
@@ -401,7 +401,7 @@ msgstr "పొరలు"
 msgid "Palette Editor"
 msgstr "వర్ణఫలక కూర్పకము"
 
-#. initialize the list of gimp palettes
+#. initialize the list of Glimpse palettes
 #: ../app/actions/actions.c:200
 #: ../app/core/gimp.c:966
 #: ../app/dialogs/dialogs.c:325
@@ -409,7 +409,7 @@ msgstr "వర్ణఫలక కూర్పకము"
 msgid "Palettes"
 msgstr "వర్ణఫలకాలు"
 
-#. initialize the list of gimp patterns
+#. initialize the list of Glimpse patterns
 #: ../app/actions/actions.c:203
 #: ../app/core/gimp.c:961
 #: ../app/dialogs/dialogs.c:321
@@ -1367,7 +1367,7 @@ msgstr "నేటి చిట్కా (_T)"
 
 #: ../app/actions/dialogs-actions.c:259
 msgctxt "dialogs-action"
-msgid "Show some helpful tips on using GIMP"
+msgid "Show some helpful tips on using Glimpse"
 msgstr "గింప్ ద్వారా కొన్ని ఉపయోగకర చిట్కాలను చూపించు"
 
 #: ../app/actions/dialogs-actions.c:264
@@ -1377,7 +1377,7 @@ msgstr "గురించి (_A)"
 
 #: ../app/actions/dialogs-actions.c:265
 msgctxt "dialogs-action"
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "గింప్ గురించి"
 
 #: ../app/actions/dialogs-actions.c:328
@@ -2359,7 +2359,7 @@ msgstr "నిష్క్రమించు (_Q)"
 
 #: ../app/actions/file-actions.c:113
 msgctxt "file-action"
-msgid "Quit the GNU Image Manipulation Program"
+msgid "Quit Glimpse"
 msgstr "గ్నూ ఇమేజ్ మానిప్యులేషన్ ప్రోగ్రాము నుండి నిష్క్రమించు"
 
 #: ../app/actions/file-actions.c:121
@@ -3049,7 +3049,7 @@ msgstr "సహాయం (_H)"
 
 #: ../app/actions/help-actions.c:41
 msgctxt "help-action"
-msgid "Open the GIMP user manual"
+msgid "Open the Glimpse user manual"
 msgstr "గింప్ సహాయ పత్రావళిని తెరువు"
 
 #: ../app/actions/help-actions.c:46
@@ -5874,11 +5874,11 @@ msgstr "ఏక-కిటికీ రీతి"
 
 #: ../app/actions/windows-actions.c:125
 msgctxt "windows-action"
-msgid "When enabled GIMP is in a single-window mode."
+msgid "When enabled Glimpse is in a single-window mode."
 msgstr "చేతనం చేస్తే గింప్ ఏక కిటికీ రీతిలో ఉంటుంది. "
 
 #: ../app/base/tile-swap.c:711
-msgid "Unable to open swap file. GIMP has run out of memory and cannot use the swap file. Some parts of your images may be corrupted. Try to save your work using different filenames, restart GIMP and check the location of the swap directory in your Preferences."
+msgid "Unable to open swap file. Glimpse has run out of memory and cannot use the swap file. Some parts of your images may be corrupted. Try to save your work using different filenames, restart Glimpse and check the location of the swap directory in your Preferences."
 msgstr "తారుమారు దస్త్రం తెరవ వీలవలేదు. గింపు జ్ఞప్తిలోటు స్థితికి వెళ్లింది అందువల్ల తారుమారు దస్త్రాన్ని ఉపయోగించ వీలులేదు. మీ బొమ్మలో కొన్ని భాగాలు చెడి ఉండవచ్చు. మీ బొమ్మను వేరే పేరుతో భద్రపరచడానికి ప్రయత్నించి, గింపును తిరిగి ప్రారంభించి ఆ తరువాత గింపు ఐచ్చికాల్లో తారుమారు దస్త్ర సంచయం స్థానాన్ని సరిచూడండి. "
 
 #: ../app/base/tile-swap.c:726
@@ -5948,7 +5948,7 @@ msgstr "ఎక్కువ"
 
 #: ../app/config/config-enums.c:147
 msgctxt "help-browser-type"
-msgid "GIMP help browser"
+msgid "Glimpse help browser"
 msgstr "గింప్ సహాయ విహారిణి"
 
 #: ../app/config/config-enums.c:148
@@ -6132,7 +6132,7 @@ msgid "Speed of marching ants in the selection outline.  This value is in millis
 msgstr "ఎంపిక పరిధిలో కవాతు చీమల వేగం. ఈ విలువ మిల్లీసెకండ్లులో (తక్కువ సమయం ఎక్కవ కవాతు వేగంను సూచిస్తుంది)"
 
 #: ../app/config/gimprc-blurbs.h:221
-msgid "GIMP will warn the user if an attempt is made to create an image that would take more memory than the size specified here."
+msgid "Glimpse will warn the user if an attempt is made to create an image that would take more memory than the size specified here."
 msgstr "ఇక్కడ నిర్దేశించిన విలువ కంటే ఎక్కువ జ్ఞప్తితో బొమ్మను సృష్టించ ప్రయత్నిస్తే గింప్ వాడుకరిని హెచ్చరిస్తుంది."
 
 #: ../app/config/gimprc-blurbs.h:231
@@ -6152,7 +6152,7 @@ msgid "Sets the size of the navigation preview available in the lower right corn
 msgstr "బొమ్మ కిటికీ కుడి దిగువ మూలన లభించే యాన మునుజూపు కిటికీ పరిమాణాన్ని అమరుస్తుంది."
 
 #: ../app/config/gimprc-blurbs.h:249
-msgid "Sets how many processors GIMP should try to use simultaneously."
+msgid "Sets how many processors Glimpse should try to use simultaneously."
 msgstr "ఏకకాలం ఎన్ని ప్రవర్తకాలను గింప్ వాడటానికి ప్రయత్నించాలి?"
 
 #: ../app/config/gimprc-blurbs.h:262
@@ -6160,7 +6160,7 @@ msgid "When enabled, the X server is queried for the mouse's current position on
 msgstr "చేతనం చేసినప్పుడు, మౌస్ కదిలించినప్పుడల్లా అది ఉన్న స్థానం బట్టి కాకుండా యక్స్ సేవికను సంప్రదించి పాయింటరు స్థానాన్ని నిర్దారించడం జరుగుతుంది. అంటే పెద్ద కుంచెలతో చిత్రిస్తున్నప్పుడు ఖచ్చితత్వం పెరుగుతుంది కానీ వేగం నెమ్మదించవచ్చు. అయితే కొన్ని యక్స్ సేవికలు ఈ చేతనంతో మరింత వేగంగా కూడా పనిచెయ్యవచ్చు. "
 
 #: ../app/config/gimprc-blurbs.h:278
-msgid "Sets whether GIMP should create previews of layers and channels. Previews in the layers and channels dialog are nice to have but they can slow things down when working with large images."
+msgid "Sets whether Glimpse should create previews of layers and channels. Previews in the layers and channels dialog are nice to have but they can slow things down when working with large images."
 msgstr "పొరలు మరియు వాహికల మునుజూపు సృష్టించాలా వద్దా అనే విషయాన్ని అమరుస్తుంది. పొరల మరియు వాహికల మునుజూపు ఉంటే బాగుంటుంది కానీ పెద్ద పెద్ద బొమ్మలతో పనిచేస్తున్నప్పుడు ఈ మునుజూపు గింపును నెమ్మదింపచేస్తుంది."
 
 #: ../app/config/gimprc-blurbs.h:283
@@ -6180,11 +6180,11 @@ msgid "When enabled, the image window will automatically resize itself when zoom
 msgstr "చేతనం చేసినప్పుడు, అవరూపనలకు అనుగుణంగా బొమ్మ కిటికీ పరిమాణం మారుతుంది. "
 
 #: ../app/config/gimprc-blurbs.h:298
-msgid "Let GIMP try to restore your last saved session on each startup."
+msgid "Let Glimpse try to restore your last saved session on each startup."
 msgstr "ప్రతి ఆరంభంలోనూ గింపు చివరిసారిగా భద్రపరచిన సభను పునఃస్థాపనానికి ప్రయత్నించనీ."
 
 #: ../app/config/gimprc-blurbs.h:301
-msgid "Remember the current tool, pattern, color, and brush across GIMP sessions."
+msgid "Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr "ప్రస్తుత పనిముట్టు, సరళి, రంగు మరియు కుంచెలను గింపు సభల మధ్య గుర్తుంచుకో."
 
 #: ../app/config/gimprc-blurbs.h:305
@@ -6192,11 +6192,11 @@ msgid "Keep a permanent record of all opened and saved files in the Recent Docum
 msgstr "ఇటీవలి దస్త్రాల జాబితాలో అన్ని తెరిచిన మరియు భద్రపరచిన దస్త్రాల జాబితా శాస్వతంగా ఉంచు"
 
 #: ../app/config/gimprc-blurbs.h:309
-msgid "Save the positions and sizes of the main dialogs when GIMP exits."
+msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr "గింపు నిష్క్రమించునప్పుడు ప్రధాన సంవాదాల స్థితులను మరియు పరిమాణానలను భద్రపరుచు."
 
 #: ../app/config/gimprc-blurbs.h:312
-msgid "Save the tool options when GIMP exits."
+msgid "Save the tool options when Glimpse exits."
 msgstr "గుంపు నిష్క్రమించునప్పుడు పనిముట్టు ఐచ్చికాలను భద్రపరుచు."
 
 #: ../app/config/gimprc-blurbs.h:318
@@ -6252,7 +6252,7 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "సూచకం ఒక అంశంపై ఉన్నప్పుడు చిట్కా చూపు"
 
 #: ../app/config/gimprc-blurbs.h:370
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "ఏక కిటికీ స్థితిలో గింపుని వాడు."
 
 #: ../app/config/gimprc-blurbs.h:373
@@ -6264,7 +6264,7 @@ msgid "What to do when the space bar is pressed in the image window."
 msgstr "బొమ్మకిటికీలో స్థలం పట్టీ నొక్కినపుడు ఏం చెయ్యాలి."
 
 #: ../app/config/gimprc-blurbs.h:379
-msgid "Sets the swap file location. GIMP uses a tile based memory allocation scheme. The swap file is used to quickly and easily swap tiles out to disk and back in. Be aware that the swap file can easily get very large if GIMP is used with large images. Also, things can get horribly slow if the swap file is created on a folder that is mounted over NFS.  For these reasons, it may be desirable to put your swap file in \"/tmp\"."
+msgid "Sets the swap file location. Glimpse uses a tile based memory allocation scheme. The swap file is used to quickly and easily swap tiles out to disk and back in. Be aware that the swap file can easily get very large if Glimpse is used with large images. Also, things can get horribly slow if the swap file is created on a folder that is mounted over NFS.  For these reasons, it may be desirable to put your swap file in \"/tmp\"."
 msgstr "తారుమారు దస్త్ర స్థానాన్ని అమరుస్తుంది. గింపు పెంకు ఆధార జ్ఞప్తి పంపక పథకం వాడుతుంది. తారుమారు దస్త్రం త్వరగా డిస్కుకు దస్త్రాలను పంపి మరళా నకలు చేయుటకు వాడబడుతుంది. గింపును పెద్ద పెద్ద బొమ్మలతో వాడితే ఈ తారుమారు దస్త్రం చాలా తేలిగ్గా పెద్దగా మారవచ్చని ఎరుకలో ఉంచుకోండి. ఇంకా, యన్‌యఫ్‌యస్ దస్త్రాలపై తారుమారు సంచయాన్ని ఉంచితే గింపు భయంకరంగా నెమ్మదవ్వవచ్చు. ఈ కారణాలవల్ల మీ తారుమారు సంచయాన్ని \"/tmp\" పై ఉంచుట మంచిది."
 
 #: ../app/config/gimprc-blurbs.h:388
@@ -6276,15 +6276,15 @@ msgid "When enabled, you can change keyboard shortcuts for menu items by hitting
 msgstr "చేతనం చేసినప్పుడు, మెనూ అంశం నొక్కిచూపినప్పుడు మీటలు సమూహనం నొక్కి ఆ మెనూ అంశం అడ్డుదారిని మార్చవచ్చు."
 
 #: ../app/config/gimprc-blurbs.h:395
-msgid "Save changed keyboard shortcuts when GIMP exits."
+msgid "Save changed keyboard shortcuts when Glimpse exits."
 msgstr "గింపు నిష్క్రమించినప్పుడు మార్చిన కీబోర్డు అడ్డుదారులను భద్రపరుచు."
 
 #: ../app/config/gimprc-blurbs.h:398
-msgid "Restore saved keyboard shortcuts on each GIMP startup."
+msgid "Restore saved keyboard shortcuts on each Glimpse startup."
 msgstr "భద్రపరిచిన కీబోర్డు అడ్డదారులని  గింపు ప్రారంభించే ప్రతిసారి పునఃస్థాపనం చేయి."
 
 #: ../app/config/gimprc-blurbs.h:401
-msgid "Sets the folder for temporary storage. Files will appear here during the course of running GIMP.  Most files will disappear when GIMP exits, but some files are likely to remain, so it is best if this folder not be one that is shared by other users."
+msgid "Sets the folder for temporary storage. Files will appear here during the course of running Glimpse.  Most files will disappear when Glimpse exits, but some files are likely to remain, so it is best if this folder not be one that is shared by other users."
 msgstr "తాత్కాలిక నిలువకు సంచయాన్ని ఎంచుకోండి. గింపు నడుస్తున్నప్పుడు దస్త్రాలు ఇక్కడ కనిపిస్తాయి. గింపు నిష్క్రమించినప్పుడు చాలా దస్త్రాలు స్వతహాగా తొలగించబడతాయి, కానీ కొన్ని ఉండవచ్చు. కనుక ఈ దస్త్రం ఇతర వాడుకరులతో పంచుకోనిదైతే మంచిది."
 
 #: ../app/config/gimprc-blurbs.h:413
@@ -6296,7 +6296,7 @@ msgid "The thumbnail in the Open dialog will be automatically updated if the fil
 msgstr "ఇక్కడ చూపిన సైజు కంటే మునుజూపు చూస్తున్న దస్త్రం పరిమాణం తక్కువయితే తెరిచిన సంవాదంలో లఘుపటం స్వతహాగా తాజాపరచుకొంటుంది."
 
 #: ../app/config/gimprc-blurbs.h:420
-msgid "When the amount of pixel data exceeds this limit, GIMP will start to swap tiles to disk.  This is a lot slower but it makes it possible to work on images that wouldn't fit into memory otherwise.  If you have a lot of RAM, you may want to set this to a higher value."
+msgid "When the amount of pixel data exceeds this limit, Glimpse will start to swap tiles to disk.  This is a lot slower but it makes it possible to work on images that wouldn't fit into memory otherwise.  If you have a lot of RAM, you may want to set this to a higher value."
 msgstr "ఈ స్థాయికన్నా చిణువుల మొత్తం పెరిగితే, గింపు డిస్కుకు దస్త్రాలను తారుమారు చేయడం మొదలుపెడుతుంది. ఇది చాలా నెమ్మది ప్రక్రియ కానీ దీని వల్ల గింపు జ్ఞప్తిలో పట్టని బొమ్మలతో కూడా పనిచెయ్యగలుగుతుంది. మీకు చాలా జ్ఞప్తి ఉంటే ఈ స్థాయిని చాలా పెద్ద విలువకు అమర్చుట మంచిది."
 
 #: ../app/config/gimprc-blurbs.h:426
@@ -6320,7 +6320,7 @@ msgid "Sets the size of the checkerboard used to display transparency."
 msgstr "పారదర్శకతను చూపటానికి ఉపయెగించిన గడులపలక పరిమాణాన్ని అమర్చు."
 
 #: ../app/config/gimprc-blurbs.h:444
-msgid "When enabled, GIMP will not save an image if it has not been changed since it was opened."
+msgid "When enabled, Glimpse will not save an image if it has not been changed since it was opened."
 msgstr "చేతనం చేసినప్పుడు, తెరిచిన తరువాత ఎటువంటి మార్పులకు లోనవ్వని బొమ్మను గింపు భద్రపరచదు."
 
 #: ../app/config/gimprc-blurbs.h:448
@@ -7380,12 +7380,12 @@ msgstr "కుంచె కోణం"
 
 #: ../app/core/gimpbrushgenerated-load.c:85
 #, c-format
-msgid "Fatal parse error in brush file '%s': Not a GIMP brush file."
+msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 msgstr "కుంచె దస్త్రం %s ముదింపులో తీవ్రతర దోషం: గింప్ కుంచె దస్త్రం కాదు."
 
 #: ../app/core/gimpbrushgenerated-load.c:102
 #, c-format
-msgid "Fatal parse error in brush file '%s': Unknown GIMP brush version in line %d."
+msgid "Fatal parse error in brush file '%s': Unknown Glimpse brush version in line %d."
 msgstr "కుంచె దస్త్రం %s ముదింపులో తీవ్రతర దోషం: %d వరుసలో తెలియని గింపు కుంచె సంచిక."
 
 #: ../app/core/gimpbrushgenerated-load.c:126
@@ -7397,7 +7397,7 @@ msgstr "కుంచె దస్త్రం %s నందు చెల్లన
 
 #: ../app/core/gimpbrushgenerated-load.c:148
 #, c-format
-msgid "Fatal parse error in brush file '%s': Unknown GIMP brush shape in line %d."
+msgid "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line %d."
 msgstr "కుంచె దస్త్రం %s ముదింపులో తీవ్రతర దోషం: %d వరుసలో తెలియని గింప్ కుంచె ఆకృతి ఉంది."
 
 #: ../app/core/gimpbrushgenerated-load.c:224
@@ -7465,7 +7465,7 @@ msgstr "పేరుపెట్టని"
 #, c-format
 msgid ""
 "Fatal parse error in brush file '%s': Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr ""
 "కుంచె దస్త్రం %s ముదింపులో తీవ్రతర దోషం: మద్దతులేని కుంచె లోతు %d\n"
 "గింపు కుంచెలు తప్పకుండా GRAY లేదా RGBA అయి ఉండాలి."
@@ -7505,7 +7505,7 @@ msgstr "డాటా దస్త్రాల కోసం చూస్తున
 msgid "Parasites"
 msgstr "పరాన్నములు"
 
-#. initialize the list of gimp dynamics
+#. initialize the list of Glimpse dynamics
 #: ../app/core/gimp.c:956
 #: ../app/dialogs/preferences-dialog.c:2744
 #: ../app/tools/gimppaintoptions-gui.c:204
@@ -7918,7 +7918,7 @@ msgstr "'%s': వాలు దస్త్రంలో తీవ్రతర మ
 
 #: ../app/core/gimpgradient-load.c:83
 #, c-format
-msgid "Fatal parse error in gradient file '%s': Not a GIMP gradient file."
+msgid "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 msgstr "'%s' వాలు దస్త్రంలో తీవ్రతర ముదింపు దోషం: గింప్ వాలు దస్త్రం కాదు."
 
 #: ../app/core/gimpgradient-load.c:111
@@ -8633,7 +8633,7 @@ msgstr "వర్ణసాధక దస్త్రం  '%s'లో తీవ్�
 #, c-format
 msgid ""
 "Fatal parse error in pattern file '%s: Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"Glimpse Patterns must be GRAY or RGB."
 msgstr ""
 "వర్ణసాధక దస్త్రం  '%s'లో తీవ్రతర ముదింపు దోషం ఆసరాలేని సరళులు లోతు %d.\n"
 "గింపు సరళులులు బూడిద లేక ఆర్‌జీబీ మాత్రమే"
@@ -8813,12 +8813,12 @@ msgstr "శాతం"
 
 #: ../app/core/gimp-user-install.c:160
 #, c-format
-msgid "It seems you have used GIMP %s before.  GIMP will now migrate your user settings to '%s'."
+msgid "It seems you have used Glimpse %s before.  Glimpse will now migrate your user settings to '%s'."
 msgstr "మీరు %s గింపు గతంలో వాడినట్టున్నారు. ఇప్పుడు గింపు మీ ఐచ్చికాలను %s కు వలసపంపుతుంది."
 
 #: ../app/core/gimp-user-install.c:165
 #, c-format
-msgid "It appears that you are using GIMP for the first time.  GIMP will now create a folder named '%s' and copy some files to it."
+msgid "It appears that you are using Glimpse for the first time.  Glimpse will now create a folder named '%s' and copy some files to it."
 msgstr "మీరు గింపు మొదటిసారి వాడుతున్నట్టున్నారు. గింపు ఇప్పుడు %s పేరుతో ఒక సంచయాన్ని సృష్టించి కొన్ని దస్త్రాలను అక్కడకు నకలు చేస్తుంది."
 
 #: ../app/core/gimp-user-install.c:317
@@ -8840,11 +8840,11 @@ msgstr "'%s' సంచయాన్ని సృష్టించుట వీ�
 
 #: ../app/dialogs/about-dialog.c:115
 #: ../app/gui/gui.c:493
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "గింపు గురించి"
 
 #: ../app/dialogs/about-dialog.c:124
-msgid "Visit the GIMP website"
+msgid "Visit the Glimpse website"
 msgstr "గింపు జాలపుట సందర్శించండి"
 
 #. Translators: insert your names here,
@@ -8996,7 +8996,7 @@ msgstr "మునుతలం/వెనుతలం రంగు"
 #: ../app/dialogs/dialogs-constructors.c:203
 #: ../app/gui/gui.c:161
 #: ../app/gui/gui-message.c:149
-msgid "GIMP Message"
+msgid "Glimpse Message"
 msgstr "గింపు సందేశం"
 
 #: ../app/dialogs/fade-dialog.c:109
@@ -9042,11 +9042,11 @@ msgid "Saving remote files needs to determine the file format from the file exte
 msgstr "సుదూర దస్త్రాలను భద్రపరచాలంటే ఆ దస్త్రాల పొడిగింతలనుండి దస్త్రరకం తెలుసుకోవాలి. దయుంచి దస్త్రానికి సరిపొయ్యే దస్త్రరకం ప్రవేశపెట్టండి, లేదా పొడిగింత పెట్టకండి."
 
 #: ../app/dialogs/file-save-dialog.c:558
-msgid "You can use this dialog to export to various file formats. If you want to save the image to the GIMP XCF format, use File→Save instead."
+msgid "You can use this dialog to export to various file formats. If you want to save the image to the Glimpse XCF format, use File→Save instead."
 msgstr "ఈ సంవాదాన్ని ఇతర దస్ర ఆకారాలకు ఎగుమతి చేయడానికి వాడవచ్చు. మీరు గింపు యక్స్‌సిఎఫ్ ఆకారంలో బొమ్మని భద్రపరచాలంటే, దస్త్రం→భద్రపరుచు వాడాలి."
 
 #: ../app/dialogs/file-save-dialog.c:565
-msgid "You can use this dialog to save to the GIMP XCF format. Use File→Export to export to other file formats."
+msgid "You can use this dialog to save to the Glimpse XCF format. Use File→Export to export to other file formats."
 msgstr "ఈ సంవాదాన్ని వాడి గింప్ యక్స్‌సిఎఫ్ ఆకారంలో భద్రపరచవచ్చు. దస్త్రం -> ఎగుమతి వాడి ఇతర ఆకారాలకు ఎగుమతించవచ్చు."
 
 #: ../app/dialogs/file-save-dialog.c:571
@@ -9295,7 +9295,7 @@ msgid "Module Manager"
 msgstr "పర్విక నిర్వాహకం"
 
 #: ../app/dialogs/module-dialog.c:150
-msgid "You will have to restart GIMP for the changes to take effect."
+msgid "You will have to restart Glimpse for the changes to take effect."
 msgstr "మార్పులు ప్రభావితం అవ్వటానికి మీరు గింపును మరళా మొదలుపెట్టాలి."
 
 #: ../app/dialogs/module-dialog.c:191
@@ -9469,11 +9469,11 @@ msgid "Do you really want to reset all preferences to default values?"
 msgstr "అన్ని ప్రాధాన్యతలను అప్రమేయ విలువలకు నిజంగా తిరిగి అమర్చాలని అనుకొంటున్నారా?"
 
 #: ../app/dialogs/preferences-dialog.c:355
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid "You will have to restart Glimpse for the following changes to take effect:"
 msgstr "ఈ దిగువనున్న మార్పులు ప్రభావం చూపించాలంటే మీరు గింప్‌ను పునఃప్రారంభించాలి:"
 
 #: ../app/dialogs/preferences-dialog.c:537
-msgid "Your keyboard shortcuts will be reset to default values the next time you start GIMP."
+msgid "Your keyboard shortcuts will be reset to default values the next time you start Glimpse."
 msgstr "గింపును తరువాతి ప్రారంభించినపుడు మీ కీబోర్డు అడ్డుదారులు అప్రమేయ విలువలకు తిరిగి అమర్చబడతాయి."
 
 #: ../app/dialogs/preferences-dialog.c:548
@@ -9485,15 +9485,15 @@ msgid "Do you really want to remove all keyboard shortcuts from all menus?"
 msgstr "అన్ని కీబోర్డు అడ్డుదారులను నిజంగా తొలగించాలని అనుకొంటున్నారా?"
 
 #: ../app/dialogs/preferences-dialog.c:611
-msgid "Your window setup will be reset to default values the next time you start GIMP."
+msgid "Your window setup will be reset to default values the next time you start Glimpse."
 msgstr "గింపును తరువాతి ప్రారంభించినపుడు మీ కిటికీల స్థానాస్థానాలు అప్రమేయ విలువలకు తిరిగి అమర్చబడతాయి."
 
 #: ../app/dialogs/preferences-dialog.c:646
-msgid "Your input device settings will be reset to default values the next time you start GIMP."
+msgid "Your input device settings will be reset to default values the next time you start Glimpse."
 msgstr "గింపును తరువాతి ప్రారంభించినపుడు మీ ఇన్‌పుట్ పరికరం విలువలు అప్రమేయ విలువలకు తిరిగి అమర్చబడతాయి."
 
 #: ../app/dialogs/preferences-dialog.c:681
-msgid "Your tool options will be reset to default values the next time you start GIMP."
+msgid "Your tool options will be reset to default values the next time you start Glimpse."
 msgstr "మీరు గింపు తరువాత ప్రారంభించినప్పుడు పనిముట్టు ఐచ్చికాలను అప్రమేయ విలువలకు తిరిగి అమర్చుతున్నాము "
 
 #: ../app/dialogs/preferences-dialog.c:1267
@@ -10295,7 +10295,7 @@ msgid "pixels/%a"
 msgstr "చిణువులు /%a"
 
 #: ../app/dialogs/quit-dialog.c:105
-msgid "Quit GIMP"
+msgid "Quit Glimpse"
 msgstr "గింపు నుండి నిష్క్రమించు"
 
 #: ../app/dialogs/quit-dialog.c:105
@@ -10303,7 +10303,7 @@ msgid "Close All Images"
 msgstr "అన్ని బొమ్మలను మూసివేయి"
 
 #: ../app/dialogs/quit-dialog.c:164
-msgid "If you quit GIMP now, these changes will be lost."
+msgid "If you quit Glimpse now, these changes will be lost."
 msgstr "ఇప్పుడు GIMP వదిలేస్తే, ఈ మార్పులన్నీ పోతాయి."
 
 #: ../app/dialogs/quit-dialog.c:167
@@ -10382,11 +10382,11 @@ msgid "_Emulate brush dynamics"
 msgstr "కుంచె గతికలను అనుసరించు(_E)"
 
 #: ../app/dialogs/tips-dialog.c:88
-msgid "The GIMP tips file is empty!"
+msgid "The Glimpse tips file is empty!"
 msgstr "గింపు చిట్కాల దస్త్రం ఖాళీగావుంది!"
 
 #: ../app/dialogs/tips-dialog.c:92
-msgid "The GIMP tips file appears to be missing!"
+msgid "The Glimpse tips file appears to be missing!"
 msgstr "గింపు చిట్కాల దస్త్రం లేనట్టుంది!"
 
 #: ../app/dialogs/tips-dialog.c:94
@@ -10395,11 +10395,11 @@ msgid "There should be a file called '%s'. Please check your installation."
 msgstr "%s పేరుతో ఒక దస్త్రం ఉండాలి. మీ ప్రతిష్టని సరిచూడండి."
 
 #: ../app/dialogs/tips-dialog.c:100
-msgid "The GIMP tips file could not be parsed!"
+msgid "The Glimpse tips file could not be parsed!"
 msgstr "గింప్ చిట్కాల దస్త్ర ముదింపు వీలవలేదు."
 
 #: ../app/dialogs/tips-dialog.c:128
-msgid "GIMP Tip of the Day"
+msgid "Glimpse Tip of the Day"
 msgstr "గింపు ఈరోజు చిట్కా"
 
 #: ../app/dialogs/tips-dialog.c:134
@@ -10425,7 +10425,7 @@ msgid "tips-locale:C"
 msgstr "స్థానిక-సూచన:te-IN"
 
 #: ../app/dialogs/user-install-dialog.c:84
-msgid "GIMP User Installation"
+msgid "Glimpse User Installation"
 msgstr "గింప్ వాడుకరి స్థాపన"
 
 #: ../app/dialogs/user-install-dialog.c:93
@@ -10433,7 +10433,7 @@ msgid "User installation failed!"
 msgstr "వాడుకరి స్థాపన విఫలమైంది!"
 
 #: ../app/dialogs/user-install-dialog.c:95
-msgid "The GIMP user installation failed; see the log for details."
+msgid "The Glimpse user installation failed; see the log for details."
 msgstr "గింపు ప్రతిష్ట విఫలమైంది; వివరాలకు లాగ్ దస్త్రం చూడు"
 
 #: ../app/dialogs/user-install-dialog.c:98
@@ -10888,7 +10888,7 @@ msgid "Indexed"
 msgstr "సూచకం %d"
 
 #: ../app/gegl/gimpcurvesconfig.c:449
-msgid "not a GIMP Curves file"
+msgid "not a Glimpse Curves file"
 msgstr "గింప్ వక్రరేఖల దస్త్రం కాదు"
 
 #: ../app/gegl/gimpcurvesconfig.c:464
@@ -10907,15 +10907,15 @@ msgid "Deform the cage to deform the image"
 msgstr "బొమ్మను వికారించడానికి పంజరాన్ని వికారించి"
 
 #: ../app/gegl/gimplevelsconfig.c:739
-msgid "not a GIMP Levels file"
+msgid "not a Glimpse Levels file"
 msgstr "గింపు స్థాయిల దస్త్రం కాదు"
 
 #: ../app/gegl/gimpoperationcagecoefcalc.c:68
-msgid "Compute a set of coefficient buffer for the GIMP cage tool"
+msgid "Compute a set of coefficient buffer for the Glimpse cage tool"
 msgstr "గింపు పంజర పనిముట్టు కోసం బఫరు గుణకాల సమితిని లెక్కించు"
 
 #: ../app/gegl/gimpoperationcagetransform.c:106
-msgid "Convert a set of coefficient buffer to a coordinate buffer for the GIMP cage tool"
+msgid "Convert a set of coefficient buffer to a coordinate buffer for the Glimpse cage tool"
 msgstr "గింపు పంజర పనిముట్టు కోసం బఫరు గుణక సమితిని అక్షముల బఫరుకు మార్చు"
 
 #: ../app/gegl/gimpoperationcagetransform.c:128
@@ -10933,7 +10933,7 @@ msgid "Documents"
 msgstr "పత్రాలు"
 
 #: ../app/gui/splash.c:116
-msgid "GIMP Startup"
+msgid "Glimpse Startup"
 msgstr "గింపు ప్రారంభం"
 
 #: ../app/paint/gimpairbrush.c:65
@@ -11600,7 +11600,7 @@ msgid ""
 "Plug-in crashed: \"%s\"\n"
 "(%s)\n"
 "\n"
-"The dying plug-in may have messed up GIMP's internal state. You may want to save your images and restart GIMP to be on the safe side."
+"The dying plug-in may have messed up Glimpse's internal state. You may want to save your images and restart Glimpse to be on the safe side."
 msgstr ""
 "చొప్పింత కూలింది: \"%s\"\n"
 "(%s)\n"
@@ -11698,7 +11698,7 @@ msgstr "చొప్పింత కనపడుటలేదు (%s)"
 
 #: ../app/plug-in/plug-in-rc.c:205
 #, c-format
-msgid "Skipping '%s': wrong GIMP protocol version."
+msgid "Skipping '%s': wrong Glimpse protocol version."
 msgstr "%sను వదిలేస్తున్నాము. తప్పుడు గింపు ప్రోటోకాలు సంచిక"
 
 #: ../app/plug-in/plug-in-rc.c:477
@@ -13884,7 +13884,7 @@ msgstr ""
 "మీరు పొరని సరిదిద్దవచ్చు లేదా పాఠ్య గుణాల నుండి ఒక కొత్త పాఠ్యం పొరను సృష్టించు."
 
 #: ../app/tools/gimptexttool-editor.c:1172
-msgid "GIMP Text Editor"
+msgid "Glimpse Text Editor"
 msgstr "గింప్ పాఠ్య కూర్పకం"
 
 #: ../app/tools/gimpthresholdtool.c:88
@@ -15233,11 +15233,11 @@ msgid "Help browser is missing"
 msgstr "సహాయ విహారిణి కనిపించుటలేదు"
 
 #: ../app/widgets/gimphelp.c:295
-msgid "The GIMP help browser is not available."
+msgid "The Glimpse help browser is not available."
 msgstr "గింపు సహాయ విహారిణి అందుబాటులో లేదు."
 
 #: ../app/widgets/gimphelp.c:296
-msgid "The GIMP help browser plug-in appears to be missing from your installation. You may instead use the web browser for reading the help pages."
+msgid "The Glimpse help browser plug-in appears to be missing from your installation. You may instead use the web browser for reading the help pages."
 msgstr "మీ ప్రతిష్ట నుండి గింపు విహారిణి చొప్పింత తప్పిపొయినట్టుంది. మీరు గింపు సహాయ పుటలు చదవడానికి జాల విహారిణి వాడవచ్చు."
 
 #: ../app/widgets/gimphelp.c:342
@@ -15245,7 +15245,7 @@ msgid "Help browser doesn't start"
 msgstr "సహాయ విహారిణి ప్రారంభమవడంలేదు."
 
 #: ../app/widgets/gimphelp.c:343
-msgid "Could not start the GIMP help browser plug-in."
+msgid "Could not start the Glimpse help browser plug-in."
 msgstr "గింపు సహాయ విహారిణి చొప్పింత ప్రారంభమవడం లేదు."
 
 #: ../app/widgets/gimphelp.c:370
@@ -15253,7 +15253,7 @@ msgid "Use _Web Browser"
 msgstr "జాల విహారాన్ని వాడు (_W)"
 
 #: ../app/widgets/gimphelp.c:620
-msgid "GIMP user manual is missing"
+msgid "Glimpse user manual is missing"
 msgstr "గింపు వాడుకరి కరదీపిక కనిపించలేదు"
 
 #: ../app/widgets/gimphelp.c:627
@@ -15261,7 +15261,7 @@ msgid "_Read Online"
 msgstr "జాలంలో చదువు (_R)"
 
 #: ../app/widgets/gimphelp.c:651
-msgid "The GIMP user manual is not installed on your computer."
+msgid "The Glimpse user manual is not installed on your computer."
 msgstr "మీ కంప్యూటరులో గింపు వాడుకరి కరదీపిక ప్రతిష్టిచలేదు."
 
 #: ../app/widgets/gimphelp.c:654
@@ -15811,7 +15811,7 @@ msgid "English"
 msgstr "ఆంగ్లము"
 
 #: ../app/widgets/gimpuimanager.c:742
-msgid "Your GIMP installation is incomplete:"
+msgid "Your Glimpse installation is incomplete:"
 msgstr "మీ గింపు ప్రతిష్టాపన అసంపూర్ణం:"
 
 #: ../app/widgets/gimpuimanager.c:744
@@ -15982,7 +15982,7 @@ msgstr "నిర్వచించని"
 
 #: ../app/xcf/xcf.c:100
 #: ../app/xcf/xcf.c:168
-msgid "GIMP XCF image"
+msgid "Glimpse XCF image"
 msgstr "గింప్ XCF బొమ్మ"
 
 #: ../app/xcf/xcf.c:272

@@ -781,7 +781,7 @@ msgstr "Používání _cest"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "Záložka pro uživatelskou příručku"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -820,7 +820,7 @@ msgstr "_Hlavní webové stránky"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:192
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:205
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:218
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "Záložka pro web GIMPu"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
@@ -828,7 +828,7 @@ msgid "_Developer Web Site"
 msgstr "Webové stránky _vývojářů"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "_Web uživatelské příručky"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217

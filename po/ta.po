@@ -41,19 +41,19 @@ msgstr "கிம்ப்"
 #, c-format
 msgid ""
 "Copyright © 1995-%s\n"
-"Spencer Kimball, Peter Mattis and the GIMP Development Team"
+"Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 msgstr ""
 "பதிப்புரிமை © 1995-%s\n"
 "ஸ்பென்சர் கிம்பால், பீட்டர் மாதி மற்றும் கிம்ப் வளர்ச்சிக்குழு"
 
 #: ../app/about.h:34
 msgid ""
-"GIMP is free software: you can redistribute it and/or modify it under the "
+"Glimpse is free software: you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 3 of the License, or (at your option) any later "
 "version.\n"
 "\n"
-"GIMP is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Glimpse is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details.\n"
@@ -112,7 +112,7 @@ msgid "Be more verbose"
 msgstr "மேலும் அதிகமாக சொல்"
 
 #: ../app/main.c:163
-msgid "Start a new GIMP instance"
+msgid "Start a new Glimpse instance"
 msgstr "புதிய கிம்ப் நிகர் பக்கம் ஒன்றை துவக்குக"
 
 #: ../app/main.c:168
@@ -136,7 +136,7 @@ msgid "Do not show a splash screen"
 msgstr "துவக்க சாளரத்தை காட்ட வேண்டாம்"
 
 #: ../app/main.c:193
-msgid "Do not use shared memory between GIMP and plugins"
+msgid "Do not use shared memory between Glimpse and plugins"
 msgstr "கிம்ப் மற்றும் சொருகிகளுக்கு இடையே நினைவகத்தை பகிர வேண்டாம்."
 
 #: ../app/main.c:198
@@ -199,18 +199,18 @@ msgstr "[FILE|யூஆர்ஐ (URI)...]"
 
 #: ../app/main.c:405
 msgid ""
-"GIMP could not initialize the graphical user interface.\n"
+"Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
 "கிம்ப் வரைகலை பயனர் இடைமுகத்தை துவக்க முடியவில்லை. \n"
 "உங்கள் காட்சி சூழலுக்கு தகுந்த சரியான அமைப்பு உள்ளதா என சோதிக்கவும்."
 
 #: ../app/main.c:424
-msgid "Another GIMP instance is already running."
+msgid "Another Glimpse instance is already running."
 msgstr "வேறொரு கிம்ப் நிகர்பக்கம் ஏற்கெனவே இயங்குகிறது."
 
 #: ../app/main.c:494
-msgid "GIMP output. Type any character to close this window."
+msgid "Glimpse output. Type any character to close this window."
 msgstr "கிம்ப் வெளியீடு. இந்த சாளரத்தை மூட ஏதேனும் ஒரு விசையை தட்டுக."
 
 #: ../app/main.c:495
@@ -219,7 +219,7 @@ msgid "(Type any character to close this window)\n"
 msgstr "(இந்த சாளரத்தை மூட ஏதேனும் ஒரு விசையை தட்டுக.)\n"
 
 #: ../app/main.c:512
-msgid "GIMP output. You can minimize this window, but don't close it."
+msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr "கிம்ப் வெளியீடு. இந்த சாளரத்தை சுருக்குக. ஆனால் மூட வேண்டாம்."
 
 #: ../app/sanity.c:433
@@ -235,7 +235,7 @@ msgstr ""
 #: ../app/sanity.c:452
 #, c-format
 msgid ""
-"The name of the directory holding the GIMP user configuration cannot be "
+"The name of the directory holding the Glimpse user configuration cannot be "
 "converted to UTF-8: %s\n"
 "\n"
 "Your filesystem probably stores files in an encoding other than UTF-8 and "
@@ -264,7 +264,7 @@ msgstr "%s %s வடிநிலை"
 msgid "Brush Editor"
 msgstr "தூரிகை திருத்தர்"
 
-#. initialize the list of gimp brushes
+#. initialize the list of Glimpse brushes
 #: ../app/actions/actions.c:113 ../app/core/gimp.c:951
 #: ../app/dialogs/dialogs.c:319 ../app/dialogs/preferences-dialog.c:2740
 msgid "Brushes"
@@ -358,7 +358,7 @@ msgstr "எழுத்துருக்கள்"
 msgid "Gradient Editor"
 msgstr "சீர் நிற மாற்று தொகுப்பாளர்"
 
-#. initialize the list of gimp gradients
+#. initialize the list of Glimpse gradients
 #: ../app/actions/actions.c:176 ../app/core/gimp.c:971
 #: ../app/dialogs/dialogs.c:323 ../app/dialogs/preferences-dialog.c:2756
 msgid "Gradients"
@@ -397,13 +397,13 @@ msgstr "அடுக்குகள்"
 msgid "Palette Editor"
 msgstr "வண்ணத்தட்டு தொகுப்பாளர்"
 
-#. initialize the list of gimp palettes
+#. initialize the list of Glimpse palettes
 #: ../app/actions/actions.c:200 ../app/core/gimp.c:966
 #: ../app/dialogs/dialogs.c:325 ../app/dialogs/preferences-dialog.c:2752
 msgid "Palettes"
 msgstr "வண்ணத்தட்டுகள்"
 
-#. initialize the list of gimp patterns
+#. initialize the list of Glimpse patterns
 #: ../app/actions/actions.c:203 ../app/core/gimp.c:961
 #: ../app/dialogs/dialogs.c:321 ../app/dialogs/preferences-dialog.c:2748
 msgid "Patterns"
@@ -1343,7 +1343,7 @@ msgstr "(_T) தினசரி உத்தி குறிப்பு"
 
 #: ../app/actions/dialogs-actions.c:259
 msgctxt "dialogs-action"
-msgid "Show some helpful tips on using GIMP"
+msgid "Show some helpful tips on using Glimpse"
 msgstr "கிம்ப் ஐ பயன்படுத்துவதில் சில உத்திகளை காட்டு "
 
 #: ../app/actions/dialogs-actions.c:264
@@ -1353,7 +1353,7 @@ msgstr "(_A) பற்றி"
 
 #: ../app/actions/dialogs-actions.c:265
 msgctxt "dialogs-action"
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "கிம்ப் பற்றி "
 
 #: ../app/actions/dialogs-actions.c:328
@@ -2330,7 +2330,7 @@ msgstr "வெளியேறு (_Q)"
 
 #: ../app/actions/file-actions.c:113
 msgctxt "file-action"
-msgid "Quit the GNU Image Manipulation Program"
+msgid "Quit Glimpse"
 msgstr "க்னூ பட கையாளல் நிரல் இலிருந்து வெளிச்செல் "
 
 #: ../app/actions/file-actions.c:121
@@ -3025,7 +3025,7 @@ msgstr "உதவி (_H)"
 
 #: ../app/actions/help-actions.c:41
 msgctxt "help-action"
-msgid "Open the GIMP user manual"
+msgid "Open the Glimpse user manual"
 msgstr "கிம்ப் பயனர் கையேட்டை திற "
 
 #: ../app/actions/help-actions.c:46
@@ -5827,14 +5827,14 @@ msgstr "ஒற்றை- சாளர முறைமை"
 #: ../app/actions/windows-actions.c:125
 #, fuzzy
 msgctxt "windows-action"
-msgid "When enabled GIMP is in a single-window mode."
+msgid "When enabled Glimpse is in a single-window mode."
 msgstr "கிம்ப் ஐ ஒற்றை சாளர முறைமையில் செயல் படுத்து"
 
 #: ../app/base/tile-swap.c:711
 msgid ""
-"Unable to open swap file. GIMP has run out of memory and cannot use the swap "
+"Unable to open swap file. Glimpse has run out of memory and cannot use the swap "
 "file. Some parts of your images may be corrupted. Try to save your work "
-"using different filenames, restart GIMP and check the location of the swap "
+"using different filenames, restart Glimpse and check the location of the swap "
 "directory in your Preferences."
 msgstr ""
 "நினைவு இடமாற்று கோப்பை திறக்க முடியவில்லை. கிம்ப் நினைவகம் நிறைந்தது. இடையகத்தையும் "
@@ -5909,7 +5909,7 @@ msgstr "உயரம்"
 
 #: ../app/config/config-enums.c:147
 msgctxt "help-browser-type"
-msgid "GIMP help browser"
+msgid "Glimpse help browser"
 msgstr "கிம்ப் உதவி உலாவி"
 
 #: ../app/config/config-enums.c:148
@@ -6139,7 +6139,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:221
 msgid ""
-"GIMP will warn the user if an attempt is made to create an image that would "
+"Glimpse will warn the user if an attempt is made to create an image that would "
 "take more memory than the size specified here."
 msgstr ""
 "இங்கே குறிப்பிடப்பட்ட அளவை விட அதிகமான அளவில் பிம்பத்தை பிம்பாக்க முயற்சி செய்யப்படும் "
@@ -6181,7 +6181,7 @@ msgstr ""
 "பிம்ப சாளரத்தின் கீழ் வலது முனையில் கிடைக்கும் வழிநடத்துதல் முன்காட்சியின் அளவை அமைக்கிறது."
 
 #: ../app/config/gimprc-blurbs.h:249
-msgid "Sets how many processors GIMP should try to use simultaneously."
+msgid "Sets how many processors Glimpse should try to use simultaneously."
 msgstr "கிம்ப் எத்தனை செயலிகளை ஒரே நேரத்தில் பயன்படுத்த வேண்டும் என அமைக்கிறது."
 
 #: ../app/config/gimprc-blurbs.h:262
@@ -6200,7 +6200,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:278
 msgid ""
-"Sets whether GIMP should create previews of layers and channels. Previews in "
+"Sets whether Glimpse should create previews of layers and channels. Previews in "
 "the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
@@ -6237,12 +6237,12 @@ msgstr ""
 "அளவாக்கிக்கொள்ளும்."
 
 #: ../app/config/gimprc-blurbs.h:298
-msgid "Let GIMP try to restore your last saved session on each startup."
+msgid "Let Glimpse try to restore your last saved session on each startup."
 msgstr "ஒவ்வொரு துவக்கத்திலும், கிம்ப் நீங்கள் கடைசியாக சேமித்த அமர்வை மீட்க முயற்சிக்கட்டும்."
 
 #: ../app/config/gimprc-blurbs.h:301
 msgid ""
-"Remember the current tool, pattern, color, and brush across GIMP sessions."
+"Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
 "கிம்ப் அமர்வுகளில் நடப்பு கருவி, தோற்றம், நிறம், மற்றும் தூரிகையை நினைவு வைத்திருக்கவும்."
 
@@ -6255,11 +6255,11 @@ msgstr ""
 "வைக்கவும்."
 
 #: ../app/config/gimprc-blurbs.h:309
-msgid "Save the positions and sizes of the main dialogs when GIMP exits."
+msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr "கிம்ப் வெளியேறும்போது முக்கிய உரையாடல்களின் இடங்கள் மற்றும் அளவுகளைசேமி "
 
 #: ../app/config/gimprc-blurbs.h:312
-msgid "Save the tool options when GIMP exits."
+msgid "Save the tool options when Glimpse exits."
 msgstr "கிம்ப் வெளியேறும்போது கருவி தேர்வுகளை சேமி "
 
 #: ../app/config/gimprc-blurbs.h:318
@@ -6364,7 +6364,7 @@ msgid "Show a tooltip when the pointer hovers over an item."
 msgstr "ஒரு உருப்படியின் மீது சொடுக்கி உலாவும்போது கருவிக்குறிப்பை காட்டு."
 
 #: ../app/config/gimprc-blurbs.h:370
-msgid "Use GIMP in a single-window mode."
+msgid "Use Glimpse in a single-window mode."
 msgstr "கிம்ப் ஐ ஒற்றை சாளர முறைமையில் செயல் படுத்து"
 
 #: ../app/config/gimprc-blurbs.h:373
@@ -6377,9 +6377,9 @@ msgstr "பிம்ப சாளரத்தில் இடைவெளி வ
 
 #: ../app/config/gimprc-blurbs.h:379
 msgid ""
-"Sets the swap file location. GIMP uses a tile based memory allocation "
+"Sets the swap file location. Glimpse uses a tile based memory allocation "
 "scheme. The swap file is used to quickly and easily swap tiles out to disk "
-"and back in. Be aware that the swap file can easily get very large if GIMP "
+"and back in. Be aware that the swap file can easily get very large if Glimpse "
 "is used with large images. Also, things can get horribly slow if the swap "
 "file is created on a folder that is mounted over NFS.  For these reasons, it "
 "may be desirable to put your swap file in \"/tmp\"."
@@ -6405,17 +6405,17 @@ msgstr ""
 "செய்யவேண்டும்."
 
 #: ../app/config/gimprc-blurbs.h:395
-msgid "Save changed keyboard shortcuts when GIMP exits."
+msgid "Save changed keyboard shortcuts when Glimpse exits."
 msgstr "கிம்ப் வெளியேறும்போது மாற்றப்பட்ட விசைப்பலகை குறுக்குவழிகளை சேமி "
 
 #: ../app/config/gimprc-blurbs.h:398
-msgid "Restore saved keyboard shortcuts on each GIMP startup."
+msgid "Restore saved keyboard shortcuts on each Glimpse startup."
 msgstr "ஒவ்வொரு கிம்ப் துவக்கத்திலும் சேமித்த விசைப்பலகை குறுக்குவழிகளை மீட்கவும்."
 
 #: ../app/config/gimprc-blurbs.h:401
 msgid ""
 "Sets the folder for temporary storage. Files will appear here during the "
-"course of running GIMP.  Most files will disappear when GIMP exits, but some "
+"course of running Glimpse.  Most files will disappear when Glimpse exits, but some "
 "files are likely to remain, so it is best if this folder not be one that is "
 "shared by other users."
 msgstr "  க்கு கோப்புகள் இதில் கிம்ப் கிம்ப் இல் இல்."
@@ -6434,7 +6434,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:420
 msgid ""
-"When the amount of pixel data exceeds this limit, GIMP will start to swap "
+"When the amount of pixel data exceeds this limit, Glimpse will start to swap "
 "tiles to disk.  This is a lot slower but it makes it possible to work on "
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
@@ -6468,7 +6468,7 @@ msgstr "ஒளிபுகும்தன்மையை காண்பிக�
 
 #: ../app/config/gimprc-blurbs.h:444
 msgid ""
-"When enabled, GIMP will not save an image if it has not been changed since "
+"When enabled, Glimpse will not save an image if it has not been changed since "
 "it was opened."
 msgstr "செயலாக்கினால் திறந்தபின் பிம்பம் மாறவில்லையானால் கிம்ப் அதை சேமிக்காது."
 
@@ -7517,13 +7517,13 @@ msgstr "தூரிகை கோணம்"
 
 #: ../app/core/gimpbrushgenerated-load.c:85
 #, c-format
-msgid "Fatal parse error in brush file '%s': Not a GIMP brush file."
+msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 msgstr "தூரிகை கோப்பில் ஆபத்தான பகுத்தல் பிழை '%s': இது கிம்ப் தூரிகை கோப்பில்லை"
 
 #: ../app/core/gimpbrushgenerated-load.c:102
 #, c-format
 msgid ""
-"Fatal parse error in brush file '%s': Unknown GIMP brush version in line %d."
+"Fatal parse error in brush file '%s': Unknown Glimpse brush version in line %d."
 msgstr ""
 "தூரிகை கோப்பு '%s' இல் ஆபத்தான பகுத்தல் பிழை : தெரியாத கிம்ப் தூரிகை பதிப்பு வரி %d "
 "இல்."
@@ -7537,7 +7537,7 @@ msgstr "தூரிகை கோப்பு '%s' இல் செல்லு�
 #: ../app/core/gimpbrushgenerated-load.c:148
 #, c-format
 msgid ""
-"Fatal parse error in brush file '%s': Unknown GIMP brush shape in line %d."
+"Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line %d."
 msgstr ""
 "தூரிகை கோப்பு '%s' இல் ஆபத்தான பகுத்தல் பிழை : தெரியாத கிம்ப் தூரிகை வடிவு வரி %d "
 "இல்."
@@ -7606,7 +7606,7 @@ msgstr "பெயரில்லாத"
 #, c-format
 msgid ""
 "Fatal parse error in brush file '%s': Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr ""
 "தூரிகை கோப்பு '%s' இல்  ஆபத்தான பகுத்தல் பிழை : ஆதரிக்கப்படாத தூரிகை அகலம். %d\n"
 "கிம்ப் தூரிகைகள் GRAY அல்லது RGBA-ஆக இருக்கவேண்டும்."
@@ -7649,7 +7649,7 @@ msgstr "தரவு கோப்புகளை தேடுகிறது"
 msgid "Parasites"
 msgstr "ஒட்டுகள்"
 
-#. initialize the list of gimp dynamics
+#. initialize the list of Glimpse dynamics
 #: ../app/core/gimp.c:956 ../app/dialogs/preferences-dialog.c:2744
 #: ../app/tools/gimppaintoptions-gui.c:204
 msgid "Dynamics"
@@ -8052,7 +8052,7 @@ msgstr "சீர் நிற மாற்றம் கோப்பு '%s' இ
 
 #: ../app/core/gimpgradient-load.c:83
 #, c-format
-msgid "Fatal parse error in gradient file '%s': Not a GIMP gradient file."
+msgid "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 msgstr ""
 "சீர் நிற மாற்றம் கோப்பு '%s' இல் ஆபத்தான பகுத்தல் பிழை: இது கிம்ப் சீர் நிற மாற்ற கோப்பில்லை"
 
@@ -8774,7 +8774,7 @@ msgstr "தோரணி கோப்பில் ஆபத்தான பகு
 #, c-format
 msgid ""
 "Fatal parse error in pattern file '%s: Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"Glimpse Patterns must be GRAY or RGB."
 msgstr ""
 "தோரணி கோப்பில் ஆபத்தான பகுத்தல் பிழை '%s': அறியாத தோரணி ஆழம் %d..\n"
 "கிம்ப் தோரணி GRAY அல்லது ஆர்ஜிபி ஆக இருக்கவேண்டும்."
@@ -8957,7 +8957,7 @@ msgstr "சதவீதம்"
 #: ../app/core/gimp-user-install.c:160
 #, c-format
 msgid ""
-"It seems you have used GIMP %s before.  GIMP will now migrate your user "
+"It seems you have used Glimpse %s before.  Glimpse will now migrate your user "
 "settings to '%s'."
 msgstr ""
 "நீங்கள் கிம்ப்  %s ஐ முன்பு பயன்படுத்தி உள்ளீர் போல் இருக்கிறது. உங்கள் பயனர் அமைப்பை கிம்ப் "
@@ -8966,7 +8966,7 @@ msgstr ""
 #: ../app/core/gimp-user-install.c:165
 #, c-format
 msgid ""
-"It appears that you are using GIMP for the first time.  GIMP will now create "
+"It appears that you are using Glimpse for the first time.  Glimpse will now create "
 "a folder named '%s' and copy some files to it."
 msgstr ""
 "நீங்கள் கிம்பை  முதல் முறை பயன்படுத்துகிறீர் போல் இருக்கிறது. கிம்ப் இப்போது ஒரு %s அடைவை "
@@ -8988,11 +8988,11 @@ msgid "Cannot create folder '%s': %s"
 msgstr "அடைவு '%s' ஐ பிம்பாக்க முடியவில்லை: %s"
 
 #: ../app/dialogs/about-dialog.c:115 ../app/gui/gui.c:493
-msgid "About GIMP"
+msgid "About Glimpse"
 msgstr "கிம்ப் பற்றி "
 
 #: ../app/dialogs/about-dialog.c:124
-msgid "Visit the GIMP website"
+msgid "Visit the Glimpse website"
 msgstr "கிம்ப் வலையகத்தை விஜயம் செய்க"
 
 #. Translators: insert your names here,
@@ -9135,7 +9135,7 @@ msgstr "முன்புலம்/பின்புலம் நிறம்"
 
 #: ../app/dialogs/dialogs-constructors.c:203 ../app/gui/gui.c:161
 #: ../app/gui/gui-message.c:149
-msgid "GIMP Message"
+msgid "Glimpse Message"
 msgstr "கிம்ப் செய்தி"
 
 #: ../app/dialogs/fade-dialog.c:109
@@ -9187,18 +9187,18 @@ msgstr ""
 #: ../app/dialogs/file-save-dialog.c:558
 msgid ""
 "You can use this dialog to export to various file formats. If you want to "
-"save the image to the GIMP XCF format, use File→Save instead."
+"save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "நீங்கள் இந்த உரையாடலை மற்ற பல பட ஒழுங்குகளுக்கு ஏற்றுமதி செய்ய பயன்படுத்தலாம். "
-"விரும்பினால் கிம்பின் GIMP XCF ஒழுகில் சேமிக்கலாம். கோப்பு→ சேமி ஐ பயன்படுத்துக"
+"விரும்பினால் கிம்பின் Glimpse XCF ஒழுகில் சேமிக்கலாம். கோப்பு→ சேமி ஐ பயன்படுத்துக"
 
 #: ../app/dialogs/file-save-dialog.c:565
 msgid ""
-"You can use this dialog to save to the GIMP XCF format. Use File→Export to "
+"You can use this dialog to save to the Glimpse XCF format. Use File→Export to "
 "export to other file formats."
 msgstr ""
 "நீங்கள் இந்த உரையாடலை மற்ற பல பட ஒழுங்குகளுக்கு சேமிக்க பயன்படுத்தலாம். விரும்பினால் "
-"கிம்பின் GIMP XCF ஒழுகில் சேமிக்கலாம். கோப்பு→ சேமி ஐ பயன்படுத்துக"
+"கிம்பின் Glimpse XCF ஒழுகில் சேமிக்கலாம். கோப்பு→ சேமி ஐ பயன்படுத்துக"
 
 #: ../app/dialogs/file-save-dialog.c:571
 msgid ""
@@ -9463,7 +9463,7 @@ msgid "Module Manager"
 msgstr "கூறு மேலாளர்"
 
 #: ../app/dialogs/module-dialog.c:150
-msgid "You will have to restart GIMP for the changes to take effect."
+msgid "You will have to restart Glimpse for the changes to take effect."
 msgstr "மாற்றங்கள் செயலுக்கு வர நீங்கள் கிம்ப் ஐ மீண்டும் துவக்க வேண்டும்."
 
 #: ../app/dialogs/module-dialog.c:191
@@ -9633,13 +9633,13 @@ msgid "Do you really want to reset all preferences to default values?"
 msgstr "நிச்சயம் அனைத்து விருப்பங்களையும் நிலை மீட்டமைக்க வேண்டுமா?"
 
 #: ../app/dialogs/preferences-dialog.c:355
-msgid "You will have to restart GIMP for the following changes to take effect:"
+msgid "You will have to restart Glimpse for the following changes to take effect:"
 msgstr "பின்வரும் மாற்றங்கள் செயல்பாடில் வர கிம்ப்ஐ மீண்டும் துவக்கவேண்டும்:"
 
 #: ../app/dialogs/preferences-dialog.c:537
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "அடுத்த தடவை நீங்கள் கிம்ப்ஐ தொடங்கும் போது உங்கள் விசைப்பலகை குறுக்குவழிகள், முன்னிருப்பு "
 "மதிப்புகளுக்கே மீண்டும் அமைக்கப்படும்."
@@ -9665,7 +9665,7 @@ msgstr ""
 #: ../app/dialogs/preferences-dialog.c:646
 msgid ""
 "Your input device settings will be reset to default values the next time you "
-"start GIMP."
+"start Glimpse."
 msgstr ""
 "அடுத்த தடவை நீங்கள் கிம்ப்ஐ தொடங்கும் போது உங்கள் உள்ளீடு சாதன அமைவுகள், முன்னிருப்பு "
 "மதிப்புகளுக்கே மீண்டும் அமைக்கப்படும்."
@@ -10476,7 +10476,7 @@ msgid "pixels/%a"
 msgstr "படத்துணுக்குகள்/%a"
 
 #: ../app/dialogs/quit-dialog.c:105
-msgid "Quit GIMP"
+msgid "Quit Glimpse"
 msgstr "கிம்ப் ஐ விட்டு வெளிச்செல் "
 
 #: ../app/dialogs/quit-dialog.c:105
@@ -10484,7 +10484,7 @@ msgid "Close All Images"
 msgstr "அனைத்து பிம்பங்களையும் மூடுக"
 
 #: ../app/dialogs/quit-dialog.c:164
-msgid "If you quit GIMP now, these changes will be lost."
+msgid "If you quit Glimpse now, these changes will be lost."
 msgstr "இப்போது நீங்கள் கிம்ப்ஐ விட்டு வெளியேறினால், இந்த மாற்றங்கள் தொலைந்துவிடும்."
 
 #: ../app/dialogs/quit-dialog.c:167
@@ -10564,11 +10564,11 @@ msgid "_Emulate brush dynamics"
 msgstr "(_E) தூரிகை இயக்கத்தைப் போல் இயக்கு"
 
 #: ../app/dialogs/tips-dialog.c:88
-msgid "The GIMP tips file is empty!"
+msgid "The Glimpse tips file is empty!"
 msgstr "கிம்ப் உதவிக்குறிப்பு கோப்பு வெற்றாக உள்ளது!"
 
 #: ../app/dialogs/tips-dialog.c:92
-msgid "The GIMP tips file appears to be missing!"
+msgid "The Glimpse tips file appears to be missing!"
 msgstr "கிம்ப் உதவிக்குறிப்பு கோப்பு காணாமல் போய்விட்டது!"
 
 #: ../app/dialogs/tips-dialog.c:94
@@ -10577,11 +10577,11 @@ msgid "There should be a file called '%s'. Please check your installation."
 msgstr "'%s' என்ற கோப்பு இருக்கவேண்டும். உங்க நிறுவலை சரிபார்க்கவும்."
 
 #: ../app/dialogs/tips-dialog.c:100
-msgid "The GIMP tips file could not be parsed!"
+msgid "The Glimpse tips file could not be parsed!"
 msgstr "கிம்ப் உதவிக்குறிப்பு கோப்பை அளவிட முடியவில்லை!"
 
 #: ../app/dialogs/tips-dialog.c:128
-msgid "GIMP Tip of the Day"
+msgid "Glimpse Tip of the Day"
 msgstr "கிம்ப் இன்றைய உதவிக்குறிப்பு"
 
 #: ../app/dialogs/tips-dialog.c:134
@@ -10607,7 +10607,7 @@ msgid "tips-locale:C"
 msgstr "உதவிக்குறிப்பு உள்ளமைவு:C"
 
 #: ../app/dialogs/user-install-dialog.c:84
-msgid "GIMP User Installation"
+msgid "Glimpse User Installation"
 msgstr "கிம்ப் பயனர் நிறுவல்"
 
 #: ../app/dialogs/user-install-dialog.c:93
@@ -10615,7 +10615,7 @@ msgid "User installation failed!"
 msgstr "பயனர் நிறுவல் தோல்வியுற்றது!"
 
 #: ../app/dialogs/user-install-dialog.c:95
-msgid "The GIMP user installation failed; see the log for details."
+msgid "The Glimpse user installation failed; see the log for details."
 msgstr "கிம்ப் பயனர் நிறுவல் தோல்வியுற்றது, விவரங்களுக்கு பதிவேடை பார்க்கவும்."
 
 #: ../app/dialogs/user-install-dialog.c:98
@@ -11048,7 +11048,7 @@ msgid "Indexed"
 msgstr " %d ஐ வரிசையாக்கு"
 
 #: ../app/gegl/gimpcurvesconfig.c:449
-msgid "not a GIMP Curves file"
+msgid "not a Glimpse Curves file"
 msgstr "கிம்ப் வளை கோடுகள் கோப்பு அல்ல"
 
 #: ../app/gegl/gimpcurvesconfig.c:464 ../app/gegl/gimplevelsconfig.c:786
@@ -11066,16 +11066,16 @@ msgid "Deform the cage to deform the image"
 msgstr "பிம்பத்தை உருக்குலைக்க கூண்டை உருக்குலை"
 
 #: ../app/gegl/gimplevelsconfig.c:739
-msgid "not a GIMP Levels file"
+msgid "not a Glimpse Levels file"
 msgstr "கிம்ப் அடுக்குகள் கோப்பு அல்ல"
 
 #: ../app/gegl/gimpoperationcagecoefcalc.c:68
-msgid "Compute a set of coefficient buffer for the GIMP cage tool"
+msgid "Compute a set of coefficient buffer for the Glimpse cage tool"
 msgstr "கிம்ப் இன் கூண்டு கருவிக்கு ஒரு செட் கோ எபிசியன்ட் இடைநினைவை கணக்கிடுக"
 
 #: ../app/gegl/gimpoperationcagetransform.c:106
 msgid ""
-"Convert a set of coefficient buffer to a coordinate buffer for the GIMP cage "
+"Convert a set of coefficient buffer to a coordinate buffer for the Glimpse cage "
 "tool"
 msgstr ""
 "கிம்ப் இன் கூண்டு கருவிக்கு ஒரு செட் எபிசியன்ட் இடைநினைவை கோஆர்டினேட் இடை நினைவாக "
@@ -11096,7 +11096,7 @@ msgid "Documents"
 msgstr "ஆவணங்கள்"
 
 #: ../app/gui/splash.c:116
-msgid "GIMP Startup"
+msgid "Glimpse Startup"
 msgstr "கிம்ப் துவக்கம்"
 
 #: ../app/paint/gimpairbrush.c:65 ../app/tools/gimpairbrushtool.c:55
@@ -11792,8 +11792,8 @@ msgid ""
 "Plug-in crashed: \"%s\"\n"
 "(%s)\n"
 "\n"
-"The dying plug-in may have messed up GIMP's internal state. You may want to "
-"save your images and restart GIMP to be on the safe side."
+"The dying plug-in may have messed up Glimpse's internal state. You may want to "
+"save your images and restart Glimpse to be on the safe side."
 msgstr ""
 "சொருகி சிதைந்தது: \"%s\"\n"
 "(%s)\n"
@@ -11892,7 +11892,7 @@ msgstr "சொருகியை காணவில்லை (%s)"
 
 #: ../app/plug-in/plug-in-rc.c:205
 #, c-format
-msgid "Skipping '%s': wrong GIMP protocol version."
+msgid "Skipping '%s': wrong Glimpse protocol version."
 msgstr "'%s'ஐ தவிர்க்கிறது: தவறான கிம்ப் நெறிமுறை பதிப்பு."
 
 #: ../app/plug-in/plug-in-rc.c:477
@@ -14085,7 +14085,7 @@ msgstr ""
 "நீங்க அடுக்கை திருத்தலாம் அல்லது அதன் உரை பண்புகள் மூலம் புதிய உரை அடுக்கை திருத்தலாம்."
 
 #: ../app/tools/gimptexttool-editor.c:1172
-msgid "GIMP Text Editor"
+msgid "Glimpse Text Editor"
 msgstr "கிம்ப் உரை தொகுப்பான்"
 
 #: ../app/tools/gimpthresholdtool.c:88
@@ -15435,12 +15435,12 @@ msgid "Help browser is missing"
 msgstr "உதவி உலாவி காணவில்லை"
 
 #: ../app/widgets/gimphelp.c:295
-msgid "The GIMP help browser is not available."
+msgid "The Glimpse help browser is not available."
 msgstr "கிம்ப் உதவி உலாவி கிடைப்பில் இல்லை."
 
 #: ../app/widgets/gimphelp.c:296
 msgid ""
-"The GIMP help browser plug-in appears to be missing from your installation. "
+"The Glimpse help browser plug-in appears to be missing from your installation. "
 "You may instead use the web browser for reading the help pages."
 msgstr ""
 "கிம்ப் உதவி உலாவி சொருகி உங்கள் நிறுவலில் இருந்து காணவில்லை. அதற்கு பதிலாக வலை "
@@ -15451,7 +15451,7 @@ msgid "Help browser doesn't start"
 msgstr "உதவி உலாவி துவங்கவில்லை"
 
 #: ../app/widgets/gimphelp.c:343
-msgid "Could not start the GIMP help browser plug-in."
+msgid "Could not start the Glimpse help browser plug-in."
 msgstr "கிம்ப் உதவி உலாவி கூடுதல்-இணைப்பை துவக்கமுடியவில்லை"
 
 #: ../app/widgets/gimphelp.c:370
@@ -15459,7 +15459,7 @@ msgid "Use _Web Browser"
 msgstr "வலை உலாவி ஐ பயன்படுத்து"
 
 #: ../app/widgets/gimphelp.c:620
-msgid "GIMP user manual is missing"
+msgid "Glimpse user manual is missing"
 msgstr "கிம்ப் பயனர் கையேடு காணவில்லை"
 
 #: ../app/widgets/gimphelp.c:627
@@ -15467,7 +15467,7 @@ msgid "_Read Online"
 msgstr "(_R) வலை இணைப்பில் படி "
 
 #: ../app/widgets/gimphelp.c:651
-msgid "The GIMP user manual is not installed on your computer."
+msgid "The Glimpse user manual is not installed on your computer."
 msgstr "கிம்ப் பயனர் கையேடு உங்கள் கணினியில் நிறுவப்படவில்லை"
 
 #: ../app/widgets/gimphelp.c:654
@@ -16021,7 +16021,7 @@ msgid "English"
 msgstr "ஆங்கிலம்"
 
 #: ../app/widgets/gimpuimanager.c:742
-msgid "Your GIMP installation is incomplete:"
+msgid "Your Glimpse installation is incomplete:"
 msgstr "உங்கள் கிம்ப் நிறுவல் முடிந்தது:"
 
 #: ../app/widgets/gimpuimanager.c:744
@@ -16191,7 +16191,7 @@ msgid "Undefined"
 msgstr "வரையரையில்லா"
 
 #: ../app/xcf/xcf.c:100 ../app/xcf/xcf.c:168
-msgid "GIMP XCF image"
+msgid "Glimpse XCF image"
 msgstr "கிம்ப் எக்ஸ்சிஎஃப் பிம்பம்"
 
 #: ../app/xcf/xcf.c:272
@@ -16283,7 +16283,7 @@ msgstr "தெளிவில்லாத"
 
 #~ msgctxt "windows-action"
 #~ msgid ""
-#~ "When enabled GIMP is in a single-window mode. Far from completely "
+#~ "When enabled Glimpse is in a single-window mode. Far from completely "
 #~ "implemented!"
 #~ msgstr ""
 #~ "செயல் படுத்தினால் கிம்ப் ஒற்றை சாளர முறைமையில் இருக்கும். இது இன்னும் முழுமையாகவில்லை!"
@@ -16398,20 +16398,20 @@ msgstr "தெளிவில்லாத"
 #~ msgid "Spacing:"
 #~ msgstr "இடைவெளி:"
 
-#~ msgid "Use a running GIMP only, never start a new one"
+#~ msgid "Use a running Glimpse only, never start a new one"
 #~ msgstr "இயங்கும் கிம்ப் ஐ மட்டும் பயன்படுத்துக. புதியதை எப்போதும் துவக்காதே."
 
-#~ msgid "Only check if GIMP is running, then quit"
+#~ msgid "Only check if Glimpse is running, then quit"
 #~ msgstr "கிம்ப் இயங்குகிறதா என்று மட்டும் சோதித்து வெளியேறுக"
 
-#~ msgid "Print X window ID of GIMP toolbox window, then quit"
+#~ msgid "Print X window ID of Glimpse toolbox window, then quit"
 #~ msgstr ""
 #~ " கிம்ப் இன் கருவிப்பெட்டி  சாளரத்தின் எக்ஸ் சாளர அடையாளம் (ID) அச்சிட்டு வெளியேறுக"
 
-#~ msgid "Start GIMP without showing the startup window"
+#~ msgid "Start Glimpse without showing the startup window"
 #~ msgstr "கிம்ப் ஐ துவக்க சாளரத்தை காட்டாமல் துவக்கு"
 
-#~ msgid "Could not connect to GIMP."
+#~ msgid "Could not connect to Glimpse."
 #~ msgstr "கிம்ப் ஐ தொடர்பு கொள்ள முடியவில்லை"
 
 #~ msgid "Make sure that the Toolbox is visible!"
@@ -16621,7 +16621,7 @@ msgstr "தெளிவில்லாத"
 #~ msgid "_Show in Toolbox"
 #~ msgstr "கருவிப்பெட்டியில் காட்டு (_S)"
 
-#~ msgid "When enabled, GIMP will show mnemonics in menus."
+#~ msgid "When enabled, Glimpse will show mnemonics in menus."
 #~ msgstr "செயலாக்கப்பட்டால், கிம்ப் மெனுக்களில் நினைவுக்குறியீடுகள் ஐ காண்பிக்கும்."
 
 #~ msgid ""

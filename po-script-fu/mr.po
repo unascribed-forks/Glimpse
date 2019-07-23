@@ -807,7 +807,7 @@ msgstr "_मार्ग वापरत आहे"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "वापरकर्ता हस्तलिखितामध्ये [युझर मॅन्यूअल] खुण ठेवा"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -845,7 +845,7 @@ msgstr "_मुख्य वेब साइट"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:256
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "गिम्प वेबसाईटमध्ये खुण करा"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:203
@@ -877,7 +877,7 @@ msgid "Bookmark to the bug tracker of GIMP"
 msgstr "गिम्पच्या बग ट्रॅकरवर खुण ठेवा"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:255
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "_वापरकर्ता हस्तलिखित वेब साइट"
 
 #: ../plug-ins/script-fu/scripts/gradient-example.scm:69

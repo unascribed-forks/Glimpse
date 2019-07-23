@@ -3494,7 +3494,7 @@ msgid "Invalid X resolution."
 msgstr "Resolución X no válida."
 
 #: ../plug-ins/common/file-pnm.c:627
-msgid "Image width is larger than GIMP can handle."
+msgid "Image width is larger than Glimpse can handle."
 msgstr "La anchura de la imagen es mayor de lo que GIMP puede manejar."
 
 #: ../plug-ins/common/file-pnm.c:634
@@ -3502,7 +3502,7 @@ msgid "Invalid Y resolution."
 msgstr "Resolución Y no válida."
 
 #: ../plug-ins/common/file-pnm.c:636
-msgid "Image height is larger than GIMP can handle."
+msgid "Image height is larger than Glimpse can handle."
 msgstr "La altura de la imagen es mayor de lo que GIMP puede manejar."
 
 #: ../plug-ins/common/file-pnm.c:648
@@ -4074,7 +4074,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image width is larger than GIMP can handle"
+"Image width is larger than Glimpse can handle"
 msgstr ""
 "«%s»:\n"
 "La anchura de la imagen es mayor de lo que GIMP puede manejar"
@@ -4094,7 +4094,7 @@ msgstr ""
 #, c-format
 msgid ""
 "'%s':\n"
-"Image height is larger than GIMP can handle"
+"Image height is larger than Glimpse can handle"
 msgstr ""
 "«%s»:\n"
 "La altura de la imagen es mayor de lo que GIMP puede manejar"
@@ -10482,7 +10482,7 @@ msgid "The help pages for '%s' are not available."
 msgstr "No están disponibles las páginas de ayuda para «%s»."
 
 #: ../plug-ins/help/gimphelpdomain.c:186
-msgid "The GIMP user manual is not available."
+msgid "The Glimpse user manual is not available."
 msgstr "No está disponible el manual de usuario de GIMP."
 
 #. TRANSLATORS: do not end the URL with a dot,
@@ -14477,7 +14477,7 @@ msgstr "Transfiriendo datos desde el escáner/cámara"
 
 #~ msgid ""
 #~ "Warning:\n"
-#~ "The image you are loading has 16 bits per channel. GIMP can only handle 8 "
+#~ "The image you are loading has 16 bits per channel. Glimpse can only handle 8 "
 #~ "bit, so it will be converted for you. Information will be lost because of "
 #~ "this conversion."
 #~ msgstr ""

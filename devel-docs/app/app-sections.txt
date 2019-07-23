@@ -6639,7 +6639,7 @@ gimp_tool_set_modifier_state
 gimp_tool_set_active_modifier_state
 gimp_tool_oper_update
 gimp_tool_cursor_update
-gimp_tool_get_popup 
+gimp_tool_get_popup
 gimp_tool_push_status
 gimp_tool_push_status_coords
 gimp_tool_push_status_length
@@ -7391,7 +7391,7 @@ GIMP_COLOR_BAR_CLASS
 GIMP_IS_COLOR_BAR_CLASS
 GIMP_COLOR_BAR_GET_CLASS
 </SECTION>
- 
+
 <SECTION>
 <FILE>gimpcolordialog</FILE>
 <TITLE>GimpColorDialog</TITLE>
@@ -7735,7 +7735,7 @@ gimp_container_view_enable_dnd
 gimp_container_view_select_item
 gimp_container_view_activate_item
 gimp_container_view_context_item
-gimp_container_view_get_selected 
+gimp_container_view_get_selected
 gimp_container_view_lookup
 gimp_container_view_item_selected
 gimp_container_view_multi_selected
@@ -8379,7 +8379,7 @@ GIMP_DOCKED_GET_INTERFACE
 GimpDockbook
 GimpDockbookPrivate
 gimp_dockbook_new
-gimp_dockbook_get_dock 
+gimp_dockbook_get_dock
 gimp_dockbook_set_dock
 gimp_dockbook_get_ui_manager
 gimp_dockbook_add
@@ -11849,7 +11849,7 @@ gui_unique_exit
 <FILE>gui-vtable</FILE>
 gui_vtable_init
 </SECTION>
- 
+
 <SECTION>
 <FILE>ige-mac-menu</FILE>
 IgeMacMenuGroup
@@ -13016,15 +13016,7 @@ gimp_session_write_position
 <FILE>gimpcairo</FILE>
 gimp_cairo_add_arc
 gimp_cairo_add_segments
-gimp_cairo_draw_drop_wilber
-gimp_cairo_draw_toolbox_wilber
 gimp_cairo_stipple_pattern_create
-</SECTION>
-
-<SECTION>
-<FILE>gimpcairo-wilber</FILE>
-gimp_cairo_wilber
-gimp_cairo_wilber_get_size
 </SECTION>
 
 <SECTION>

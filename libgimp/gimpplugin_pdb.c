@@ -82,7 +82,7 @@ gimp_plugin_domain_register (const gchar *domain_name,
  * Register a help path for a plug-in.
  *
  * This procedure registers user documentation for the calling plug-in
- * with the GIMP help system. The domain_uri parameter points to the
+ * with the Glimpse help system. The domain_uri parameter points to the
  * root directory where the plug-in help is installed. For each
  * supported language there should be a file called 'gimp-help.xml'
  * that maps the help IDs to the actual help files.

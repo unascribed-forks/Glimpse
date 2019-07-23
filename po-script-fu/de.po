@@ -826,7 +826,7 @@ msgstr "_Pfade verwenden"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:125
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:138
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:151
-msgid "Bookmark to the user manual"
+msgid "Bookmark to the user manual (upstream)"
 msgstr "Lesezeichen zum Benutzerhandbuch"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:72
@@ -865,7 +865,7 @@ msgstr "_Hauptseite im Internet"
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:192
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:205
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:218
-msgid "Bookmark to the GIMP web site"
+msgid "Bookmark to the GNU Image Manipulation Program web site"
 msgstr "Lesezeichen zur GIMP-Internet-Seite"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:191
@@ -873,7 +873,7 @@ msgid "_Developer Web Site"
 msgstr "_Entwickler-Internetseite"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:204
-msgid "_User Manual Web Site"
+msgid "_Online User Manual (Upstream)"
 msgstr "_Benutzerhandbuch im Internet"
 
 #: ../plug-ins/script-fu/scripts/gimp-online.scm:217

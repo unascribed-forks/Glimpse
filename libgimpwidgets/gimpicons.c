@@ -28,7 +28,7 @@
 #undef GIMP_DISABLE_DEPRECATED
 #include "gimpicons.h"
 
-#include "icons/Color/gimp-icon-pixbufs.c"
+#include "icons/Legacy/gimp-icon-pixbufs.c"
 
 #include "libgimp/libgimp-intl.h"
 
@@ -51,11 +51,10 @@
 
 #define LIBGIMP_DOMAIN          GETTEXT_PACKAGE "-libgimp"
 #define GIMP_TOILET_PAPER       "gimp-toilet-paper"
-#define GIMP_DEFAULT_ICON_THEME "Symbolic"
+#define GIMP_DEFAULT_ICON_THEME "Legacy"
 
 
 static GtkIconFactory *gimp_stock_factory = NULL;
-
 
 static const GtkStockItem gimp_stock_items[] =
 {

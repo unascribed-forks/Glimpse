@@ -39,7 +39,7 @@
 #include "gimptempbuf.h"
 #include "gimpviewable.h"
 
-#include "icons/Color/gimp-core-pixbufs.c"
+#include "icons/Legacy/gimp-core-pixbufs.c"
 
 
 enum

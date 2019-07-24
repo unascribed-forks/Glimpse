@@ -39,7 +39,7 @@ Adding new icons
 
 - Add new icons in the single SVG file inside their respective
 directories, i.e. `icons/Symbolic/symbolic-scalable.svg` for symbolic
-icons and `icons/Color/color-scalable.svg` for color icons.
+icons and `icons/Legacy/color-scalable.svg` for color icons.
 
 A single file allows easier reuse of material, and easy overview of all
 existing icons which simplifies consistent styling…

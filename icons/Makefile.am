@@ -1,8 +1,5 @@
 SUBDIRS = \
-	Color		\
-	Legacy		\
-	Symbolic	\
-	Symbolic-Inverted
+	Legacy
 
 iconsdir = $(gimpdatadir)/icons/hicolor
 

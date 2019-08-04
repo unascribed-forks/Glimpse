@@ -1079,7 +1079,7 @@ gimp_color_profile_new_rgb_srgb_internal (void)
   cmsFreeToneCurve (curve[0]);
 
   gimp_color_profile_set_tag (profile, cmsSigProfileDescriptionTag,
-                              "GIMP built-in sRGB");
+                              "Glimpse built-in sRGB");
   gimp_color_profile_set_tag (profile, cmsSigDeviceMfgDescTag,
                               "GIMP");
   gimp_color_profile_set_tag (profile, cmsSigDeviceModelDescTag,
@@ -1185,7 +1185,7 @@ gimp_color_profile_new_rgb_srgb_linear_internal (void)
   cmsFreeToneCurve (curve[0]);
 
   gimp_color_profile_set_tag (profile, cmsSigProfileDescriptionTag,
-                              "GIMP built-in Linear sRGB");
+                              "Glimpse built-in Linear sRGB");
   gimp_color_profile_set_tag (profile, cmsSigDeviceMfgDescTag,
                               "GIMP");
   gimp_color_profile_set_tag (profile, cmsSigDeviceModelDescTag,
@@ -1326,7 +1326,7 @@ gimp_color_profile_new_d65_gray_srgb_trc_internal (void)
   cmsFreeToneCurve (curve);
 
   gimp_color_profile_set_tag (profile, cmsSigProfileDescriptionTag,
-                              "GIMP built-in D65 Grayscale with sRGB TRC");
+                              "Glimpse built-in D65 Grayscale with sRGB TRC");
   gimp_color_profile_set_tag (profile, cmsSigDeviceMfgDescTag,
                               "GIMP");
   gimp_color_profile_set_tag (profile, cmsSigDeviceModelDescTag,
@@ -1384,7 +1384,7 @@ gimp_color_profile_new_d65_gray_linear_internal (void)
   cmsFreeToneCurve (curve);
 
   gimp_color_profile_set_tag (profile, cmsSigProfileDescriptionTag,
-                              "GIMP built-in D65 Linear Grayscale");
+                              "Glimpse built-in D65 Linear Grayscale");
   gimp_color_profile_set_tag (profile, cmsSigDeviceMfgDescTag,
                               "GIMP");
   gimp_color_profile_set_tag (profile, cmsSigDeviceModelDescTag,
@@ -1446,7 +1446,7 @@ gimp_color_profile_new_d50_gray_lab_trc_internal (void)
   cmsFreeToneCurve (curve);
 
   gimp_color_profile_set_tag (profile, cmsSigProfileDescriptionTag,
-                              "GIMP built-in D50 Grayscale with LAB L TRC");
+                              "Glimpse built-in D50 Grayscale with LAB L TRC");
   gimp_color_profile_set_tag (profile, cmsSigDeviceMfgDescTag,
                               "GIMP");
   gimp_color_profile_set_tag (profile, cmsSigDeviceModelDescTag,

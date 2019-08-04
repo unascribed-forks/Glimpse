@@ -189,7 +189,7 @@ gui_abort (const gchar *abort_message)
 
   g_return_if_fail (abort_message != NULL);
 
-  dialog = gimp_dialog_new (_("GIMP Message"), "gimp-abort",
+  dialog = gimp_dialog_new (_("Glimpse Message"), "gimp-abort",
                             NULL, GTK_DIALOG_MODAL, NULL, NULL,
 
                             _("_OK"), GTK_RESPONSE_OK,

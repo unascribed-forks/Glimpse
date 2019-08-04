@@ -10,7 +10,7 @@ This is a long-standing problem that has drawn user concern for over a decade, b
 In future versions we intend to address other long-standing complaints, particularly around the graphical user interface.
 
 ## How will the package versions work?
-Glimpse 1.0 will be a simple re-branding of the GNU Image Manipulation Program based on version 2.10.12, with some minor fixes to the build system. You can see how this effort is going in the [gimp2-10](https://github.com/glimpse-editor/Glimpse/tree/gimp2-10) branch.
+Glimpse 1.0 will be a simple re-branding of the GNU Image Manipulation Program based on version 2.10.12, with some minor fixes to the build system. You can see how this effort is going in the [dev-g210](https://github.com/glimpse-editor/Glimpse/tree/dev-g210) branch.
 
 Subsequent releases will "hard fork" from the upstream project, but we will still periodically apply upstream updates in batches.
 

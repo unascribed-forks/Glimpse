@@ -174,7 +174,7 @@
 )
 
 (define (gimp-online-wiki)
-  (plug-in-web-browser "https://github.com/glimpse-editor/Glimpse/wiki")
+  (plug-in-web-browser "https://wiki.getglimpse.app")
 )
 
 (define (gimp-online-bugs-features)

@@ -278,7 +278,7 @@ LT_INIT([disable-static win32-dll])
 AM_PROG_AS
 
 # Initialize maintainer mode
-AM_MAINTAINER_MODE([enable])
+# AM_MAINTAINER_MODE([enable])
 
 # Check for pkg-config
 PKG_PROG_PKG_CONFIG(0.16)

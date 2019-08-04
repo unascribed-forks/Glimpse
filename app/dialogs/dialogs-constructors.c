@@ -213,7 +213,7 @@ dialogs_error_get (GimpDialogFactory *factory,
                    GimpUIManager     *ui_manager,
                    gint               view_size)
 {
-  return gimp_error_dialog_new (_("GIMP Message"));
+  return gimp_error_dialog_new (_("Glimpse Message"));
 }
 
 GtkWidget *

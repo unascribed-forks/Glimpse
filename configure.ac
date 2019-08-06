@@ -19,7 +19,7 @@ m4_define([gimp_interface_age], [12])
 m4_define([gimp_binary_age],
           [m4_eval(100 * gimp_minor_version + gimp_micro_version)])
 
-# Glimpse version definitions
+# Glimpse version variable definitions
 m4_define([glimpse_app_version], [1.0])
 m4_define([glimpse_major_version], [1])
 m4_define([glimpse_minor_version], [0])
@@ -27,13 +27,7 @@ m4_define([glimpse_micro_version], [0])
 m4_define([glimpse_real_version],
           [glimpse_major_version.glimpse_minor_version.glimpse_micro_version])
 m4_define([glimpse_version], [glimpse_real_version])
-
-GLIMPSE_MAJOR_VERSION=glimpse_major_version
-GLIMPSE_MINOR_VERSION=glimpse_minor_version
-GLIMPSE_MICRO_VERSION=glimpse_micro_version
-GLIMPSE_VERSION=glimpse_version
-GLIMPSE_APP_VERSION=glimpse_app_version
-AC_SUBST(GLIMPSE_VERSION)
+m4_define([glimpse_app_name], ["glimpse"])
 
 # For overriding the version string. Comment out if not needed.
 # m4_define([gimp_version], [2.10.0])
@@ -152,6 +146,17 @@ AC_SUBST(GIMP_SYSCONF_VERSION)
 AC_SUBST(GIMP_USER_VERSION)
 AC_SUBST(GIMP_UNSTABLE)
 AC_SUBST(GIMP_FULL_NAME)
+
+# Glimpse-specific variables
+GLIMPSE_MAJOR_VERSION=glimpse_major_version
+GLIMPSE_MINOR_VERSION=glimpse_minor_version
+GLIMPSE_MICRO_VERSION=glimpse_micro_version
+GLIMPSE_VERSION=glimpse_version
+GLIMPSE_APP_VERSION=glimpse_app_version
+GLIMPSE_APP_NAME=glimpse_app_name
+AC_SUBST(GLIMPSE_VERSION)
+AC_SUBST(GLIMPSE_APP_VERSION)
+AC_SUBST(GLIMPSE_APP_NAME)
 
 # Version strings used in some source, though it seems unnecessary to
 # declare them in the public API (libgimpbase/gimpversion.h).

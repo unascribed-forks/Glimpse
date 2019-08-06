@@ -46,9 +46,9 @@ SUBDIRS = \
 noinst_LIBRARIES = libapp.a
 
 if ENABLE_GIMP_CONSOLE
-bin_PROGRAMS = gimp-@GIMP_APP_VERSION@ gimp-console-@GIMP_APP_VERSION@
+bin_PROGRAMS = glimpse-@GLIMPSE_APP_VERSION@ glimpse-console-@GLIMPSE_APP_VERSION@
 else
-bin_PROGRAMS = gimp-@GIMP_APP_VERSION@
+bin_PROGRAMS = glimpse-@GLIMPSE_APP_VERSION@
 endif
 
 libapp_sources = \
@@ -78,7 +78,7 @@ libapp_sources = \
 
 libapp_a_SOURCES = $(libapp_sources)
 
-gimp_@GIMP_APP_VERSION@_SOURCES = $(libapp_sources) main.c
+glimpse_@GLIMPSE_APP_VERSION@_SOURCES = $(libapp_sources) main.c
 
 
 if PLATFORM_LINUX
@@ -116,8 +116,8 @@ endif
 
 if HAVE_WINDRES
 include $(top_srcdir)/build/windows/gimprc.rule
-GIMPRC = gimp-$(GIMP_APP_VERSION).rc.o
-GIMPCONSOLERC = gimp-console-$(GIMP_APP_VERSION).rc.o
+GIMPRC = $(GLIMPSE_APP_NAME)-$(GLIMPSE_APP_VERSION).rc.o
+GIMPCONSOLERC = $(GLIMPSE_APP_NAME)-console-$(GLIMPSE_APP_VERSION).rc.o
 endif
 
 AM_CPPFLAGS = \
@@ -125,7 +125,7 @@ AM_CPPFLAGS = \
 	-DLIBEXECDIR=\""$(libexecdir)"\"		\
 	-DGIMP_USER_VERSION=\"$(GIMP_USER_VERSION)\"	\
 	-DGIMP_TOOL_VERSION=\"$(GIMP_TOOL_VERSION)\"	\
-	-DG_LOG_DOMAIN=\"Gimp\"				\
+	-DG_LOG_DOMAIN=\"$(GLIMPSE_APP_NAME)\"				\
 	-DGIMP_APP_GLUE_COMPILATION			\
 	-DCC_VERSION=\""$(CC_VERSION)"\"		\
 	-I$(top_srcdir)					\
@@ -202,13 +202,13 @@ gimpconsoleldadd = \
 	$(libdbghelp)						\
 	$(librpcrt4)
 
-gimp_@GIMP_APP_VERSION@_LDFLAGS = \
+glimpse_@GLIMPSE_APP_VERSION@_LDFLAGS = \
 	$(AM_LDFLAGS)		\
 	$(win32_ldflags)	\
 	$(framework_cocoa)	\
 	-Wl,-u,$(SYMPREFIX)gimp_lebl_dialog
 
-gimp_@GIMP_APP_VERSION@_LDADD = \
+glimpse_@GLIMPSE_APP_VERSION@_LDADD = \
 	gui/libappgui.a			\
 	menus/libappmenus.a		\
 	actions/libappactions.a		\
@@ -228,13 +228,13 @@ gimp_@GIMP_APP_VERSION@_LDADD = \
 
 if ENABLE_GIMP_CONSOLE
 
-gimp_console_@GIMP_APP_VERSION@_SOURCES = $(libapp_sources) main.c
+glimpse_console_@GLIMPSE_APP_VERSION@_SOURCES = $(libapp_sources) main.c
 
-gimp_console_@GIMP_APP_VERSION@_CPPFLAGS = \
+glimpse_console_@GLIMPSE_APP_VERSION@_CPPFLAGS = \
 	$(AM_CPPFLAGS)			\
 	-DGIMP_CONSOLE_COMPILATION
 
-gimp_console_@GIMP_APP_VERSION@_LDADD = \
+glimpse_console_@GLIMPSE_APP_VERSION@_LDADD = \
 	$(gimpconsoleldadd) \
 	$(GIMPCONSOLERC)
 
@@ -244,25 +244,25 @@ endif
 install-exec-hook:
 if DEFAULT_BINARY
 	cd $(DESTDIR)$(bindir) \
-	&& rm -f gimp$(EXEEXT) \
-	&& $(LN_S) gimp-$(GIMP_APP_VERSION)$(EXEEXT) gimp$(EXEEXT)
+	&& rm -f $(GLIMPSE_APP_NAME)$(EXEEXT) \
+	&& $(LN_S) $(GLIMPSE_APP_NAME)-$(GLIMPSE_APP_VERSION)$(EXEEXT) $(GLIMPSE_APP_NAME)$(EXEEXT)
 if ENABLE_GIMP_CONSOLE
 	cd $(DESTDIR)$(bindir) \
-	&& rm -f gimp-console$(EXEEXT) \
-	&& $(LN_S) gimp-console-$(GIMP_APP_VERSION)$(EXEEXT) gimp-console$(EXEEXT)
+	&& rm -f $(GLIMPSE_APP_NAME)-console$(EXEEXT) \
+	&& $(LN_S) $(GLIMPSE_APP_NAME)-console-$(GLIMPSE_APP_VERSION)$(EXEEXT) $(GLIMPSE_APP_NAME)-console$(EXEEXT)
 endif
 endif
 
 uninstall-local:
 if DEFAULT_BINARY
-	rm -f $(DESTDIR)$(bindir)/gimp$(EXEEXT)
+	rm -f $(DESTDIR)$(bindir)/$(GLIMPSE_APP_NAME)$(EXEEXT)
 if ENABLE_GIMP_CONSOLE
-	rm -f $(DESTDIR)$(bindir)/gimp-console$(EXEEXT)
+	rm -f $(DESTDIR)$(bindir)/$(GLIMPSE_APP_NAME)-console$(EXEEXT)
 endif
 endif
 
 
-# require gimp-console when making dist
+# require glimpse-console when making dist
 #
 if ENABLE_GIMP_CONSOLE
 dist-check-gimp-console:
@@ -276,7 +276,7 @@ endif
 # hook to assure that the system gimprc and the gimprc manpage are
 # uptodate when a release is made
 #
-dist-dump-gimprc: gimp-console-$(GIMP_APP_VERSION)$(EXEEXT)
+dist-dump-gimprc: $(GLIMPSE_APP_NAME)-console-$(GLIMPSE_APP_VERSION)$(EXEEXT)
 	./$< --dump-gimprc-system > gimprc.tmp	\
 		&& (cmp -s gimprc.tmp $(top_srcdir)/etc/gimprc.in ||	\
 		    cp gimprc.tmp $(top_srcdir)/etc/gimprc.in)		\

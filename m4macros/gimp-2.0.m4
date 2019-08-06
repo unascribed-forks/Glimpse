@@ -1,18 +1,18 @@
-# Configure paths for GIMP-2.0
+# Configure paths for Glimpse-1.0
 # Manish Singh, Sven Neumann
 # Large parts shamelessly stolen from Owen Taylor
 
-dnl AM_PATH_GIMP_2_0([MINIMUM-VERSION, [ACTION-IF-FOUND [, ACTION-IF-NOT-FOUND]]])
+dnl AM_PATH_GLIMPSE_1_0([MINIMUM-VERSION, [ACTION-IF-FOUND [, ACTION-IF-NOT-FOUND]]])
 dnl Test for GIMP, and define GIMP_CFLAGS and GIMP_LIBS
 dnl
-AC_DEFUN([AM_PATH_GIMP_2_0],
+AC_DEFUN([AM_PATH_GLIMPSE_2_0],
 [dnl 
 dnl Get the cflags and libraries from pkg-config
 dnl
 
 AC_ARG_ENABLE(gimptest, [  --disable-gimptest      do not try to compile and run a test GIMP program],, enable_gimptest=yes)
 
-  pkg_name=gimp-2.0
+  pkg_name=glimpse-1.0
   pkg_config_args="$pkg_name gimpui-2.0"
 
   no_gimp=""

@@ -20,9 +20,9 @@ m4_define([gimp_binary_age],
           [m4_eval(100 * gimp_minor_version + gimp_micro_version)])
 
 # Glimpse version variable definitions
-m4_define([glimpse_app_version], [1.0])
-m4_define([glimpse_major_version], [1])
-m4_define([glimpse_minor_version], [0])
+m4_define([glimpse_app_version], [0.1])
+m4_define([glimpse_major_version], [0])
+m4_define([glimpse_minor_version], [1])
 m4_define([glimpse_micro_version], [0])
 m4_define([glimpse_real_version],
           [glimpse_major_version.glimpse_minor_version.glimpse_micro_version])

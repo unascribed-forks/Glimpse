@@ -1,0 +1,84 @@
+---
+- name: Provision Vagrant
+  hosts: all
+  become: yes
+  become_user: root
+  become_method: sudo
+  tasks:
+    - name: Install required build packages
+      apt:
+        name: "{{ packages }}"
+      vars:
+        packages:
+        - git
+        - build-essential
+        - python-dev
+        - python-gtk2-dev
+        - make
+        - autoconf
+        - libgtk2.0-dev
+        - libwxgtk3.0-dev
+        - libjson-c-dev
+        - libjson-glib-dev
+        - gtk-doc-tools
+        - intltool
+        - libgirepository1.0-dev
+
+    - name: Install optional packages for GEGL build
+      apt:
+        name: "{{ packages }}"
+      vars:
+        packages:
+        - asciidoc
+        - libsuitesparse-dev
+        - libumfpack5
+        - libopenexr-dev
+        - libspiro-dev
+
+    - name: Install required packages for Glimpse build
+      apt:
+        name: "{{ packages }}"
+      vars:
+        packages:
+        - libjpeg-dev
+        - libpng-dev
+        - libtiff-dev
+        - libwebp-dev
+        - libgexiv2-dev
+        - libraw-dev
+        - librsvg2-dev
+        - python-cairo-dev
+        - libpoppler-glib-dev
+        - libbz2-1.0
+        - cmake-extras
+        - libbz2-dev
+
+    - name: Install optional packages for the Glimpse build
+      apt:
+        name: "{{ packages }}"
+      vars:
+        packages:
+        - libwebkitgtk-dev
+        - libgs-dev
+        - libopenjp2-7-dev
+        - libmng-dev
+        - libheif-dev
+        - libwmf-dev
+        - libxpm-dev
+        - xvfb
+        - gnome-icon-theme
+        - llvm
+
+    - name: Install meson dependencies for the BABL build
+      apt:
+        name: "{{ packages }}"
+      vars:
+        packages:
+        - python3
+        - python3-pip
+        - python3-setuptools
+        - python3-wheel
+        - ninja-build
+
+    - name: Install meson pip dependencies for the BABL build
+      shell: pip3 install meson

@@ -1,3 +1,15 @@
 [submodule "build/flatpak/flathub"]
 	path = build/flatpak/flathub
 	url = https://github.com/flathub/org.gimp.GIMP.git
+[submodule "babl"]
+	path = babl
+	url = https://gitlab.gnome.org/GNOME/babl.git
+[submodule "mypaint-brushes"]
+	path = mypaint-brushes
+	url = https://github.com/mypaint/mypaint-brushes.git
+[submodule "libmypaint"]
+	path = libmypaint
+	url = https://github.com/mypaint/libmypaint.git
+[submodule "gegl"]
+	path = gegl
+	url = https://gitlab.gnome.org/GNOME/gegl.git

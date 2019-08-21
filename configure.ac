@@ -97,9 +97,9 @@ m4_define([wmf_required_version], [0.2.8])
 # version of gettext with more version numbers, please update the tests.
 m4_define([xgettext_required_version], [0.19])
 
-AC_INIT([GIMP], [gimp_version],
-        [https://gitlab.gnome.org/GNOME/gimp/issues/new],
-        [gimp])
+AC_INIT([Glimpse], [glimpse_version],
+        [https://github.com/glimpse-editor/Glimpse/issues/new],
+        [glimpse])
 
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_SRCDIR([app/core/gimp.c])
@@ -1477,7 +1477,7 @@ AC_SUBST(SCREENSHOT_LIBS)
 AC_SUBST(DOC_SHOOTER)
 
 
-GIMP_COMMAND='gimp-gimp_app_version'
+GIMP_COMMAND='glimpse-glimpse_app_version'
 
 AC_SUBST(GIMP_COMMAND)
 
@@ -2969,9 +2969,9 @@ data/tool-presets/Paint/Makefile
 data/tool-presets/Selection/Makefile
 data/tool-presets/Sketch/Makefile
 desktop/Makefile
-desktop/gimp-data-extras.metainfo.xml.in
-desktop/gimp.desktop.in
-desktop/org.gimp.GIMP.appdata.xml.in
+desktop/glimpse-data-extras.metainfo.xml.in
+desktop/app.getglimpse.Glimpse.desktop.in
+desktop/app.getglimpse.Glimpse.appdata.xml.in
 desktop/test-appdata.sh
 etc/Makefile
 etc/gimprc

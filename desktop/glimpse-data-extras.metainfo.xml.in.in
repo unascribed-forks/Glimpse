@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2015 Jiri Eischmann <eischmann@redhat.com> -->
 <component type="addon">
-  <id>gimp-data-extras</id>
-  <extends>org.gimp.GIMP</extends>
+  <id>glimpse-data-extras</id>
+  <extends>app.getglimpse.Glimpse</extends>
   <_name>Extra files for GIMP</_name>
   <_summary>Patterns, gradients, and other extra files for GIMP</_summary>
   <url type="homepage">https://www.gimp.org/</url>

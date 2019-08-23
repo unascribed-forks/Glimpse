@@ -734,7 +734,7 @@
 
 # The name of the theme to use.  This is a string value.
 #
-(theme "System")
+(theme "Dark")
 
 # Sets the icon theme search path.  This is a colon-separated list of folders
 # to search.
@@ -743,7 +743,7 @@
 
 # The name of the icon theme to use.  This is a string value.
 #
-(icon-theme "Legacy")
+(icon-theme "Symbolic")
 
 # The size of the icons to use.  Possible values are auto, theme, small,
 # medium, large and huge.

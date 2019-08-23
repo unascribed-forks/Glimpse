@@ -965,7 +965,7 @@ gimp_gtkrc (void)
 
   if (! gimp_gtkrc_filename)
     gimp_gtkrc_filename = g_build_filename (gimp_data_directory (),
-                                            "themes", "System", "gtkrc",
+                                            "themes", "Light", "gtkrc",
                                             NULL);
 
   return gimp_gtkrc_filename;

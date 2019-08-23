@@ -2929,8 +2929,12 @@ menus/Makefile
 cursors/Makefile
 icons/Makefile
 icons/Legacy/Makefile
+icons/Symbolic/Makefile
+icons/Symbolic-Inverted/Makefile
 themes/Makefile
 themes/System/Makefile
+themes/Dark/Makefile
+themes/Light/Makefile
 data/Makefile
 data/brushes/Makefile
 data/brushes/Basic/Makefile

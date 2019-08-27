@@ -8,7 +8,20 @@ we do allow some new features here, if they are not too invasive.
 Otherwise, this branch is only for bug-fixes.
 
 
-Overview of Changes from GNU Image Manipulation Program to Glimpse 1.0
+Overview of Changes from GNU Image Manipulation Program to Glimpse 0.1
 =====================================================
 
-TODO: Fill this out near release
+* Refactored translation files so UI says "Glimpse" instead of "Gimp"
+* Refactored build scripts so executable uses correct version and app name
+* Added Vagrant support
+* Improved Flatpak build process
+* Modified the "About" window
+* Moved build dependencies to Git submodules with tagged versions
+* Moved original author list to ORIGINAL_AUTHORS
+* Hid toolbar title bars by default
+* Removed "Gray" UI theme
+* Removed "Color" icon pack
+* Removed rendered Wilber face and easter egg code
+* Removed redundant doc files
+
+TODO: Add to this list (particularly when we add artwork assets)

@@ -1,113 +1,27 @@
 Requirements
 ------------
-If you want to hack on the GIMP project, it will make your life easier
-to have the following packages (or newer versions) installed:
-
-    * GNU autoconf 2.54
-        - ftp://ftp.gnu.org/gnu/autoconf/
-    * GNU automake 1.9 (automake 1.10 should also work)
-        - ftp://ftp.gnu.org/gnu/automake/
-    * GNU libtool 1.5
-        - ftp://ftp.gnu.org/gnu/libtool/
-
-Fine GNU mirrors are listed at https://www.gnu.org/prep/ftp.html
-Beta software can be found at alpha.gnu.org.
-
-    * pkg-config 0.16.0 (or preferably a newer version)
-        - https://www.freedesktop.org/software/pkgconfig/
-
-    * gtkdocize
-        - https://ftp.gnome.org/pub/GNOME/sources/gtk-doc/
-
-    * xsltproc
-        - ftp://ftp.gnome.org/pub/GNOME/sources/libxslt/1.1/
-
-These are only the additional requirements if you want to compile from
-the git repository. The file INSTALL lists the various libraries we
-depend on.
+If you want to hack on the Glimpse project, it will make your life easier
+to have the packages listed in glimpse-vagrant.yml installed on your system.
 
 
 Compilation
 -----------
-If you are accessing gimp via git, then you will need to take several
-steps to get it to compile.  You can do all these steps at once by
-running:
+Your first port of call should be the upstream documentation: https://wiki.gimp.org/wiki/Hacking:Building/Linux
 
-    gimp/trunk$ ./autogen.sh
-
-Basically this does the following for you:
-
-    gimp/trunk$ aclocal-1.9; libtoolize; automake-1.9 -a;
-    gimp/trunk$ autoconf; intltoolize --automake
-
-The above commands create the "configure" script.  Now you can run the
-configure script in gimp/trunk to create all the Makefiles.
-
-Before running autogen.sh or configure, make sure you have libtool in
-your path. Also make sure glib-2.0.m4 glib-gettext.m4, gtk-2.0.m4,
-pkg.m4 and intltool.m4 are either installed in the same
-$prefix/share/aclocal relative to your automake/aclocal installation
-or call autogen.sh as follows:
-
-    $ ACLOCAL_FLAGS="-I $prefix/share/aclocal" ./autogen.sh
-
-Note that autogen.sh runs configure for you.  If you wish to pass
-options like --prefix=/usr to configure you can give those options to
-autogen.sh and they will be passed on to configure.
-
-If AUTOGEN_CONFIGURE_ARGS is set, these options will also be passed to
-the configure script. If for example you want to enable the build of
-the GIMP API reference manuals, you can set AUTOGEN_CONFIGURE_ARGS to
-"--enable-gtk-doc". Please note that you will then need a recent
-version of gtk-doc as well as a working setup for handling DocBook/XML.
-
-If you do not have a recent version of gtk-doc, you can pass the
-option "--disable-gtk-doc" to autogen.sh.  This will completely
-disable the support for gtk-doc so you will not be able to generate
-the API documentation.
-
-If you want to use libraries from a non-standard prefix, you should set
-PKG_CONFIG_PATH appropriately. Some libraries do not use pkgconfig, see
-the output of ./configure --help for information on what environment
-variables to set to point the compiler and linker to the correct path.
-Note that you need to do this even if you are installing Gimp itself
-into the same prefix as the library.
+You can also check the glimpse-vagrant.sh file to see which environment variables you need to set and build steps you should follow.
 
 
-Git
----
-GIMP is available from GNOME Git. You can use the following commands
-to get GIMP from the the git server:
+Quick start
+-----------
+Ensure you have Vagrant and Oracle Virtualbox installed, then follow these steps from the top directory of this git repository:
 
-    $ git clone https://gitlab.gnome.org/GNOME/gimp.git
+$ vagrant up
+$ vagrant ssh
+$ cd /vagrant
+$ sh glimpse-vagrant.sh
+$ ./glimpse-prefix/bin/glimpse
 
-You can read more on using GNOME's git service at these URLs:
-
-    https://wiki.gnome.org/Git
-    https://www.kernel.org/pub/software/scm/git/docs/
-
-
-You will also need relatively new stable releases of glib, pango, atk,
-gtk+, cairo, gtkhtml2, etc. for building GIMP, which you can get as a
-part of recent Linux distribution releases.
-
-
-Patches
--------
-
-The best way to submit patches is to provide files created with
-git-format-patch.
-
-It is recommended that you file a bug report at
-https://gitlab.gnome.org/GNOME/gimp
-and either create a merge request or attach your patch to it as a plain
-text file, not compressed. If your patch is reasonably small you can
-submit it to the gimp-developer-list@gnome.org mailing list.
-
-If the patch needs to be discussed, you should also consider using the
-mailing list instead of Bugzilla because bug reports tend to be hard
-to read if they contain too many comments. For the code, please try to
-follow the guidelines given in Hackordnung, below.
+If you copy the glimpse-vagrant.sh, give it a new name, then remove the steps for BABL, GEGL and MyPaint dependencies you will have a quick and easy way of rebuilding Glimpse after you make a code change.
 
 
 Auto-generated Files
@@ -122,9 +36,11 @@ pdb/groups.
 
 Hackordnung
 -----------
-We encourage you to follow the GIMP coding style throughout the GIMP
+While we are still following the upstream code in "soft forks" we recommend you continue to follow their code style:
+
+"We encourage you to follow the GNU IMP coding style throughout the GNU IMP
 project.  For the core components (application and libs) this coding
-style is enforced.  The GIMP coding style is defined as follows:
+style is enforced.  The GNU IMP coding style is defined as follows:
 
     * There's a single space between the function name and the opening
       paren.
@@ -156,7 +72,7 @@ The source tree contains local config files which can be used to set the
 right coding style in common editors: `.dir-locals.el` for Emacs,
 `.kateconfig` for Kate, and `devel-docs/c.vim` for Vim (check the top
 comments to see how to enable it automatically when opening a file in
-the GIMP tree).
+the GNU IMP tree).
 
 Try to make use of GLib's object system as much as possible. Do not
 create wrappers around functions of parent classes. If you end up
@@ -170,7 +86,7 @@ detailed description of the include policy.
 
 Don't use the GTK wrappers around the GLib object and signal system.
 
-One goal of GIMP development is to make the GIMP code more readable
+One goal of GNU IMP development is to make the GNU IMP code more readable
 and understandable. Please help us to achieve this goal by cleaning up
 the present code and make sure that all new code follows the coding
-guidelines.
+guidelines."
